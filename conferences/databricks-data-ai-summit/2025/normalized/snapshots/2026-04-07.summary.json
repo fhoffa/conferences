@@ -1,10 +1,17 @@
 {
   "snapshot_date": "2026-04-07",
-  "source_basis": "youtube_playlist",
-  "playlist_url": "https://www.youtube.com/playlist?list=PLdcsMc3thIRwNCkghQx8mOQ-DpXpkQoqE",
-  "session_count": 99,
-  "sessions_with_speakers": 99,
-  "speaker_count": 160,
-  "sessions_with_descriptions": 99,
-  "unique_companies": 65
+  "source_basis": "youtube_playlists",
+  "playlist_urls": [
+    "https://www.youtube.com/playlist?list=PLdcsMc3thIRwNCkghQx8mOQ-DpXpkQoqE",
+    "https://www.youtube.com/playlist?list=PLTPXxbhUt-YX2FtEjfzzuPDDXxqRI6rLm"
+  ],
+  "session_count": 131,
+  "sessions_with_speakers": 100,
+  "speaker_count": 161,
+  "sessions_with_descriptions": 128,
+  "unique_companies": 65,
+  "by_source_collection": {
+    "breakouts": 99,
+    "keynotes": 32
+  }
 }
