@@ -2,11 +2,7 @@
 
 A growing repo for scraping and analyzing conference agendas, sessions, speakers, and trends.
 
-This repo starts by importing the existing Google Cloud Next work and reorganizing it into a structure that can grow across:
-
-- multiple conferences
-- multiple years per conference
-- separate scrapers and analysis pipelines per event/year when needed
+This repo is organized so multiple conferences and multiple years can evolve side by side, while keeping each event self-contained enough to work on independently.
 
 ## Structure
 
@@ -15,24 +11,38 @@ conferences/
   google-cloud-next/
     2025/
     2026/
+  snowflake-summit/
+    2026/
+  databricks-data-ai-summit/
+    2026/
+shared/
+  schemas/
+  lib/
+  docs/
 ```
 
-## Current contents
+## Per-event layout
 
-### `conferences/google-cloud-next/2026/`
-Imported from the original `google-cloud-next-2026-unofficial-scrape` project.
-Contains the current Google Cloud Next 2026 scraping, enrichment, analysis, website, and media artifacts.
+Each conference/year can grow into a self-contained work area with common buckets like:
 
-### `conferences/google-cloud-next/2025/`
-Contains the existing Google Cloud Next 2025 data and scripts that previously lived under `next2025/` in the original repo.
+- `raw/` — captured source payloads, HTML, API responses, exports
+- `normalized/` — cleaned session/speaker/company datasets
+- `analysis/` — notebooks, summaries, derived outputs
+- `site/` — generated pages, charts, or presentation assets
+- `scripts/` — event-specific scrapers and transforms
+- `docs/` — notes, runbooks, assumptions, quirks
 
-## Direction
+This keeps conferences separate while leaving room for shared helpers later.
 
-The idea is to keep each conference/year self-contained enough that future work can add:
+## Current focus
 
-- `google-cloud-next/2027`
-- other events like `kubecon/2026`, `ces/2027`, etc.
-- event-specific scrapers where sites differ significantly
-- shared tooling later, once patterns become clear
+- Google Cloud Next 2025 and 2026 imported from the original source project
+- Snowflake Summit 2026 scaffolded for upcoming scraping work
+- Databricks Data + AI Summit 2026 scaffolded for upcoming scraping work
 
-For now, this is intentionally simple: preserve the existing work, separate it by year, and make room for expansion.
+## Working style
+
+The repo is intentionally starting simple:
+- keep conference/year work isolated
+- add shared abstractions only after patterns become real
+- preserve upstream/source provenance where imports happen
