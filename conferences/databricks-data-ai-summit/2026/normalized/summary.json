@@ -1,14 +1,23 @@
 {
-  "session_count": 18,
-  "sessions_with_speakers": 16,
-  "speakers_with_job_title": 23,
-  "unique_companies": 19,
+  "session_count": 158,
+  "sessions_with_speakers": 142,
+  "speaker_count": 223,
+  "speakers_with_job_title": 204,
+  "unique_companies": 140,
+  "sessions_with_level": 142,
+  "sessions_with_track": 142,
+  "sessions_with_format": 158,
+  "sessions_with_any_timing": 16,
   "tracks": [
     "Analytics & BI",
     "Application Development",
     "Artificial Intelligence & Agents",
     "Data Engineering & Streaming",
-    "Data Strategy"
+    "Data Sharing & Collaboration",
+    "Data Strategy",
+    "Data Warehousing",
+    "Governance & Security",
+    "Lakebase"
   ],
   "formats": [
     "Breakout",

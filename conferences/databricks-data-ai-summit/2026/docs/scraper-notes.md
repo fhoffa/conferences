@@ -1,27 +1,24 @@
 # Databricks scraper notes
 
-## Working approach
+## Updated approach
 
-Databricks exposes enough public structure to scrape without browser automation:
+The agenda page itself contains the full session corpus in embedded `__NEXT_DATA__` JSON.
 
-1. fetch agenda pages (`/dataaisummit/agenda?page=N`)
-2. extract session detail slugs from agenda markup
-3. fetch each session detail page
-4. parse embedded `__NEXT_DATA__` JSON
-5. normalize into a shared session shape
+That means the simplest reliable scraper path is:
 
-## Why this is good
+1. fetch `https://www.databricks.com/dataaisummit/agenda`
+2. parse `__NEXT_DATA__`
+3. read `props.pageProps.agenda.sessions`
+4. normalize directly from that embedded list
 
-- public and simple
-- structured speaker records available
-- speaker `job_title` is exposed when present in source
-- no special auth or JS runtime needed for the current path
+## Why this is better
+
+- full session coverage from one source page
+- no need to crawl per-page pagination for completeness
+- no need to fetch each session page just to get the main session metadata
+- speaker job titles are already present in the embedded agenda payload when available
 
 ## Current limitation
 
-Some schedule fields appear blank on certain session pages (`day`, `start_time`, `end_time`).
-That likely means either:
-- those records are not fully scheduled yet, or
-- the richer agenda listing has fields not repeated on detail pages
-
-If we want full timing completeness later, we should inspect whether another listing payload or endpoint carries the schedule fields more consistently.
+Timing fields still appear sparse in the embedded agenda payload for many sessions.
+If fuller timing later becomes important, we should inspect whether another Databricks payload exposes day/time more consistently.

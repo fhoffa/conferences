@@ -15,25 +15,16 @@ def clean_html(s):
 def main():
     RAW.mkdir(parents=True, exist_ok=True)
     NORMALIZED.mkdir(parents=True, exist_ok=True)
-    all_slugs = []
-    for page in range(1, 10):
-        url = f"https://www.databricks.com/dataaisummit/agenda?page={page}"
-        html = requests.get(url, headers=HEADERS, timeout=30).text
-        (RAW / f"agenda-page-{page}.html").write_text(html)
-        for m in re.finditer(r'/dataaisummit/session/([^"?#]+)', html):
-            slug = m.group(1)
-            if slug not in all_slugs:
-                all_slugs.append(slug)
+    html = requests.get("https://www.databricks.com/dataaisummit/agenda", headers=HEADERS, timeout=30).text
+    (RAW / "agenda-full.html").write_text(html)
+    m = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html)
+    if not m:
+        raise RuntimeError("Could not find __NEXT_DATA__ on agenda page")
+    data = json.loads(m.group(1))
+    sessions = data['props']['pageProps']['agenda']['sessions']
     records = []
-    for slug in all_slugs:
-        url = f"https://www.databricks.com/dataaisummit/session/{slug}"
-        html = requests.get(url, headers=HEADERS, timeout=30).text
-        (RAW / f"session-{slug}.html").write_text(html)
-        m = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html)
-        if not m:
-            continue
-        data = json.loads(m.group(1))
-        session = data['props']['pageProps']['sessionInfo']
+    for session in sessions:
+        slug = (session.get('alias') or '').split('/session/')[-1] if session.get('alias') else None
         rec = {
             'conference':'databricks-data-ai-summit',
             'year':2026,
@@ -56,11 +47,12 @@ def main():
             'duration_minutes':session.get('duration'),
             'session_url':'https://www.databricks.com/dataaisummit'+session.get('alias',''),
             'catalog_url':'https://www.databricks.com/dataaisummit/agenda',
-            'source_url':url,
-            'source_type':'next_data_embedded_json',
-            'raw_ref':f'raw/session-{slug}.html',
+            'source_url':'https://www.databricks.com/dataaisummit/agenda',
+            'source_type':'agenda_next_data_embedded_json',
+            'raw_ref':'raw/agenda-full.html',
             'speakers':[],
-            'companies': sorted({sp.get('company') for sp in session.get('speakers',[]) if sp.get('company')})
+            'companies': sorted({sp.get('company') for sp in session.get('speakers',[]) if sp.get('company')}),
+            'slug': slug,
         }
         for sp in session.get('speakers',[]):
             rec['speakers'].append({
@@ -70,10 +62,19 @@ def main():
                 'bio':clean_html(sp.get('bio')),
                 'profile_url':('https://www.databricks.com/dataaisummit'+sp.get('alias')) if sp.get('alias') else None,
                 'image_url':(sp.get('image') or {}).get('url'),
-                'source_url':('https://www.databricks.com/dataaisummit'+sp.get('alias')) if sp.get('alias') else url,
+                'source_url':('https://www.databricks.com/dataaisummit'+sp.get('alias')) if sp.get('alias') else 'https://www.databricks.com/dataaisummit/agenda',
             })
         records.append(rec)
     (NORMALIZED / 'sessions.json').write_text(json.dumps(records, ensure_ascii=False, indent=2))
+    summary = {
+        'session_count': len(records),
+        'sessions_with_speakers': sum(1 for r in records if r['speakers']),
+        'speaker_count': sum(len(r['speakers']) for r in records),
+        'speakers_with_job_title': sum(1 for r in records for s in r['speakers'] if s.get('job_title')),
+        'unique_companies': len({c for r in records for c in r.get('companies', []) if c}),
+        'sessions_with_any_timing': sum(1 for r in records if r.get('start_time') or r.get('starts_pst') or r.get('day')),
+    }
+    (NORMALIZED / 'summary.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2))
     print(f'wrote {len(records)} sessions')
 
 if __name__ == '__main__':
