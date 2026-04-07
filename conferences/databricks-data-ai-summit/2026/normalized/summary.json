@@ -1,0 +1,18 @@
+{
+  "session_count": 18,
+  "sessions_with_speakers": 16,
+  "speakers_with_job_title": 23,
+  "unique_companies": 19,
+  "tracks": [
+    "Analytics & BI",
+    "Application Development",
+    "Artificial Intelligence & Agents",
+    "Data Engineering & Streaming",
+    "Data Strategy"
+  ],
+  "formats": [
+    "Breakout",
+    "Lightning Talk",
+    "Paid Training"
+  ]
+}
