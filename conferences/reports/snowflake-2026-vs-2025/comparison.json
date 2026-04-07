@@ -6,103 +6,103 @@
     "top_words": [
       {
         "word": "insights",
-        "count": 197
+        "count": 222
       },
       {
         "word": "analytics",
-        "count": 137
+        "count": 154
+      },
+      {
+        "word": "business",
+        "count": 140
+      },
+      {
+        "word": "best",
+        "count": 128
       },
       {
         "word": "practices",
-        "count": 124
-      },
-      {
-        "word": "discover",
-        "count": 108
+        "count": 125
       },
       {
         "word": "platform",
-        "count": 106
+        "count": 114
       },
       {
-        "word": "explore",
-        "count": 91
+        "word": "discover",
+        "count": 111
       },
       {
         "word": "governance",
-        "count": 91
+        "count": 108
+      },
+      {
+        "word": "customer",
+        "count": 104
       },
       {
         "word": "performance",
-        "count": 89
-      },
-      {
-        "word": "iceberg",
-        "count": 83
+        "count": 99
       },
       {
         "word": "scale",
-        "count": 82
+        "count": 97
+      },
+      {
+        "word": "iceberg",
+        "count": 96
+      },
+      {
+        "word": "explore",
+        "count": 94
       },
       {
         "word": "capabilities",
-        "count": 80
+        "count": 87
       },
       {
         "word": "cloud",
-        "count": 79
-      },
-      {
-        "word": "real-time",
-        "count": 79
-      },
-      {
-        "word": "while",
-        "count": 77
-      },
-      {
-        "word": "challenges",
-        "count": 72
+        "count": 84
       },
       {
         "word": "pipelines",
-        "count": 69
+        "count": 84
       },
       {
-        "word": "management",
-        "count": 69
+        "word": "while",
+        "count": 82
+      },
+      {
+        "word": "real-time",
+        "count": 82
+      },
+      {
+        "word": "enterprise",
+        "count": 82
+      },
+      {
+        "word": "challenges",
+        "count": 78
+      },
+      {
+        "word": "teams",
+        "count": 78
       },
       {
         "word": "efficiency",
-        "count": 68
+        "count": 75
       },
       {
-        "word": "models",
-        "count": 65
+        "word": "tables",
+        "count": 72
       },
       {
-        "word": "access",
-        "count": 64
+        "word": "management",
+        "count": 72
       },
       {
         "word": "scalable",
-        "count": 61
-      },
-      {
-        "word": "experience",
-        "count": 60
-      },
-      {
-        "word": "cost",
-        "count": 60
-      },
-      {
-        "word": "organizations",
-        "count": 59
-      },
-      {
-        "word": "agents",
-        "count": 59
+        "count": 72
       }
     ],
     "top_topics": [],
@@ -278,103 +278,103 @@
     "top_words": [
       {
         "word": "analytics",
-        "count": 105
+        "count": 124
       },
       {
-        "word": "governance",
-        "count": 91
+        "word": "business",
+        "count": 110
       },
       {
         "word": "agents",
-        "count": 86
+        "count": 107
       },
       {
-        "word": "platform",
-        "count": 79
+        "word": "governance",
+        "count": 105
+      },
+      {
+        "word": "enterprise",
+        "count": 102
       },
       {
         "word": "intelligence",
-        "count": 78
+        "count": 98
       },
       {
         "word": "scale",
-        "count": 74
+        "count": 97
       },
       {
-        "word": "code",
-        "count": 66
+        "word": "platform",
+        "count": 85
       },
       {
         "word": "iceberg",
-        "count": 66
+        "count": 75
       },
       {
-        "word": "architecture",
-        "count": 61
-      },
-      {
-        "word": "governed",
-        "count": 61
+        "word": "code",
+        "count": 72
       },
       {
         "word": "semantic",
-        "count": 58
+        "count": 71
       },
       {
-        "word": "insights",
-        "count": 54
+        "word": "teams",
+        "count": 69
       },
       {
-        "word": "pipelines",
-        "count": 52
+        "word": "governed",
+        "count": 68
       },
       {
-        "word": "real-time",
-        "count": 52
-      },
-      {
-        "word": "tables",
-        "count": 51
-      },
-      {
-        "word": "complex",
-        "count": 48
-      },
-      {
-        "word": "access",
-        "count": 47
-      },
-      {
-        "word": "built",
-        "count": 47
-      },
-      {
-        "word": "while",
-        "count": 47
+        "word": "architecture",
+        "count": 65
       },
       {
         "word": "agentic",
-        "count": 47
+        "count": 65
       },
       {
-        "word": "discover",
-        "count": 46
+        "word": "insights",
+        "count": 63
       },
       {
-        "word": "foundation",
-        "count": 45
+        "word": "real-time",
+        "count": 61
       },
       {
-        "word": "security",
-        "count": 44
+        "word": "pipelines",
+        "count": 60
+      },
+      {
+        "word": "customer",
+        "count": 59
+      },
+      {
+        "word": "tables",
+        "count": 56
+      },
+      {
+        "word": "access",
+        "count": 54
+      },
+      {
+        "word": "complex",
+        "count": 54
+      },
+      {
+        "word": "without",
+        "count": 53
+      },
+      {
+        "word": "built",
+        "count": 51
       },
       {
         "word": "workflows",
-        "count": 43
-      },
-      {
-        "word": "model",
-        "count": 43
+        "count": 51
       }
     ],
     "top_topics": [],
@@ -546,16 +546,46 @@
   "distinctive_words": {
     "2025": [
       {
+        "word": "exclusive",
+        "ratio_vs_2026": 14.0,
+        "count_2025": 13,
+        "count_2026": 0
+      },
+      {
+        "word": "connections",
+        "ratio_vs_2026": 13.0,
+        "count_2025": 12,
+        "count_2026": 0
+      },
+      {
+        "word": "good",
+        "ratio_vs_2026": 13.0,
+        "count_2025": 12,
+        "count_2026": 0
+      },
+      {
+        "word": "responses",
+        "ratio_vs_2026": 13.0,
+        "count_2025": 12,
+        "count_2026": 0
+      },
+      {
         "word": "streamlining",
         "ratio_vs_2026": 13.0,
         "count_2025": 12,
         "count_2026": 0
       },
       {
-        "word": "snowflake's",
-        "ratio_vs_2026": 11.0,
-        "count_2025": 54,
-        "count_2026": 4
+        "word": "premier",
+        "ratio_vs_2026": 12.0,
+        "count_2025": 11,
+        "count_2026": 0
+      },
+      {
+        "word": "optimizing",
+        "ratio_vs_2026": 11.33,
+        "count_2025": 33,
+        "count_2026": 2
       },
       {
         "word": "anything",
@@ -565,12 +595,6 @@
       },
       {
         "word": "chance",
-        "ratio_vs_2026": 11.0,
-        "count_2025": 10,
-        "count_2026": 0
-      },
-      {
-        "word": "good",
         "ratio_vs_2026": 11.0,
         "count_2025": 10,
         "count_2026": 0
@@ -600,28 +624,34 @@
         "count_2026": 0
       },
       {
-        "word": "immersive",
+        "word": "booth",
         "ratio_vs_2026": 10.0,
         "count_2025": 9,
         "count_2026": 0
       },
       {
-        "word": "inspiration",
+        "word": "hour",
         "ratio_vs_2026": 10.0,
         "count_2025": 9,
         "count_2026": 0
       },
       {
-        "word": "optimizing",
-        "ratio_vs_2026": 9.0,
-        "count_2025": 26,
-        "count_2026": 2
+        "word": "okta",
+        "ratio_vs_2026": 10.0,
+        "count_2025": 9,
+        "count_2026": 0
       },
       {
-        "word": "brands",
-        "ratio_vs_2026": 9.0,
-        "count_2025": 17,
-        "count_2026": 1
+        "word": "relevant",
+        "ratio_vs_2026": 10.0,
+        "count_2025": 9,
+        "count_2026": 0
+      },
+      {
+        "word": "visual",
+        "ratio_vs_2026": 10.0,
+        "count_2025": 9,
+        "count_2026": 0
       },
       {
         "word": "enhances",
@@ -637,6 +667,12 @@
       },
       {
         "word": "affirm",
+        "ratio_vs_2026": 9.0,
+        "count_2025": 8,
+        "count_2026": 0
+      },
+      {
+        "word": "atlan",
         "ratio_vs_2026": 9.0,
         "count_2025": 8,
         "count_2026": 0
@@ -658,74 +694,74 @@
         "ratio_vs_2026": 9.0,
         "count_2025": 8,
         "count_2026": 0
-      },
-      {
-        "word": "points",
-        "ratio_vs_2026": 9.0,
-        "count_2025": 8,
-        "count_2026": 0
-      },
-      {
-        "word": "relevant",
-        "ratio_vs_2026": 9.0,
-        "count_2025": 8,
-        "count_2026": 0
-      },
-      {
-        "word": "significantly",
-        "ratio_vs_2026": 9.0,
-        "count_2025": 8,
-        "count_2026": 0
-      },
-      {
-        "word": "visual",
-        "ratio_vs_2026": 9.0,
-        "count_2025": 8,
-        "count_2026": 0
-      },
-      {
-        "word": "practices",
-        "ratio_vs_2026": 8.33,
-        "count_2025": 124,
-        "count_2026": 14
-      },
-      {
-        "word": "container",
-        "ratio_vs_2026": 8.0,
-        "count_2025": 23,
-        "count_2026": 2
       }
     ],
     "2026": [
       {
-        "word": "zero-copy",
+        "word": "layers",
         "ratio_vs_2025": 11.0,
         "count_2026": 10,
         "count_2025": 0
       },
       {
-        "word": "layers",
-        "ratio_vs_2025": 10.0,
-        "count_2026": 9,
-        "count_2025": 0
-      },
-      {
         "word": "same",
-        "ratio_vs_2025": 10.0,
-        "count_2026": 9,
+        "ratio_vs_2025": 11.0,
+        "count_2026": 10,
         "count_2025": 0
       },
       {
         "word": "context",
-        "ratio_vs_2025": 9.25,
-        "count_2026": 36,
+        "ratio_vs_2025": 10.0,
+        "count_2026": 39,
         "count_2025": 3
       },
       {
+        "word": "pattern",
+        "ratio_vs_2025": 9.0,
+        "count_2026": 8,
+        "count_2025": 0
+      },
+      {
+        "word": "siemens",
+        "ratio_vs_2025": 9.0,
+        "count_2026": 8,
+        "count_2025": 0
+      },
+      {
+        "word": "upstream",
+        "ratio_vs_2025": 9.0,
+        "count_2026": 8,
+        "count_2025": 0
+      },
+      {
         "word": "shows",
-        "ratio_vs_2025": 7.0,
-        "count_2026": 20,
+        "ratio_vs_2025": 8.0,
+        "count_2026": 23,
         "count_2025": 2
+      },
+      {
+        "word": "interchange",
+        "ratio_vs_2025": 8.0,
+        "count_2026": 7,
+        "count_2025": 0
+      },
+      {
+        "word": "once",
+        "ratio_vs_2025": 8.0,
+        "count_2026": 7,
+        "count_2025": 0
+      },
+      {
+        "word": "procurement",
+        "ratio_vs_2025": 8.0,
+        "count_2026": 7,
+        "count_2025": 0
+      },
+      {
+        "word": "static",
+        "ratio_vs_2025": 7.0,
+        "count_2026": 13,
+        "count_2025": 1
       },
       {
         "word": "bottleneck",
@@ -746,7 +782,7 @@
         "count_2025": 0
       },
       {
-        "word": "procurement",
+        "word": "meaning",
         "ratio_vs_2025": 7.0,
         "count_2026": 6,
         "count_2025": 0
@@ -758,16 +794,22 @@
         "count_2025": 0
       },
       {
-        "word": "upstream",
+        "word": "zendesk",
         "ratio_vs_2025": 7.0,
         "count_2026": 6,
         "count_2025": 0
       },
       {
-        "word": "static",
+        "word": "acquisition",
         "ratio_vs_2025": 6.0,
-        "count_2026": 11,
-        "count_2025": 1
+        "count_2026": 5,
+        "count_2025": 0
+      },
+      {
+        "word": "capacity",
+        "ratio_vs_2025": 6.0,
+        "count_2026": 5,
+        "count_2025": 0
       },
       {
         "word": "catalog-linked",
@@ -788,13 +830,13 @@
         "count_2025": 0
       },
       {
-        "word": "explainable",
+        "word": "fogo",
         "ratio_vs_2025": 6.0,
         "count_2026": 5,
         "count_2025": 0
       },
       {
-        "word": "fogo",
+        "word": "fusion",
         "ratio_vs_2025": 6.0,
         "count_2026": 5,
         "count_2025": 0
@@ -804,49 +846,16 @@
         "ratio_vs_2025": 6.0,
         "count_2026": 5,
         "count_2025": 0
-      },
-      {
-        "word": "innovators",
-        "ratio_vs_2025": 6.0,
-        "count_2026": 5,
-        "count_2025": 0
-      },
-      {
-        "word": "interchange",
-        "ratio_vs_2025": 6.0,
-        "count_2026": 5,
-        "count_2025": 0
-      },
-      {
-        "word": "mainframe",
-        "ratio_vs_2025": 6.0,
-        "count_2026": 5,
-        "count_2025": 0
-      },
-      {
-        "word": "meaning",
-        "ratio_vs_2025": 6.0,
-        "count_2026": 5,
-        "count_2025": 0
-      },
-      {
-        "word": "once",
-        "ratio_vs_2025": 6.0,
-        "count_2026": 5,
-        "count_2025": 0
-      },
-      {
-        "word": "pattern",
-        "ratio_vs_2025": 6.0,
-        "count_2026": 5,
-        "count_2025": 0
-      },
-      {
-        "word": "siemens",
-        "ratio_vs_2025": 6.0,
-        "count_2026": 5,
-        "count_2025": 0
       }
     ]
-  }
+  },
+  "boilerplate_removed": [
+    "Gain direct access to experts, see industry-leading technology in action, and leave with actionable inspiration to accelerate your data strategy.",
+    "Join us for new product and feature overviews, best practices and live demos.",
+    "Join us for new product and feature overviews, best practices, and live demos.",
+    "Please note that the Executive Booth Tours are reserved for customers only—we kindly ask our partners not to register.",
+    "Please note that this experience includes walking between stops; comfortable footwear is recommended.",
+    "Space is extremely limited—registration is first come, first served.",
+    "This immersive experience will take you through five curated stops that showcase the art of the possible—real-world solutions, cutting-edge AI use cases, and data-driven innovations transforming your industry today."
+  ]
 }

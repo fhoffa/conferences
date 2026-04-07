@@ -123,3 +123,6 @@ Early year-over-year comparison based on the current normalized datasets in the 
 
 ## Word-quality note
 The word analysis was tightened to remove shallow event-marketing and boilerplate terms (for example booth / tours / please / note / however / premier) so the year-over-year differences are more thematic and less noisy.
+
+## Boilerplate note
+The Snowflake public session feed includes repeated promo/registration copy on some event formats (for example executive booth tours). The year-over-year word analysis now removes repeated sentence-level boilerplate automatically when the same long text block appears across multiple sessions.
