@@ -120,3 +120,6 @@ Early year-over-year comparison based on the current normalized datasets in the 
 - If 2026 has materially more sessions, speakers, and external-company breadth, that is a sign of a broader and more ambitious public-facing ecosystem story.
 - The word and topic shifts tell you whether Snowflake is leaning more into governance, apps, AI agents, platform, or industry-specific stories this year relative to last year.
 - The company mix helps show whether Snowflake is broadening its appeal across more enterprise logos and sectors or concentrating harder around a few high-value clusters.
+
+## Word-quality note
+The word analysis was tightened to remove shallow event-marketing and boilerplate terms (for example booth / tours / please / note / however / premier) so the year-over-year differences are more thematic and less noisy.

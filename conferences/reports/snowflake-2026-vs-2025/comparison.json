@@ -13,15 +13,7 @@
         "count": 137
       },
       {
-        "word": "best",
-        "count": 127
-      },
-      {
         "word": "practices",
-        "count": 124
-      },
-      {
-        "word": "business",
         "count": 124
       },
       {
@@ -31,10 +23,6 @@
       {
         "word": "platform",
         "count": 106
-      },
-      {
-        "word": "customer",
-        "count": 92
       },
       {
         "word": "explore",
@@ -77,19 +65,11 @@
         "count": 72
       },
       {
-        "word": "teams",
-        "count": 70
-      },
-      {
         "word": "pipelines",
         "count": 69
       },
       {
         "word": "management",
-        "count": 69
-      },
-      {
-        "word": "enterprise",
         "count": 69
       },
       {
@@ -103,6 +83,26 @@
       {
         "word": "access",
         "count": 64
+      },
+      {
+        "word": "scalable",
+        "count": 61
+      },
+      {
+        "word": "experience",
+        "count": 60
+      },
+      {
+        "word": "cost",
+        "count": 60
+      },
+      {
+        "word": "organizations",
+        "count": 59
+      },
+      {
+        "word": "agents",
+        "count": 59
       }
     ],
     "top_topics": [],
@@ -281,16 +281,8 @@
         "count": 105
       },
       {
-        "word": "business",
-        "count": 92
-      },
-      {
         "word": "governance",
         "count": 91
-      },
-      {
-        "word": "enterprise",
-        "count": 90
       },
       {
         "word": "agents",
@@ -317,10 +309,6 @@
         "count": 66
       },
       {
-        "word": "teams",
-        "count": 64
-      },
-      {
         "word": "architecture",
         "count": 61
       },
@@ -342,10 +330,6 @@
       },
       {
         "word": "real-time",
-        "count": 52
-      },
-      {
-        "word": "customer",
         "count": 52
       },
       {
@@ -375,6 +359,22 @@
       {
         "word": "discover",
         "count": 46
+      },
+      {
+        "word": "foundation",
+        "count": 45
+      },
+      {
+        "word": "security",
+        "count": 44
+      },
+      {
+        "word": "workflows",
+        "count": 43
+      },
+      {
+        "word": "model",
+        "count": 43
       }
     ],
     "top_topics": [],
@@ -546,69 +546,9 @@
   "distinctive_words": {
     "2025": [
       {
-        "word": "please",
-        "ratio_vs_2026": 18.0,
-        "count_2025": 17,
-        "count_2026": 0
-      },
-      {
-        "word": "booth",
-        "ratio_vs_2026": 17.0,
-        "count_2025": 16,
-        "count_2026": 0
-      },
-      {
-        "word": "note",
-        "ratio_vs_2026": 15.0,
-        "count_2025": 14,
-        "count_2026": 0
-      },
-      {
-        "word": "stops",
-        "ratio_vs_2026": 15.0,
-        "count_2025": 14,
-        "count_2026": 0
-      },
-      {
-        "word": "tours",
-        "ratio_vs_2026": 15.0,
-        "count_2025": 14,
-        "count_2026": 0
-      },
-      {
-        "word": "exclusive",
-        "ratio_vs_2026": 14.0,
-        "count_2025": 13,
-        "count_2026": 0
-      },
-      {
         "word": "streamlining",
         "ratio_vs_2026": 13.0,
         "count_2025": 12,
-        "count_2026": 0
-      },
-      {
-        "word": "connections",
-        "ratio_vs_2026": 12.0,
-        "count_2025": 11,
-        "count_2026": 0
-      },
-      {
-        "word": "however",
-        "ratio_vs_2026": 12.0,
-        "count_2025": 11,
-        "count_2026": 0
-      },
-      {
-        "word": "premier",
-        "ratio_vs_2026": 12.0,
-        "count_2025": 11,
-        "count_2026": 0
-      },
-      {
-        "word": "responses",
-        "ratio_vs_2026": 12.0,
-        "count_2025": 11,
         "count_2026": 0
       },
       {
@@ -694,6 +634,66 @@
         "ratio_vs_2026": 9.0,
         "count_2025": 8,
         "count_2026": 0
+      },
+      {
+        "word": "affirm",
+        "ratio_vs_2026": 9.0,
+        "count_2025": 8,
+        "count_2026": 0
+      },
+      {
+        "word": "block",
+        "ratio_vs_2026": 9.0,
+        "count_2025": 8,
+        "count_2026": 0
+      },
+      {
+        "word": "meetup",
+        "ratio_vs_2026": 9.0,
+        "count_2025": 8,
+        "count_2026": 0
+      },
+      {
+        "word": "networking",
+        "ratio_vs_2026": 9.0,
+        "count_2025": 8,
+        "count_2026": 0
+      },
+      {
+        "word": "points",
+        "ratio_vs_2026": 9.0,
+        "count_2025": 8,
+        "count_2026": 0
+      },
+      {
+        "word": "relevant",
+        "ratio_vs_2026": 9.0,
+        "count_2025": 8,
+        "count_2026": 0
+      },
+      {
+        "word": "significantly",
+        "ratio_vs_2026": 9.0,
+        "count_2025": 8,
+        "count_2026": 0
+      },
+      {
+        "word": "visual",
+        "ratio_vs_2026": 9.0,
+        "count_2025": 8,
+        "count_2026": 0
+      },
+      {
+        "word": "practices",
+        "ratio_vs_2026": 8.33,
+        "count_2025": 124,
+        "count_2026": 14
+      },
+      {
+        "word": "container",
+        "ratio_vs_2026": 8.0,
+        "count_2025": 23,
+        "count_2026": 2
       }
     ],
     "2026": [
