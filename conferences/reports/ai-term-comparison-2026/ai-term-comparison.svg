@@ -1,73 +1,122 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
 <style>text{font-family:Arial,sans-serif;fill:#222}.small{font-size:12px}.axis{font-size:13px}.title{font-size:22px;font-weight:bold}.legend{font-size:13px}</style>
-<text x="500.0" y="30" text-anchor="middle" class="title">2026 catalog comparison: AI-term penetration by session</text>
-<line x1="70" y1="410.0" x2="960" y2="410.0" stroke="#ddd" />
-<text x="60" y="414.0" text-anchor="end" class="small">0%</text>
-<line x1="70" y1="371.1" x2="960" y2="371.1" stroke="#ddd" />
-<text x="60" y="375.1" text-anchor="end" class="small">10%</text>
-<line x1="70" y1="332.2" x2="960" y2="332.2" stroke="#ddd" />
-<text x="60" y="336.2" text-anchor="end" class="small">20%</text>
-<line x1="70" y1="293.3" x2="960" y2="293.3" stroke="#ddd" />
-<text x="60" y="297.3" text-anchor="end" class="small">30%</text>
-<line x1="70" y1="254.4" x2="960" y2="254.4" stroke="#ddd" />
-<text x="60" y="258.4" text-anchor="end" class="small">40%</text>
-<line x1="70" y1="215.6" x2="960" y2="215.6" stroke="#ddd" />
-<text x="60" y="219.6" text-anchor="end" class="small">50%</text>
-<line x1="70" y1="176.7" x2="960" y2="176.7" stroke="#ddd" />
-<text x="60" y="180.7" text-anchor="end" class="small">60%</text>
-<line x1="70" y1="137.8" x2="960" y2="137.8" stroke="#ddd" />
-<text x="60" y="141.8" text-anchor="end" class="small">70%</text>
-<line x1="70" y1="98.9" x2="960" y2="98.9" stroke="#ddd" />
-<text x="60" y="102.9" text-anchor="end" class="small">80%</text>
-<line x1="70" y1="60.0" x2="960" y2="60.0" stroke="#ddd" />
+<text x="750.0" y="30" text-anchor="middle" class="title">2026 catalog comparison: term penetration by session</text>
+<line x1="70" y1="470.0" x2="1460" y2="470.0" stroke="#ddd" />
+<text x="60" y="474.0" text-anchor="end" class="small">0%</text>
+<line x1="70" y1="424.4" x2="1460" y2="424.4" stroke="#ddd" />
+<text x="60" y="428.4" text-anchor="end" class="small">10%</text>
+<line x1="70" y1="378.9" x2="1460" y2="378.9" stroke="#ddd" />
+<text x="60" y="382.9" text-anchor="end" class="small">20%</text>
+<line x1="70" y1="333.3" x2="1460" y2="333.3" stroke="#ddd" />
+<text x="60" y="337.3" text-anchor="end" class="small">30%</text>
+<line x1="70" y1="287.8" x2="1460" y2="287.8" stroke="#ddd" />
+<text x="60" y="291.8" text-anchor="end" class="small">40%</text>
+<line x1="70" y1="242.2" x2="1460" y2="242.2" stroke="#ddd" />
+<text x="60" y="246.2" text-anchor="end" class="small">50%</text>
+<line x1="70" y1="196.7" x2="1460" y2="196.7" stroke="#ddd" />
+<text x="60" y="200.7" text-anchor="end" class="small">60%</text>
+<line x1="70" y1="151.1" x2="1460" y2="151.1" stroke="#ddd" />
+<text x="60" y="155.1" text-anchor="end" class="small">70%</text>
+<line x1="70" y1="105.6" x2="1460" y2="105.6" stroke="#ddd" />
+<text x="60" y="109.6" text-anchor="end" class="small">80%</text>
+<line x1="70" y1="60.0" x2="1460" y2="60.0" stroke="#ddd" />
 <text x="60" y="64.0" text-anchor="end" class="small">90%</text>
-<text x="144.16666666666669" y="465" text-anchor="middle" class="axis">AI</text>
-<rect x="96.7" y="112.1" width="29.7" height="297.9" fill="#4285F4" rx="2" />
-<text x="111.5" y="106.1" text-anchor="middle" class="small">77%</text>
-<rect x="132.3" y="180.9" width="29.7" height="229.1" fill="#FF3621" rx="2" />
-<text x="147.1" y="174.9" text-anchor="middle" class="small">59%</text>
-<rect x="167.9" y="151.4" width="29.7" height="258.6" fill="#29B5E8" rx="2" />
-<text x="182.7" y="145.4" text-anchor="middle" class="small">66%</text>
-<text x="292.5" y="465" text-anchor="middle" class="axis">Agents</text>
-<rect x="245.0" y="204.3" width="29.7" height="205.7" fill="#4285F4" rx="2" />
-<text x="259.9" y="198.3" text-anchor="middle" class="small">53%</text>
-<rect x="280.6" y="294.5" width="29.7" height="115.5" fill="#FF3621" rx="2" />
-<text x="295.5" y="288.5" text-anchor="middle" class="small">30%</text>
-<rect x="316.2" y="282.1" width="29.7" height="127.9" fill="#29B5E8" rx="2" />
-<text x="331.1" y="276.1" text-anchor="middle" class="small">33%</text>
-<text x="440.83333333333337" y="465" text-anchor="middle" class="axis">MCP</text>
-<rect x="393.4" y="385.5" width="29.7" height="24.5" fill="#4285F4" rx="2" />
-<text x="408.2" y="379.5" text-anchor="middle" class="small">6%</text>
-<rect x="429.0" y="392.9" width="29.7" height="17.1" fill="#FF3621" rx="2" />
-<text x="443.8" y="386.9" text-anchor="middle" class="small">4%</text>
-<rect x="464.6" y="399.1" width="29.7" height="10.9" fill="#29B5E8" rx="2" />
-<text x="479.4" y="393.1" text-anchor="middle" class="small">3%</text>
-<text x="589.1666666666666" y="465" text-anchor="middle" class="axis">Models</text>
-<rect x="541.7" y="331.1" width="29.7" height="78.9" fill="#4285F4" rx="2" />
-<text x="556.5" y="325.1" text-anchor="middle" class="small">20%</text>
-<rect x="577.3" y="291.8" width="29.7" height="118.2" fill="#FF3621" rx="2" />
-<text x="592.1" y="285.8" text-anchor="middle" class="small">30%</text>
-<rect x="612.9" y="327.2" width="29.7" height="82.8" fill="#29B5E8" rx="2" />
-<text x="627.7" y="321.2" text-anchor="middle" class="small">21%</text>
-<text x="737.5" y="465" text-anchor="middle" class="axis">LLMs</text>
-<rect x="690.0" y="395.2" width="29.7" height="14.8" fill="#4285F4" rx="2" />
-<text x="704.9" y="389.2" text-anchor="middle" class="small">4%</text>
-<rect x="725.6" y="378.1" width="29.7" height="31.9" fill="#FF3621" rx="2" />
-<text x="740.5" y="372.1" text-anchor="middle" class="small">8%</text>
-<rect x="761.2" y="400.3" width="29.7" height="9.7" fill="#29B5E8" rx="2" />
-<text x="776.1" y="394.3" text-anchor="middle" class="small">2%</text>
-<text x="885.8333333333334" y="465" text-anchor="middle" class="axis">GenAI</text>
-<rect x="838.4" y="385.9" width="29.7" height="24.1" fill="#4285F4" rx="2" />
-<text x="853.2" y="379.9" text-anchor="middle" class="small">6%</text>
-<rect x="874.0" y="370.7" width="29.7" height="39.3" fill="#FF3621" rx="2" />
-<text x="888.8" y="364.7" text-anchor="middle" class="small">10%</text>
-<rect x="909.6" y="392.9" width="29.7" height="17.1" fill="#29B5E8" rx="2" />
-<text x="924.4" y="386.9" text-anchor="middle" class="small">4%</text>
-<rect x="70" y="483" width="14" height="14" fill="#4285F4" />
-<text x="90" y="495" class="legend">GCP Next 2026</text>
-<rect x="290" y="483" width="14" height="14" fill="#FF3621" />
-<text x="310" y="495" class="legend">Databricks 2026</text>
-<rect x="510" y="483" width="14" height="14" fill="#29B5E8" />
-<text x="530" y="495" class="legend">Snowflake 2026</text>
-<text transform="translate(18 235.0) rotate(-90)" text-anchor="middle" class="axis">% of sessions mentioning term</text>
+<text x="123.46153846153845" y="540" text-anchor="end" transform="rotate(-35 123.46153846153845 540)" class="axis">AI</text>
+<rect x="89.2" y="121.0" width="21.4" height="349.0" fill="#4285F4" rx="2" />
+<text x="99.9" y="115.0" text-anchor="middle" class="small">77%</text>
+<rect x="114.9" y="201.7" width="21.4" height="268.3" fill="#FF3621" rx="2" />
+<text x="125.6" y="195.7" text-anchor="middle" class="small">59%</text>
+<rect x="140.6" y="167.1" width="21.4" height="302.9" fill="#29B5E8" rx="2" />
+<text x="151.3" y="161.1" text-anchor="middle" class="small">66%</text>
+<text x="230.38461538461536" y="540" text-anchor="end" transform="rotate(-35 230.38461538461536 540)" class="axis">Agents</text>
+<rect x="196.2" y="229.0" width="21.4" height="241.0" fill="#4285F4" rx="2" />
+<text x="206.9" y="223.0" text-anchor="middle" class="small">53%</text>
+<rect x="221.8" y="334.7" width="21.4" height="135.3" fill="#FF3621" rx="2" />
+<text x="232.5" y="328.7" text-anchor="middle" class="small">30%</text>
+<rect x="247.5" y="320.1" width="21.4" height="149.9" fill="#29B5E8" rx="2" />
+<text x="258.2" y="314.1" text-anchor="middle" class="small">33%</text>
+<text x="337.30769230769226" y="540" text-anchor="end" transform="rotate(-35 337.30769230769226 540)" class="axis">MCP</text>
+<rect x="303.1" y="441.3" width="21.4" height="28.7" fill="#4285F4" rx="2" />
+<text x="313.8" y="435.3" text-anchor="middle" class="small">6%</text>
+<rect x="328.8" y="450.0" width="21.4" height="20.0" fill="#FF3621" rx="2" />
+<text x="339.4" y="444.0" text-anchor="middle" class="small">4%</text>
+<rect x="354.4" y="457.2" width="21.4" height="12.8" fill="#29B5E8" rx="2" />
+<text x="365.1" y="451.2" text-anchor="middle" class="small">3%</text>
+<text x="444.2307692307692" y="540" text-anchor="end" transform="rotate(-35 444.2307692307692 540)" class="axis">Models</text>
+<rect x="410.0" y="377.5" width="21.4" height="92.5" fill="#4285F4" rx="2" />
+<text x="420.7" y="371.5" text-anchor="middle" class="small">20%</text>
+<rect x="435.7" y="331.5" width="21.4" height="138.5" fill="#FF3621" rx="2" />
+<text x="446.4" y="325.5" text-anchor="middle" class="small">30%</text>
+<rect x="461.3" y="373.0" width="21.4" height="97.0" fill="#29B5E8" rx="2" />
+<text x="472.0" y="367.0" text-anchor="middle" class="small">21%</text>
+<text x="551.1538461538462" y="540" text-anchor="end" transform="rotate(-35 551.1538461538462 540)" class="axis">LLMs</text>
+<rect x="516.9" y="452.7" width="21.4" height="17.3" fill="#4285F4" rx="2" />
+<text x="527.6" y="446.7" text-anchor="middle" class="small">4%</text>
+<rect x="542.6" y="432.6" width="21.4" height="37.4" fill="#FF3621" rx="2" />
+<text x="553.3" y="426.6" text-anchor="middle" class="small">8%</text>
+<rect x="568.3" y="458.6" width="21.4" height="11.4" fill="#29B5E8" rx="2" />
+<text x="579.0" y="452.6" text-anchor="middle" class="small">2%</text>
+<text x="658.0769230769231" y="540" text-anchor="end" transform="rotate(-35 658.0769230769231 540)" class="axis">GenAI</text>
+<rect x="623.9" y="441.8" width="21.4" height="28.2" fill="#4285F4" rx="2" />
+<text x="634.6" y="435.8" text-anchor="middle" class="small">6%</text>
+<rect x="649.5" y="424.0" width="21.4" height="46.0" fill="#FF3621" rx="2" />
+<text x="660.2" y="418.0" text-anchor="middle" class="small">10%</text>
+<rect x="675.2" y="450.0" width="21.4" height="20.0" fill="#29B5E8" rx="2" />
+<text x="685.9" y="444.0" text-anchor="middle" class="small">4%</text>
+<text x="765.0" y="540" text-anchor="end" transform="rotate(-35 765.0 540)" class="axis">Spark</text>
+<rect x="730.8" y="464.1" width="21.4" height="5.9" fill="#4285F4" rx="2" />
+<text x="741.5" y="458.1" text-anchor="middle" class="small">1%</text>
+<rect x="756.4" y="398.0" width="21.4" height="72.0" fill="#FF3621" rx="2" />
+<text x="767.1" y="392.0" text-anchor="middle" class="small">16%</text>
+<rect x="782.1" y="455.9" width="21.4" height="14.1" fill="#29B5E8" rx="2" />
+<text x="792.8" y="449.9" text-anchor="middle" class="small">3%</text>
+<text x="871.9230769230769" y="540" text-anchor="end" transform="rotate(-35 871.9230769230769 540)" class="axis">Iceberg</text>
+<rect x="837.7" y="465.9" width="21.4" height="4.1" fill="#4285F4" rx="2" />
+<text x="848.4" y="459.9" text-anchor="middle" class="small">1%</text>
+<rect x="863.4" y="444.0" width="21.4" height="26.0" fill="#FF3621" rx="2" />
+<text x="874.1" y="438.0" text-anchor="middle" class="small">6%</text>
+<rect x="889.0" y="421.3" width="21.4" height="48.7" fill="#29B5E8" rx="2" />
+<text x="899.7" y="415.3" text-anchor="middle" class="small">11%</text>
+<text x="978.8461538461538" y="540" text-anchor="end" transform="rotate(-35 978.8461538461538 540)" class="axis">SQL</text>
+<rect x="944.6" y="459.5" width="21.4" height="10.5" fill="#4285F4" rx="2" />
+<text x="955.3" y="453.5" text-anchor="middle" class="small">2%</text>
+<rect x="970.3" y="357.5" width="21.4" height="112.5" fill="#FF3621" rx="2" />
+<text x="981.0" y="351.5" text-anchor="middle" class="small">25%</text>
+<rect x="996.0" y="445.9" width="21.4" height="24.1" fill="#29B5E8" rx="2" />
+<text x="1006.6" y="439.9" text-anchor="middle" class="small">5%</text>
+<text x="1085.769230769231" y="540" text-anchor="end" transform="rotate(-35 1085.769230769231 540)" class="axis">Kubernetes</text>
+<rect x="1051.6" y="443.1" width="21.4" height="26.9" fill="#4285F4" rx="2" />
+<text x="1062.2" y="437.1" text-anchor="middle" class="small">6%</text>
+<rect x="1077.2" y="470.0" width="21.4" height="0.0" fill="#FF3621" rx="2" />
+<text x="1087.9" y="464.0" text-anchor="middle" class="small">0%</text>
+<rect x="1102.9" y="470.0" width="21.4" height="0.0" fill="#29B5E8" rx="2" />
+<text x="1113.6" y="464.0" text-anchor="middle" class="small">0%</text>
+<text x="1192.6923076923078" y="540" text-anchor="end" transform="rotate(-35 1192.6923076923078 540)" class="axis">Pipelines</text>
+<rect x="1158.5" y="448.1" width="21.4" height="21.9" fill="#4285F4" rx="2" />
+<text x="1169.2" y="442.1" text-anchor="middle" class="small">5%</text>
+<rect x="1184.1" y="328.8" width="21.4" height="141.2" fill="#FF3621" rx="2" />
+<text x="1194.8" y="322.8" text-anchor="middle" class="small">31%</text>
+<rect x="1209.8" y="383.0" width="21.4" height="87.0" fill="#29B5E8" rx="2" />
+<text x="1220.5" y="377.0" text-anchor="middle" class="small">19%</text>
+<text x="1299.6153846153848" y="540" text-anchor="end" transform="rotate(-35 1299.6153846153848 540)" class="axis">Vector DB</text>
+<rect x="1265.4" y="465.4" width="21.4" height="4.6" fill="#4285F4" rx="2" />
+<text x="1276.1" y="459.4" text-anchor="middle" class="small">1%</text>
+<rect x="1291.1" y="450.0" width="21.4" height="20.0" fill="#FF3621" rx="2" />
+<text x="1301.8" y="444.0" text-anchor="middle" class="small">4%</text>
+<rect x="1316.7" y="470.0" width="21.4" height="0.0" fill="#29B5E8" rx="2" />
+<text x="1327.4" y="464.0" text-anchor="middle" class="small">0%</text>
+<text x="1406.5384615384617" y="540" text-anchor="end" transform="rotate(-35 1406.5384615384617 540)" class="axis">RAG</text>
+<rect x="1372.3" y="462.7" width="21.4" height="7.3" fill="#4285F4" rx="2" />
+<text x="1383.0" y="456.7" text-anchor="middle" class="small">2%</text>
+<rect x="1398.0" y="455.4" width="21.4" height="14.6" fill="#FF3621" rx="2" />
+<text x="1408.7" y="449.4" text-anchor="middle" class="small">3%</text>
+<rect x="1423.6" y="467.3" width="21.4" height="2.7" fill="#29B5E8" rx="2" />
+<text x="1434.3" y="461.3" text-anchor="middle" class="small">1%</text>
+<rect x="70" y="583" width="14" height="14" fill="#4285F4" />
+<text x="90" y="595" class="legend">GCP Next 2026</text>
+<rect x="290" y="583" width="14" height="14" fill="#FF3621" />
+<text x="310" y="595" class="legend">Databricks 2026</text>
+<rect x="510" y="583" width="14" height="14" fill="#29B5E8" />
+<text x="530" y="595" class="legend">Snowflake 2026</text>
+<text transform="translate(18 265.0) rotate(-90)" text-anchor="middle" class="axis">% of sessions mentioning term</text>
 </svg>
