@@ -3,18 +3,18 @@
 This view uses **percentage of sessions mentioning each term**, not raw counts, so conference size differences do not dominate the chart.
 
 ## Method note
-- Snowflake and Databricks percentages are computed directly from cleaned session title/description text.
-- GCP percentages are derived from the repo's own processed `topWords.all` / `sessionCount` pipeline in `media/insights-summary.json`, because the imported raw `sessions/sessions.json` is empty in this repo snapshot.
-- So GCP is using the conference's documented internal word-stats path rather than ad-hoc re-parsing.
+- GCP uses `sessions/classified_sessions.json`, which the repo itself documents as the canonical explorer dataset.
+- Snowflake and Databricks percentages are computed directly from cleaned session title/description text in their normalized datasets.
+- Percentages answer “what share of sessions mention this term?”, not “how many absolute mentions exist?”.
 
 ## Percent of sessions mentioning each term
 ### GCP Next 2026
-- AI: 71.7% (757 / 1056)
-- Agents: 44.7% (472 / 1056)
-- MCP: 0.0% (0 / 1056)
-- Models: 0.0% (0 / 1056)
-- LLMs: 0.0% (0 / 1056)
-- GenAI: 0.0% (0 / 1056)
+- AI: 76.6% (809 / 1056)
+- Agents: 52.9% (559 / 1056)
+- MCP: 6.3% (67 / 1056)
+- Models: 20.3% (214 / 1056)
+- LLMs: 3.8% (40 / 1056)
+- GenAI: 6.2% (65 / 1056)
 
 ### Databricks 2026
 - AI: 58.9% (93 / 158)

@@ -22,43 +22,43 @@
 <line x1="70" y1="60.0" x2="960" y2="60.0" stroke="#ddd" />
 <text x="60" y="64.0" text-anchor="end" class="small">90%</text>
 <text x="144.16666666666669" y="465" text-anchor="middle" class="axis">AI</text>
-<rect x="96.7" y="131.2" width="29.7" height="278.8" fill="#4285F4" rx="2" />
-<text x="111.5" y="125.2" text-anchor="middle" class="small">72%</text>
+<rect x="96.7" y="112.1" width="29.7" height="297.9" fill="#4285F4" rx="2" />
+<text x="111.5" y="106.1" text-anchor="middle" class="small">77%</text>
 <rect x="132.3" y="180.9" width="29.7" height="229.1" fill="#FF3621" rx="2" />
 <text x="147.1" y="174.9" text-anchor="middle" class="small">59%</text>
 <rect x="167.9" y="151.4" width="29.7" height="258.6" fill="#29B5E8" rx="2" />
 <text x="182.7" y="145.4" text-anchor="middle" class="small">66%</text>
 <text x="292.5" y="465" text-anchor="middle" class="axis">Agents</text>
-<rect x="245.0" y="236.2" width="29.7" height="173.8" fill="#4285F4" rx="2" />
-<text x="259.9" y="230.2" text-anchor="middle" class="small">45%</text>
+<rect x="245.0" y="204.3" width="29.7" height="205.7" fill="#4285F4" rx="2" />
+<text x="259.9" y="198.3" text-anchor="middle" class="small">53%</text>
 <rect x="280.6" y="294.5" width="29.7" height="115.5" fill="#FF3621" rx="2" />
 <text x="295.5" y="288.5" text-anchor="middle" class="small">30%</text>
 <rect x="316.2" y="282.1" width="29.7" height="127.9" fill="#29B5E8" rx="2" />
 <text x="331.1" y="276.1" text-anchor="middle" class="small">33%</text>
 <text x="440.83333333333337" y="465" text-anchor="middle" class="axis">MCP</text>
-<rect x="393.4" y="410.0" width="29.7" height="0.0" fill="#4285F4" rx="2" />
-<text x="408.2" y="404.0" text-anchor="middle" class="small">0%</text>
+<rect x="393.4" y="385.5" width="29.7" height="24.5" fill="#4285F4" rx="2" />
+<text x="408.2" y="379.5" text-anchor="middle" class="small">6%</text>
 <rect x="429.0" y="392.9" width="29.7" height="17.1" fill="#FF3621" rx="2" />
 <text x="443.8" y="386.9" text-anchor="middle" class="small">4%</text>
 <rect x="464.6" y="399.1" width="29.7" height="10.9" fill="#29B5E8" rx="2" />
 <text x="479.4" y="393.1" text-anchor="middle" class="small">3%</text>
 <text x="589.1666666666666" y="465" text-anchor="middle" class="axis">Models</text>
-<rect x="541.7" y="410.0" width="29.7" height="0.0" fill="#4285F4" rx="2" />
-<text x="556.5" y="404.0" text-anchor="middle" class="small">0%</text>
+<rect x="541.7" y="331.1" width="29.7" height="78.9" fill="#4285F4" rx="2" />
+<text x="556.5" y="325.1" text-anchor="middle" class="small">20%</text>
 <rect x="577.3" y="291.8" width="29.7" height="118.2" fill="#FF3621" rx="2" />
 <text x="592.1" y="285.8" text-anchor="middle" class="small">30%</text>
 <rect x="612.9" y="327.2" width="29.7" height="82.8" fill="#29B5E8" rx="2" />
 <text x="627.7" y="321.2" text-anchor="middle" class="small">21%</text>
 <text x="737.5" y="465" text-anchor="middle" class="axis">LLMs</text>
-<rect x="690.0" y="410.0" width="29.7" height="0.0" fill="#4285F4" rx="2" />
-<text x="704.9" y="404.0" text-anchor="middle" class="small">0%</text>
+<rect x="690.0" y="395.2" width="29.7" height="14.8" fill="#4285F4" rx="2" />
+<text x="704.9" y="389.2" text-anchor="middle" class="small">4%</text>
 <rect x="725.6" y="378.1" width="29.7" height="31.9" fill="#FF3621" rx="2" />
 <text x="740.5" y="372.1" text-anchor="middle" class="small">8%</text>
 <rect x="761.2" y="400.3" width="29.7" height="9.7" fill="#29B5E8" rx="2" />
 <text x="776.1" y="394.3" text-anchor="middle" class="small">2%</text>
 <text x="885.8333333333334" y="465" text-anchor="middle" class="axis">GenAI</text>
-<rect x="838.4" y="410.0" width="29.7" height="0.0" fill="#4285F4" rx="2" />
-<text x="853.2" y="404.0" text-anchor="middle" class="small">0%</text>
+<rect x="838.4" y="385.9" width="29.7" height="24.1" fill="#4285F4" rx="2" />
+<text x="853.2" y="379.9" text-anchor="middle" class="small">6%</text>
 <rect x="874.0" y="370.7" width="29.7" height="39.3" fill="#FF3621" rx="2" />
 <text x="888.8" y="364.7" text-anchor="middle" class="small">10%</text>
 <rect x="909.6" y="392.9" width="29.7" height="17.1" fill="#29B5E8" rx="2" />
