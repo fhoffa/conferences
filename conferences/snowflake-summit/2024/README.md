@@ -9,7 +9,7 @@ Working public-catalog capture in place.
 
 What exists now:
 - browser-backed scraper: `scripts/fetch_catalog.js`
-- raw captures: `raw/catalog.html`, `raw/widget_config.json`, `raw/sessions_api.json`, `raw/session_details.json`
+- reproducible raw captures (generated locally, gitignored): `raw/catalog.html`, `raw/widget_config.json`, `raw/sessions_api.json`, `raw/session_details.json`
 - normalized dataset: `normalized/sessions.json`
 - quick summary: `analysis/summary.md`
 - reverse-engineering notes: `docs/discovery.md`, `docs/proof-of-scrape.md`, `docs/api-notes.md`
@@ -29,7 +29,7 @@ Notes:
 
 ## Directory guide
 
-- `raw/` — captured HTML/API responses from the public catalog
+- `raw/` — reproducible local HTML/API captures from the public catalog (left out of git to keep the repo slim)
 - `normalized/` — normalized session records
 - `analysis/` — derived summaries and slices
 - `scripts/` — Snowflake-specific scraping/parsing code
