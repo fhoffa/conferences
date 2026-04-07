@@ -1,0 +1,739 @@
+[
+  {
+    "session_tile_id": "session-1744305680444001NYus-1748879645061001N0sF",
+    "session_id": "1744305680444001NYus",
+    "title": "Advanced Training: Fresh Snow, ACT103",
+    "session_code": "ACT103",
+    "abstract": "Explore the latest Snowflake features released over the past 12 months in this fast-paced workshop, tailored for experienced users. Immerse yourself in Snowflake’s newest features and broaden your working knowledge of Snowflake and how it fits in your use cases and solutions. You'll need to purchase the training package in your attendee portal by clicking on \"Manage Your Add-Ons\" or \"Get Certified At Summit\".",
+    "speakers": [],
+    "speaker_count": 0,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Activity_1740066414719001cjAl.png",
+    "banner_alt": "Advanced Training: Fresh Snow, ACT103 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1744305274362001Zdd8-1744305635360001eSKH",
+    "session_id": "1744305274362001Zdd8",
+    "title": "Beginner Training: Snowflake Foundations, ACT102",
+    "session_code": "ACT102",
+    "abstract": "This course covers the foundational concepts, design considerations and Snowflake best practices intended for stakeholders who will be working on the Snowflake AI Data Cloud. This course is a prerequisite for the role-based courses: Administering Snowflake, Snowflake Data Engineering or Snowflake Data Science. You'll need to purchase the training package in your attendee portal by clicking on \"Manage Your Add-Ons\" or \"Get Certified At Summit\".",
+    "speakers": [],
+    "speaker_count": 0,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Activity_1740066414719001cjAl.png",
+    "banner_alt": "Beginner Training: Snowflake Foundations, ACT102 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1738645629229001V6Zd-1743881747541001h87l",
+    "session_id": "1738645629229001V6Zd",
+    "title": "Data for Good Hackathon, OS203",
+    "session_code": "OS203",
+    "abstract": "Kick off your Summit experience by joining data experts, Snowflake partners and Data Cloud evangelists for a hands-on hackathon on June 2. Work with an international team of Summit attendees to build tools and data visualizations to deliver data-driven insights for humanitarian emergencies. Learn from researchers and experts from NGOs like Direct Relief about the importance of geospatial data in humanitarian response.",
+    "speakers": [
+      "Karen Beaune",
+      "Mike Johnson",
+      "Rob Wright"
+    ],
+    "speaker_count": 3,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/session_tile_hackaton_1743812642988001MQUU.jpeg",
+    "banner_alt": "Data for Good Hackathon, OS203 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1744055874486001wx0h-1744123306542001YfaK",
+    "session_id": "1744055874486001wx0h",
+    "title": "GROUP BY US - Central, M01",
+    "session_code": "M01",
+    "abstract": "Join fellow attendees at the U.S.–Central meetup. Meet your peers, get to know local community leaders and share your Snowflake expertise. Don't miss out on this chance to build new connections!",
+    "speakers": [
+      "Sonny Rivera",
+      "JD Taylor",
+      "Christopher Scott"
+    ],
+    "speaker_count": 3,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Group-by-meetups_1744978971352001me2j.png",
+    "banner_alt": "GROUP BY US - Central, M01 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1743738425948001I59b-1743740171471001wn6R",
+    "session_id": "1743738425948001I59b",
+    "title": "“Show Me The Money” - How To Measure The Business Impact of AI Investments , EC02",
+    "session_code": "EC02",
+    "abstract": null,
+    "speakers": [
+      "Rebecca McMorris",
+      "Jennifer Belissent",
+      "Bruno Gagliardo"
+    ],
+    "speaker_count": 3,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Executive-Content_1744644107467001fL0L.png",
+    "banner_alt": "“Show Me The Money” - How To Measure The Business Impact of AI Investments\n, EC02 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1743738421607001Irkm-1743740158944001ZikB",
+    "session_id": "1743738421607001Irkm",
+    "title": "\"Ask me Anything\" with Product Leadership - Data Engineering, EC01",
+    "session_code": "EC01",
+    "abstract": null,
+    "speakers": [
+      "Chris Child"
+    ],
+    "speaker_count": 1,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Executive-Content_1744644107467001fL0L.png",
+    "banner_alt": "\"Ask me Anything\" with Product Leadership - Data Engineering, EC01 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1739482696461001uJnM-1743538373367001Emf7",
+    "session_id": "1739482696461001uJnM",
+    "title": "Build an AI App with the Snowflake Native App Framework and Snowflake Cortex, AD209",
+    "session_code": "AD209",
+    "abstract": "Join this session to build a Snowflake Native App that delivers personalized, real-time movie recommendations from semi-structured data using Snowflake Cortex functions. You will set up a retrieval-augmented generation (RAG) system within Snowflake, then build and deploy the app, making it available for publication and monetization on the Snowflake Marketplace.",
+    "speakers": [
+      "Charles Yorek",
+      "Tim Buchhorn"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Hands-on-Lab_1740066414174001cwiY.png",
+    "banner_alt": "Build an AI App with the Snowflake Native App Framework and Snowflake Cortex, AD209 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1738698785269001rA2y-1743538373072001E0Vd",
+    "session_id": "1738698785269001rA2y",
+    "title": "Creating Data Pipelines with Zero Touch, DE227",
+    "session_code": "DE227",
+    "abstract": "In response to the growing demand for integrating new data into our data platform, the Data Engineering Team at Okta has developed a solution utilizing Snowpark for Python to automate construction of data pipelines. Discover how Okta's Zero Touch Platform creates end-to-end pipelines that ingest events arriving on S3 and transforms data in Snowflake using Streams and Tasks. The platform features integrated capabilities to detect schema changes in data streams, facilitating automatic evolution of Snowflake table schemas. Crafted with privacy in mind, it also allows for data classification through tags and systemically masking data using tag-based masking policies.",
+    "speakers": [
+      "Poornima Venkateswaran",
+      "Brett Dealing"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Creating Data Pipelines with Zero Touch, DE227 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1738702271881001hgW7-1743538373809001EJX5",
+    "session_id": "1738702271881001hgW7",
+    "title": "Delivering On-Demand Metrics with Cortex Analyst at Azul Brazilian Airlines, BA229",
+    "session_code": "BA229",
+    "abstract": "This session introduces Cortex AI Chat, a real-time solution for querying Azul Brazilian Airlines' operational metrics. Azul, one of Brazil’s leading airlines, employs over 16,000 staff, operates 1,000+ daily flights, and connects 150+ destinations with 300+ direct routes, ensuring unmatched national and international reach. Cortex, powered by a semantic model, allows users to interact via a Streamlit UI, delivering instant insights as tables or visualizations. Deployed with CI/CD pipelines and improved through feedback, it reduces static dashboards, refines KPIs dynamically, and accelerates time to market for key metrics, streamlining insight-driven decisions.",
+    "speakers": [
+      "Gabriel Barbosa dos Santos",
+      "Raphael Leao"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "Delivering On-Demand Metrics with Cortex Analyst at Azul Brazilian Airlines, BA229 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1748032708675001PWo5-1748032731104001MXRA",
+    "session_id": "1748032708675001PWo5",
+    "title": "DevDive: Shaping the Builder’s Journey, M13",
+    "session_code": "M13",
+    "abstract": "Step away from the booth and into the conversation at DevDive — a hands-on and open-dialogue design thinking session created for attendees who want to shape the future of building on Snowflake. Whether you're exploring your first quickstart or deploying production pipelines, we want to understand your goals, challenges and learning journey. This interactive experience invites you to share feedback, from onboarding and learning resources to the tools and assets that support your work. No slides, no panels — just real talk, real challenges and real collaboration. On Dev Day (6/5), you will also have the opportunity to join small-group discussions tailored to your specific AI use cases! Let’s build better, together.",
+    "speakers": [],
+    "speaker_count": 0,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Group-by-meetups_1744978971352001me2j.png",
+    "banner_alt": "DevDive: Shaping the Builder’s Journey, M13 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1741986831135001yNhN-1743614685071001wQ5Y",
+    "session_id": "1741986831135001yNhN",
+    "title": "Driving AI-Readiness with Trusted Data: Insights from Financial Services Leaders, DO108",
+    "session_code": "DO108",
+    "abstract": "Hear expert data leaders from top financial services firms share insights on navigating the opportunities and challenges of becoming AI-ready with data + AI observability. They'll discuss how they modernize data strategies, tackle governance and compliance, and leverage Snowflake’s capabilities to unlock AI-driven insights. Gain practical approaches to data democratization, risk management and accelerating AI adoption in the highly regulated world of financial services.",
+    "speakers": [
+      "Barr Moses",
+      "Cara Dailey",
+      "Durgesh Das"
+    ],
+    "speaker_count": 3,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Driving AI-Readiness with Trusted Data: Insights from Financial Services Leaders, DO108 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1741992726360001Ie4k-1743610504145001AwYG",
+    "session_id": "1741992726360001Ie4k",
+    "title": "Elementum + Snowflake: Unlocking Business Value Through Agentic AI Automation, AD104",
+    "session_code": "AD104",
+    "abstract": "This session explores how agentic AI automation is transforming the way organizations extract value from their data assets. Join us as we demonstrate real-world examples of how AI agents can be used in process automation to autonomously discover patterns, automate decision workflows, and drive business outcomes. We’ll showcase how leading organizations are deploying these solutions to reduce time-to-value by up to 80% while enabling nontechnical business users to leverage complex data.",
+    "speakers": [
+      "Karen Jenkins",
+      "Kyle Westwood"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Elementum + Snowflake: Unlocking Business Value Through Agentic AI Automation, AD104 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1737135235095001Gbhm-1743538373513001EecK",
+    "session_id": "1737135235095001Gbhm",
+    "title": "End-to-End Migration to Snowflake in Action: Data and Pipelines , MI108",
+    "session_code": "MI108",
+    "abstract": "Want to migrate to Snowflake in less than 90 minutes? Come to this hands-on lab. We will work through Snowflake's migration strategy and automation tools — such as SnowConvert and Snowpark Migration Accelerator — to assess, move and validate an entire pipeline with data into Snowflake. Our data will be in another data warehouse, in a data lake and even on premises. Can we move it into Snowflake? Our pipelines are written in Jupyter notebooks utilizing Spark. Can those fully exist in Snowflake? Can all of it happen in Snowflake? Let's find out.",
+    "speakers": [
+      "Fernando Cardoce",
+      "Brandon Carver",
+      "Kuo Lun Lo"
+    ],
+    "speaker_count": 3,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Hands-on-Lab_1740066414174001cwiY.png",
+    "banner_alt": "End-to-End Migration to Snowflake in Action: Data and Pipelines\n, MI108 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1741627923355001oQIs-1745957214218001ufQ9",
+    "session_id": "1741627923355001oQIs",
+    "title": "From Clicks to Cortex: Build AI-Ready Data Pipelines on Snowflake in a Snap, DE102",
+    "session_code": "DE102",
+    "abstract": "Want to try the latest Snowflake features, but don’t have the time to do it? Find out how to accelerate dev cycles by 10x and create anything in Snowflake in a few clicks using Coalesce’s data transformation platform and your favorite features like Snowflake Cortex and more.",
+    "speakers": [
+      "Josh Hall"
+    ],
+    "speaker_count": 1,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Hands-on-Lab_1740066414174001cwiY.png",
+    "banner_alt": "From Clicks to Cortex: Build AI-Ready Data Pipelines on Snowflake in a Snap, DE102 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1741911440740001VPBV-1743542424352001cYuL",
+    "session_id": "1741911440740001VPBV",
+    "title": "Future-Proofing Your Data Team: Embracing DataOps and Modern Best Practices, DE110",
+    "session_code": "DE110",
+    "abstract": "Today's data teams are evolving beyond pipeline builders to become strategic business enablers. This fundamental shift requires embracing principles that transformed software engineering — agile methodologies, CI/CD practices and infrastructure-as-code — and are now making their way into data workflows as DataOps.",
+    "speakers": [
+      "Steven Hillion"
+    ],
+    "speaker_count": 1,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "Future-Proofing Your Data Team: Embracing DataOps and Modern Best Practices, DE110 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1742965465086001HS8k-1743538373741001EJS6",
+    "session_id": "1742965465086001HS8k",
+    "title": "Governance and Analytics: A Banking Journey with Snowflake Horizon and Polaris, GO230",
+    "session_code": "GO230",
+    "abstract": "To meet stricter compliance and reporting requirements, banks must prioritize customer risk data and customer experience, maintaining trusted data management across diverse sources. When a large European bank was faced with a complex data ecosystem with legacy systems, temporary solutions and governance issues, it successfully established a modern data foundation for AI. This transformation enhanced compliance, security, privacy, data discovery and collaboration, empowering stakeholders to safeguard and leverage the value of sensitive data, applications and models.",
+    "speakers": [
+      "Anoop Sharma Sharma"
+    ],
+    "speaker_count": 1,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "Governance and Analytics: A Banking Journey with Snowflake Horizon and Polaris, GO230 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1741971365584001GOBm-1743607973008001vamh",
+    "session_id": "1741971365584001GOBm",
+    "title": "Governing Data in an Era of AI and Consumer Consent, GO105",
+    "session_code": "GO105",
+    "abstract": "Customer data is an organization's most valuable asset. It’s also the hardest to govern and use in a dynamic business environment. Consumers can revoke their consent in an instant, regulations continue to grow, and internal data policies change.",
+    "speakers": [
+      "Janine McKelvey",
+      "Stephanie McReynolds"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "Governing Data in an Era of AI and Consumer Consent, GO105 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1741982334673001bOAB-1743544076624001HqDL",
+    "session_id": "1741982334673001bOAB",
+    "title": "Humans Out, AI In: Reinventing the Workforce and Driving Unmatched Efficiency, AI104",
+    "session_code": "AI104",
+    "abstract": "Join us as we explore how evolv Consulting is driving a shift in automation with AI systems that replace routine human tasks, leading to notable productivity improvements. We’ll review real-world evolv success stories — such as our machine learning model factory, decision engine automation and domain-specific chatbots — to demonstrate how these solutions are enhancing operations and reshaping work processes. Discover the strategies that empower organizations to leverage AI effectively, achieving more with less human intervention and setting a new standard for efficiency in today’s competitive landscape.",
+    "speakers": [
+      "Rose Ellison",
+      "Tyler Stern"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "Humans Out, AI In: Reinventing the Workforce and Driving Unmatched Efficiency, AI104 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1736877098910001tzhP-1743538373224001EViN",
+    "session_id": "1736877098910001tzhP",
+    "title": "Hurricane Response with Cortex AI: How TECO Restored Power to 600,000 Homes, AI213",
+    "session_code": "AI213",
+    "abstract": "Imagine a major hurricane leaving 600,000 homes in darkness. Every second counts. We'll take you behind the scenes of a real-world disaster recovery, where Tampa Electric used Snowflake Cortex AI to orchestrate a rapid and effective storm response. We'll share the challenge, the solution architecture, and the exact steps taken — from LLMs for text extraction at scale to building a chat-based interface for decision-makers.",
+    "speakers": [
+      "Doneyli De Jesus",
+      "Ken Beard"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Hurricane Response with Cortex AI: How TECO Restored Power to 600,000 Homes, AI213 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1738342248031001lDjd-1743538372998001EAgb",
+    "session_id": "1738342248031001lDjd",
+    "title": "Migrating and Modernizing: Business User Workflows in Snowflake, BA114",
+    "session_code": "BA114",
+    "abstract": "Business users need better data access, but outdated, siloed systems at EOE rely on file shares, database extracts, Access and analysis tools. Remote work during the pandemic further exposed the limitations of client tools run over VPN. The EOE cloud team is modernizing workflows with Snowflake, leveraging worksheets and Notebooks. Snowflake enables real-time data interaction, reducing reliance on outdated methods and bringing users closer to data for improved efficiency and decision-making.",
+    "speakers": [
+      "Miranda Dynan",
+      "Danielle Ondrick"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Migrating and Modernizing: Business User Workflows in Snowflake, BA114 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1738363253014001X8rY-1743538373297001ELq9",
+    "session_id": "1738363253014001X8rY",
+    "title": "The First Line of Defense: Secure Network Connectivity Strategies for Snowflake, GO202",
+    "session_code": "GO202",
+    "abstract": "Network security is the first line of defense in Snowflake's defense-in-depth security paradigm. This session will cover integrating Snowflake with your environments (such as Iceberg tables and other resources), using private connectivity, and designing network policies that balance security, scalability and manageability. It will unveil the latest network security innovations, real-world architectures, best practices and hands-on guidance to help participants build a robust security posture.",
+    "speakers": [
+      "Prasoon Shukla",
+      "Seth Youssef"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "The First Line of Defense: Secure Network Connectivity Strategies for Snowflake, GO202 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1742224446846001T5FJ-1743607292875001wpqH",
+    "session_id": "1742224446846001T5FJ",
+    "title": "The Prescription for Data Scaling with Snowflake and Slingshot at Capital Rx, OP105",
+    "session_code": "OP105",
+    "abstract": "As a leading enterprise health technology company, Capital Rx leverages Snowflake to deliver high-quality healthcare data insights at scale. Data demands soared as our company scaled and Judi®’s feature set expanded, so we partnered with Capital One Slingshot to optimize resources, reduce compute costs and unify warehouse management.",
+    "speakers": [
+      "Paul Furman",
+      "Ted Beezy"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "The Prescription for Data Scaling with Snowflake and Slingshot at Capital Rx, OP105 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1737058335182001z1wD-1743538373581001EZAx",
+    "session_id": "1737058335182001z1wD",
+    "title": "Transforming Free Text Prompts into Automated SQL Workflows, AI311",
+    "session_code": "AI311",
+    "abstract": "Discover how Snowflake Cortex AI automates complex list generation and other tasks by converting plain text prompts into automated SQL workflows using SNOWFLAKE.CORTEX.COMPLETE and Snowflake Procedures. Learn how this innovation streamlines processes for end users, enabling rapid, accurate data queries without SQL knowledge.",
+    "speakers": [
+      "Charles Mollica",
+      "Anthony Meucci"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "Transforming Free Text Prompts into Automated SQL Workflows, AI311 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1738789878141001zKcn-1743538373148001ED5g",
+    "session_id": "1738789878141001zKcn",
+    "title": "Unlocking Superpowers: Ramp Up Your ML Team on Notebooks, ML101",
+    "session_code": "ML101",
+    "abstract": "Do you lead or administer a team that does data science or machine learning? Come learn why Snowflake Notebooks is the premier surface for exploration, visualization and machine learning in Snowsight interface, and how you as an admin play a simple but powerful role in getting your team off to the races.",
+    "speakers": [
+      "Annissa Alusi",
+      "Tiffany Blakeney"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Unlocking Superpowers: Ramp Up Your ML Team on Notebooks, ML101 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1741969638317001iPq2-1743542438755001yjc3",
+    "session_id": "1741969638317001iPq2",
+    "title": "42 Multi-Agent Opportunities for Data Modernization, DE111",
+    "session_code": "DE111",
+    "abstract": "In today's AI era, companies must build new data capabilities, and AI can accelerate this progress. This talk presents 42 opportunities for using multi-agent AI systems to enhance data modernization. These include speeding up migrations from legacy systems, augmenting BI reports with conversational AI, and preparing data for AI applications. Whether moving to platforms like Snowflake or using Cortex AI to handle enterprise data, we'll show how AI is used to capture, process and publish structured and unstructured data securely, setting the stage for AI readiness.",
+    "speakers": [
+      "Teresa Tung"
+    ],
+    "speaker_count": 1,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "42 Multi-Agent Opportunities for Data Modernization, DE111 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1742508381449001mu1A-1743541383950001Hkyl",
+    "session_id": "1742508381449001mu1A",
+    "title": "AI That Delivers: The Power of Data Trust, GO110",
+    "session_code": "GO110",
+    "abstract": "AI can only deliver real impact when built on accurate, trusted data. Without strong data quality and governance, AI models underperform, insights fall short and opportunities are lost. Join Jessie Smith, VP of Data Quality at Ataccama, as they share how enterprises are using Ataccama Data Quality and its pushdown processing to fuel trustworthy AI initiatives — from automating data cleansing at scale to continuously monitoring data pipelines for quality drift. With Ataccama and Snowflake, organizations can scale AI confidently, ensuring reliable insights, better decisions and real business value.",
+    "speakers": [
+      "Jessie Smith"
+    ],
+    "speaker_count": 1,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "AI That Delivers: The Power of Data Trust, GO110 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1738704464951001zJk5-1743538376361001EWYw",
+    "session_id": "1738704464951001zJk5",
+    "title": "Best Practices for Building Streamlit Apps, BA231",
+    "session_code": "BA231",
+    "abstract": "Join this session to learn best practices and tips from an avid Streamlit app developer since 2019. Let's take a journey through all the mistakes I've made building dozens of productions dashboards used by thousands of people hundreds of thousands of times over the years, using everything from dynamic tables to Snowflake Cortex, with a ton of live coding in between.",
+    "speakers": [
+      "Tyler Richards"
+    ],
+    "speaker_count": 1,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "Best Practices for Building Streamlit Apps, BA231 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1741969543638001rRkQ-1743621731958001w31I",
+    "session_id": "1741969543638001rRkQ",
+    "title": "Cisco Breaks Data Silos to Power Real-Time Insights Across the Business, BA123",
+    "session_code": "BA123",
+    "abstract": "Cisco’s data team supports multiple lines of business, each needing fast, secure access to enterprise data. With Fivetran, they move data from systems like Salesforce, Qualtrics and S3 into Snowflake. Join us to hear how Cisco powers real-time data access across the organization. Learn how Cisco is breaking down data silos, accelerating time-to-insight, and enabling a data-driven culture across the business.",
+    "speakers": [
+      "Virendra Singh",
+      "John Sedleniek"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Cisco Breaks Data Silos to Power Real-Time Insights Across the Business, BA123 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1736275746191001BU0r-1743538373671001ECKu",
+    "session_id": "1736275746191001BU0r",
+    "title": "Connect Teams with Iceberg Tables Using Snowflake, CO202",
+    "session_code": "CO202",
+    "abstract": null,
+    "speakers": [
+      "Gopal Raghavan"
+    ],
+    "speaker_count": 1,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Connect Teams with Iceberg Tables Using Snowflake, CO202 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1741978294650001NJbd-1743621194347001vr1U",
+    "session_id": "1741978294650001NJbd",
+    "title": "Data Now, Personalization Later: How Afterpay Gave Self-Serve Data to Marketing, MA115",
+    "session_code": "MA115",
+    "abstract": "Afterpay’s success relies on Snowflake’s strong data foundation. However, Afterpay’s marketers weren’t empowered to use this wealth of data without data team support. This meant delayed, less tailored customer experiences.",
+    "speakers": [
+      "Bree Graham",
+      "Matt Lanki",
+      "Kashish Gupta"
+    ],
+    "speaker_count": 3,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Data Now, Personalization Later: How Afterpay Gave Self-Serve Data to Marketing, MA115 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1741795268386001OXUi-1743540866633001HCKc",
+    "session_id": "1741795268386001OXUi",
+    "title": "Empowering the Enterprise for the Next Era of Analytics, DE108",
+    "session_code": "DE108",
+    "abstract": "The next era of data transformation is here. AI is supercharging developer workflows, downstream teams can collaborate thanks to governed self-service, and SQL comprehension is generating detailed metadata that powers unprecedented developer efficiency while promoting data quality and cost optimization. See it come together firsthand with dbt’s data control plane, a centralized platform that gives organizations repeatable, scalable and governed ways to win with data in the modern age.",
+    "speakers": [
+      "Elias DeFaria"
+    ],
+    "speaker_count": 1,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "Empowering the Enterprise for the Next Era of Analytics, DE108 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1743738434577001IQGd-1743740402620001hxWF",
+    "session_id": "1743738434577001IQGd",
+    "title": "Executive Industry Booth Tours - Healthcare & Life Sciences, EC04",
+    "session_code": "EC04",
+    "abstract": "Join an exclusive, guided tour of the Snowflake AI Data Cloud and its premier partner ecosystem, tailored for leaders in Healthcare & Life Sciences. This immersive experience will take you through five curated stops that showcase the art of the possible—real-world solutions, cutting-edge AI use cases, and data-driven innovations transforming your industry today. Gain direct access to experts, see industry-leading technology in action, and leave with actionable inspiration to accelerate your data strategy. Space is extremely limited—registration is first come, first served. Please note that this experience includes walking between stops; comfortable footwear is recommended. Please note that the Executive Booth Tours are reserved for customers only—we kindly ask our partners not to register.",
+    "speakers": [
+      "Alistair Hankin",
+      "Jeevan Rag"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Executive-Content_1744644107467001fL0L.png",
+    "banner_alt": "Executive Industry Booth Tours - Healthcare & Life Sciences, EC04 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1737995501025001rRR6-1743538374206001EIQP",
+    "session_id": "1737995501025001rRR6",
+    "title": "Fostering Operational Resilience by Using Snowflake Cortex AI, AI319",
+    "session_code": "AI319",
+    "abstract": "Using Snowflake Cortex AI, we have developed use cases to identify potential risks early and ensure appropriate mitigation strategies before implementation and during post-incident RCA. This helps determine whether preventive measures failed or external factors caused the issue, creating a closed-loop process for managing change risks. This dual approach improves operational resilience by proactively managing risks while driving continuous improvement through incident-driven insights.",
+    "speakers": [
+      "Sachin Sangtani"
+    ],
+    "speaker_count": 1,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "Fostering Operational Resilience by Using Snowflake Cortex AI, AI319 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1739454305571001uZ0M-1743616261917001wsPc",
+    "session_id": "1739454305571001uZ0M",
+    "title": "How Snowflake Enables Petabyte-Scale Data Migration, with Real-World Examples, MI215",
+    "session_code": "MI215",
+    "abstract": "This session will explore strategies for migrating large volumes of legacy data to Snowflake as part of a comprehensive migration project using the prebuilt Data Migration and Validation Accelerator (DMVA) tool by Snowflake Professional Services. We will dive into the tool’s capabilities, the validation techniques employed to ensure accurate data migration and real-world customer examples showcasing its use in migrating massive data quantities.",
+    "speakers": [
+      "Niall Scott",
+      "Bob Maglies"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "How Snowflake Enables Petabyte-Scale Data Migration, with Real-World Examples, MI215 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1742249194698001oCXz-1743544100829001SC6E",
+    "session_id": "1742249194698001oCXz",
+    "title": "Improve Your Snowflake Data Quality and Readiness for Analytics and AI, DO103",
+    "session_code": "DO103",
+    "abstract": "Discover how your wider Enterprise Data Stack impacts your Snowflake data quality and readiness. Proactively address issues using data observability powered by agentic data management to enforce operational governance, while enabling collaboration between technical and business teams — all while managing costs and improving operating efficiencies to deliver trusted, AI-ready data with confidence.",
+    "speakers": [
+      "Cam Davie"
+    ],
+    "speaker_count": 1,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "Improve Your Snowflake Data Quality and Readiness for Analytics and AI, DO103 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1741993592340001wx41-1743621775994001SPuI",
+    "session_id": "1741993592340001wx41",
+    "title": "Scaling Smart: How Okta and Komodo Health Use AI to Optimize Snowflake, OP220",
+    "session_code": "OP220",
+    "abstract": "Okta and Komodo Health operate in vastly different industries — identity and access management vs. healthcare intelligence — but both rely on Snowflake to deliver secure, high-performance and cost-efficient data at scale.",
+    "speakers": [
+      "Barzan Mozafari, PhD",
+      "Jenny Kazarina",
+      "Dineshkumar Munusamy"
+    ],
+    "speaker_count": 3,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Scaling Smart: How Okta and Komodo Health Use AI to Optimize Snowflake, OP220 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1738709489625001Yk8Q-1743538373957001EL4a",
+    "session_id": "1738709489625001Yk8Q",
+    "title": "The Silo-Busting Snowflake Journey of Cboe Global Markets, BA103",
+    "session_code": "BA103",
+    "abstract": "Cboe Global Markets is a world-leading derivatives and securities exchange network, and it depends on Snowflake to centralize, harness and monetize over 3PB of data that grows by 10TB every trading day. Join this session to learn all about Cboe’s four-year, silo-busting Snowflake journey across business intelligence, big-data analytics, data engineering and streaming, generative AI, data monetization and more.",
+    "speakers": [
+      "Ellen Taylor-Lubrano",
+      "Loren Brady"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "The Silo-Busting Snowflake Journey of Cboe Global Markets, BA103 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1741632905374001Az0k-1743615319212001wtkQ",
+    "session_id": "1741632905374001Az0k",
+    "title": "Transform Your Data Estate for Agentic AI and Apps with Snowflake and Microsoft, AI224",
+    "session_code": "AI224",
+    "abstract": "Explore how Snowflake and Microsoft collaborate to transform data and AI workflows. Learn to operate on a single data copy between Microsoft Fabric OneLake and Snowflake via Apache Iceberg, eliminating duplication. Discover real-time RAG AI agents that integrate Snowflake's trusted data and enterprise systems for instant Microsoft Copilot responses, without copying data. Unlock real-time actions using PowerApps with live query and writeback to Snowflake, all with no code. Simplify and innovate with these powerful tools.",
+    "speakers": [
+      "Shankar Narayanan SGS",
+      "Josh Caplan"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Transform Your Data Estate for Agentic AI and Apps with Snowflake and Microsoft, AI224 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1738683356479001GkRt-1743538374116001EDAN",
+    "session_id": "1738683356479001GkRt",
+    "title": "Unlocking the Power of Dynamic Composability in Snowflake Native Apps, AD222",
+    "session_code": "AD222",
+    "abstract": "Learn how dynamically composable Snowflake Native Apps accelerate innovation and streamline operations. In this session, we’ll explore how a modular, microservices-style architecture — powered by gen AI — enables effortless deployment of key marketing capabilities, such as identity resolution and audience activation.",
+    "speakers": [
+      "Morten Lileng",
+      "John Gajewski"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Unlocking the Power of Dynamic Composability in Snowflake Native Apps, AD222 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1741887124501001ZUKH-1743608623859001wC2i",
+    "session_id": "1741887124501001ZUKH",
+    "title": "Visual AI: Boosting Product Quality and Customer Experience in Consumer Goods, ML102",
+    "session_code": "ML102",
+    "abstract": "Explore visual AI's impact on product inspection in consumer goods. Using a sports equipment case study, we'll examine:",
+    "speakers": [
+      "Quinn Killough"
+    ],
+    "speaker_count": 1,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "Visual AI: Boosting Product Quality and Customer Experience in Consumer Goods, ML102 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1741893363228001ZFw0-1743607487548001S2qk",
+    "session_id": "1741893363228001ZFw0",
+    "title": "Building an Iceberg Lakehouse for Snowflake, AR204",
+    "session_code": "AR204",
+    "abstract": "Are you looking for a way to build Iceberg tables for Snowflake? In this session, we will present a simple, battle-tested way to create your lakehouse architecture. We will dig into the toughest challenges of using Iceberg for low latency at scale and we will demo solutions to achieve minute-level freshness for ingestion, and how to run SQL, Spark and dbt pipelines to prepare your data for Snowflake.",
+    "speakers": [
+      "Kyle Weller"
+    ],
+    "speaker_count": 1,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "Building an Iceberg Lakehouse for Snowflake, AR204 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1738790774840001SGiX-1743538374626001EAz1",
+    "session_id": "1738790774840001SGiX",
+    "title": "Contract Intelligence: SoFi's Contract Search Solution, AI101",
+    "session_code": "AI101",
+    "abstract": "AI is transforming contract analysis, making it faster, more accurate and efficient. SoFi leveraged Snowflake’s AI Data Cloud to automate contract ingestion, search and review. Snowflake’s data ingestion uploads supplier agreements, and Document AI preprocesses them for text extraction. Contract language is embedded using Snowflake Cortex AI for efficient search and retrieval. An LLM analyzes results to pinpoint relevant contracts and extract precise term locations. Expert review ensures accuracy, with a human-in-the-loop validation process. The session highlights efficiency, accuracy and best practices for AI-driven contract analysis, enabling smarter, data-driven decision-making.",
+    "speakers": [
+      "Tristan Fry",
+      "Brian Randles"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Contract Intelligence: SoFi's Contract Search Solution, AI101 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1738711933347001ZRVb-1743538374342001EvMJ",
+    "session_id": "1738711933347001ZRVb",
+    "title": "Find My Data: Chatbot Powered by Streamlit, AD108",
+    "session_code": "AD108",
+    "abstract": "BP, a global energy company advancing sustainability and digital transformation, transitioned from Azure SQL Server PaaS to Snowflake on AWS for enterprise reporting, adopting a curated data products model.",
+    "speakers": [
+      "Brett Rinne",
+      "Chris Sheppard"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Find My Data: Chatbot Powered by Streamlit, AD108 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1741983501910001efm0-1743542452311001fmQs",
+    "session_id": "1741983501910001efm0",
+    "title": "Fueling AI Innovation with Better Data Infrastructure, AR111",
+    "session_code": "AR111",
+    "abstract": "Michel Tricot, Airbyte CEO, will lead an interactive discussion with Raman Singh, Tech Lead at Symend, on their application of Airbyte and Snowflake to solve key data infrastructure challenges. Symend is the leader in intelligent collections, designed to help enterprises maximize delinquency management. Raman will discuss Symend’s business and data architecture, sharing insights on how better infrastructure powers business initiatives, including AI applications. Michel and Raman will then engage in a deep discussion on data architecture and movement. This will be an informative conversation featuring a Q&A session that allows the audience to learn more about building data movement solutions.",
+    "speakers": [
+      "Michel Tricot",
+      "Raman Singh Singh"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "Fueling AI Innovation with Better Data Infrastructure, AR111 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1744055877051001wxms-1744123314954001OTfW",
+    "session_id": "1744055877051001wxms",
+    "title": "GROUP BY USCA - East, M02",
+    "session_code": "M02",
+    "abstract": "Join fellow attendees at the U.S./Canada–East networking meetup. Stop by to meet local community leaders, share insights and build lasting connections!",
+    "speakers": [
+      "David Garrison",
+      "Elizabeth Rosso",
+      "Keith Belanger"
+    ],
+    "speaker_count": 3,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Group-by-meetups_1744978971352001me2j.png",
+    "banner_alt": "GROUP BY USCA - East, M02 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1743012086037001gWZD-1743538374411001Emuz",
+    "session_id": "1743012086037001gWZD",
+    "title": "Hyatt Self-Service Analytics: Empowering Data-Driven Decision Culture, BA240",
+    "session_code": "BA240",
+    "abstract": "In today’s competitive hospitality landscape, real-time data and AI-driven insights are essential for delivering exceptional guest experiences and optimizing operations. This session explores how Hyatt Hotels can harness ThoughtSpot’s intuitive analytics and AI-powered tools to uncover actionable insights, enhance personalization and drive revenue growth. Attendees will learn how to empower teams with self-service analytics, streamline decision-making, and see how to use AI to predict trends, maximize occupancy and refine marketing strategies. Join us to discover how ThoughtSpot can revolutionize Hyatt’s approach to data-driven hospitality.",
+    "speakers": [
+      "Rooshana Purnyn",
+      "Brian Jung"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Hyatt Self-Service Analytics: Empowering Data-Driven Decision Culture, BA240 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1737748986583001bNq2-1743538374554001EXis",
+    "session_id": "1737748986583001bNq2",
+    "title": "Ohio Bureau of Workers' Compensation: Scalable RAG-based Policy Assistant, AI217",
+    "session_code": "AI217",
+    "abstract": "The RAG policy assistant enables the Employee Service Group to provide objective, transparent, timely, consistent and reproduceable guidance based on Ohio policies and regulations. The solution leverages Snowflake Vector data types, Snowflake Cortex AI, Cortex Guard, and Streamlit as part of a scalable generative AI framework. It incorporates automated user feedback, LLM-as-a-Judge, Human-in-the-Loop validation, LLM configuration testing, and infrastructure optimization dashboards.",
+    "speakers": [
+      "Jamie Roberts",
+      "Aaron McGraw"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Ohio Bureau of Workers' Compensation: Scalable RAG-based Policy Assistant, AI217 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1742608390412001mPwo-1743611403386001uUOD",
+    "session_id": "1742608390412001mPwo",
+    "title": "Quenching the Thirst: Swire Coca-Cola’s Data Discovery and Governance Journey, GO107",
+    "session_code": "GO107",
+    "abstract": "This session explores how Swire Coca-Cola USA is building a federated data platform across the Coca-Cola bottling network to make it easy for business users to find the information they need. Learn how salespeople, analysts and data scientists can access information about any data artifact — such as its definition, how it is calculated and where the information comes from — to improve decision making, support AI initiatives and accelerate innovation. Hear best practices on how to support data discovery by building data governance and literacy programs at scale.",
+    "speakers": [
+      "Bharathi Rajan",
+      "David Chao",
+      "Gordon Bonzo"
+    ],
+    "speaker_count": 3,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Quenching the Thirst: Swire Coca-Cola’s Data Discovery and Governance Journey, GO107 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1741983134772001rr1y-1743544117282001ysph",
+    "session_id": "1741983134772001rr1y",
+    "title": "Scaling IT Architecture: The Virtual Data Architect POC, AI106",
+    "session_code": "AI106",
+    "abstract": "Join us for an insightful session to learn more about how DTCC is building and applying virtual data architects across their enterprise. We will share how a collaborative engagement among DTCC, Slalom and Snowflake led to a self-service approach that allows DTCC's ITA team to improve the accuracy, consistency and timeliness of its guidance at scale using gen AI. We will also demonstrate how a virtual data architect built on Snowflake using Streamlit and Cortex AI addresses common challenges facing architecture and delivery teams today.",
+    "speakers": [
+      "Trupti Sanikop",
+      "Sandeep Singh Singh"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Theater-Session_1740066414296001cn7d.png",
+    "banner_alt": "Scaling IT Architecture: The Virtual Data Architect POC, AI106 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1738683849607001ZJ6Y-1743538374696001EEaz",
+    "session_id": "1738683849607001ZJ6Y",
+    "title": "Snowflake Cortex AI meets BI: Transforming Self-Service Analytics, AI113",
+    "session_code": "AI113",
+    "abstract": "Self-service analytics is now as intuitive as a conversation with your data. With Snowflake Cortex AI, users across industries can extract insights effortlessly using generative AI — no advanced expertise required. Learn how Northeast Georgia Health System boosts efficiency with AI-driven insights, and see how Cortex AI powers real-world applications, automates workflows and enhances decision-making. Join us to explore the future of automated analytics.",
+    "speakers": [
+      "Sriram Devarakonda",
+      "Jeff Morrison"
+    ],
+    "speaker_count": 2,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Breakout-Session_1740066414638001co3N.png",
+    "banner_alt": "Snowflake Cortex AI meets BI: Transforming Self-Service Analytics, AI113 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  }
+]

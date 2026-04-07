@@ -1,0 +1,74 @@
+[
+  {
+    "session_tile_id": "session-1744305680444001NYus-1748879645061001N0sF",
+    "session_id": "1744305680444001NYus",
+    "title": "Advanced Training: Fresh Snow, ACT103",
+    "session_code": "ACT103",
+    "abstract": "Explore the latest Snowflake features released over the past 12 months in this fast-paced workshop, tailored for experienced users. Immerse yourself in Snowflake’s newest features and broaden your working knowledge of Snowflake and how it fits in your use cases and solutions. You'll need to purchase the training package in your attendee portal by clicking on \"Manage Your Add-Ons\" or \"Get Certified At Summit\".",
+    "speakers": [],
+    "speaker_count": 0,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Activity_1740066414719001cjAl.png",
+    "banner_alt": "Advanced Training: Fresh Snow, ACT103 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1744305274362001Zdd8-1744305635360001eSKH",
+    "session_id": "1744305274362001Zdd8",
+    "title": "Beginner Training: Snowflake Foundations, ACT102",
+    "session_code": "ACT102",
+    "abstract": "This course covers the foundational concepts, design considerations and Snowflake best practices intended for stakeholders who will be working on the Snowflake AI Data Cloud. This course is a prerequisite for the role-based courses: Administering Snowflake, Snowflake Data Engineering or Snowflake Data Science. You'll need to purchase the training package in your attendee portal by clicking on \"Manage Your Add-Ons\" or \"Get Certified At Summit\".",
+    "speakers": [],
+    "speaker_count": 0,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Activity_1740066414719001cjAl.png",
+    "banner_alt": "Beginner Training: Snowflake Foundations, ACT102 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1738645629229001V6Zd-1743881747541001h87l",
+    "session_id": "1738645629229001V6Zd",
+    "title": "Data for Good Hackathon, OS203",
+    "session_code": "OS203",
+    "abstract": "Kick off your Summit experience by joining data experts, Snowflake partners and Data Cloud evangelists for a hands-on hackathon on June 2. Work with an international team of Summit attendees to build tools and data visualizations to deliver data-driven insights for humanitarian emergencies. Learn from researchers and experts from NGOs like Direct Relief about the importance of geospatial data in humanitarian response.",
+    "speakers": [
+      "Karen Beaune",
+      "Mike Johnson",
+      "Rob Wright"
+    ],
+    "speaker_count": 3,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/session_tile_hackaton_1743812642988001MQUU.jpeg",
+    "banner_alt": "Data for Good Hackathon, OS203 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1744055874486001wx0h-1744123306542001YfaK",
+    "session_id": "1744055874486001wx0h",
+    "title": "GROUP BY US - Central, M01",
+    "session_code": "M01",
+    "abstract": "Join fellow attendees at the U.S.–Central meetup. Meet your peers, get to know local community leaders and share your Snowflake expertise. Don't miss out on this chance to build new connections!",
+    "speakers": [
+      "Sonny Rivera",
+      "JD Taylor",
+      "Christopher Scott"
+    ],
+    "speaker_count": 3,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Group-by-meetups_1744978971352001me2j.png",
+    "banner_alt": "GROUP BY US - Central, M01 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  },
+  {
+    "session_tile_id": "session-1743738425948001I59b-1743740171471001wn6R",
+    "session_id": "1743738425948001I59b",
+    "title": "“Show Me The Money” - How To Measure The Business Impact of AI Investments , EC02",
+    "session_code": "EC02",
+    "abstract": null,
+    "speakers": [
+      "Rebecca McMorris",
+      "Jennifer Belissent",
+      "Bruno Gagliardo"
+    ],
+    "speaker_count": 3,
+    "banner_image_url": "https://static.rainfocus.com/snowflake/summit25/static/staticfile/staticfile/900x350_Executive-Content_1744644107467001fL0L.png",
+    "banner_alt": "“Show Me The Money” - How To Measure The Business Impact of AI Investments\n, EC02 banner",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog"
+  }
+]
