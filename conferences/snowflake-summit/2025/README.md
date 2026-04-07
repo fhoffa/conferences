@@ -5,19 +5,21 @@ Source catalog:
 
 ## Status
 
-Public catalog still exists and is scrapeable.
+Public catalog still exists and exposes a deeper public RainFocus sessions API behind the browser catalog.
 
-This pass captures the first rendered catalog page from the public RainFocus site and normalizes the visible session cards into a reviewable JSON dataset.
+This pass captures the paginated public catalog API results and normalizes them into a reviewable JSON dataset.
 
 ## Notes
 
-- The catalog is client-rendered; plain `curl` is not enough.
-- A headless Chromium DOM dump works reliably for the public page.
-- This implementation intentionally stays practical: it captures the visible public card data without over-investing in deeper private/internal endpoints.
+- The public catalog page calls `https://events.summit.snowflake.com/api/sessions`.
+- Pagination works through repeated requests with `from=<offset>`; the observed page size is 50.
+- This capture produced 568 public catalog listings spanning 557 unique session IDs.
+- A small number of session IDs appear more than once because the catalog can list multiple time slots separately.
+- The dataset only includes fields exposed by the public catalog API; it does not claim attendee-only or admin-only access.
 
 ## Directories
 
-- `normalized/` — normalized session-card records from the public catalog
+- `normalized/` — normalized session records from the public catalog API
 - `analysis/` — compact summary of what was captured
 - `scripts/` — scraper used for the capture
 - `docs/` — discovery notes and scrape proof
