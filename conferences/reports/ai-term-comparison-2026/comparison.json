@@ -1,36 +1,4 @@
 {
-  "GCP Next 2026": {
-    "AI": {
-      "count": 0,
-      "pct_sessions": 0.0,
-      "total_sessions": 0
-    },
-    "Agents": {
-      "count": 0,
-      "pct_sessions": 0.0,
-      "total_sessions": 0
-    },
-    "MCP": {
-      "count": 0,
-      "pct_sessions": 0.0,
-      "total_sessions": 0
-    },
-    "Models": {
-      "count": 0,
-      "pct_sessions": 0.0,
-      "total_sessions": 0
-    },
-    "LLMs": {
-      "count": 0,
-      "pct_sessions": 0.0,
-      "total_sessions": 0
-    },
-    "GenAI": {
-      "count": 0,
-      "pct_sessions": 0.0,
-      "total_sessions": 0
-    }
-  },
   "Databricks 2026": {
     "AI": {
       "count": 93,
@@ -93,6 +61,38 @@
       "count": 14,
       "pct_sessions": 4.4,
       "total_sessions": 319
+    }
+  },
+  "GCP Next 2026": {
+    "AI": {
+      "count": 757,
+      "pct_sessions": 71.7,
+      "total_sessions": 1056
+    },
+    "Agents": {
+      "count": 472,
+      "pct_sessions": 44.7,
+      "total_sessions": 1056
+    },
+    "MCP": {
+      "count": 0,
+      "pct_sessions": 0.0,
+      "total_sessions": 1056
+    },
+    "Models": {
+      "count": 0,
+      "pct_sessions": 0.0,
+      "total_sessions": 1056
+    },
+    "LLMs": {
+      "count": 0,
+      "pct_sessions": 0.0,
+      "total_sessions": 1056
+    },
+    "GenAI": {
+      "count": 0,
+      "pct_sessions": 0.0,
+      "total_sessions": 1056
     }
   }
 }
