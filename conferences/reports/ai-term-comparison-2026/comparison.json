@@ -1,0 +1,98 @@
+{
+  "GCP Next 2026": {
+    "AI": {
+      "count": 0,
+      "pct_sessions": 0.0,
+      "total_sessions": 0
+    },
+    "Agents": {
+      "count": 0,
+      "pct_sessions": 0.0,
+      "total_sessions": 0
+    },
+    "MCP": {
+      "count": 0,
+      "pct_sessions": 0.0,
+      "total_sessions": 0
+    },
+    "Models": {
+      "count": 0,
+      "pct_sessions": 0.0,
+      "total_sessions": 0
+    },
+    "LLMs": {
+      "count": 0,
+      "pct_sessions": 0.0,
+      "total_sessions": 0
+    },
+    "GenAI": {
+      "count": 0,
+      "pct_sessions": 0.0,
+      "total_sessions": 0
+    }
+  },
+  "Databricks 2026": {
+    "AI": {
+      "count": 93,
+      "pct_sessions": 58.9,
+      "total_sessions": 158
+    },
+    "Agents": {
+      "count": 47,
+      "pct_sessions": 29.7,
+      "total_sessions": 158
+    },
+    "MCP": {
+      "count": 7,
+      "pct_sessions": 4.4,
+      "total_sessions": 158
+    },
+    "Models": {
+      "count": 48,
+      "pct_sessions": 30.4,
+      "total_sessions": 158
+    },
+    "LLMs": {
+      "count": 13,
+      "pct_sessions": 8.2,
+      "total_sessions": 158
+    },
+    "GenAI": {
+      "count": 16,
+      "pct_sessions": 10.1,
+      "total_sessions": 158
+    }
+  },
+  "Snowflake 2026": {
+    "AI": {
+      "count": 212,
+      "pct_sessions": 66.5,
+      "total_sessions": 319
+    },
+    "Agents": {
+      "count": 105,
+      "pct_sessions": 32.9,
+      "total_sessions": 319
+    },
+    "MCP": {
+      "count": 9,
+      "pct_sessions": 2.8,
+      "total_sessions": 319
+    },
+    "Models": {
+      "count": 68,
+      "pct_sessions": 21.3,
+      "total_sessions": 319
+    },
+    "LLMs": {
+      "count": 8,
+      "pct_sessions": 2.5,
+      "total_sessions": 319
+    },
+    "GenAI": {
+      "count": 14,
+      "pct_sessions": 4.4,
+      "total_sessions": 319
+    }
+  }
+}
