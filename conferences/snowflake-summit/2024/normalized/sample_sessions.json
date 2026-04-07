@@ -1,0 +1,724 @@
+[
+  {
+    "session_id": "1710875911333001BsCF",
+    "session_time_id": null,
+    "external_id": null,
+    "code": "ACT101",
+    "code_id": null,
+    "title": "Hackathon: Dignity from Data — Using Snowflake to Solve the United States' Homelessness Crisis",
+    "abstract": "The homelessness crisis in the U.S. is a pressing issue, as the nation grapples with a significant population of unhoused individuals. This problem disproportionately affects women and children, exacerbating mental health challenges stemming from trauma such as gender-based violence and family separation. Despite some progress, homelessness persists as a complex societal challenge, prompting the need for innovative approaches. Efforts are now being directed toward addressing homelessness on a national scale. This hackathon is dedicated to harnessing the power of data and the Snowflake Data Cloud to confront homelessness effectively. Throughout the event, participants will utilize tools such as Snowpark, Streamlit, geospatial analytics and the Snowflake Marketplace, alongside a range of partner solutions. They will employ Streamlit to build data visualization applications, geospatial analytics for precise location insights, Snowflake Cortex for machine learning, and Snowflake Marketplace for a vast array of supplementary data sets, apps and solutions.",
+    "session_type": "Activity",
+    "language": null,
+    "length_minutes": null,
+    "published": null,
+    "status": null,
+    "event_code": null,
+    "event_id": null,
+    "event_name": null,
+    "modified": null,
+    "featured_value": null,
+    "view_access_public": null,
+    "has_webinar_profile": false,
+    "has_webinar_chat_profile": null,
+    "embedable_webinar": null,
+    "webinar_provider": null,
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit24/sessions/page/catalog",
+    "speakers": [
+      {
+        "speaker_id": "1710876149270001rPya_169627918738summit24",
+        "full_name": "Amie Bakker",
+        "first_name": "Amie",
+        "last_name": "Bakker",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1710876149270001rPya/attprofile/WhatsApp%20Image%202024-03-21%20at%2013.45.03_1711028786749001ExPn.jpeg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 1
+      },
+      {
+        "speaker_id": "1715276833470001H8NP_169627918738summit24",
+        "full_name": "Sriram Rangarajan",
+        "first_name": "Sriram",
+        "last_name": "Rangarajan",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1715276833470001H8NP/attprofile/Sriram_1715784822894001rSJh.jpeg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 1
+      },
+      {
+        "speaker_id": "1710197586126001v7OQ_169627918738summit24",
+        "full_name": "Victoria Warner",
+        "first_name": "Victoria",
+        "last_name": "Warner",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1710197586126001v7OQ/attprofile/victoria-headshot_1715345372473001mfIW.jpeg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 1
+      },
+      {
+        "speaker_id": "1707256211673001gnr6_169627918738summit24",
+        "full_name": "Josh Mann",
+        "first_name": "Josh",
+        "last_name": "Mann",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1707256211673001gnr6/attprofile/Screenshot%202024-05-20%20at%203.17.08%E2%80%AFPM_1716236309728001vYO4.jpg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 2
+      },
+      {
+        "speaker_id": "1708714375236001OgXQ_169627918738summit24",
+        "full_name": "Tamir Roter",
+        "first_name": "Tamir",
+        "last_name": "Roter",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1708714375236001OgXQ/attprofile/7spPVle9fmzxeeAspQNTJ5Muw0UfkuQIPZAuqKyY_1715345728247001nzKw.jpg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 2
+      },
+      {
+        "speaker_id": "1699931406742001svSZ_169627918738summit24",
+        "full_name": "Harini Gopalakrishnan",
+        "first_name": "Harini",
+        "last_name": "Gopalakrishnan",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1699931406742001svSZ/attprofile/1595013370019_1708813992673001xMjl.jpeg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 2
+      },
+      {
+        "speaker_id": "1708712345087001QK39_169627918738summit24",
+        "full_name": "Jaime Sanchez",
+        "first_name": "Jaime",
+        "last_name": "Sanchez",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1708712345087001QK39/attprofile/Screenshot%202024-03-06%20at%2021.55.04_1709762150214001Bc2e.jpg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 3
+      },
+      {
+        "speaker_id": "1710548454786001GqpJ_169627918738summit24",
+        "full_name": "Aditi Sharma",
+        "first_name": "Aditi",
+        "last_name": "Sharma",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1710548454786001GqpJ/attprofile/Aditi_pic_1713557347683001QQd1.jpeg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 3
+      },
+      {
+        "speaker_id": "1710966422998001ORoQ_169627918738summit24",
+        "full_name": "Farhan Choudhary",
+        "first_name": "Farhan",
+        "last_name": "Choudhary",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1710966422998001ORoQ/attprofile/photo_1711003896642001iOxo.jpg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 4
+      }
+    ],
+    "speaker_count": 9,
+    "times": [
+      {
+        "session_time_id": "1712261600586001HP1a",
+        "date": "2024-06-03",
+        "date_formatted": null,
+        "day_name": null,
+        "start_time": "09:00",
+        "start_time_formatted": null,
+        "end_time": "17:00",
+        "end_time_formatted": null,
+        "utc_start_time": null,
+        "utc_end_time": null,
+        "room": "Room 153 (Moscone South, Upper Mezzanine)",
+        "room_id": null,
+        "length_minutes": null,
+        "capacity": "75",
+        "in_person_time": true,
+        "virtual_time": false,
+        "view_access_public": null
+      }
+    ],
+    "attributes": {
+      "Session Type": [
+        "Activity"
+      ],
+      "Technical Level": [
+        "L300 - Advanced"
+      ],
+      "Industries": [
+        "All Industries"
+      ],
+      "Session Topics": [
+        "Snowflake Marketplace",
+        "Data for good (climate, diversity, health, etc.)"
+      ],
+      "Role": [
+        "Data Scientist",
+        "Software Developer",
+        "Data Engineer"
+      ],
+      "Hide From Catalog": [
+        "No"
+      ],
+      "Day": [
+        "Mon, Jun 3",
+        "Monday, Jun 03"
+      ],
+      "Session Permissions": [
+        "Hackathon"
+      ],
+      "Session Start Time": [
+        "9:00am - 10:00am"
+      ],
+      "Session Catalog Tab": [
+        "All Days"
+      ],
+      "Time": [
+        "9:00 a.m. Monday, Jun 03"
+      ]
+    },
+    "files": [],
+    "file_count": 0
+  },
+  {
+    "session_id": "1715217222169001JKeq",
+    "session_time_id": null,
+    "external_id": null,
+    "code": "ACT103",
+    "code_id": null,
+    "title": "AI for Good: Transforming Industries",
+    "abstract": "Discover the power of AI for good in our session exploring its impact across industries. Our panelists, experts in their fields, will discuss how AI is revolutionizing healthcare, telecommunications, sustainability and the public sector. From improving patient outcomes to optimizing networks and addressing environmental challenges, AI is making a difference. Join to learn how — and to engage in a lively panel discussion and Q&A to delve into the opportunities and challenges ahead.",
+    "session_type": "Activity",
+    "language": null,
+    "length_minutes": null,
+    "published": null,
+    "status": null,
+    "event_code": null,
+    "event_id": null,
+    "event_name": null,
+    "modified": null,
+    "featured_value": null,
+    "view_access_public": null,
+    "has_webinar_profile": true,
+    "has_webinar_chat_profile": null,
+    "embedable_webinar": true,
+    "webinar_provider": "flowplayer-vod",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit24/sessions/page/catalog",
+    "speakers": [
+      {
+        "speaker_id": "1699931367382001sdHq_169627918738summit24",
+        "full_name": "Fawad Qureshi",
+        "first_name": "Fawad",
+        "last_name": "Qureshi",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1699931367382001sdHq/attprofile/Fawad%20Portrait_1710184080043001zv1q.jpeg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 1
+      },
+      {
+        "speaker_id": "1699931360139001seZJ_169627918738summit24",
+        "full_name": "Murali Gandhirajan",
+        "first_name": "Murali",
+        "last_name": "Gandhirajan",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1699931360139001seZJ/attprofile/IMG_9942_1709591077711001wRoz.jpg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 1
+      },
+      {
+        "speaker_id": "1708460519010001Jyav_169627918738summit24",
+        "full_name": "Marco Diciolla",
+        "first_name": "Marco",
+        "last_name": "Diciolla",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1708460519010001Jyav/attprofile/Marco_1716554952894001fAx8.jpeg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 1
+      },
+      {
+        "speaker_id": "1708714394587001OnJd_169627918738summit24",
+        "full_name": "Jennifer Belissent",
+        "first_name": "Jennifer",
+        "last_name": "Belissent",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1708714394587001OnJd/attprofile/speaker_default_icon_SQUARE_1713296988262001RDFt.jpg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 2
+      }
+    ],
+    "speaker_count": 4,
+    "times": [
+      {
+        "session_time_id": "1715217463404001fIBA",
+        "date": "2024-06-03",
+        "date_formatted": null,
+        "day_name": null,
+        "start_time": "13:00",
+        "start_time_formatted": null,
+        "end_time": "13:45",
+        "end_time_formatted": null,
+        "utc_start_time": null,
+        "utc_end_time": null,
+        "room": "Room 160 (Moscone South, Upper Mezzanine)",
+        "room_id": null,
+        "length_minutes": null,
+        "capacity": "238",
+        "in_person_time": true,
+        "virtual_time": true,
+        "view_access_public": null
+      }
+    ],
+    "attributes": {
+      "Session Type": [
+        "Activity"
+      ],
+      "Industries": [
+        "All Industries"
+      ],
+      "Role": [
+        "Business Executive"
+      ],
+      "Session Topics": [
+        "Cortex",
+        "Generative AI & LLMs",
+        "Machine Learning",
+        "Data for good (climate, diversity, health, etc.)"
+      ],
+      "Session Permissions": [
+        "Activity - Open For All"
+      ],
+      "Hide From Catalog": [
+        "No"
+      ],
+      "Day": [
+        "Mon, Jun 3",
+        "Monday, Jun 03"
+      ],
+      "Session Start Time": [
+        "1:00pm - 2:00pm"
+      ],
+      "Session Catalog Tab": [
+        "All Days"
+      ],
+      "Time": [
+        "1:00 p.m. Monday, Jun 03"
+      ]
+    },
+    "files": [],
+    "file_count": 0
+  },
+  {
+    "session_id": "1710895286410001nnxG",
+    "session_time_id": null,
+    "external_id": null,
+    "code": "AI241",
+    "code_id": null,
+    "title": "AI Research Visionaries Part 1: Drs. Douwe Kiela and Bryan Catanzaro",
+    "abstract": "Amidst the torrential rate of AI announcements, it’s hard to focus on the bigger picture. Are open source models the solution to AI centralization of power, or a dangerous precursor to rogue use of AI? Can we imprint ethics into machine superintelligence? What areas of AI research are most promising or concerning for the future? Snowflake proudly presents a panel with three of the world’s most prominent AI researchers and founders: Drs. Douwe Kiela (Contextual AI) and Bryan Catanzaro (Nvidia). The moderator, Dr. Adrien Treuille — former professor at Carnegie Mellon, former CEO of Streamlit, and now Director of AI Product at Snowflake — will guide our exploration into these profoundly important questions, drawing on the vast experiences and insights of our distinguished guests.",
+    "session_type": "Breakout Session",
+    "language": null,
+    "length_minutes": null,
+    "published": null,
+    "status": null,
+    "event_code": null,
+    "event_id": null,
+    "event_name": null,
+    "modified": null,
+    "featured_value": null,
+    "view_access_public": null,
+    "has_webinar_profile": true,
+    "has_webinar_chat_profile": null,
+    "embedable_webinar": true,
+    "webinar_provider": "flowplayer-vod",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit24/sessions/page/catalog",
+    "speakers": [
+      {
+        "speaker_id": "1714138711534001ymtt_169627918738summit24",
+        "full_name": "Bryan Catanzaro",
+        "first_name": "Bryan",
+        "last_name": "Catanzaro",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1714138711534001ymtt/attprofile/Bryan-Catanzaro-September-23-Square_1714492860541001Ig9S.jpg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 1
+      },
+      {
+        "speaker_id": "1708713058742001DtbH_169627918738summit24",
+        "full_name": "Adrien Treuille",
+        "first_name": "Adrien",
+        "last_name": "Treuille",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1708713058742001DtbH/attprofile/Adrien-1_1711385600265001b4bB.jpeg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 1
+      },
+      {
+        "speaker_id": "1713492921426001AxKG_169627918738summit24",
+        "full_name": "Douwe Kiela",
+        "first_name": "Douwe",
+        "last_name": "Kiela",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1713492921426001AxKG/attprofile/8V9A9444_1713847067653001oSCP.jpg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 1
+      }
+    ],
+    "speaker_count": 3,
+    "times": [
+      {
+        "session_time_id": "1712410763351001xiFs",
+        "date": "2024-06-03",
+        "date_formatted": null,
+        "day_name": null,
+        "start_time": "13:00",
+        "start_time_formatted": null,
+        "end_time": "13:45",
+        "end_time_formatted": null,
+        "utc_start_time": null,
+        "utc_end_time": null,
+        "room": "Room 209 (Moscone South, Level 2)",
+        "room_id": null,
+        "length_minutes": null,
+        "capacity": "226",
+        "in_person_time": true,
+        "virtual_time": true,
+        "view_access_public": null
+      }
+    ],
+    "attributes": {
+      "Technical Level": [
+        "L200 - Intermediate"
+      ],
+      "Industries": [
+        "All Industries"
+      ],
+      "Session Topics": [
+        "Cortex",
+        "Generative AI & LLMs",
+        "Machine Learning"
+      ],
+      "Role": [
+        "MLOps"
+      ],
+      "Hide From Catalog": [
+        "No"
+      ],
+      "Day": [
+        "Mon, Jun 3",
+        "Monday, Jun 03"
+      ],
+      "Session Start Time": [
+        "1:00pm - 2:00pm"
+      ],
+      "Session Catalog Tab": [
+        "All Days"
+      ],
+      "Session Tracks": [
+        "AI & ML"
+      ],
+      "Session Type": [
+        "Breakout Session"
+      ],
+      "Time": [
+        "1:00 p.m. Monday, Jun 03"
+      ]
+    },
+    "files": [],
+    "file_count": 0
+  },
+  {
+    "session_id": "1715967146086001aZF0",
+    "session_time_id": null,
+    "external_id": null,
+    "code": "ACT601",
+    "code_id": null,
+    "title": "Canada Connect ( ) Meetup",
+    "abstract": "Join your peers at the Canada connect() meetup, where attendees from across Canada congregate to build new connections. Stop in to meet local community leaders, exchange ideas and expand your professional network!",
+    "session_type": "Activity",
+    "language": null,
+    "length_minutes": null,
+    "published": null,
+    "status": null,
+    "event_code": null,
+    "event_id": null,
+    "event_name": null,
+    "modified": null,
+    "featured_value": null,
+    "view_access_public": null,
+    "has_webinar_profile": false,
+    "has_webinar_chat_profile": null,
+    "embedable_webinar": null,
+    "webinar_provider": null,
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit24/sessions/page/catalog",
+    "speakers": [
+      {
+        "speaker_id": "1699411892610001XH75_169627918738summit24",
+        "full_name": "Fred L'Anglais",
+        "first_name": "Fred",
+        "last_name": "L'Anglais",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1699411892610001XH75/attprofile/Maxa-86_1709643181362001zqzJ.jpg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 1
+      },
+      {
+        "speaker_id": "1708714410882001OkoL_169627918738summit24",
+        "full_name": "Augusto Rosa",
+        "first_name": "Augusto",
+        "last_name": "Rosa",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1708714410882001OkoL/attprofile/Augusto%20Rosa_1716552643511001ySQg.jpg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 2
+      }
+    ],
+    "speaker_count": 2,
+    "times": [
+      {
+        "session_time_id": "1715967566982001UlFg",
+        "date": "2024-06-03",
+        "date_formatted": null,
+        "day_name": null,
+        "start_time": "13:00",
+        "start_time_formatted": null,
+        "end_time": "14:00",
+        "end_time_formatted": null,
+        "utc_start_time": null,
+        "utc_end_time": null,
+        "room": "Connect ( ) Lounge, Builders Hub, Basecamp South",
+        "room_id": null,
+        "length_minutes": null,
+        "capacity": "0",
+        "in_person_time": true,
+        "virtual_time": false,
+        "view_access_public": null
+      }
+    ],
+    "attributes": {
+      "Session Type": [
+        "Activity"
+      ],
+      "Industries": [
+        "All Industries"
+      ],
+      "Session Topics": [
+        "Community"
+      ],
+      "Role": [
+        "Technical Executive",
+        "Business Executive",
+        "IT / DBA",
+        "BI / Analyst",
+        "Data Scientist",
+        "Software Developer",
+        "Security Practitioner",
+        "Marketing Practitioner",
+        "Product Manager",
+        "DevOps",
+        "Data Engineer",
+        "MLOps"
+      ],
+      "Session Permissions": [
+        "Double Bookable",
+        "Activity - Open For All"
+      ],
+      "Hide From Catalog": [
+        "No"
+      ],
+      "Day": [
+        "Mon, Jun 3",
+        "Monday, Jun 03"
+      ],
+      "Session Start Time": [
+        "1:00pm - 2:00pm"
+      ],
+      "Session Catalog Tab": [
+        "All Days"
+      ],
+      "Time": [
+        "1:00 p.m. Monday, Jun 03"
+      ]
+    },
+    "files": [],
+    "file_count": 0
+  },
+  {
+    "session_id": "1708733245174001yiHn",
+    "session_time_id": null,
+    "external_id": null,
+    "code": "CO108",
+    "code_id": null,
+    "title": "Collaboration: A Business Necessity to Accelerate Digital Transformation",
+    "abstract": "Businesses need a reliable way to share data and apps securely across clouds and regions to accelerate digital transformation across product inventory, quantitative research, consumer and market data, ESG, asset and networking data, monitoring of IoT devices, and more. Today, FTP is no longer fit for purpose. In this session, you'll learn how organizations across industries use Snowflake Marketplace, the Snowflake Native App Framework and Snowpark Container Services to share data and apps with their customers and partners. The session will cover how to discover, evaluate and purchase, as well as list and monetize, data and apps - and how to deploy your app in a container in Snowflake.",
+    "session_type": "Breakout Session",
+    "language": null,
+    "length_minutes": null,
+    "published": null,
+    "status": null,
+    "event_code": null,
+    "event_id": null,
+    "event_name": null,
+    "modified": null,
+    "featured_value": null,
+    "view_access_public": null,
+    "has_webinar_profile": true,
+    "has_webinar_chat_profile": null,
+    "embedable_webinar": true,
+    "webinar_provider": "flowplayer-vod",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit24/sessions/page/catalog",
+    "speakers": [
+      {
+        "speaker_id": "1699931320225001sfAW_169627918738summit24",
+        "full_name": "Colm Moynihan",
+        "first_name": "Colm",
+        "last_name": "Moynihan",
+        "company": null,
+        "job_title": null,
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit24/att/1699931320225001sfAW/attprofile/1687861773010_1708809368793001uNHO.jpeg",
+        "linkedin": null,
+        "twitter": null,
+        "roles": null,
+        "display_order": 0
+      }
+    ],
+    "speaker_count": 1,
+    "times": [
+      {
+        "session_time_id": "1712411627119001rxoz",
+        "date": "2024-06-03",
+        "date_formatted": null,
+        "day_name": null,
+        "start_time": "13:00",
+        "start_time_formatted": null,
+        "end_time": "13:45",
+        "end_time_formatted": null,
+        "utc_start_time": null,
+        "utc_end_time": null,
+        "room": "Room 215 (Moscone South, Level 2)",
+        "room_id": null,
+        "length_minutes": null,
+        "capacity": "194",
+        "in_person_time": true,
+        "virtual_time": true,
+        "view_access_public": null
+      }
+    ],
+    "attributes": {
+      "Technical Level": [
+        "L100 - Introductory"
+      ],
+      "Session Tracks": [
+        "Collaboration"
+      ],
+      "Industries": [
+        "Media, Entertainment & Advertising",
+        "Financial Services",
+        "Retail & Consumer Goods",
+        "Telecom",
+        "Travel & Hospitality"
+      ],
+      "Session Topics": [
+        "Sharing/Collaboration",
+        "Application Development",
+        "BI and Analytics",
+        "Monetization"
+      ],
+      "Role": [
+        "Data Engineer"
+      ],
+      "Hide From Catalog": [
+        "No"
+      ],
+      "Day": [
+        "Mon, Jun 3",
+        "Monday, Jun 03"
+      ],
+      "Session Start Time": [
+        "1:00pm - 2:00pm"
+      ],
+      "Session Catalog Tab": [
+        "All Days"
+      ],
+      "Session Type": [
+        "Breakout Session"
+      ],
+      "Time": [
+        "1:00 p.m. Monday, Jun 03"
+      ]
+    },
+    "files": [],
+    "file_count": 0
+  }
+]
