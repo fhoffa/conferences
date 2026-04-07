@@ -1,0 +1,646 @@
+{
+  "snowflake": {
+    "session_count": 319,
+    "sessions_with_speakers": 315,
+    "speaker_count": 502,
+    "speakers_with_job_title": 494,
+    "unique_companies": 210,
+    "sessions_with_track": 0,
+    "sessions_with_level": 0,
+    "sessions_with_format": 0,
+    "top_tracks": [],
+    "top_formats": [],
+    "top_words": [
+      {
+        "word": "cortex",
+        "count": 160
+      },
+      {
+        "word": "analytics",
+        "count": 124
+      },
+      {
+        "word": "business",
+        "count": 110
+      },
+      {
+        "word": "agents",
+        "count": 107
+      },
+      {
+        "word": "governance",
+        "count": 105
+      },
+      {
+        "word": "enterprise",
+        "count": 102
+      },
+      {
+        "word": "intelligence",
+        "count": 98
+      },
+      {
+        "word": "scale",
+        "count": 97
+      },
+      {
+        "word": "platform",
+        "count": 85
+      },
+      {
+        "word": "iceberg",
+        "count": 75
+      },
+      {
+        "word": "code",
+        "count": 72
+      },
+      {
+        "word": "semantic",
+        "count": 71
+      },
+      {
+        "word": "teams",
+        "count": 69
+      },
+      {
+        "word": "governed",
+        "count": 68
+      },
+      {
+        "word": "architecture",
+        "count": 65
+      },
+      {
+        "word": "agentic",
+        "count": 65
+      },
+      {
+        "word": "insights",
+        "count": 63
+      },
+      {
+        "word": "real-time",
+        "count": 61
+      },
+      {
+        "word": "pipelines",
+        "count": 60
+      },
+      {
+        "word": "customer",
+        "count": 59
+      },
+      {
+        "word": "tables",
+        "count": 56
+      },
+      {
+        "word": "access",
+        "count": 54
+      },
+      {
+        "word": "complex",
+        "count": 54
+      },
+      {
+        "word": "without",
+        "count": 53
+      },
+      {
+        "word": "built",
+        "count": 51
+      }
+    ]
+  },
+  "databricks": {
+    "session_count": 158,
+    "sessions_with_speakers": 142,
+    "speaker_count": 223,
+    "speakers_with_job_title": 204,
+    "unique_companies": 140,
+    "sessions_with_track": 142,
+    "sessions_with_level": 142,
+    "sessions_with_format": 158,
+    "top_tracks": [
+      {
+        "value": "Data Engineering & Streaming",
+        "count": 29
+      },
+      {
+        "value": "Artificial Intelligence & Agents",
+        "count": 21
+      },
+      {
+        "value": "Analytics & BI",
+        "count": 17
+      },
+      {
+        "value": "Governance & Security",
+        "count": 17
+      },
+      {
+        "value": "Data Warehousing",
+        "count": 16
+      },
+      {
+        "value": "Data Strategy",
+        "count": 15
+      },
+      {
+        "value": "Application Development",
+        "count": 11
+      },
+      {
+        "value": "Lakebase",
+        "count": 10
+      },
+      {
+        "value": "Data Sharing & Collaboration",
+        "count": 6
+      }
+    ],
+    "top_formats": [
+      {
+        "value": "Breakout",
+        "count": 120
+      },
+      {
+        "value": "Lightning Talk",
+        "count": 22
+      },
+      {
+        "value": "Paid Training",
+        "count": 16
+      }
+    ],
+    "top_words": [
+      {
+        "word": "span",
+        "count": 712
+      },
+      {
+        "word": "style",
+        "count": 426
+      },
+      {
+        "word": "platform",
+        "count": 249
+      },
+      {
+        "word": "governance",
+        "count": 181
+      },
+      {
+        "word": "architecture",
+        "count": 157
+      },
+      {
+        "word": "analytics",
+        "count": 146
+      },
+      {
+        "word": "scale",
+        "count": 137
+      },
+      {
+        "word": "business",
+        "count": 124
+      },
+      {
+        "word": "including",
+        "count": 122
+      },
+      {
+        "word": "access",
+        "count": 121
+      },
+      {
+        "word": "pipelines",
+        "count": 118
+      },
+      {
+        "word": "font-size",
+        "count": 118
+      },
+      {
+        "word": "font-family",
+        "count": 118
+      },
+      {
+        "word": "sans'",
+        "count": 118
+      },
+      {
+        "word": "sans-serif",
+        "count": 118
+      },
+      {
+        "word": "color",
+        "count": 118
+      },
+      {
+        "word": "enterprise",
+        "count": 107
+      },
+      {
+        "word": "agent",
+        "count": 107
+      },
+      {
+        "word": "built",
+        "count": 104
+      },
+      {
+        "word": "while",
+        "count": 102
+      },
+      {
+        "word": "cost",
+        "count": 99
+      },
+      {
+        "word": "lakehouse",
+        "count": 97
+      },
+      {
+        "word": "model",
+        "count": 96
+      },
+      {
+        "word": "agents",
+        "count": 93
+      },
+      {
+        "word": "teams",
+        "count": 91
+      }
+    ]
+  },
+  "distinctive_words": {
+    "snowflake": [
+      {
+        "word": "cortex",
+        "ratio_vs_databricks": 161.0,
+        "snowflake_count": 160,
+        "databricks_count": 0
+      },
+      {
+        "word": "catalog",
+        "ratio_vs_databricks": 43.0,
+        "snowflake_count": 42,
+        "databricks_count": 0
+      },
+      {
+        "word": "horizon",
+        "ratio_vs_databricks": 33.0,
+        "snowflake_count": 32,
+        "databricks_count": 0
+      },
+      {
+        "word": "openflow",
+        "ratio_vs_databricks": 22.0,
+        "snowflake_count": 21,
+        "databricks_count": 0
+      },
+      {
+        "word": "polaris",
+        "ratio_vs_databricks": 14.0,
+        "snowflake_count": 13,
+        "databricks_count": 0
+      },
+      {
+        "word": "what's",
+        "ratio_vs_databricks": 11.0,
+        "snowflake_count": 21,
+        "databricks_count": 1
+      },
+      {
+        "word": "layers",
+        "ratio_vs_databricks": 11.0,
+        "snowflake_count": 10,
+        "databricks_count": 0
+      },
+      {
+        "word": "snowconvert",
+        "ratio_vs_databricks": 11.0,
+        "snowflake_count": 10,
+        "databricks_count": 0
+      },
+      {
+        "word": "snowpark",
+        "ratio_vs_databricks": 11.0,
+        "snowflake_count": 10,
+        "databricks_count": 0
+      },
+      {
+        "word": "connectors",
+        "ratio_vs_databricks": 10.0,
+        "snowflake_count": 9,
+        "databricks_count": 0
+      },
+      {
+        "word": "means",
+        "ratio_vs_databricks": 10.0,
+        "snowflake_count": 9,
+        "databricks_count": 0
+      },
+      {
+        "word": "multimodal",
+        "ratio_vs_databricks": 10.0,
+        "snowflake_count": 9,
+        "databricks_count": 0
+      },
+      {
+        "word": "streamlit",
+        "ratio_vs_databricks": 10.0,
+        "snowflake_count": 9,
+        "databricks_count": 0
+      },
+      {
+        "word": "universal",
+        "ratio_vs_databricks": 10.0,
+        "snowflake_count": 9,
+        "databricks_count": 0
+      },
+      {
+        "word": "coding",
+        "ratio_vs_databricks": 9.0,
+        "snowflake_count": 8,
+        "databricks_count": 0
+      },
+      {
+        "word": "composable",
+        "ratio_vs_databricks": 9.0,
+        "snowflake_count": 8,
+        "databricks_count": 0
+      },
+      {
+        "word": "siemens",
+        "ratio_vs_databricks": 9.0,
+        "snowflake_count": 8,
+        "databricks_count": 0
+      },
+      {
+        "word": "initiatives",
+        "ratio_vs_databricks": 8.0,
+        "snowflake_count": 7,
+        "databricks_count": 0
+      },
+      {
+        "word": "interchange",
+        "ratio_vs_databricks": 8.0,
+        "snowflake_count": 7,
+        "databricks_count": 0
+      },
+      {
+        "word": "procurement",
+        "ratio_vs_databricks": 8.0,
+        "snowflake_count": 7,
+        "databricks_count": 0
+      },
+      {
+        "word": "protection",
+        "ratio_vs_databricks": 8.0,
+        "snowflake_count": 7,
+        "databricks_count": 0
+      },
+      {
+        "word": "snowpipe",
+        "ratio_vs_databricks": 8.0,
+        "snowflake_count": 7,
+        "databricks_count": 0
+      },
+      {
+        "word": "exposure",
+        "ratio_vs_databricks": 7.0,
+        "snowflake_count": 6,
+        "databricks_count": 0
+      },
+      {
+        "word": "marketers",
+        "ratio_vs_databricks": 7.0,
+        "snowflake_count": 6,
+        "databricks_count": 0
+      },
+      {
+        "word": "morgan",
+        "ratio_vs_databricks": 7.0,
+        "snowflake_count": 6,
+        "databricks_count": 0
+      },
+      {
+        "word": "panel",
+        "ratio_vs_databricks": 7.0,
+        "snowflake_count": 6,
+        "databricks_count": 0
+      },
+      {
+        "word": "saas",
+        "ratio_vs_databricks": 7.0,
+        "snowflake_count": 6,
+        "databricks_count": 0
+      },
+      {
+        "word": "snowflake's",
+        "ratio_vs_databricks": 7.0,
+        "snowflake_count": 6,
+        "databricks_count": 0
+      },
+      {
+        "word": "stanley",
+        "ratio_vs_databricks": 7.0,
+        "snowflake_count": 6,
+        "databricks_count": 0
+      },
+      {
+        "word": "zendesk",
+        "ratio_vs_databricks": 7.0,
+        "snowflake_count": 6,
+        "databricks_count": 0
+      }
+    ],
+    "databricks": [
+      {
+        "word": "span",
+        "ratio_vs_snowflake": 713.0,
+        "databricks_count": 712,
+        "snowflake_count": 0
+      },
+      {
+        "word": "style",
+        "ratio_vs_snowflake": 427.0,
+        "databricks_count": 426,
+        "snowflake_count": 0
+      },
+      {
+        "word": "color",
+        "ratio_vs_snowflake": 119.0,
+        "databricks_count": 118,
+        "snowflake_count": 0
+      },
+      {
+        "word": "font-family",
+        "ratio_vs_snowflake": 119.0,
+        "databricks_count": 118,
+        "snowflake_count": 0
+      },
+      {
+        "word": "font-size",
+        "ratio_vs_snowflake": 119.0,
+        "databricks_count": 118,
+        "snowflake_count": 0
+      },
+      {
+        "word": "sans'",
+        "ratio_vs_snowflake": 119.0,
+        "databricks_count": 118,
+        "snowflake_count": 0
+      },
+      {
+        "word": "sans-serif",
+        "ratio_vs_snowflake": 119.0,
+        "databricks_count": 118,
+        "snowflake_count": 0
+      },
+      {
+        "word": "lakebase",
+        "ratio_vs_snowflake": 85.0,
+        "databricks_count": 84,
+        "snowflake_count": 0
+      },
+      {
+        "word": "disc",
+        "ratio_vs_snowflake": 70.0,
+        "databricks_count": 69,
+        "snowflake_count": 0
+      },
+      {
+        "word": "list-style-type",
+        "ratio_vs_snowflake": 70.0,
+        "databricks_count": 69,
+        "snowflake_count": 0
+      },
+      {
+        "word": "familiarity",
+        "ratio_vs_snowflake": 57.0,
+        "databricks_count": 56,
+        "snowflake_count": 0
+      },
+      {
+        "word": "delta",
+        "ratio_vs_snowflake": 38.5,
+        "databricks_count": 76,
+        "snowflake_count": 1
+      },
+      {
+        "word": "june",
+        "ratio_vs_snowflake": 35.0,
+        "databricks_count": 34,
+        "snowflake_count": 0
+      },
+      {
+        "word": "courses",
+        "ratio_vs_snowflake": 33.0,
+        "databricks_count": 32,
+        "snowflake_count": 0
+      },
+      {
+        "word": "mlflow",
+        "ratio_vs_snowflake": 33.0,
+        "databricks_count": 32,
+        "snowflake_count": 0
+      },
+      {
+        "word": "note",
+        "ratio_vs_snowflake": 33.0,
+        "databricks_count": 32,
+        "snowflake_count": 0
+      },
+      {
+        "word": "reflect",
+        "ratio_vs_snowflake": 33.0,
+        "databricks_count": 32,
+        "snowflake_count": 0
+      },
+      {
+        "word": "genai",
+        "ratio_vs_snowflake": 32.0,
+        "databricks_count": 31,
+        "snowflake_count": 0
+      },
+      {
+        "word": "bricks",
+        "ratio_vs_snowflake": 30.0,
+        "databricks_count": 29,
+        "snowflake_count": 0
+      },
+      {
+        "word": "presentation",
+        "ratio_vs_snowflake": 29.0,
+        "databricks_count": 28,
+        "snowflake_count": 0
+      },
+      {
+        "word": "basic",
+        "ratio_vs_snowflake": 25.5,
+        "databricks_count": 50,
+        "snowflake_count": 1
+      },
+      {
+        "word": "components",
+        "ratio_vs_snowflake": 25.0,
+        "databricks_count": 24,
+        "snowflake_count": 0
+      },
+      {
+        "word": "vector",
+        "ratio_vs_snowflake": 22.0,
+        "databricks_count": 21,
+        "snowflake_count": 0
+      },
+      {
+        "word": "declarative",
+        "ratio_vs_snowflake": 20.67,
+        "databricks_count": 61,
+        "snowflake_count": 2
+      },
+      {
+        "word": "course",
+        "ratio_vs_snowflake": 20.33,
+        "databricks_count": 60,
+        "snowflake_count": 2
+      },
+      {
+        "word": "serverless",
+        "ratio_vs_snowflake": 20.0,
+        "databricks_count": 59,
+        "snowflake_count": 2
+      },
+      {
+        "word": "proficiency",
+        "ratio_vs_snowflake": 19.0,
+        "databricks_count": 18,
+        "snowflake_count": 0
+      },
+      {
+        "word": "dabs",
+        "ratio_vs_snowflake": 18.0,
+        "databricks_count": 17,
+        "snowflake_count": 0
+      },
+      {
+        "word": "safe",
+        "ratio_vs_snowflake": 18.0,
+        "databricks_count": 17,
+        "snowflake_count": 0
+      },
+      {
+        "word": "updated",
+        "ratio_vs_snowflake": 17.5,
+        "databricks_count": 34,
+        "snowflake_count": 1
+      }
+    ]
+  }
+}
