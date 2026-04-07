@@ -1,0 +1,642 @@
+[
+  {
+    "session_time_id": "1748879645061001N0sF",
+    "session_id": "1744305680444001NYus",
+    "external_id": "1744305680444001NYus",
+    "title": "Advanced Training: Fresh Snow",
+    "session_code": "ACT103",
+    "session_type": "Activity",
+    "abstract": "Explore the latest Snowflake features released over the past 12 months in this fast-paced workshop, tailored for experienced users. Immerse yourself in Snowflake’s newest features and broaden your working knowledge of Snowflake and how it fits in your use cases and solutions. You'll need to purchase the training package in your attendee portal by clicking on \"Manage Your Add-Ons\" or \"Get Certified At Summit\".",
+    "language": "en",
+    "status": "Accepted",
+    "length_minutes": 450.0,
+    "event_id": "172771875542summit25",
+    "event_code": "summit25",
+    "event_name": "Summit 25",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog",
+    "source_api_url": "https://events.summit.snowflake.com/api/sessions",
+    "times": [
+      {
+        "session_time_id": "1748879645061001N0sF",
+        "date": "2025-06-02",
+        "date_formatted": "Monday, June 02",
+        "day_name": "Monday",
+        "start_time": "09:00",
+        "start_time_formatted": "09:00 AM",
+        "end_time": "16:30",
+        "end_time_formatted": "04:30 PM",
+        "room": "Room 154 (Moscone South, Upper Mezzanine)",
+        "room_id": "1744389654648001aVvI",
+        "length_minutes": 450.0,
+        "in_person_time": true,
+        "virtual_time": false,
+        "utc_start_time": "2025/06/02 16:00:00",
+        "utc_end_time": "2025/06/02 23:30:00"
+      }
+    ],
+    "attributes": {
+      "Session Type": [
+        "Activity"
+      ],
+      "Session Start Time": [
+        "9:00am - 10:00am"
+      ],
+      "Session Permissions": [
+        "Full-day Advanced Training",
+        "Double Bookable"
+      ],
+      "Hide From Catalog": [
+        "No"
+      ],
+      "Day": [
+        "Mon, Jun 2",
+        "Monday, Jun 02"
+      ],
+      "Session Catalog Tab": [
+        "All Days"
+      ],
+      "Time": [
+        "9:00 a.m. Monday, Jun 02"
+      ]
+    },
+    "speakers": [],
+    "speaker_count": 0,
+    "view_access_public": true,
+    "has_webinar_profile": false,
+    "has_webinar_chat_profile": false,
+    "modified_at": "2025-06-02T16:07:08Z"
+  },
+  {
+    "session_time_id": "1744305635360001eSKH",
+    "session_id": "1744305274362001Zdd8",
+    "external_id": "1744305274362001Zdd8",
+    "title": "Beginner Training: Snowflake Foundations",
+    "session_code": "ACT102",
+    "session_type": "Activity",
+    "abstract": "This course covers the foundational concepts, design considerations and Snowflake best practices intended for stakeholders who will be working on the Snowflake AI Data Cloud. This course is a prerequisite for the role-based courses: Administering Snowflake, Snowflake Data Engineering or Snowflake Data Science. You'll need to purchase the training package in your attendee portal by clicking on \"Manage Your Add-Ons\" or \"Get Certified At Summit\".",
+    "language": "en",
+    "status": "Accepted",
+    "length_minutes": 450.0,
+    "event_id": "172771875542summit25",
+    "event_code": "summit25",
+    "event_name": "Summit 25",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog",
+    "source_api_url": "https://events.summit.snowflake.com/api/sessions",
+    "times": [
+      {
+        "session_time_id": "1744305635360001eSKH",
+        "date": "2025-06-02",
+        "date_formatted": "Monday, June 02",
+        "day_name": "Monday",
+        "start_time": "09:00",
+        "start_time_formatted": "09:00 AM",
+        "end_time": "16:30",
+        "end_time_formatted": "04:30 PM",
+        "room": "Room 156 (Moscone South, Upper Mezzanine)",
+        "room_id": "1744305590908001qG4D",
+        "length_minutes": 450.0,
+        "in_person_time": true,
+        "virtual_time": false,
+        "utc_start_time": "2025/06/02 16:00:00",
+        "utc_end_time": "2025/06/02 23:30:00"
+      }
+    ],
+    "attributes": {
+      "Session Type": [
+        "Activity"
+      ],
+      "Session Start Time": [
+        "9:00am - 10:00am"
+      ],
+      "Session Permissions": [
+        "Full Day Beginner Trainer",
+        "Double Bookable"
+      ],
+      "Hide From Catalog": [
+        "No"
+      ],
+      "Day": [
+        "Mon, Jun 2",
+        "Monday, Jun 02"
+      ],
+      "Session Catalog Tab": [
+        "All Days"
+      ],
+      "Time": [
+        "9:00 a.m. Monday, Jun 02"
+      ]
+    },
+    "speakers": [],
+    "speaker_count": 0,
+    "view_access_public": true,
+    "has_webinar_profile": false,
+    "has_webinar_chat_profile": false,
+    "modified_at": "2025-06-02T16:07:08Z"
+  },
+  {
+    "session_time_id": "1743881747541001h87l",
+    "session_id": "1738645629229001V6Zd",
+    "external_id": "1738645629229001V6Zd",
+    "title": "Data for Good Hackathon",
+    "session_code": "OS203",
+    "session_type": "Hackathon",
+    "abstract": "Kick off your Summit experience by joining data experts, Snowflake partners and Data Cloud evangelists for a hands-on hackathon on June 2. Work with an international team of Summit attendees to build tools and data visualizations to deliver data-driven insights for humanitarian emergencies. Learn from researchers and experts from NGOs like Direct Relief about the importance of geospatial data in humanitarian response. Snowflake's End Data Disparity initiative accelerates progress toward the UN Sustainable Development Goals by ensuring data sets, decision-making tools and AI models represent everyone. Participants will explore geospatial analytics for humanitarian efforts, perform data transformation in Snowflake and create interactive visuals with Streamlit. The Data for Good team will share insights and tools in future workshops, fostering collaborations that benefit communities and the planet. Space is limited and preregistration is required. If you are interested in Hackathon, please log in to your Attendee Portal and answer the Hackathon interest survey.",
+    "language": "en",
+    "status": "Accepted",
+    "length_minutes": 420.0,
+    "event_id": "172771875542summit25",
+    "event_code": "summit25",
+    "event_name": "Summit 25",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog",
+    "source_api_url": "https://events.summit.snowflake.com/api/sessions",
+    "times": [
+      {
+        "session_time_id": "1743881747541001h87l",
+        "date": "2025-06-02",
+        "date_formatted": "Monday, June 02",
+        "day_name": "Monday",
+        "start_time": "09:00",
+        "start_time_formatted": "09:00 AM",
+        "end_time": "16:00",
+        "end_time_formatted": "04:00 PM",
+        "room": "Room 153 (Moscone South, Upper Mezzanine)",
+        "room_id": "1743881719487001hM16",
+        "length_minutes": 420.0,
+        "in_person_time": true,
+        "virtual_time": false,
+        "utc_start_time": "2025/06/02 16:00:00",
+        "utc_end_time": "2025/06/02 23:00:00"
+      }
+    ],
+    "attributes": {
+      "Technical Level": [
+        "Intermediate"
+      ],
+      "Session Type": [
+        "Hackathon"
+      ],
+      "Relevant for Personas": [
+        "Technical Executive",
+        "Business Executive",
+        "IT / DBA",
+        "BI / Analyst",
+        "Data Scientist",
+        "Software Developer ",
+        "DevOps",
+        "Data Engineer"
+      ],
+      "Session Tracks": [
+        "Open Source & Research"
+      ],
+      "Session Start Time": [
+        "9:00am - 10:00am"
+      ],
+      "Relevant for Industry / Vertical": [
+        "Not industry-specific "
+      ],
+      "Partner Confirmation Code": [
+        "1892"
+      ],
+      "Covered Topics": [
+        "Data for good (climate, diversity, health, etc.)",
+        "Data Sharing & Collaboration",
+        "AI & GenAI"
+      ],
+      "Covered Features": [
+        "Other"
+      ],
+      "Session Permissions": [
+        "Hackathon"
+      ],
+      "Hide From Catalog": [
+        "No"
+      ],
+      "Day": [
+        "Mon, Jun 2",
+        "Monday, Jun 02"
+      ],
+      "Session Catalog Tab": [
+        "All Days"
+      ],
+      "Relevant for Department": [
+        "Not department-specific"
+      ],
+      "Recommendations (Rule Based)": [
+        "Other (Industry-A)",
+        "AI & GenAI (Topic)",
+        "Collaboration & Marketplace (Topic)",
+        "BI / Analyst (Role)",
+        "Business Executive (Role)",
+        "Data Engineer (Role)",
+        "Data Scientist (Role)",
+        "IT / DBA (Role)",
+        "Software Developer (Role)",
+        "Technical Executive (Role)"
+      ],
+      "Time": [
+        "9:00 a.m. Monday, Jun 02"
+      ]
+    },
+    "speakers": [
+      {
+        "speaker_id": "1714588869853001eVxW_172771875542summit25",
+        "full_name": "Karen Beaune",
+        "first_name": "Karen",
+        "last_name": "Beaune",
+        "company": "Snowflake",
+        "job_title": "VP Marketing",
+        "roles": "Snowflake Speaker",
+        "bio": "Karen Beaune currently serves as the VP of EMEA Marketing at Snowflake, bringing over two decades of marketing experience and a wealth of expertise to the role. She also leads the End Data Disparity movement as Chair of the Expert Panel. From her early days fuelling regional marketing at Genesys Conferencing, Karen has been dedicated to uncovering people's strengths and fostering a team culture grounded in mutual support and acceptance of differences. Karen is passionate about building teams and developing talents in fast-growing organizations like Polycom and Palo Alto Networks.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1714588869853001eVxW/attprofile/KarenBeaune2024_0242_0_20x30_1741859943479001TBAO.jpg",
+        "linkedin": "https://www.linkedin.com/in/karenbeaune/",
+        "twitter": null,
+        "display_order": 0.0
+      },
+      {
+        "speaker_id": "1717514383831001YWqW_172771875542summit25",
+        "full_name": "Mike Johnson",
+        "first_name": "Mike",
+        "last_name": "Johnson",
+        "company": "Snowflake",
+        "job_title": "Data for Good, Technical Lead",
+        "roles": "Snowflake Speaker",
+        "bio": "With experience in analytics, healthcare administration, international public health, and cloud data architecture, Mike has a unique perspective and capability to build new strategic partnerships. He has worked with life science companies, healthcare providers, NGOs, and health agencies within state government to expand their analytics capabilities and build a firm data foundation to accelerate their work.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1717514383831001YWqW/attprofile/Mike_Johnson_headshot_1741882605963001DB7i.jpeg",
+        "linkedin": "https://www.linkedin.com/in/mikejohnsonprofile",
+        "twitter": null,
+        "display_order": 1.0
+      },
+      {
+        "speaker_id": "1713665456149001MXCh_172771875542summit25",
+        "full_name": "Rob Wright",
+        "first_name": "Rob",
+        "last_name": "Wright",
+        "company": "Mapbox",
+        "job_title": "Director of Sales",
+        "roles": "Customer Speaker",
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1713665456149001MXCh/attprofile/Speaker%20Defaul%20Icon_1709937245342001j0CB%20%281%29_1747939486477001O5pj.jpg",
+        "linkedin": null,
+        "twitter": null,
+        "display_order": 1.0
+      },
+      {
+        "speaker_id": "1746641069055001MXtm_172771875542summit25",
+        "full_name": "Andrew Schroeder",
+        "first_name": "Andrew",
+        "last_name": "Schroeder",
+        "company": "Direct Relief",
+        "job_title": "VP of Research and Analysis",
+        "roles": "Customer Speaker",
+        "bio": "Dr. Andrew Schroeder is the Vice President of Research and Analysis at Direct Relief and the Co-Director of the CrisisReady project with Harvard Data Science Initiative. His work focuses on data-driven approaches to crisis response and health and has been featured in publications such as Science, The Lancet, The New York Times, and The Washington Post. He has served as an advisor to UNDP and the World Food Programme. Andrew co-founded the Covid-19 Mobility Data Network, a global initiative for real-time digital epidemiology , and is the Co-Founder of WeRobotics.org, a nonprofit supporting robotics applications for humanitarian aid and global health in 40+ countries.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1746641069055001MXtm/attprofile/1000026359_1747573458376001kD5j.png",
+        "linkedin": null,
+        "twitter": null,
+        "display_order": 1.0
+      },
+      {
+        "speaker_id": "1699931367382001sdHq_172771875542summit25",
+        "full_name": "Fawad Qureshi",
+        "first_name": "Fawad",
+        "last_name": "Qureshi",
+        "company": "Snowflake",
+        "job_title": "Global Field CTO",
+        "roles": "Snowflake Speaker",
+        "bio": "Fawad is a results-driven technology leader with 20+ years of experience across 50+ countries. He excels in enterprise data warehouses, big data analytics, and shared economy business models. As Global Field CTO, Fawad advises C-level executives across diverse sectors on leveraging data and technology to drive success. His expertise in data monetization, data as a service, and data products enables him to develop innovative strategies that fuel revenue growth. Fawad is passionate about sustainability and utilizes data and analytics to achieve impactful business outcomes and foster positive environmental change.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1699931367382001sdHq/attprofile/Fawad%20Portrait_1738327554864001zHgM.jpg",
+        "linkedin": "https://www.linkedin.com/in/qureshi/",
+        "twitter": "FawadQureshi",
+        "display_order": 2.0
+      },
+      {
+        "speaker_id": "1746656721673001iBCp_172771875542summit25",
+        "full_name": "Michael Robinson",
+        "first_name": "Michael",
+        "last_name": "Robinson",
+        "company": "Direct Relief",
+        "job_title": "Data Scientist",
+        "roles": "Customer Speaker",
+        "bio": "Michael is a data scientist on the Research and Analysis team at Direct Relief. He holds a BS in Environmental Studies and a PhD in Geography, both from the University of California, Santa Barbara. Prior to working at Direct Relief Michael was a professor of Geography at Santa Barbara City College.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1746656721673001iBCp/attprofile/Robinson%20Michael%20headshot_1746825960701001gyCw.jpg",
+        "linkedin": "https://www.linkedin.com/in/michael-robinson-0b292558/",
+        "twitter": null,
+        "display_order": 2.0
+      },
+      {
+        "speaker_id": "1710966422998001ORoQ_172771875542summit25",
+        "full_name": "Farhan Choudhary",
+        "first_name": "Farhan",
+        "last_name": "Choudhary",
+        "company": "Snowflake",
+        "job_title": "Senior Manager, Product Marketing & Evangelist",
+        "roles": "Snowflake Speaker",
+        "bio": "Farhan Choudhary is a Senior Manager, Product Marketing and Evangelist at Snowflake India. He brings over a decade of experience in data science, ML, and AI after having worked extensively on engagements with Fortune 500s, Pub Sec, and startups. Prior to Snowflake, Farhan has worked with Gartner, IL&FS, EY in a practitioner, industry analyst and advisory capacity. He has guided several global organisations on their priorities around AI Strategy, Governance, Responsible AI, Automation, to name a few. At Snowflake, he helps organisations leverage the power of the data cloud, drives developer programs, influencer relations, product positioning and thought leadership for the India market.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1710966422998001ORoQ/attprofile/IMGL7216_1747229572028001mPHo.JPG",
+        "linkedin": "https://www.linkedin.com/in/farhanchoudhary/",
+        "twitter": null,
+        "display_order": 3.0
+      }
+    ],
+    "speaker_count": 7,
+    "view_access_public": true,
+    "has_webinar_profile": false,
+    "has_webinar_chat_profile": false,
+    "modified_at": "2025-06-26T16:49:28Z"
+  },
+  {
+    "session_time_id": "1744123306542001YfaK",
+    "session_id": "1744055874486001wx0h",
+    "external_id": "1744055874486001wx0h",
+    "title": "GROUP BY US - Central",
+    "session_code": "M01",
+    "session_type": "GROUP BY meetups",
+    "abstract": "Join fellow attendees at the U.S.–Central meetup. Meet your peers, get to know local community leaders and share your Snowflake expertise. Don't miss out on this chance to build new connections!",
+    "language": "en",
+    "status": "Accepted",
+    "length_minutes": 60.0,
+    "event_id": "172771875542summit25",
+    "event_code": "summit25",
+    "event_name": "Summit 25",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog",
+    "source_api_url": "https://events.summit.snowflake.com/api/sessions",
+    "times": [
+      {
+        "session_time_id": "1744123306542001YfaK",
+        "date": "2025-06-02",
+        "date_formatted": "Monday, June 02",
+        "day_name": "Monday",
+        "start_time": "12:00",
+        "start_time_formatted": "12:00 PM",
+        "end_time": "13:00",
+        "end_time_formatted": "01:00 PM",
+        "room": "GROUP BY ( ) LOUNGE (Basecamp South)",
+        "room_id": "1744123216772001wtti",
+        "length_minutes": 60.0,
+        "in_person_time": true,
+        "virtual_time": false,
+        "utc_start_time": "2025/06/02 19:00:00",
+        "utc_end_time": "2025/06/02 20:00:00"
+      }
+    ],
+    "attributes": {
+      "Session Type": [
+        "GROUP BY meetups"
+      ],
+      "Session Start Time": [
+        "12:00pm - 1:00pm"
+      ],
+      "Hide From Catalog": [
+        "No"
+      ],
+      "Day": [
+        "Mon, Jun 2",
+        "Monday, Jun 02"
+      ],
+      "Session Catalog Tab": [
+        "All Days"
+      ],
+      "Note": [
+        "Theaters are first come, first seated"
+      ],
+      "Show on unauthenticated catalog": [
+        "Yes"
+      ],
+      "Time": [
+        "12:00 p.m. Monday, Jun 02"
+      ]
+    },
+    "speakers": [
+      {
+        "speaker_id": "1738586819655001eYZ3_172771875542summit25",
+        "full_name": "Sonny Rivera",
+        "first_name": "Sonny",
+        "last_name": "Rivera",
+        "company": "CPI Security",
+        "job_title": "Head of Data & AI",
+        "roles": "Host",
+        "bio": "As one of Snowflake's original Data Superheroes, he has a deep knowledge of cloud data platforms, data modeling, and analytics technologies such as dbt Cloud, Snowflake, AWS Redshift, ThoughtSpot, and Looker. He has led multiple migrations to cloud data & advanced analytics platforms from on-premise platforms such as Cloudera and Oracle. He also know as a international thought leader on embedded analytics, data monetization, and data product management. He has a passion for data and analytics and is always looking for ways to help organizations leverage their data to drive business value.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1738586819655001eYZ3/attprofile/Sonny-Rivera-Cropped-Enlarged-1_1738961519454001QH9W.jpg",
+        "linkedin": "https://www.linkedin.com/in/sonnyrivera/",
+        "twitter": "https://x.com/rqrivera",
+        "display_order": 1.0
+      },
+      {
+        "speaker_id": "1733343403357001ymMf_172771875542summit25",
+        "full_name": "JD Taylor",
+        "first_name": "JD",
+        "last_name": "Taylor",
+        "company": "Edward Jones",
+        "job_title": "Product Delivery Manager",
+        "roles": "Host",
+        "bio": "JD Taylor is Product Delivery Manager for the Analytics Hub Data Platform team at Edward Jones focusing on automation and internal structures in Snowflake enhancing productivity. JD's career has provided exposure to the views and interests of a wide range of data stakeholders including time as a Political Science doctoral candidate, data analyst, system analyst, support technical consultant, ETL/application developer, and now data platform. To better understand the needs of financial stakeholders, JD has attained Series 7, 66, and 24 licenses. To take a break from technology, JD volunteers as a Cub Scout and Scouts BSA leader for his three children in St. Louis.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1733343403357001ymMf/attprofile/Zoom_pic_1748525939220001j6Uy.jpg",
+        "linkedin": null,
+        "twitter": null,
+        "display_order": 2.0
+      },
+      {
+        "speaker_id": "1702670806335001Up9D_172771875542summit25",
+        "full_name": "Christopher Scott",
+        "first_name": "Christopher",
+        "last_name": "Scott",
+        "company": "Enact MI",
+        "job_title": "Data Enablement Manager",
+        "roles": "Host",
+        "bio": "Data Enablement Manager with 12 years of experience in Tableau and analytics. Expert in creating impactful visualizations, optimizing data sources, and implementing best practices. Skilled in managing Tableau Cloud and leading teams to deliver high-quality results. Passionate about transforming data into actionable insights and driving informed decision-making across organizations.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1702670806335001Up9D/attprofile/IMG_4243%20%281%29_1747782854843001bLMY.jpeg",
+        "linkedin": "https://www.linkedin.com/in/christopher-scott-b3691313/",
+        "twitter": "@cgscottDVA",
+        "display_order": 2.0
+      },
+      {
+        "speaker_id": "1699931285557001sGCJ_172771875542summit25",
+        "full_name": "Danny Bryant",
+        "first_name": "Danny",
+        "last_name": "Bryant",
+        "company": "Snowflake",
+        "job_title": "Principal Architect II - SIT",
+        "roles": "Host",
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1699931285557001sGCJ/attprofile/489786903_10234553042277130_4980845987386209582_n_1748456881020001mF7r.jpg",
+        "linkedin": "https://www.linkedin.com/in/md-bryant/",
+        "twitter": "@dbaontap",
+        "display_order": 3.0
+      },
+      {
+        "speaker_id": "1745976224936001qh57_172771875542summit25",
+        "full_name": "Stephen McCarthy",
+        "first_name": "Stephen",
+        "last_name": "McCarthy",
+        "company": "NBH Bank",
+        "job_title": "Snowflake Data Engineer/Architect",
+        "roles": "Host",
+        "bio": "I’m a Snowflake Data Engineer/Architect at NBH Bank, handling everything Snowflake-related. I build metadata tables to control what data gets loaded in from external sources, along with creating tables, views, procedures — you name it. I help manage how data flows through our medallion layers and keep things running smoothly. I’ve also worked on ingesting data from Kafka and setting up data sharing, so I'm pretty comfortable with real-time and collaborative data solutions too.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1745976224936001qh57/attprofile/Stephen%20McCarthy%20Headshot_1748448236087001IKnD.jpg",
+        "linkedin": "linkedin.com/in/stephen-mccarthy-a0701544",
+        "twitter": null,
+        "display_order": 3.0
+      },
+      {
+        "speaker_id": "1743001431123001kBim_172771875542summit25",
+        "full_name": "Gregory Shoemaker",
+        "first_name": "Gregory",
+        "last_name": "Shoemaker",
+        "company": "Luminate",
+        "job_title": "Director, Engineering",
+        "roles": "Host",
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1743001431123001kBim/attprofile/ChatGPT%20Image%20May%2030%2C%202025%2C%2012_30_55%20PM_1748626729838001JkPs.png",
+        "linkedin": null,
+        "twitter": null,
+        "display_order": 4.0
+      }
+    ],
+    "speaker_count": 6,
+    "view_access_public": true,
+    "has_webinar_profile": false,
+    "has_webinar_chat_profile": false,
+    "modified_at": "2025-06-03T16:50:47Z"
+  },
+  {
+    "session_time_id": "1743740171471001wn6R",
+    "session_id": "1743738425948001I59b",
+    "external_id": "1743738425948001I59b",
+    "title": "“Show Me The Money” - How To Measure The Business Impact of AI Investments\n",
+    "session_code": "EC02",
+    "session_type": "Executive Content",
+    "abstract": "As organizations continue to expand their AI initiatives, one critical challenge remains: proving the business value of AI investments. While theoretical discussions on \"what data is worth\" have persisted for years, today’s executives must answer a more pressing question: How do we track, quantify, and communicate the impact of AI on revenue, efficiency, and business outcomes? In this session, we bring together leading executives from data-driven enterprises to share their real-world experiences, discussing the frameworks, KPIs, and hard-won lessons that enable organizations to justify AI investments and secure long-term executive buy-in.",
+    "language": "en",
+    "status": "Accepted",
+    "length_minutes": 45.0,
+    "event_id": "172771875542summit25",
+    "event_code": "summit25",
+    "event_name": "Summit 25",
+    "source_catalog_url": "https://reg.snowflake.com/flow/snowflake/summit25/sessions/page/catalog",
+    "source_api_url": "https://events.summit.snowflake.com/api/sessions",
+    "times": [
+      {
+        "session_time_id": "1743740171471001wn6R",
+        "date": "2025-06-02",
+        "date_formatted": "Monday, June 02",
+        "day_name": "Monday",
+        "start_time": "12:00",
+        "start_time_formatted": "12:00 PM",
+        "end_time": "12:45",
+        "end_time_formatted": "12:45 PM",
+        "room": "Executive Lounge (Moscone South, Level 3)",
+        "room_id": "1743739319348001hSic",
+        "length_minutes": 45.0,
+        "in_person_time": true,
+        "virtual_time": false,
+        "utc_start_time": "2025/06/02 19:00:00",
+        "utc_end_time": "2025/06/02 19:45:00"
+      }
+    ],
+    "attributes": {
+      "Technical Level": [
+        "Introductory"
+      ],
+      "Session Type": [
+        "Executive Content"
+      ],
+      "Relevant for Personas": [
+        "Technical Executive",
+        "Business Executive"
+      ],
+      "Session Start Time": [
+        "12:00pm - 1:00pm"
+      ],
+      "Relevant for Industry / Vertical": [
+        "Not industry-specific "
+      ],
+      "Covered Topics": [
+        "AI & GenAI"
+      ],
+      "Hide From Catalog": [
+        "No"
+      ],
+      "Day": [
+        "Mon, Jun 2",
+        "Monday, Jun 02"
+      ],
+      "Session Catalog Tab": [
+        "All Days"
+      ],
+      "Note": [
+        "Theaters are first come, first seated"
+      ],
+      "Recommendations (Rule Based)": [
+        "Other (Industry-A)",
+        "AI & GenAI (Topic)",
+        "Business Executive (Role)",
+        "Technical Executive (Role)"
+      ],
+      "Time": [
+        "12:00 p.m. Monday, Jun 02"
+      ]
+    },
+    "speakers": [
+      {
+        "speaker_id": "1707260608272001KBUF_172771875542summit25",
+        "full_name": "Rebecca McMorris",
+        "first_name": "Rebecca",
+        "last_name": "McMorris",
+        "company": "WM",
+        "job_title": "Sr. Director, Planning & Data Services",
+        "roles": "Executive Speaker",
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1707260608272001KBUF/attprofile/Rebecca%20McMorris095-%20WEB%20VERSION%20Chris%20Gillett%20Houston%20Headshot%20Photographer-2_1747080211330001P4wh.jpg",
+        "linkedin": "https://www.linkedin.com/in/rebecca-mcmorris/",
+        "twitter": null,
+        "display_order": 1.0
+      },
+      {
+        "speaker_id": "1708714394587001OnJd_172771875542summit25",
+        "full_name": "Jennifer Belissent",
+        "first_name": "Jennifer",
+        "last_name": "Belissent",
+        "company": "Snowflake",
+        "job_title": "Principal Data Strategist",
+        "roles": "Executive Speaker",
+        "bio": "As Principal Data Strategist at Snowflake, Jennifer advises customers on data strategy and best practices in building world-class data organizations. Prior to Snowflake, Jennifer spent over a decade as a Forrester Analyst, held management positions in tech sales and marketing, designed urban policy programs in E. Europe and Russia, and taught math as a Peace Corps volunteer in Central Africa. She earned a Ph.D. and an M.A. from Stanford University and a B.A. in econometrics from the University of Virginia.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1708714394587001OnJd/attprofile/jennifer-b-author-image_1744683279704001vYnN.jpeg",
+        "linkedin": "https://www.linkedin.com/in/jenniferbelissent/",
+        "twitter": null,
+        "display_order": 3.0
+      },
+      {
+        "speaker_id": "1710450498422001j0vd_172771875542summit25",
+        "full_name": "Bruno Gagliardo",
+        "first_name": "Bruno",
+        "last_name": "Gagliardo",
+        "company": "Sanofi",
+        "job_title": "Head of Data and AI Accelerators",
+        "roles": "Executive Speaker",
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1710450498422001j0vd/attprofile/Bruno%20Gagliardo_1748010171956001Q83b.jpeg",
+        "linkedin": null,
+        "twitter": null,
+        "display_order": 4.0
+      },
+      {
+        "speaker_id": "1738737994832001XC8E_172771875542summit25",
+        "full_name": "Mercedes Pantoja Calero",
+        "first_name": "Mercedes",
+        "last_name": "Pantoja Calero",
+        "company": "Siemens Healthineers",
+        "job_title": "Global Head of Data & AI",
+        "roles": "Executive Speaker",
+        "bio": "Mercedes Pantoja is a seasoned global IT executive with over two decades of experience with state-of-the-art technologies. Specialized in driving innovation and growth through Data and AI, She has successfully led organizations of all sizes in transforming strategy into actionable impact. With a proven record of designing sustainable enterprise solutions and pioneering products, She combines deep technical expertise with clear communication, making complex ideas accessible at all levels. She is known for fostering collaborative, diverse teams that unlock potential and deliver tangible business value. A positive and energetic individual, passionate about technology, health and well-being.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit25/att/1738737994832001XC8E/attprofile/Mercedes%20Pantoja_1748010235746001pZY1.jpeg",
+        "linkedin": "https://www.linkedin.com/in/mercedes-pantoja-a60162a5/",
+        "twitter": null,
+        "display_order": 5.0
+      }
+    ],
+    "speaker_count": 4,
+    "view_access_public": true,
+    "has_webinar_profile": false,
+    "has_webinar_chat_profile": false,
+    "modified_at": "2025-06-26T16:49:28Z"
+  }
+]
