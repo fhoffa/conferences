@@ -12,6 +12,8 @@ conferences/
     2025/
     2026/
   snowflake-summit/
+    2024/
+    2025/
     2026/
   databricks-data-ai-summit/
     2026/
@@ -37,7 +39,7 @@ This keeps conferences separate while leaving room for shared helpers later.
 ## Current focus
 
 - Google Cloud Next 2025 and 2026 imported from the original source project
-- Snowflake Summit 2026 now has a working browser-backed catalog capture and normalized session export
+- Snowflake Summit 2024, 2025, and 2026 each now have a reviewable public-catalog capture path
 - Databricks Data + AI Summit 2026 scaffolded for upcoming scraping work
 
 ## Working style
