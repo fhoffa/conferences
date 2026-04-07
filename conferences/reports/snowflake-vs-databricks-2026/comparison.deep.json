@@ -93,7 +93,7 @@
       },
       {
         "word": "manager",
-        "count": 97
+        "count": 96
       },
       {
         "word": "director",
@@ -171,103 +171,103 @@
     "top_words": [
       {
         "word": "analytics",
-        "count": 124
-      },
-      {
-        "word": "business",
-        "count": 110
-      },
-      {
-        "word": "agents",
-        "count": 107
-      },
-      {
-        "word": "governance",
         "count": 105
       },
       {
+        "word": "business",
+        "count": 92
+      },
+      {
+        "word": "governance",
+        "count": 91
+      },
+      {
         "word": "enterprise",
-        "count": 102
+        "count": 90
       },
       {
-        "word": "intelligence",
-        "count": 98
-      },
-      {
-        "word": "scale",
-        "count": 97
+        "word": "agents",
+        "count": 86
       },
       {
         "word": "platform",
-        "count": 85
+        "count": 79
       },
       {
-        "word": "iceberg",
-        "count": 75
+        "word": "intelligence",
+        "count": 78
+      },
+      {
+        "word": "scale",
+        "count": 74
       },
       {
         "word": "code",
-        "count": 72
+        "count": 66
       },
       {
-        "word": "semantic",
-        "count": 71
+        "word": "iceberg",
+        "count": 66
       },
       {
         "word": "teams",
-        "count": 69
-      },
-      {
-        "word": "governed",
-        "count": 68
+        "count": 64
       },
       {
         "word": "architecture",
-        "count": 65
-      },
-      {
-        "word": "agentic",
-        "count": 65
-      },
-      {
-        "word": "insights",
-        "count": 63
-      },
-      {
-        "word": "real-time",
         "count": 61
       },
       {
+        "word": "governed",
+        "count": 61
+      },
+      {
+        "word": "semantic",
+        "count": 58
+      },
+      {
+        "word": "insights",
+        "count": 54
+      },
+      {
         "word": "pipelines",
-        "count": 60
+        "count": 52
+      },
+      {
+        "word": "real-time",
+        "count": 52
       },
       {
         "word": "customer",
-        "count": 59
+        "count": 52
       },
       {
         "word": "tables",
-        "count": 56
-      },
-      {
-        "word": "access",
-        "count": 54
+        "count": 51
       },
       {
         "word": "complex",
-        "count": 54
+        "count": 48
       },
       {
-        "word": "without",
-        "count": 53
+        "word": "access",
+        "count": 47
       },
       {
         "word": "built",
-        "count": 51
+        "count": 47
       },
       {
-        "word": "workflows",
-        "count": 51
+        "word": "while",
+        "count": 47
+      },
+      {
+        "word": "agentic",
+        "count": 47
+      },
+      {
+        "word": "discover",
+        "count": 46
       }
     ],
     "top_topics": [],
@@ -626,104 +626,104 @@
     ],
     "top_words": [
       {
-        "word": "span",
-        "count": 712
-      },
-      {
-        "word": "style",
-        "count": 426
-      },
-      {
         "word": "platform",
-        "count": 249
+        "count": 184
       },
       {
         "word": "governance",
-        "count": 181
+        "count": 127
       },
       {
         "word": "architecture",
-        "count": 157
-      },
-      {
-        "word": "analytics",
-        "count": 146
-      },
-      {
-        "word": "scale",
-        "count": 137
-      },
-      {
-        "word": "business",
-        "count": 124
-      },
-      {
-        "word": "including",
         "count": 122
       },
       {
-        "word": "access",
+        "word": "analytics",
         "count": 121
       },
       {
         "word": "pipelines",
-        "count": 118
+        "count": 91
       },
       {
-        "word": "font-size",
-        "count": 118
-      },
-      {
-        "word": "font-family",
-        "count": 118
-      },
-      {
-        "word": "sans'",
-        "count": 118
-      },
-      {
-        "word": "sans-serif",
-        "count": 118
-      },
-      {
-        "word": "color",
-        "count": 118
-      },
-      {
-        "word": "enterprise",
-        "count": 107
-      },
-      {
-        "word": "agent",
-        "count": 107
+        "word": "scale",
+        "count": 90
       },
       {
         "word": "built",
-        "count": 104
+        "count": 89
+      },
+      {
+        "word": "enterprise",
+        "count": 85
+      },
+      {
+        "word": "business",
+        "count": 83
+      },
+      {
+        "word": "access",
+        "count": 83
+      },
+      {
+        "word": "streaming",
+        "count": 78
       },
       {
         "word": "while",
-        "count": 102
-      },
-      {
-        "word": "cost",
-        "count": 99
-      },
-      {
-        "word": "lakehouse",
-        "count": 97
-      },
-      {
-        "word": "model",
-        "count": 96
-      },
-      {
-        "word": "agents",
-        "count": 93
+        "count": 78
       },
       {
         "word": "teams",
-        "count": 91
+        "count": 76
+      },
+      {
+        "word": "lakehouse",
+        "count": 75
+      },
+      {
+        "word": "agent",
+        "count": 73
+      },
+      {
+        "word": "real-time",
+        "count": 69
+      },
+      {
+        "word": "insights",
+        "count": 68
+      },
+      {
+        "word": "operational",
+        "count": 67
+      },
+      {
+        "word": "spark",
+        "count": 62
+      },
+      {
+        "word": "lakebase",
+        "count": 61
+      },
+      {
+        "word": "agents",
+        "count": 61
+      },
+      {
+        "word": "talk",
+        "count": 60
+      },
+      {
+        "word": "apps",
+        "count": 58
+      },
+      {
+        "word": "foundation",
+        "count": 58
+      },
+      {
+        "word": "model",
+        "count": 57
       }
     ],
     "top_topics": [

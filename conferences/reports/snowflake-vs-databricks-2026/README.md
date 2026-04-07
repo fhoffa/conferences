@@ -207,3 +207,6 @@ Early deep catalog comparison focused on speakers, speaker titles, vocabulary, t
 - **Speaker titles:** a heavier mix of architects / engineers / directors usually points to practitioner and implementation emphasis; a heavier mix of executives / heads / CxOs often points to transformation-story selling and strategic positioning.
 - **Top words and topics:** use these as a thematic fingerprint. Even with incomplete catalogs, repeated vocabulary tends to reveal what each event is trying to teach and sell.
 - **External companies:** this is one of the strongest early signals for partner/customer pull and real-world adoption narratives.
+
+## Cleaning note
+Previous word counts accidentally leaked some HTML/CSS tokens from source descriptions. The tokenizer now strips markup and style fragments before counting words.
