@@ -1,1 +1,696 @@
-[]
+[
+  {
+    "session_id": "1768237003488001y1Oy",
+    "external_id": "1768237003488001y1Oy",
+    "code": "BI205",
+    "code_id": "bi205",
+    "title": "12 Million Queries, 2,500 Users: How Siemens Energy Scales AI with Alteryx",
+    "abstract": "<p>Siemens Energy needed to scale analytics across a global enterprise \u2014 not just access but governance and performance across more than 2,500 users and 12 million queries a year. Learn how it built an architecture where Alteryx pushes analytics directly into Snowflake, eliminating extraction and keeping compute where the data lives. The centerpiece: custom Alteryx workflows that call Snowflake Cortex AI natively, embedding generative AI into production pipelines without rebuilding workflows or bypassing governance. Walk away with a concrete model for scaling self-service analytics, integrating Cortex AI through Alteryx, and giving business teams a path from data to AI-driven decisions.</p>\n",
+    "session_type": "Theater Session",
+    "language": "en",
+    "length_minutes": 20,
+    "published": 1,
+    "status": "Accepted",
+    "event_code": "summit26",
+    "event_id": "175649331958summit26",
+    "event_name": "Summit 26",
+    "modified": "2026-04-07T19:50:25Z",
+    "featured_value": 1,
+    "view_access_public": true,
+    "virtual_time": false,
+    "use_waiting_list": "1",
+    "speakers": [
+      {
+        "speaker_id": "1773679924917001vxjj_175649331958summit26",
+        "full_name": "Alex Gross",
+        "first_name": "Alex",
+        "last_name": "Gross",
+        "company": "Siemens Energy",
+        "job_title": "Data Science & ML Expert | Alteryx ACE",
+        "bio": "Alex started his career as a consultant to help customer build BI solutions and implement self-service analytics solutions. He switched to Siemens Energy in 2023 and is an expert in topics around Alteryx, Snowflake and the Siemens Energy BI landscape. He has built an scaled solutions to thousands of users and is a frontrunner in solutions that utilise cortex.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit26/att/1773679924917001vxjj/attprofile/Alex%20Gross%20Siemens%20Energy_1773679925055001v0jA.jpg",
+        "linkedin": "https://www.linkedin.com/in/grossal/",
+        "roles": "Published Speaker"
+      }
+    ],
+    "times": [
+      {
+        "session_time_id": "1775567110162001YT3G",
+        "date": "2026-06-03",
+        "date_formatted": "Wednesday, June 03",
+        "day_name": "Wednesday",
+        "start_time": "12:30",
+        "start_time_formatted": "12:30 PM",
+        "end_time": "12:50",
+        "end_time_formatted": "12:50 PM",
+        "utc_start_time": "2026/06/03 19:30:00",
+        "utc_end_time": "2026/06/03 19:50:00",
+        "room": "Basecamp South Theater 3 (Basecamp, South Hall C)",
+        "room_id": "1773788087959001kTbU",
+        "length_minutes": 20,
+        "in_person_time": true,
+        "virtual_time": false,
+        "view_access_public": true
+      }
+    ],
+    "attributes": {
+      "Technical Level": [
+        "Intermediate"
+      ],
+      "Session Type": [
+        "Theater Session"
+      ],
+      "Relevant for Personas": [
+        "BI / Analyst",
+        "Data Scientist"
+      ],
+      "Session Tracks": [
+        "BI & Analytics"
+      ],
+      "Relevant for Industry / Vertical": [
+        "Not industry-specific"
+      ],
+      "Partner Confirmation Code": [
+        "2144"
+      ],
+      "Covered Topics": [
+        "Generative AI / LLMs",
+        "Governance",
+        "Interoperability",
+        "Snowflake Partners",
+        "System Integrations / Synchronizations"
+      ],
+      "Covered Features": [
+        "Cortex AI Functions"
+      ],
+      "Hide From Catalog": [
+        "No"
+      ],
+      "Session Catalog Tab": [
+        "All Days"
+      ],
+      "Relevant for Department": [
+        "Not department-specific"
+      ],
+      "Recommendations (Rule Based)": [
+        "Other (Industry-A)",
+        "BI / Analyst (Role)",
+        "Data Scientist (Role)"
+      ],
+      "Delivery Method": [
+        "Live"
+      ],
+      "Session Length": [
+        "20 Minutes"
+      ],
+      "Note": [
+        "Seating for this session will be on a first-come, first-served basis"
+      ],
+      "Time": [
+        "12:00 p.m. Wednesday, Jun 03"
+      ],
+      "Day": [
+        "Wednesday, Jun 03"
+      ]
+    }
+  },
+  {
+    "session_id": "1766160972009001OC9s",
+    "external_id": "1766160972009001OC9s",
+    "code": "GO212",
+    "code_id": "go212",
+    "title": "20-Minute Threat Hunt: Building and Deploying a Cybersecurity Agent with Cortex",
+    "abstract": "<p>Stop building custom data pipelines for AI. Start solving threats in minutes. This session covers the end-to-end process to rapidly deploy a production-ready, investigative generative AI agent for cybersecurity using Snowflake Intelligence:</p>\n\n<ol>\n\t<li>Unifying security logs (access, audit, vulns)</li>\n\t<li>Using Semantic Views to apply governance and context with Snowflake Horizon Catalog</li>\n\t<li>Configuring the agent with specialized tools like Cortex Analyst (for structured data queries) and Cortex Search (for unstructured threat intelligence)</li>\n</ol>\n\n<p>See a live demo of the agent performing a complex threat hunt, all running securely inside your security perimeter.</p>\n",
+    "session_type": "Theater Session",
+    "language": "en",
+    "length_minutes": 20,
+    "published": 1,
+    "status": "Accepted",
+    "event_code": "summit26",
+    "event_id": "175649331958summit26",
+    "event_name": "Summit 26",
+    "modified": "2026-04-07T19:50:25Z",
+    "featured_value": 1,
+    "view_access_public": true,
+    "virtual_time": false,
+    "use_waiting_list": "1",
+    "speakers": [
+      {
+        "speaker_id": "1766161071789001wBrn_175649331958summit26",
+        "full_name": "vince luongo",
+        "first_name": "vince",
+        "last_name": "luongo",
+        "company": "Snowflake",
+        "job_title": "Cybersecurity Architect, Applied Field Engineering",
+        "bio": "<p>Vince Luongo is a cybersecurity architect at Snowflake, specializing in building and scaling cybersecurity use cases on modern data platforms. He holds a degree in Cybersecurity from Penn State and brings over seven years of experience as a security consultant, working across both public sector and commercial organizations.</p>\n\n<p>With a background in security engineering and governance, risk, and compliance (GRC), Vince has helped organizations strengthen their security posture and operationalize risk management. Today, he focuses on helping teams leverage data to enhance threat detection, streamline compliance, and modernize security operations on the Snowflake platform.</p>\n",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit26/att/1766161071789001wBrn/attprofile/Vincent%20Luongo%281%29_1774301466069001OkK4.jpeg",
+        "linkedin": "https://www.linkedin.com/in/vincent-luongo-cissp/",
+        "roles": "Published Speaker"
+      },
+      {
+        "speaker_id": "1699931383141001sz9N_175649331958summit26",
+        "full_name": "Jake Berkowsky",
+        "first_name": "Jake",
+        "last_name": "Berkowsky",
+        "company": "Snowflake",
+        "job_title": "Applied Cybersecurity And Observability",
+        "bio": "Jake is Snowflake's Cybersecurity Field CTO and leads Snowflake's Cybersecurity Data Cloud. At Snowflake, Jake's mission is to evangelize and enable the implementation of modern security analytics and engineering. Prior to joining Snowflake, Jake has had a diverse background of technical and leadership roles having most recently served as Co-Founder and CTO of a Cloud Consulting and Data Intelligence company. He regularly maintains his experience and interests in the areas of cloud, devops and development and is an active outdoorsman and nature enthusiast.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit26/att/1699931383141001sz9N/attprofile/jake_1773346080822001Emjb.png",
+        "linkedin": null,
+        "roles": "Published Speaker"
+      }
+    ],
+    "times": [
+      {
+        "session_time_id": "1775567144321001Y9Mw",
+        "date": "2026-06-03",
+        "date_formatted": "Wednesday, June 03",
+        "day_name": "Wednesday",
+        "start_time": "15:00",
+        "start_time_formatted": "03:00 PM",
+        "end_time": "15:20",
+        "end_time_formatted": "03:20 PM",
+        "utc_start_time": "2026/06/03 22:00:00",
+        "utc_end_time": "2026/06/03 22:20:00",
+        "room": "Builders Hub Theater (Basecamp, South Hall D)",
+        "room_id": "1773788220599001vhH8",
+        "length_minutes": 20,
+        "in_person_time": true,
+        "virtual_time": false,
+        "view_access_public": true
+      }
+    ],
+    "attributes": {
+      "Technical Level": [
+        "Intermediate"
+      ],
+      "Session Type": [
+        "Theater Session"
+      ],
+      "Relevant for Personas": [
+        "Technical Executive",
+        "IT / DBA",
+        "Software Developer",
+        "Security Practitioner",
+        "DevOps",
+        "Data Engineer"
+      ],
+      "Session Tracks": [
+        "Governance & Security"
+      ],
+      "Relevant for Industry / Vertical": [
+        "Not industry-specific"
+      ],
+      "Partner Confirmation Code": [
+        "1740"
+      ],
+      "Covered Topics": [
+        "Security / Cybersecurity",
+        "Generative AI / LLMs",
+        "Governance",
+        "IT Operations",
+        "AI Agents / Data Agents",
+        "Data Warehouse",
+        "Catalogs / Discovery"
+      ],
+      "Covered Features": [
+        "Cortex Agents",
+        "Time-series functions",
+        "Horizon Catalog",
+        "Semantic Views",
+        "Snowflake Intelligence",
+        "Cortex AI Functions"
+      ],
+      "Hide From Catalog": [
+        "No"
+      ],
+      "Session Catalog Tab": [
+        "All Days"
+      ],
+      "Relevant for Department": [
+        "Not department-specific"
+      ],
+      "Recommendations (Rule Based)": [
+        "Other (Industry-A)",
+        "Data Engineer (Role)",
+        "IT / DBA (Role)",
+        "Security Practitioner (Role)",
+        "Software Developer (Role)",
+        "Technical Executive (Role)"
+      ],
+      "Delivery Method": [
+        "Live"
+      ],
+      "Session Length": [
+        "20 Minutes"
+      ],
+      "Note": [
+        "Seating for this session will be on a first-come, first-served basis"
+      ],
+      "Time": [
+        "3:00 p.m. Wednesday, Jun 03"
+      ],
+      "Day": [
+        "Wednesday, Jun 03"
+      ]
+    }
+  },
+  {
+    "session_id": "1771003206956001YoHc",
+    "external_id": "1771003206956001YoHc",
+    "code": "AI234",
+    "code_id": "ai234",
+    "title": "3 Essentials for Building Winning AI Projects",
+    "abstract": "<p>Many AI projects fail not because of models but because the data lacks context. AI success relies on knowing where data lives, what it means and whether it is fresh. Without enterprise context, applications and agents fail. Join Cloudera and Sanjeev Mohan, Analyst at SanjMo, to explore three essentials to give AI the context it needs:</p>\n\n<ul>\n\t<li>Connected data across your ecosystem</li>\n\t<li>Trusted governance for secure access</li>\n\t<li>Real-time pipelines for fresh knowledge</li>\n</ul>\n\n<p>Learn how Cloudera and Snowflake provide the data foundation to discover and securely access the right data. Move from isolated experiments to AI projects that deliver measurable, business-ready outcomes.</p>\n",
+    "session_type": "Theater Session",
+    "language": "en",
+    "length_minutes": 20,
+    "published": 1,
+    "status": "Accepted",
+    "event_code": "summit26",
+    "event_id": "175649331958summit26",
+    "event_name": "Summit 26",
+    "modified": "2026-04-07T19:50:25Z",
+    "featured_value": 1,
+    "view_access_public": true,
+    "virtual_time": false,
+    "use_waiting_list": "1",
+    "speakers": [
+      {
+        "speaker_id": "1710174149954001onVN_175649331958summit26",
+        "full_name": "Sanjeev Mohan",
+        "first_name": "Sanjeev",
+        "last_name": "Mohan",
+        "company": "Sanjmo",
+        "job_title": "Principal",
+        "bio": "Sanjeev Mohan is a recognized thought leader in cloud technologies, data architectures, analytics, and artificial intelligence. With a keen focus on emerging trends and technologies, Sanjeev hosts It Depends podcast and authors regular Medium blogs. He is also the author of Data Product for Dummies.\n\nFormerly a Vice President at Gartner, Sanjeev was renowned for his in-depth research and strategic insights, shaping the research agenda for data and analytics globally. He now leads SanjMo, a consultancy specializing in technical advisory services that elevate category and brand awareness for clients.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit26/att/1710174149954001onVN/attprofile/Sanjeev%20Pic2%20%281%29%20%281%29_1773366320164001Giu7.jpg",
+        "linkedin": "https://www.linkedin.com/in/sanjmo/",
+        "roles": "Published Speaker"
+      },
+      {
+        "speaker_id": "1773282013246001Nm0B_175649331958summit26",
+        "full_name": "Navita Sood",
+        "first_name": "Navita",
+        "last_name": "Sood",
+        "company": "Cloudera",
+        "job_title": "Director Product Marketing, Data and AI",
+        "bio": "Navita Sood is a seasoned Data and AI leader dedicated to helping global enterprises build a strong data foundation to power their analytics and AI innovations. As the Director of Product Marketing at Cloudera, Navita guides customers on their data strategy and the adoption of emerging technologies.\n\nWith over 15 years of experience across the enterprise software landscape\u2014including leadership roles at Oracle, IBM, Micro Focus, and Avaya\u2014her expertise spans the entire data lifecycle, cloud services, Generative AI and autonomous Agents. She is a trusted voice in bridging the gap between complex technology and business value. She holds an MBA from HEC Paris and a B.E. in Computer Science.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit26/att/1773282013246001Nm0B/attprofile/Navita-7V2A0839A_1773466367894001XIzO.jpg",
+        "linkedin": "https://www.linkedin.com/in/navitasood/",
+        "roles": "Published Speaker"
+      }
+    ],
+    "times": [
+      {
+        "session_time_id": "1775567113530001YWJ2",
+        "date": "2026-06-04",
+        "date_formatted": "Thursday, June 04",
+        "day_name": "Thursday",
+        "start_time": "13:30",
+        "start_time_formatted": "01:30 PM",
+        "end_time": "13:50",
+        "end_time_formatted": "01:50 PM",
+        "utc_start_time": "2026/06/04 20:30:00",
+        "utc_end_time": "2026/06/04 20:50:00",
+        "room": "Vertical Village Theater 2 (Basecamp, South)",
+        "room_id": "1773787243053001FYvp",
+        "length_minutes": 20,
+        "in_person_time": true,
+        "virtual_time": false,
+        "view_access_public": true
+      }
+    ],
+    "attributes": {
+      "Technical Level": [
+        "Intermediate"
+      ],
+      "Session Type": [
+        "Theater Session"
+      ],
+      "Relevant for Personas": [
+        "Technical Executive",
+        "Business Executive",
+        "IT / DBA",
+        "BI / Analyst",
+        "Data Scientist",
+        "Software Developer",
+        "Data Engineer"
+      ],
+      "Session Tracks": [
+        "Generative AI & Agents"
+      ],
+      "Relevant for Industry / Vertical": [
+        "Media, Entertainment & Advertising",
+        "Financial Services",
+        "Healthcare and Life Sciences",
+        "Manufacturing",
+        "Public Sector",
+        "Retail & Consumer Goods",
+        "Technology",
+        "Telecom"
+      ],
+      "Partner Confirmation Code": [
+        "2956"
+      ],
+      "Covered Topics": [
+        "Governance",
+        "Compliance",
+        "AI Agents / Data Agents",
+        "Open Lakehouse",
+        "Interoperability"
+      ],
+      "Covered Features": [
+        "Secure Data Sharing",
+        "Apache NiFi",
+        "Apache Iceberg\u2122",
+        "Apache Spark\u2122",
+        "Apache Polaris"
+      ],
+      "Hide From Catalog": [
+        "No"
+      ],
+      "Session Catalog Tab": [
+        "All Days"
+      ],
+      "Relevant for Department": [
+        "Not department-specific"
+      ],
+      "Recommendations (Rule Based)": [
+        "Advertising, Media, and Entertainment (Industry-A)",
+        "Financial Services (Industry-A)",
+        "Healthcare and Life Sciences (Industry-A)",
+        "Manufacturing (Industry-A)",
+        "Public Sector (Industry-A)",
+        "Retail and CPG (Industry-A)",
+        "Technology (Industry-A)",
+        "Telecommunications (Industry-A)",
+        "BI / Analyst (Role)",
+        "Business Executive (Role)",
+        "Data Engineer (Role)",
+        "Data Scientist (Role)",
+        "IT / DBA (Role)",
+        "Software Developer (Role)",
+        "Technical Executive (Role)"
+      ],
+      "Delivery Method": [
+        "Live"
+      ],
+      "Session Length": [
+        "20 Minutes"
+      ],
+      "Note": [
+        "Seating for this session will be on a first-come, first-served basis"
+      ],
+      "Time": [
+        "1:00 p.m. Thursday, Jun 04"
+      ],
+      "Day": [
+        "Thursday, Jun 04"
+      ]
+    }
+  },
+  {
+    "session_id": "1764972805424001n47V",
+    "external_id": "1764972805424001n47V",
+    "code": "ML204",
+    "code_id": "ml204",
+    "title": "Accelerate and Automate: Mastering Snowflake ML with Cortex Code",
+    "abstract": "<p>Experience the next level of MLE productivity. This session provides a deep dive into Cortex Code, a massive accelerator designed to automate Snowflake ML pipelines from ingestion to production. We will demonstrate how Cortex Code meets machine learning engineers in their preferred environments to simplify the full lifecycle of enterprise models. Whether you are looking to reduce technical debt or scale your ML operations, join us to see how to build faster, smarter and more resilient pipelines at scale.</p>\n",
+    "session_type": "Theater Session",
+    "language": "en",
+    "length_minutes": 20,
+    "published": 1,
+    "status": "Accepted",
+    "event_code": "summit26",
+    "event_id": "175649331958summit26",
+    "event_name": "Summit 26",
+    "modified": "2026-04-07T19:50:25Z",
+    "featured_value": 1,
+    "view_access_public": true,
+    "virtual_time": false,
+    "use_waiting_list": "1",
+    "speakers": [
+      {
+        "speaker_id": "1699931359625001smgt_175649331958summit26",
+        "full_name": "Caleb Baechtold",
+        "first_name": "Caleb",
+        "last_name": "Baechtold",
+        "company": "Snowflake",
+        "job_title": "Sr Manager, Applied AI Field Engineering",
+        "bio": "Caleb is a Sr Manager in the AI/ML Applied Field Engineering office at Snowflake, and formerly a Principal Architect on the team. He is the global field lead for the Snowflake ML ecosystem and manages Snowflake's team of ML Applied Field Engineers. His background is in theoretical mathematics and philosophy. Prior to Snowflake, he was a practicing data scientist and machine learning engineer primarily in the defense and intelligence contracting industry. Caleb is based out of Boulder, CO.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit26/att/1699931359625001smgt/attprofile/1708273200807_1769525739988001j72Z.jpeg",
+        "linkedin": "https://www.linkedin.com/in/caleb-baechtold/",
+        "roles": "Published Speaker"
+      },
+      {
+        "speaker_id": "1766174406051001VISM_175649331958summit26",
+        "full_name": "Ghazaleh Kazeminejad",
+        "first_name": "Ghazaleh",
+        "last_name": "Kazeminejad",
+        "company": "Snowflake",
+        "job_title": "Senior AI/ML Architect - AFE",
+        "bio": null,
+        "photo_url": "https://static.rainfocus.com/snowflake/summit26/att/1766174406051001VISM/attprofile/gee_profile_pic_1773940781574001XJUC.jpg",
+        "linkedin": null,
+        "roles": "Published Speaker"
+      }
+    ],
+    "times": [
+      {
+        "session_time_id": "1775567141069001YkNP",
+        "date": "2026-06-03",
+        "date_formatted": "Wednesday, June 03",
+        "day_name": "Wednesday",
+        "start_time": "12:30",
+        "start_time_formatted": "12:30 PM",
+        "end_time": "12:50",
+        "end_time_formatted": "12:50 PM",
+        "utc_start_time": "2026/06/03 19:30:00",
+        "utc_end_time": "2026/06/03 19:50:00",
+        "room": "Builders Hub Theater (Basecamp, South Hall D)",
+        "room_id": "1773788220599001vhH8",
+        "length_minutes": 20,
+        "in_person_time": true,
+        "virtual_time": false,
+        "view_access_public": true
+      }
+    ],
+    "attributes": {
+      "Technical Level": [
+        "Intermediate"
+      ],
+      "Session Type": [
+        "Theater Session"
+      ],
+      "Relevant for Personas": [
+        "Technical Executive",
+        "IT / DBA",
+        "Data Scientist",
+        "Software Developer",
+        "Product Manager",
+        "DevOps",
+        "Data Engineer",
+        "MLOps"
+      ],
+      "Session Tracks": [
+        "Machine Learning"
+      ],
+      "Relevant for Industry / Vertical": [
+        "Not industry-specific"
+      ],
+      "Partner Confirmation Code": [
+        "1248"
+      ],
+      "Covered Topics": [
+        "Generative AI / LLMs",
+        "DevOps / DevEx",
+        "Machine Learning",
+        "MLOps",
+        "AI Agents / Data Agents"
+      ],
+      "Covered Features": [
+        "Snowflake ML",
+        "Cortex Code"
+      ],
+      "Hide From Catalog": [
+        "No"
+      ],
+      "Session Catalog Tab": [
+        "All Days"
+      ],
+      "Relevant for Department": [
+        "Not department-specific"
+      ],
+      "Recommendations (Rule Based)": [
+        "Other (Industry-A)",
+        "Data Engineer (Role)",
+        "Data Scientist (Role)",
+        "IT / DBA (Role)",
+        "Product Manager (Role)",
+        "Software Developer (Role)",
+        "Technical Executive (Role)"
+      ],
+      "Delivery Method": [
+        "Live"
+      ],
+      "Session Length": [
+        "20 Minutes"
+      ],
+      "Note": [
+        "Seating for this session will be on a first-come, first-served basis"
+      ],
+      "Time": [
+        "12:00 p.m. Wednesday, Jun 03"
+      ],
+      "Day": [
+        "Wednesday, Jun 03"
+      ]
+    }
+  },
+  {
+    "session_id": "1768105521142001Mj2x",
+    "external_id": "1768105521142001Mj2x",
+    "code": "DE234",
+    "code_id": "de234",
+    "title": "Accelerating AI Readiness: Data to Real-Time Answers with Snowflake Intelligence",
+    "abstract": "<p>This session shows how we accelerated AI readiness in manufacturing by placing Snowflake Intelligence at the center of our data platform. We ingest real-time data from enterprise and mainframe systems using Snowpipe Streaming and Kafka to enable low-latency operational visibility. Pipelines are orchestrated with dbt, with Dynamic Tables automating CDC and delivering near real-time datasets. As streaming scaled, we applied Dynamic Table best practices and Gen2 warehouses to control costs. We conclude by demonstrating how Snowflake Intelligence, powered by semantic models and Cortex Analyst, enables teams to ask real-time operational questions and move beyond dashboards.</p>\n",
+    "session_type": "Theater Session",
+    "language": "en",
+    "length_minutes": 20,
+    "published": 1,
+    "status": "Accepted",
+    "event_code": "summit26",
+    "event_id": "175649331958summit26",
+    "event_name": "Summit 26",
+    "modified": "2026-04-07T19:50:25Z",
+    "featured_value": 1,
+    "view_access_public": true,
+    "virtual_time": false,
+    "use_waiting_list": "1",
+    "speakers": [
+      {
+        "speaker_id": "1714360052840001xZ87_175649331958summit26",
+        "full_name": "Venu Mashetty",
+        "first_name": "Venu",
+        "last_name": "Mashetty",
+        "company": "DAIMLER TRUCK NORTH AMERICA",
+        "job_title": "Data & AI Engineering Lead",
+        "bio": "Venu Mashetty is a Data & AI Engineering Lead at Daimler Truck North America with over 10 years of experience building enterprise data platforms and AI solutions. He leads a development team delivering scalable data and AI architectures across multiple business domains. Venu has extensive experience with SAP and modern cloud data platforms and has supported Snowflake implementations enabling real-time data pipelines, governed data platforms, and enterprise analytics. His team is also developing Generative AI solutions, including RAG-based AI assistants powered by Snowflake Cortex and the Snowflake AI Data Cloud.",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit26/att/1714360052840001xZ87/attprofile/Linkedin_1773283452559001M0GZ.png",
+        "linkedin": "https://www.linkedin.com/in/mashetty-v-86ab67a1/",
+        "roles": "Published Speaker"
+      },
+      {
+        "speaker_id": "1717430689896001tz5O_175649331958summit26",
+        "full_name": "Rangi Devanathan",
+        "first_name": "Rangi",
+        "last_name": "Devanathan",
+        "company": "Snowflake",
+        "job_title": "Senior Solutions Architect",
+        "bio": "<p>Senior Solutions Architect | Data Strategist at Snowflake with 20+ years in the data world. One question drives everything I do: which data creates value, and which is just noise?</p>\n\n<p>I partner with customers to design AI, data, and digital transformation roadmaps \u2014 turning silos into actionable intelligence, embedding analytics and GenAI where they matter, and aligning data strategy with business goals to deliver measurable value.</p>\n\n<p>What gets me up in the morning is seeing customers move from drowning in data to making confident, data-driven decisions.</p>\n\n<p>Data Strategy \u00b7 Solutions Architecture \u00b7 AI & Digital Transformation \u00b7 Customer-Centric Design<br>\n\u00a0</p>\n",
+        "photo_url": "https://static.rainfocus.com/snowflake/summit26/att/1717430689896001tz5O/attprofile/Rangi_professional_best_1775256661267001gKaA.png",
+        "linkedin": null,
+        "roles": "Published Speaker"
+      }
+    ],
+    "times": [
+      {
+        "session_time_id": "1775567126170001YMkt",
+        "date": "2026-06-01",
+        "date_formatted": "Monday, June 01",
+        "day_name": "Monday",
+        "start_time": "13:00",
+        "start_time_formatted": "01:00 PM",
+        "end_time": "13:20",
+        "end_time_formatted": "01:20 PM",
+        "utc_start_time": "2026/06/01 20:00:00",
+        "utc_end_time": "2026/06/01 20:20:00",
+        "room": "Room 210 (Moscone South, Level 2)",
+        "room_id": "1773783779151001CXU7",
+        "length_minutes": 20,
+        "in_person_time": true,
+        "virtual_time": false,
+        "view_access_public": true
+      }
+    ],
+    "attributes": {
+      "Technical Level": [
+        "Intermediate"
+      ],
+      "Session Type": [
+        "Theater Session"
+      ],
+      "Relevant for Personas": [
+        "Technical Executive",
+        "Business Executive",
+        "BI / Analyst",
+        "Data Scientist",
+        "Product Manager",
+        "Data Engineer"
+      ],
+      "Session Tracks": [
+        "Data Engineering & Pipelines"
+      ],
+      "Relevant for Industry / Vertical": [
+        "Manufacturing",
+        "Retail & Consumer Goods",
+        "Technology"
+      ],
+      "Partner Confirmation Code": [
+        "2015"
+      ],
+      "Covered Topics": [
+        "Generative AI / LLMs",
+        "Snowflake on Snowflake",
+        "AI Agents / Data Agents",
+        "Data Warehouse",
+        "System Integrations / Synchronizations"
+      ],
+      "Covered Features": [
+        "Snowpipe Streaming / Dynamic Tables",
+        "Cortex Agents",
+        "Semantic Views",
+        "Snowflake Intelligence",
+        "Gen 2 Warehouses"
+      ],
+      "Hide From Catalog": [
+        "No"
+      ],
+      "Session Catalog Tab": [
+        "All Days"
+      ],
+      "Relevant for Department": [
+        "Not department-specific",
+        "IT",
+        "Operations"
+      ],
+      "Recommendations (Rule Based)": [
+        "Manufacturing (Industry-A)",
+        "Retail and CPG (Industry-A)",
+        "Technology (Industry-A)",
+        "BI / Analyst (Role)",
+        "Business Executive (Role)",
+        "Data Engineer (Role)",
+        "Data Scientist (Role)",
+        "Product Manager (Role)",
+        "Technical Executive (Role)"
+      ],
+      "Delivery Method": [
+        "Live"
+      ],
+      "Session Length": [
+        "20 Minutes"
+      ],
+      "Note": [
+        "Seating for this session will be on a first-come, first-served basis"
+      ],
+      "Time": [
+        "1:00 p.m. Monday, Jun 01"
+      ],
+      "Day": [
+        "Monday, Jun 01"
+      ]
+    }
+  }
+]
