@@ -1,0 +1,402 @@
+[
+  {
+    "word": "platform",
+    "count": 131
+  },
+  {
+    "word": "governance",
+    "count": 95
+  },
+  {
+    "word": "catalog",
+    "count": 80
+  },
+  {
+    "word": "architecture",
+    "count": 79
+  },
+  {
+    "word": "unity",
+    "count": 79
+  },
+  {
+    "word": "scale",
+    "count": 79
+  },
+  {
+    "word": "analytics",
+    "count": 77
+  },
+  {
+    "word": "genie",
+    "count": 68
+  },
+  {
+    "word": "pipelines",
+    "count": 65
+  },
+  {
+    "word": "business",
+    "count": 64
+  },
+  {
+    "word": "including",
+    "count": 61
+  },
+  {
+    "word": "access",
+    "count": 61
+  },
+  {
+    "word": "enterprise",
+    "count": 60
+  },
+  {
+    "word": "agent",
+    "count": 58
+  },
+  {
+    "word": "lakehouse",
+    "count": 55
+  },
+  {
+    "word": "built",
+    "count": 54
+  },
+  {
+    "word": "while",
+    "count": 51
+  },
+  {
+    "word": "cost",
+    "count": 51
+  },
+  {
+    "word": "agents",
+    "count": 51
+  },
+  {
+    "word": "model",
+    "count": 50
+  },
+  {
+    "word": "lakebase",
+    "count": 48
+  },
+  {
+    "word": "real-time",
+    "count": 48
+  },
+  {
+    "word": "streaming",
+    "count": 47
+  },
+  {
+    "word": "insights",
+    "count": 46
+  },
+  {
+    "word": "teams",
+    "count": 46
+  },
+  {
+    "word": "apps",
+    "count": 44
+  },
+  {
+    "word": "spark",
+    "count": 41
+  },
+  {
+    "word": "delta",
+    "count": 40
+  },
+  {
+    "word": "production",
+    "count": 40
+  },
+  {
+    "word": "dashboards",
+    "count": 40
+  },
+  {
+    "word": "operational",
+    "count": 38
+  },
+  {
+    "word": "foundation",
+    "count": 37
+  },
+  {
+    "word": "intelligence",
+    "count": 37
+  },
+  {
+    "word": "agentic",
+    "count": 36
+  },
+  {
+    "word": "users",
+    "count": 36
+  },
+  {
+    "word": "lakeflow",
+    "count": 36
+  },
+  {
+    "word": "unified",
+    "count": 36
+  },
+  {
+    "word": "talk",
+    "count": 35
+  },
+  {
+    "word": "governed",
+    "count": 34
+  },
+  {
+    "word": "tables",
+    "count": 34
+  },
+  {
+    "word": "declarative",
+    "count": 34
+  },
+  {
+    "word": "patterns",
+    "count": 34
+  },
+  {
+    "word": "legacy",
+    "count": 33
+  },
+  {
+    "word": "time",
+    "count": 33
+  },
+  {
+    "word": "share",
+    "count": 33
+  },
+  {
+    "word": "hands-on",
+    "count": 33
+  },
+  {
+    "word": "engineering",
+    "count": 33
+  },
+  {
+    "word": "without",
+    "count": 32
+  },
+  {
+    "word": "workflows",
+    "count": 32
+  },
+  {
+    "word": "serverless",
+    "count": 32
+  },
+  {
+    "word": "performance",
+    "count": 31
+  },
+  {
+    "word": "models",
+    "count": 31
+  },
+  {
+    "word": "control",
+    "count": 31
+  },
+  {
+    "word": "product",
+    "count": 31
+  },
+  {
+    "word": "course",
+    "count": 30
+  },
+  {
+    "word": "feature",
+    "count": 30
+  },
+  {
+    "word": "migration",
+    "count": 30
+  },
+  {
+    "word": "scalable",
+    "count": 29
+  },
+  {
+    "word": "systems",
+    "count": 29
+  },
+  {
+    "word": "system",
+    "count": 29
+  },
+  {
+    "word": "attendees",
+    "count": 29
+  },
+  {
+    "word": "these",
+    "count": 29
+  },
+  {
+    "word": "serving",
+    "count": 29
+  },
+  {
+    "word": "enabling",
+    "count": 28
+  },
+  {
+    "word": "familiarity",
+    "count": 28
+  },
+  {
+    "word": "lessons",
+    "count": 28
+  },
+  {
+    "word": "sharing",
+    "count": 28
+  },
+  {
+    "word": "tools",
+    "count": 27
+  },
+  {
+    "word": "security",
+    "count": 27
+  },
+  {
+    "word": "over",
+    "count": 27
+  },
+  {
+    "word": "operations",
+    "count": 26
+  },
+  {
+    "word": "quality",
+    "count": 26
+  },
+  {
+    "word": "costs",
+    "count": 26
+  },
+  {
+    "word": "practical",
+    "count": 25
+  },
+  {
+    "word": "where",
+    "count": 25
+  },
+  {
+    "word": "experience",
+    "count": 25
+  },
+  {
+    "word": "basic",
+    "count": 25
+  },
+  {
+    "word": "real",
+    "count": 25
+  },
+  {
+    "word": "query",
+    "count": 25
+  },
+  {
+    "word": "management",
+    "count": 24
+  },
+  {
+    "word": "global",
+    "count": 24
+  },
+  {
+    "word": "applications",
+    "count": 23
+  },
+  {
+    "word": "like",
+    "count": 23
+  },
+  {
+    "word": "decisions",
+    "count": 23
+  },
+  {
+    "word": "scaling",
+    "count": 23
+  },
+  {
+    "word": "design",
+    "count": 23
+  },
+  {
+    "word": "also",
+    "count": 23
+  },
+  {
+    "word": "layer",
+    "count": 22
+  },
+  {
+    "word": "analysis",
+    "count": 22
+  },
+  {
+    "word": "team",
+    "count": 22
+  },
+  {
+    "word": "approach",
+    "count": 22
+  },
+  {
+    "word": "live",
+    "count": 22
+  },
+  {
+    "word": "complex",
+    "count": 22
+  },
+  {
+    "word": "workloads",
+    "count": 22
+  },
+  {
+    "word": "faster",
+    "count": 21
+  },
+  {
+    "word": "ingestion",
+    "count": 21
+  },
+  {
+    "word": "functions",
+    "count": 21
+  },
+  {
+    "word": "enables",
+    "count": 21
+  },
+  {
+    "word": "views",
+    "count": 20
+  },
+  {
+    "word": "single",
+    "count": 20
+  }
+]
