@@ -1,0 +1,934 @@
+{
+  "snowflake": {
+    "session_count": 319,
+    "speaker_count": 502,
+    "unique_external_companies": 206,
+    "top_speakers": [],
+    "top_speaker_titles": [
+      {
+        "title": "Senior Product Manager",
+        "count": 21
+      },
+      {
+        "title": "Staff Product Manager",
+        "count": 13
+      },
+      {
+        "title": "Lead Developer Advocate",
+        "count": 9
+      },
+      {
+        "title": "Director, Product Management",
+        "count": 9
+      },
+      {
+        "title": "Principal Product Manager",
+        "count": 8
+      },
+      {
+        "title": "Solutions Architect",
+        "count": 7
+      },
+      {
+        "title": "Director of Product Management",
+        "count": 6
+      },
+      {
+        "title": "Principal Architect",
+        "count": 6
+      },
+      {
+        "title": "Product Manager",
+        "count": 6
+      },
+      {
+        "title": "Sr. Product Manager",
+        "count": 5
+      },
+      {
+        "title": "Senior Developer Advocate",
+        "count": 5
+      },
+      {
+        "title": "Principal Data Engineer",
+        "count": 5
+      },
+      {
+        "title": "Principal Software Engineer",
+        "count": 4
+      },
+      {
+        "title": "Data Engineer",
+        "count": 4
+      },
+      {
+        "title": "Director, Migrations & Modernizations",
+        "count": 4
+      },
+      {
+        "title": "Software Engineer",
+        "count": 4
+      },
+      {
+        "title": "Senior Analytics Engineer",
+        "count": 4
+      },
+      {
+        "title": "Senior Software Engineer",
+        "count": 4
+      },
+      {
+        "title": "CTO",
+        "count": 3
+      },
+      {
+        "title": "Principal Partner Solution Engineer",
+        "count": 3
+      }
+    ],
+    "top_speaker_title_words": [
+      {
+        "word": "product",
+        "count": 108
+      },
+      {
+        "word": "manager",
+        "count": 96
+      },
+      {
+        "word": "director",
+        "count": 85
+      },
+      {
+        "word": "senior",
+        "count": 79
+      },
+      {
+        "word": "engineer",
+        "count": 69
+      },
+      {
+        "word": "principal",
+        "count": 59
+      },
+      {
+        "word": "architect",
+        "count": 53
+      },
+      {
+        "word": "engineering",
+        "count": 46
+      },
+      {
+        "word": "head",
+        "count": 39
+      },
+      {
+        "word": "analytics",
+        "count": 35
+      },
+      {
+        "word": "software",
+        "count": 29
+      },
+      {
+        "word": "management",
+        "count": 27
+      },
+      {
+        "word": "chief",
+        "count": 26
+      },
+      {
+        "word": "staff",
+        "count": 26
+      },
+      {
+        "word": "lead",
+        "count": 25
+      },
+      {
+        "word": "solutions",
+        "count": 24
+      },
+      {
+        "word": "global",
+        "count": 23
+      },
+      {
+        "word": "solution",
+        "count": 22
+      },
+      {
+        "word": "developer",
+        "count": 22
+      },
+      {
+        "word": "marketing",
+        "count": 21
+      }
+    ],
+    "top_words": [
+      {
+        "word": "analytics",
+        "count": 105
+      },
+      {
+        "word": "business",
+        "count": 92
+      },
+      {
+        "word": "governance",
+        "count": 91
+      },
+      {
+        "word": "enterprise",
+        "count": 90
+      },
+      {
+        "word": "agents",
+        "count": 86
+      },
+      {
+        "word": "platform",
+        "count": 79
+      },
+      {
+        "word": "intelligence",
+        "count": 78
+      },
+      {
+        "word": "scale",
+        "count": 74
+      },
+      {
+        "word": "code",
+        "count": 66
+      },
+      {
+        "word": "iceberg",
+        "count": 66
+      },
+      {
+        "word": "teams",
+        "count": 64
+      },
+      {
+        "word": "architecture",
+        "count": 61
+      },
+      {
+        "word": "governed",
+        "count": 61
+      },
+      {
+        "word": "semantic",
+        "count": 58
+      },
+      {
+        "word": "insights",
+        "count": 54
+      },
+      {
+        "word": "pipelines",
+        "count": 52
+      },
+      {
+        "word": "real-time",
+        "count": 52
+      },
+      {
+        "word": "customer",
+        "count": 52
+      },
+      {
+        "word": "tables",
+        "count": 51
+      },
+      {
+        "word": "complex",
+        "count": 48
+      },
+      {
+        "word": "access",
+        "count": 47
+      },
+      {
+        "word": "built",
+        "count": 47
+      },
+      {
+        "word": "while",
+        "count": 47
+      },
+      {
+        "word": "agentic",
+        "count": 47
+      },
+      {
+        "word": "discover",
+        "count": 46
+      }
+    ],
+    "top_topics": [],
+    "top_external_companies": [
+      {
+        "company": "Salesforce",
+        "count": 7
+      },
+      {
+        "company": "Booking.com",
+        "count": 6
+      },
+      {
+        "company": "Canva",
+        "count": 6
+      },
+      {
+        "company": "dbt Labs",
+        "count": 4
+      },
+      {
+        "company": "Fivetran",
+        "count": 4
+      },
+      {
+        "company": "T-Mobile USA",
+        "count": 4
+      },
+      {
+        "company": "Capital One",
+        "count": 4
+      },
+      {
+        "company": "Sigma Computing",
+        "count": 4
+      },
+      {
+        "company": "Domo",
+        "count": 3
+      },
+      {
+        "company": "Ally Financial",
+        "count": 3
+      },
+      {
+        "company": "Siemens",
+        "count": 3
+      },
+      {
+        "company": "Morgan Stanley",
+        "count": 3
+      },
+      {
+        "company": "Toyota Motor Europe",
+        "count": 3
+      },
+      {
+        "company": "Global Payments",
+        "count": 3
+      },
+      {
+        "company": "Astronomer",
+        "count": 3
+      },
+      {
+        "company": "Cyera",
+        "count": 3
+      },
+      {
+        "company": "Truist",
+        "count": 3
+      },
+      {
+        "company": "The Trade Desk",
+        "count": 3
+      },
+      {
+        "company": "Chalk",
+        "count": 2
+      },
+      {
+        "company": "Matillion",
+        "count": 2
+      },
+      {
+        "company": "Sanofi",
+        "count": 2
+      },
+      {
+        "company": "AWS",
+        "count": 2
+      },
+      {
+        "company": "Xero",
+        "count": 2
+      },
+      {
+        "company": "AT&T",
+        "count": 2
+      },
+      {
+        "company": "Aviva",
+        "count": 2
+      }
+    ]
+  },
+  "databricks": {
+    "session_count": 158,
+    "speaker_count": 223,
+    "unique_external_companies": 137,
+    "top_speakers": [
+      {
+        "speaker": "Sanjay Ashok",
+        "count": 3
+      },
+      {
+        "speaker": "Julie Nguyen",
+        "count": 2
+      },
+      {
+        "speaker": "Josue Bogran",
+        "count": 2
+      },
+      {
+        "speaker": "Sai Yang",
+        "count": 2
+      },
+      {
+        "speaker": "Partha Sarathi Sahoo",
+        "count": 2
+      },
+      {
+        "speaker": "marvin.nahmias@alpura.com Nahmias",
+        "count": 1
+      },
+      {
+        "speaker": "Javier Hauss",
+        "count": 1
+      },
+      {
+        "speaker": "Surya Sai Turaga",
+        "count": 1
+      },
+      {
+        "speaker": "Grant Veazey",
+        "count": 1
+      },
+      {
+        "speaker": "Tamilselvan Tamilmani",
+        "count": 1
+      },
+      {
+        "speaker": "Mehul Bhuva",
+        "count": 1
+      },
+      {
+        "speaker": "Harshit Rai",
+        "count": 1
+      },
+      {
+        "speaker": "Satoshi Kuramitsu",
+        "count": 1
+      },
+      {
+        "speaker": "Yoshihiro Oe",
+        "count": 1
+      },
+      {
+        "speaker": "Sumedh Datar",
+        "count": 1
+      },
+      {
+        "speaker": "Abdul Furkhan",
+        "count": 1
+      },
+      {
+        "speaker": "Brad Walker",
+        "count": 1
+      },
+      {
+        "speaker": "Domonkos Pal",
+        "count": 1
+      },
+      {
+        "speaker": "Brian Burke",
+        "count": 1
+      },
+      {
+        "speaker": "Homayoon Moradi",
+        "count": 1
+      }
+    ],
+    "top_speaker_titles": [
+      {
+        "title": "Solutions Architect",
+        "count": 7
+      },
+      {
+        "title": "Director",
+        "count": 5
+      },
+      {
+        "title": "Data Scientist",
+        "count": 3
+      },
+      {
+        "title": "Senior Data Scientist",
+        "count": 3
+      },
+      {
+        "title": "CTO",
+        "count": 2
+      },
+      {
+        "title": "Staff Engineer",
+        "count": 2
+      },
+      {
+        "title": "Head of Data Engineering",
+        "count": 2
+      },
+      {
+        "title": "Distinguished Engineer",
+        "count": 2
+      },
+      {
+        "title": "Principal data engineer",
+        "count": 2
+      },
+      {
+        "title": "Lead Data Engineer",
+        "count": 2
+      },
+      {
+        "title": "Sr. Solutions Architect",
+        "count": 2
+      },
+      {
+        "title": "Delivery Solution Architect",
+        "count": 2
+      },
+      {
+        "title": "Data Architect",
+        "count": 2
+      },
+      {
+        "title": "Software Engineer",
+        "count": 2
+      },
+      {
+        "title": "Executive Director",
+        "count": 2
+      },
+      {
+        "title": "VP of Data + AI Architecture",
+        "count": 2
+      },
+      {
+        "title": "Data Engineer",
+        "count": 2
+      },
+      {
+        "title": "Solution Architect",
+        "count": 2
+      },
+      {
+        "title": "Specialist Solutions Architect",
+        "count": 2
+      },
+      {
+        "title": "Sr. DSA",
+        "count": 2
+      }
+    ],
+    "top_speaker_title_words": [
+      {
+        "word": "engineer",
+        "count": 41
+      },
+      {
+        "word": "director",
+        "count": 39
+      },
+      {
+        "word": "architect",
+        "count": 38
+      },
+      {
+        "word": "solutions",
+        "count": 21
+      },
+      {
+        "word": "engineering",
+        "count": 20
+      },
+      {
+        "word": "manager",
+        "count": 19
+      },
+      {
+        "word": "senior",
+        "count": 19
+      },
+      {
+        "word": "lead",
+        "count": 17
+      },
+      {
+        "word": "head",
+        "count": 16
+      },
+      {
+        "word": "product",
+        "count": 14
+      },
+      {
+        "word": "software",
+        "count": 14
+      },
+      {
+        "word": "principal",
+        "count": 13
+      },
+      {
+        "word": "platform",
+        "count": 10
+      },
+      {
+        "word": "scientist",
+        "count": 10
+      },
+      {
+        "word": "analytics",
+        "count": 10
+      },
+      {
+        "word": "chief",
+        "count": 9
+      },
+      {
+        "word": "specialist",
+        "count": 8
+      },
+      {
+        "word": "staff",
+        "count": 7
+      },
+      {
+        "word": "solution",
+        "count": 7
+      },
+      {
+        "word": "officer",
+        "count": 7
+      }
+    ],
+    "top_words": [
+      {
+        "word": "platform",
+        "count": 184
+      },
+      {
+        "word": "governance",
+        "count": 127
+      },
+      {
+        "word": "architecture",
+        "count": 122
+      },
+      {
+        "word": "analytics",
+        "count": 121
+      },
+      {
+        "word": "pipelines",
+        "count": 91
+      },
+      {
+        "word": "scale",
+        "count": 90
+      },
+      {
+        "word": "built",
+        "count": 89
+      },
+      {
+        "word": "enterprise",
+        "count": 85
+      },
+      {
+        "word": "business",
+        "count": 83
+      },
+      {
+        "word": "access",
+        "count": 83
+      },
+      {
+        "word": "streaming",
+        "count": 78
+      },
+      {
+        "word": "while",
+        "count": 78
+      },
+      {
+        "word": "teams",
+        "count": 76
+      },
+      {
+        "word": "lakehouse",
+        "count": 75
+      },
+      {
+        "word": "agent",
+        "count": 73
+      },
+      {
+        "word": "real-time",
+        "count": 69
+      },
+      {
+        "word": "insights",
+        "count": 68
+      },
+      {
+        "word": "operational",
+        "count": 67
+      },
+      {
+        "word": "spark",
+        "count": 62
+      },
+      {
+        "word": "lakebase",
+        "count": 61
+      },
+      {
+        "word": "agents",
+        "count": 61
+      },
+      {
+        "word": "talk",
+        "count": 60
+      },
+      {
+        "word": "apps",
+        "count": 58
+      },
+      {
+        "word": "foundation",
+        "count": 58
+      },
+      {
+        "word": "model",
+        "count": 57
+      }
+    ],
+    "top_topics": [
+      {
+        "topic": "Data Engineering & Streaming",
+        "count": 29
+      },
+      {
+        "topic": "Artificial Intelligence & Agents",
+        "count": 21
+      },
+      {
+        "topic": "Communications - Media & Entertainment",
+        "count": 18
+      },
+      {
+        "topic": "Financial Services",
+        "count": 18
+      },
+      {
+        "topic": "Analytics & BI",
+        "count": 17
+      },
+      {
+        "topic": "AI/BI, Databricks SQL, Unity Catalog",
+        "count": 17
+      },
+      {
+        "topic": "Governance & Security",
+        "count": 17
+      },
+      {
+        "topic": "Healthcare & Life Sciences",
+        "count": 16
+      },
+      {
+        "topic": "Data Warehousing",
+        "count": 16
+      },
+      {
+        "topic": "Data Strategy",
+        "count": 15
+      },
+      {
+        "topic": "Lakebase",
+        "count": 14
+      },
+      {
+        "topic": "Retail & Consumer Goods",
+        "count": 13
+      },
+      {
+        "topic": "Application Development",
+        "count": 11
+      },
+      {
+        "topic": "Enterprise Technology",
+        "count": 11
+      },
+      {
+        "topic": "Manufacturing",
+        "count": 10
+      },
+      {
+        "topic": "Databricks SQL, Unity Catalog",
+        "count": 10
+      },
+      {
+        "topic": "Databricks SQL, Lakeflow, Unity Catalog",
+        "count": 7
+      },
+      {
+        "topic": "Unity Catalog, Databricks Apps, Agent Bricks",
+        "count": 6
+      },
+      {
+        "topic": "Databricks SQL, Delta Sharing, Unity Catalog",
+        "count": 6
+      },
+      {
+        "topic": "Travel & Hospitality",
+        "count": 6
+      },
+      {
+        "topic": "Data Sharing & Collaboration",
+        "count": 6
+      },
+      {
+        "topic": "Unity Catalog, Databricks Apps, Lakebase",
+        "count": 5
+      },
+      {
+        "topic": "Energy & Utilities",
+        "count": 4
+      },
+      {
+        "topic": "Lakeflow, Unity Catalog, Lakebase",
+        "count": 4
+      },
+      {
+        "topic": "Lakeflow, Unity Catalog",
+        "count": 4
+      }
+    ],
+    "top_external_companies": [
+      {
+        "company": "Atlassian",
+        "count": 5
+      },
+      {
+        "company": "Rivian",
+        "count": 5
+      },
+      {
+        "company": "Novo Nordisk",
+        "count": 5
+      },
+      {
+        "company": "Superhuman",
+        "count": 5
+      },
+      {
+        "company": "Workday",
+        "count": 4
+      },
+      {
+        "company": "bp",
+        "count": 4
+      },
+      {
+        "company": "easyJet",
+        "count": 4
+      },
+      {
+        "company": "JPMorgan Chase",
+        "count": 4
+      },
+      {
+        "company": "JosueBogran.com & zeb.co",
+        "count": 4
+      },
+      {
+        "company": "Mastercard",
+        "count": 4
+      },
+      {
+        "company": "Nubank",
+        "count": 4
+      },
+      {
+        "company": "ZS Associates",
+        "count": 4
+      },
+      {
+        "company": "Amgen",
+        "count": 4
+      },
+      {
+        "company": "Advancing Analytics",
+        "count": 4
+      },
+      {
+        "company": "Alpura",
+        "count": 3
+      },
+      {
+        "company": "Capital One",
+        "count": 3
+      },
+      {
+        "company": "Princeton University",
+        "count": 3
+      },
+      {
+        "company": "CVS Health",
+        "count": 3
+      },
+      {
+        "company": "Block",
+        "count": 3
+      },
+      {
+        "company": "Flo Health",
+        "count": 3
+      },
+      {
+        "company": "Milwaukee Tool",
+        "count": 3
+      },
+      {
+        "company": "YipitData",
+        "count": 3
+      },
+      {
+        "company": "Goldman Sachs",
+        "count": 3
+      },
+      {
+        "company": "UBS",
+        "count": 3
+      },
+      {
+        "company": "Supercell",
+        "count": 3
+      }
+    ]
+  }
+}
