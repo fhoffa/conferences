@@ -1,1 +1,402 @@
-[]
+[
+  {
+    "word": "spark",
+    "count": 78
+  },
+  {
+    "word": "pipelines",
+    "count": 72
+  },
+  {
+    "word": "streaming",
+    "count": 72
+  },
+  {
+    "word": "lakeflow",
+    "count": 63
+  },
+  {
+    "word": "real-time",
+    "count": 63
+  },
+  {
+    "word": "ingestion",
+    "count": 42
+  },
+  {
+    "word": "workflows",
+    "count": 38
+  },
+  {
+    "word": "engineering",
+    "count": 36
+  },
+  {
+    "word": "platform",
+    "count": 36
+  },
+  {
+    "word": "insights",
+    "count": 36
+  },
+  {
+    "word": "analytics",
+    "count": 36
+  },
+  {
+    "word": "apache",
+    "count": 35
+  },
+  {
+    "word": "pipeline",
+    "count": 34
+  },
+  {
+    "word": "delta",
+    "count": 33
+  },
+  {
+    "word": "connect",
+    "count": 31
+  },
+  {
+    "word": "performance",
+    "count": 30
+  },
+  {
+    "word": "these",
+    "count": 29
+  },
+  {
+    "word": "tables",
+    "count": 27
+  },
+  {
+    "word": "customer",
+    "count": 27
+  },
+  {
+    "word": "processing",
+    "count": 25
+  },
+  {
+    "word": "jobs",
+    "count": 25
+  },
+  {
+    "word": "scalable",
+    "count": 24
+  },
+  {
+    "word": "architecture",
+    "count": 24
+  },
+  {
+    "word": "also",
+    "count": 23
+  },
+  {
+    "word": "python",
+    "count": 23
+  },
+  {
+    "word": "while",
+    "count": 23
+  },
+  {
+    "word": "structured",
+    "count": 23
+  },
+  {
+    "word": "declarative",
+    "count": 23
+  },
+  {
+    "word": "like",
+    "count": 22
+  },
+  {
+    "word": "advanced",
+    "count": 21
+  },
+  {
+    "word": "scale",
+    "count": 21
+  },
+  {
+    "word": "capabilities",
+    "count": 21
+  },
+  {
+    "word": "custom",
+    "count": 21
+  },
+  {
+    "word": "leveraging",
+    "count": 20
+  },
+  {
+    "word": "management",
+    "count": 20
+  },
+  {
+    "word": "time",
+    "count": 20
+  },
+  {
+    "word": "teams",
+    "count": 20
+  },
+  {
+    "word": "best",
+    "count": 19
+  },
+  {
+    "word": "such",
+    "count": 19
+  },
+  {
+    "word": "cost",
+    "count": 18
+  },
+  {
+    "word": "practices",
+    "count": 18
+  },
+  {
+    "word": "complex",
+    "count": 18
+  },
+  {
+    "word": "support",
+    "count": 18
+  },
+  {
+    "word": "development",
+    "count": 18
+  },
+  {
+    "word": "over",
+    "count": 17
+  },
+  {
+    "word": "challenges",
+    "count": 17
+  },
+  {
+    "word": "future",
+    "count": 17
+  },
+  {
+    "word": "cases",
+    "count": 17
+  },
+  {
+    "word": "source",
+    "count": 17
+  },
+  {
+    "word": "features",
+    "count": 17
+  },
+  {
+    "word": "walk",
+    "count": 16
+  },
+  {
+    "word": "have",
+    "count": 16
+  },
+  {
+    "word": "help",
+    "count": 16
+  },
+  {
+    "word": "approach",
+    "count": 16
+  },
+  {
+    "word": "experience",
+    "count": 16
+  },
+  {
+    "word": "operations",
+    "count": 16
+  },
+  {
+    "word": "efficiency",
+    "count": 16
+  },
+  {
+    "word": "operational",
+    "count": 16
+  },
+  {
+    "word": "sources",
+    "count": 16
+  },
+  {
+    "word": "including",
+    "count": 15
+  },
+  {
+    "word": "schema",
+    "count": 15
+  },
+  {
+    "word": "intelligence",
+    "count": 15
+  },
+  {
+    "word": "serverless",
+    "count": 15
+  },
+  {
+    "word": "retail",
+    "count": 15
+  },
+  {
+    "word": "tools",
+    "count": 15
+  },
+  {
+    "word": "efficient",
+    "count": 14
+  },
+  {
+    "word": "kafka",
+    "count": 14
+  },
+  {
+    "word": "state",
+    "count": 14
+  },
+  {
+    "word": "users",
+    "count": 14
+  },
+  {
+    "word": "complexity",
+    "count": 14
+  },
+  {
+    "word": "ecosystem",
+    "count": 14
+  },
+  {
+    "word": "we'll",
+    "count": 14
+  },
+  {
+    "word": "systems",
+    "count": 14
+  },
+  {
+    "word": "business",
+    "count": 14
+  },
+  {
+    "word": "applications",
+    "count": 13
+  },
+  {
+    "word": "change",
+    "count": 13
+  },
+  {
+    "word": "create",
+    "count": 13
+  },
+  {
+    "word": "integration",
+    "count": 13
+  },
+  {
+    "word": "lake",
+    "count": 13
+  },
+  {
+    "word": "engineers",
+    "count": 13
+  },
+  {
+    "word": "orchestration",
+    "count": 13
+  },
+  {
+    "word": "manage",
+    "count": 13
+  },
+  {
+    "word": "share",
+    "count": 13
+  },
+  {
+    "word": "team",
+    "count": 13
+  },
+  {
+    "word": "dive",
+    "count": 13
+  },
+  {
+    "word": "whether",
+    "count": 13
+  },
+  {
+    "word": "discover",
+    "count": 13
+  },
+  {
+    "word": "infrastructure",
+    "count": 13
+  },
+  {
+    "word": "provide",
+    "count": 12
+  },
+  {
+    "word": "code",
+    "count": 12
+  },
+  {
+    "word": "quality",
+    "count": 12
+  },
+  {
+    "word": "millions",
+    "count": 12
+  },
+  {
+    "word": "unity",
+    "count": 12
+  },
+  {
+    "word": "catalog",
+    "count": 12
+  },
+  {
+    "word": "optimize",
+    "count": 12
+  },
+  {
+    "word": "full",
+    "count": 12
+  },
+  {
+    "word": "monitoring",
+    "count": 12
+  },
+  {
+    "word": "better",
+    "count": 12
+  },
+  {
+    "word": "unified",
+    "count": 12
+  },
+  {
+    "word": "practical",
+    "count": 12
+  }
+]

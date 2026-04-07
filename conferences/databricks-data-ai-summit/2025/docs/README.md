@@ -1,11 +1,9 @@
 # Databricks Data + AI Summit 2025
 
-Status: bootstrap scrape from still-public 2025 session pages discovered via Databricks 2025 guide/blog pages.
+Status: bootstrap dataset from the public YouTube replay playlist.
 
-Current snapshot date: 2026-04-07
-Current captured sessions: 0
+Playlist: https://www.youtube.com/playlist?list=PLdcsMc3thIRwNCkghQx8mOQ-DpXpkQoqE
+Snapshot date: 2026-04-07
+Captured videos/sessions: 99
 
-Important caveat:
-- this is not yet a proven full 2025 agenda corpus the way 2026 is.
-- the 2025 session pages are still reachable, but the old 2025 agenda route does not appear to be directly exposed anymore.
-- this means current coverage depends on discovered session links from 2025 pages/posts and should be treated as partial until we find a stronger source-of-truth list.
+This is a pragmatic source because the old 2025 agenda is not currently easy to recover, but the replay playlist and video descriptions still expose useful metadata.

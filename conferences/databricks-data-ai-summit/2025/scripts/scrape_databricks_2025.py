@@ -1,2 +1,3 @@
-# Bootstrap 2025 scraper placeholder
-# Current 2025 collection relies on discovered session URLs rather than a recovered full agenda endpoint.
+# Bootstrap Databricks 2025 from YouTube replay playlist
+# Source playlist currently used:
+# https://www.youtube.com/playlist?list=PLdcsMc3thIRwNCkghQx8mOQ-DpXpkQoqE

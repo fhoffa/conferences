@@ -1,10 +1,15 @@
 # Scraper notes
 
-2025 appears to be partially discoverable through live Databricks pages that still link to older session pages under `/dataaisummit/session/...`.
+Current 2025 source of truth is a public YouTube replay playlist.
 
-This bootstrap does **not** claim complete coverage yet.
+Recovered fields come from:
+- playlist item title
+- video duration
+- watch-page description body
+- optional `Talk By:` lines in descriptions
 
-Next step for better 2025 completeness:
-- find archived or hidden 2025 agenda/listing payloads
-- search Databricks pages/blogs for more 2025 session links
-- compare discovered sessions against 2025 keynote/track guide pages
+This is not equivalent to a live conference agenda, but it is still useful for:
+- session titles
+- talk abstracts/descriptions
+- rough speaker extraction
+- word-frequency/topic analysis

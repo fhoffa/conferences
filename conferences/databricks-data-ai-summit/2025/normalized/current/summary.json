@@ -1,8 +1,10 @@
 {
   "snapshot_date": "2026-04-07",
-  "session_count": 0,
-  "sessions_with_speakers": 0,
-  "speaker_count": 0,
-  "speakers_with_job_title": 0,
-  "unique_companies": 0
+  "source_basis": "youtube_playlist",
+  "playlist_url": "https://www.youtube.com/playlist?list=PLdcsMc3thIRwNCkghQx8mOQ-DpXpkQoqE",
+  "session_count": 99,
+  "sessions_with_speakers": 99,
+  "speaker_count": 160,
+  "sessions_with_descriptions": 99,
+  "unique_companies": 65
 }
