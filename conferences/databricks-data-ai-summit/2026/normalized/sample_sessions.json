@@ -1,0 +1,218 @@
+[
+  {
+    "conference": "databricks-data-ai-summit",
+    "year": 2026,
+    "session_id": "17771",
+    "title": "0 to 100 AI/BI Apps in 120 Days: Building an Enterprise Data and AI Platform From Scratch @ Alpura",
+    "abstract": "In early 2025, Alpura faced fragmented data, multiple BI tools, weak governance and no scalable AI foundation. In just 120 days, we rebuilt the entire data platform on Databricks. Using the Medallion Architecture (Bronze, Silver, Gold), Unity Catalog for enterprise governance and Databricks Metrics for a centralized semantic layer, we created a governed, scalable lakehouse foundation.  We consolidated more than five legacy platforms without disrupting operations and eliminated KPI inconsistencies by standardizing business logic. On top of this foundation, we rapidly delivered 100+ AI/BI assets, including 10+ production-grade applications such as a Walmart Scintilla analytics app and an Ambassador Program app — built in days, not months. Leveraging Genie AI, we enabled conversational BI to accelerate adoption.  This session shares a practical blueprint for building an AI/BI factory at enterprise speed.",
+    "format": "Breakout",
+    "level": "Advanced",
+    "track": "Application Development",
+    "industry": [
+      "Retail & Consumer Goods"
+    ],
+    "topic_tags": [
+      "AI/BI, Databricks Apps, Agent Bricks"
+    ],
+    "areas_of_interest": [
+      "AI Agents, Data Applications, Thought Leadership"
+    ],
+    "delivery": "In Person",
+    "duration_minutes": "40",
+    "session_url": "https://www.databricks.com/dataaisummit/session/0-100-aibi-apps-120-days-building-enterprise-data-and-ai-platform",
+    "source_url": "https://www.databricks.com/dataaisummit/session/0-100-aibi-apps-120-days-building-enterprise-data-and-ai-platform",
+    "source_type": "next_data_embedded_json",
+    "raw_ref": "raw/0-100-aibi-apps-120-days-building-enterprise-data-and-ai-platform.html",
+    "speakers": [
+      {
+        "name": "marvin.nahmias@alpura.com Nahmias",
+        "job_title": "CTDO",
+        "company": "Alpura",
+        "bio": "From leading global engineering teams at corporate giants like Verizon and Coca-Cola to being a serial startup founder in the world of Fintech, Marvin Nahmias has built a 25+ year career architecting rapid, Tech & AI-driven value. His latest feat is testament to this philosophy: a radical 120-day transformation at Alpura. He led the charge to unify all fragmented enterprise data— into a single, cohesive data & semantic layer, creating the ultimate source of truth for the business. With this powerful foundation set, his focus and his team has now pivoted to the next frontier: deploying a suite of powerful, people-first GenAI/AI/ML solutions designed to optimize operations, unlock new revenue streams, and double the value of Alpura in 2030.",
+        "profile_url": "https://www.databricks.com/dataaisummit/speaker/marvinnahmiasalpuracom-nahmias",
+        "image_url": "https://microsites.databricks.com/sites/default/files/styles/headshot/public/media/images/dataaisummit_speaker/vQZaNUCU_400x400_1775579889094001kibX.jpg?h=6c83441f&itok=tiN81sZD",
+        "source_url": "https://www.databricks.com/dataaisummit/speaker/marvinnahmiasalpuracom-nahmias"
+      },
+      {
+        "name": "Javier Hauss",
+        "job_title": null,
+        "company": "Alpura",
+        "bio": null,
+        "profile_url": "https://www.databricks.com/dataaisummit/speaker/javier-hauss",
+        "image_url": null,
+        "source_url": "https://www.databricks.com/dataaisummit/speaker/javier-hauss"
+      }
+    ]
+  },
+  {
+    "conference": "databricks-data-ai-summit",
+    "year": 2026,
+    "session_id": "17889",
+    "title": "800TB, Zero Pipelines: How Ensemble Health Partners Built an AI-Ready Revenue Cycle on Lakebase",
+    "abstract": "Ensemble Health Partners manages revenue cycle operations for 30+ health systems, processing 25 billion+ transactions across 800TB of healthcare financial data. Legacy SQL Server sprawl —1 5 individual databases with separate schemas —c reated silos that blocked cross-client insights and slowed AI innovation in an industry where providers operate on 1% margins.  This session shows how Ensemble consolidated onto Databricks Lakebase as their AI-ready transactional layer, eliminating brittle pipelines and enabling self-service pods to materialize views directly from harmonized Delta tables. The results: 3–5% net revenue yield improvement ($30M+ per $1B health system), 20% organizational efficiency gain, and 10x reduction in failure rates — while powering agentic AI workflows for denial prevention, AR follow-up, and payer-behavior prediction at scale.",
+    "format": "Breakout",
+    "level": "Intermediate",
+    "track": "Artificial Intelligence & Agents",
+    "industry": [
+      "Healthcare & Life Sciences"
+    ],
+    "topic_tags": [
+      "Agent Bricks, Lakebase"
+    ],
+    "areas_of_interest": [
+      "Data Intelligence, Industry Experience, Lakebase"
+    ],
+    "delivery": "In Person",
+    "duration_minutes": "40",
+    "session_url": "https://www.databricks.com/dataaisummit/session/800tb-zero-pipelines-how-ensemble-health-partners-built-ai-ready-revenue",
+    "source_url": "https://www.databricks.com/dataaisummit/session/800tb-zero-pipelines-how-ensemble-health-partners-built-ai-ready-revenue",
+    "source_type": "next_data_embedded_json",
+    "raw_ref": "raw/800tb-zero-pipelines-how-ensemble-health-partners-built-ai-ready-revenue.html",
+    "speakers": [
+      {
+        "name": "Surya Sai Turaga",
+        "job_title": "Field Engineering",
+        "company": "Databricks",
+        "bio": "My name is Surya! In the past I have played the role of a Field Engineering Leader and evangelist in the Advanced Analytics Space, I come with strong conceptual hands-on experience in Agentic AI, Cloud (AWS+Azure+GCP), Big Data and Data Warehousing environments. I worked as a developer and implemented FSLDMs on Teradata. I am passionate about turning ideas as Agentic AI automation systems. I enjoy developing high-performance teams, mentoring data enthusiasts and working in cross-functional environments.",
+        "profile_url": "https://www.databricks.com/dataaisummit/speaker/surya-sai-turaga",
+        "image_url": null,
+        "source_url": "https://www.databricks.com/dataaisummit/speaker/surya-sai-turaga"
+      },
+      {
+        "name": "Grant Veazey",
+        "job_title": "CTO",
+        "company": "Ensemble Health Partners",
+        "bio": null,
+        "profile_url": "https://www.databricks.com/dataaisummit/speaker/grant-veazey",
+        "image_url": null,
+        "source_url": "https://www.databricks.com/dataaisummit/speaker/grant-veazey"
+      }
+    ]
+  },
+  {
+    "conference": "databricks-data-ai-summit",
+    "year": 2026,
+    "session_id": "17905",
+    "title": "Accelerating AI From Model to Impact at Workday With Databricks Apps",
+    "abstract": "Workday needed to put trusted ML insights directly in the hands of sales, customer success and finance—fast. Before, delivering a single internal app required a bespoke full‑stack build and repeated reviews, stretching timelines to nearly a year. By shifting to Databricks Apps and building where the data already lives, Workday compressed delivery to weeks, launched three production AI applications in a single year, and scaled its flagship Sales Companion to 4,500+ active users.  This session details the architecture and adoption playbook: Databricks Apps as the UI/middleware, MLflow‑powered components, retrieval‑augmented workflows for unstructured content, governed access with Unity Catalog and fast analytics via SQL Serverless—enabling conversational experiences that let business users self‑serve sentiment analysis, forecasting and KPI insights without waiting on the data science team or adding headcount.",
+    "format": "Breakout",
+    "level": "Intermediate",
+    "track": "Application Development",
+    "industry": [
+      "Enterprise Technology"
+    ],
+    "topic_tags": [
+      "Unity Catalog, Databricks Apps, Agent Bricks"
+    ],
+    "areas_of_interest": [
+      "AI Agents, Generative AI, Machine Learning"
+    ],
+    "delivery": "In Person",
+    "duration_minutes": "40",
+    "session_url": "https://www.databricks.com/dataaisummit/session/accelerating-ai-model-impact-workday-databricks-apps",
+    "source_url": "https://www.databricks.com/dataaisummit/session/accelerating-ai-model-impact-workday-databricks-apps",
+    "source_type": "next_data_embedded_json",
+    "raw_ref": "raw/accelerating-ai-model-impact-workday-databricks-apps.html",
+    "speakers": [
+      {
+        "name": "Tamilselvan Tamilmani",
+        "job_title": "ML Architect",
+        "company": "Workday",
+        "bio": null,
+        "profile_url": "https://www.databricks.com/dataaisummit/speaker/tamilselvan-tamilmani",
+        "image_url": null,
+        "source_url": "https://www.databricks.com/dataaisummit/speaker/tamilselvan-tamilmani"
+      }
+    ]
+  },
+  {
+    "conference": "databricks-data-ai-summit",
+    "year": 2026,
+    "session_id": "18115",
+    "title": "Accelerating Corteva’s Data Source Onboarding With Lakeflow",
+    "abstract": "Onboarding a new data source at Corteva used to take 30–45 days. Now it’s 4–7 days, about 85% faster. The Lakeflow-first strategy and Unity Catalog helped standardize the ingestion‑to‑consumption pathway across 6 domains. Lakeflow Connect, Spark Declarative Pipelines and Jobs make pipeline runs repeatable and config‑driven. A lightweight metadata layer centralizes data cleansing, and an incremental DDL tool pushes schema changes safely through each environment.This pattern now underpins Corteva’s operational analytics. It accelerates root‑cause analysis linking field variability to dryer‑bin stabilization, improves throughput across 35 seed sites, and strengthens seed quality. Today, the setup covers 5,000+ tables from 15+ sources, shortening time‑to‑insight and speeding partner onboarding. Attendees will leave with a reusable Lakeflow‑first ingestion pattern, a metadata‑driven data quality blueprint and a safe schema‑evolution workflow across environments.",
+    "format": "Breakout",
+    "level": "Intermediate",
+    "track": "Data Engineering & Streaming",
+    "industry": [
+      "Enterprise Technology, Healthcare & Life Sciences, Manufacturing"
+    ],
+    "topic_tags": [
+      "Databricks SQL, Lakeflow, Unity Catalog"
+    ],
+    "areas_of_interest": [
+      "Data Ingestion, ETL, Data Lakehouse"
+    ],
+    "delivery": "In Person",
+    "duration_minutes": "40",
+    "session_url": "https://www.databricks.com/dataaisummit/session/accelerating-cortevas-data-source-onboarding-lakeflow",
+    "source_url": "https://www.databricks.com/dataaisummit/session/accelerating-cortevas-data-source-onboarding-lakeflow",
+    "source_type": "next_data_embedded_json",
+    "raw_ref": "raw/accelerating-cortevas-data-source-onboarding-lakeflow.html",
+    "speakers": [
+      {
+        "name": "Mehul Bhuva",
+        "job_title": "Data and AI Platform Engineer",
+        "company": "Corteva AgriScience",
+        "bio": null,
+        "profile_url": "https://www.databricks.com/dataaisummit/speaker/mehul-bhuva",
+        "image_url": null,
+        "source_url": "https://www.databricks.com/dataaisummit/speaker/mehul-bhuva"
+      },
+      {
+        "name": "Harshit Rai",
+        "job_title": "Resident Solutions Architect",
+        "company": "Databricks, Inc.",
+        "bio": null,
+        "profile_url": "https://www.databricks.com/dataaisummit/speaker/harshit-rai",
+        "image_url": null,
+        "source_url": "https://www.databricks.com/dataaisummit/speaker/harshit-rai"
+      }
+    ]
+  },
+  {
+    "conference": "databricks-data-ai-summit",
+    "year": 2026,
+    "session_id": "17748",
+    "title": "Accelerating the Future of Mobility: Unlock Real-Time Data Streaming for Connected Vehicle Platform",
+    "abstract": "Connected vehicle data is utilized in various services that benefit society, such as disaster response and road condition monitoring. However, processing connected data through high-speed streaming while ensuring privacy and governance is not straightforward, due to the inherent characteristics of connected data and the need to handle PB-scale volumes.  Toyota similarly found that its existing architecture, which utilized Snowflake and AWS services, could not meet all its requirements. By adopting Lakeflow Spark Declarative Pipeline with Liquid Clustering, they were able to solve this challenge, achieving a 25% performance improvement and 24% cost reduction compared to the existing service.  We will share the results of this trial and present our future outlook toward autonomous driving and zero accidents, enabled by these achievements.",
+    "format": "Breakout",
+    "level": "Advanced",
+    "track": "Data Engineering & Streaming",
+    "industry": [
+      "Manufacturing"
+    ],
+    "topic_tags": [
+      "Databricks SQL, Lakeflow, Unity Catalog"
+    ],
+    "areas_of_interest": [
+      "Migrations & Modernizations, Streaming pipelines, Performance & Cost Optimizations"
+    ],
+    "delivery": "In Person",
+    "duration_minutes": "40",
+    "session_url": "https://www.databricks.com/dataaisummit/session/accelerating-future-mobility-unlock-real-time-data-streaming-connected",
+    "source_url": "https://www.databricks.com/dataaisummit/session/accelerating-future-mobility-unlock-real-time-data-streaming-connected",
+    "source_type": "next_data_embedded_json",
+    "raw_ref": "raw/accelerating-future-mobility-unlock-real-time-data-streaming-connected.html",
+    "speakers": [
+      {
+        "name": "Satoshi Kuramitsu",
+        "job_title": "Sr. Industry Solutions Architect ",
+        "company": "Databricks",
+        "bio": "Satoshi is a Solution Architect Manager at Databricks, responsible for the automotive, manufacturing, and telecommunications industries. He has been instrumental in driving cloud adoption among automotive customers, primarily focusing on connected vehicle platforms and autonomous driving software development platforms. Satoshi emphasizes leveraging Databricks technologies to effectively address complex industry challenges.",
+        "profile_url": "https://www.databricks.com/dataaisummit/speaker/satoshi-kuramitsu",
+        "image_url": "https://microsites.databricks.com/sites/default/files/styles/headshot/public/media/images/dataaisummit_speaker/portrait-298%2520copy_1773451536715001V0IG.jpg?h=6d802c1f&itok=1w3A5aLl",
+        "source_url": "https://www.databricks.com/dataaisummit/speaker/satoshi-kuramitsu"
+      },
+      {
+        "name": "Yoshihiro Oe",
+        "job_title": "General Manager",
+        "company": "Toyota Motor Corporation",
+        "bio": "Yoshihiro Oe has been involved in the development of connected car services since the initial stages of Toyota's Connected Strategy in 2016. Toyota's connected cars are equipped with DCMs that continuously communicate with servers while driving, using the collected data to provide safe and convenient services worldwide. Additionally, I worked in North America for three years (2019-2022) to strengthen the deployment of connected cars. After returning to Japan in 2022, I have been building a vehicle data utilization platform to support the global spread of next-generation connected cars.",
+        "profile_url": "https://www.databricks.com/dataaisummit/speaker/yoshihiro-oe",
+        "image_url": null,
+        "source_url": "https://www.databricks.com/dataaisummit/speaker/yoshihiro-oe"
+      }
+    ]
+  }
+]
