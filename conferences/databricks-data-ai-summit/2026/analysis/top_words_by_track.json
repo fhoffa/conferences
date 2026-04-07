@@ -1,0 +1,1022 @@
+{
+  "Application Development": [
+    {
+      "word": "apps",
+      "count": 25
+    },
+    {
+      "word": "business",
+      "count": 10
+    },
+    {
+      "word": "platform",
+      "count": 7
+    },
+    {
+      "word": "architecture",
+      "count": 7
+    },
+    {
+      "word": "model",
+      "count": 7
+    },
+    {
+      "word": "quality",
+      "count": 7
+    },
+    {
+      "word": "production",
+      "count": 6
+    },
+    {
+      "word": "users",
+      "count": 6
+    },
+    {
+      "word": "supply",
+      "count": 6
+    },
+    {
+      "word": "while",
+      "count": 6
+    },
+    {
+      "word": "governance",
+      "count": 5
+    },
+    {
+      "word": "unity",
+      "count": 5
+    },
+    {
+      "word": "catalog",
+      "count": 5
+    },
+    {
+      "word": "analytics",
+      "count": 5
+    },
+    {
+      "word": "workflows",
+      "count": 5
+    },
+    {
+      "word": "cost",
+      "count": 5
+    },
+    {
+      "word": "talk",
+      "count": 5
+    },
+    {
+      "word": "teams",
+      "count": 5
+    },
+    {
+      "word": "enterprise",
+      "count": 4
+    },
+    {
+      "word": "without",
+      "count": 4
+    },
+    {
+      "word": "applications",
+      "count": 4
+    },
+    {
+      "word": "built",
+      "count": 4
+    },
+    {
+      "word": "insights",
+      "count": 4
+    },
+    {
+      "word": "internal",
+      "count": 4
+    },
+    {
+      "word": "access",
+      "count": 4
+    }
+  ],
+  "Artificial Intelligence & Agents": [
+    {
+      "word": "agent",
+      "count": 22
+    },
+    {
+      "word": "agentic",
+      "count": 14
+    },
+    {
+      "word": "system",
+      "count": 13
+    },
+    {
+      "word": "built",
+      "count": 12
+    },
+    {
+      "word": "scale",
+      "count": 12
+    },
+    {
+      "word": "agents",
+      "count": 12
+    },
+    {
+      "word": "platform",
+      "count": 12
+    },
+    {
+      "word": "model",
+      "count": 12
+    },
+    {
+      "word": "search",
+      "count": 11
+    },
+    {
+      "word": "lakebase",
+      "count": 9
+    },
+    {
+      "word": "genai",
+      "count": 9
+    },
+    {
+      "word": "enterprise",
+      "count": 9
+    },
+    {
+      "word": "feature",
+      "count": 9
+    },
+    {
+      "word": "health",
+      "count": 8
+    },
+    {
+      "word": "where",
+      "count": 8
+    },
+    {
+      "word": "scaling",
+      "count": 8
+    },
+    {
+      "word": "production",
+      "count": 8
+    },
+    {
+      "word": "patterns",
+      "count": 8
+    },
+    {
+      "word": "foundation",
+      "count": 8
+    },
+    {
+      "word": "share",
+      "count": 8
+    },
+    {
+      "word": "insights",
+      "count": 7
+    },
+    {
+      "word": "enabling",
+      "count": 7
+    },
+    {
+      "word": "assistant",
+      "count": 7
+    },
+    {
+      "word": "bricks",
+      "count": 7
+    },
+    {
+      "word": "design",
+      "count": 7
+    }
+  ],
+  "Data Engineering & Streaming": [
+    {
+      "word": "streaming",
+      "count": 38
+    },
+    {
+      "word": "pipelines",
+      "count": 37
+    },
+    {
+      "word": "spark",
+      "count": 30
+    },
+    {
+      "word": "real-time",
+      "count": 28
+    },
+    {
+      "word": "lakeflow",
+      "count": 27
+    },
+    {
+      "word": "declarative",
+      "count": 25
+    },
+    {
+      "word": "architecture",
+      "count": 20
+    },
+    {
+      "word": "lakehouse",
+      "count": 19
+    },
+    {
+      "word": "built",
+      "count": 18
+    },
+    {
+      "word": "platform",
+      "count": 17
+    },
+    {
+      "word": "scale",
+      "count": 17
+    },
+    {
+      "word": "governance",
+      "count": 16
+    },
+    {
+      "word": "unity",
+      "count": 14
+    },
+    {
+      "word": "ingestion",
+      "count": 14
+    },
+    {
+      "word": "analytics",
+      "count": 14
+    },
+    {
+      "word": "time",
+      "count": 14
+    },
+    {
+      "word": "catalog",
+      "count": 13
+    },
+    {
+      "word": "operational",
+      "count": 12
+    },
+    {
+      "word": "cost",
+      "count": 12
+    },
+    {
+      "word": "real",
+      "count": 12
+    },
+    {
+      "word": "pipeline",
+      "count": 10
+    },
+    {
+      "word": "performance",
+      "count": 10
+    },
+    {
+      "word": "batch",
+      "count": 10
+    },
+    {
+      "word": "live",
+      "count": 10
+    },
+    {
+      "word": "patterns",
+      "count": 10
+    }
+  ],
+  "Unknown": [
+    {
+      "word": "including",
+      "count": 38
+    },
+    {
+      "word": "hands-on",
+      "count": 33
+    },
+    {
+      "word": "course",
+      "count": 29
+    },
+    {
+      "word": "familiarity",
+      "count": 27
+    },
+    {
+      "word": "platform",
+      "count": 23
+    },
+    {
+      "word": "basic",
+      "count": 22
+    },
+    {
+      "word": "intelligence",
+      "count": 18
+    },
+    {
+      "word": "feature",
+      "count": 18
+    },
+    {
+      "word": "unity",
+      "count": 16
+    },
+    {
+      "word": "note",
+      "count": 16
+    },
+    {
+      "word": "training",
+      "count": 16
+    },
+    {
+      "word": "courses",
+      "count": 16
+    },
+    {
+      "word": "updated",
+      "count": 16
+    },
+    {
+      "word": "reflect",
+      "count": 16
+    },
+    {
+      "word": "newest",
+      "count": 16
+    },
+    {
+      "word": "product",
+      "count": 16
+    },
+    {
+      "word": "announcements",
+      "count": 16
+    },
+    {
+      "word": "june",
+      "count": 16
+    },
+    {
+      "word": "prerequisites",
+      "count": 16
+    },
+    {
+      "word": "catalog",
+      "count": 15
+    },
+    {
+      "word": "experience",
+      "count": 15
+    },
+    {
+      "word": "concepts",
+      "count": 15
+    },
+    {
+      "word": "intermediate",
+      "count": 14
+    },
+    {
+      "word": "you'll",
+      "count": 13
+    },
+    {
+      "word": "governance",
+      "count": 13
+    }
+  ],
+  "Analytics & BI": [
+    {
+      "word": "genie",
+      "count": 46
+    },
+    {
+      "word": "dashboards",
+      "count": 13
+    },
+    {
+      "word": "agent",
+      "count": 13
+    },
+    {
+      "word": "insights",
+      "count": 12
+    },
+    {
+      "word": "business",
+      "count": 12
+    },
+    {
+      "word": "teams",
+      "count": 11
+    },
+    {
+      "word": "semantic",
+      "count": 10
+    },
+    {
+      "word": "analytics",
+      "count": 9
+    },
+    {
+      "word": "while",
+      "count": 9
+    },
+    {
+      "word": "production",
+      "count": 9
+    },
+    {
+      "word": "catalog",
+      "count": 9
+    },
+    {
+      "word": "metric",
+      "count": 9
+    },
+    {
+      "word": "users",
+      "count": 8
+    },
+    {
+      "word": "decisions",
+      "count": 8
+    },
+    {
+      "word": "talk",
+      "count": 8
+    },
+    {
+      "word": "unity",
+      "count": 8
+    },
+    {
+      "word": "lessons",
+      "count": 8
+    },
+    {
+      "word": "dashboard",
+      "count": 8
+    },
+    {
+      "word": "views",
+      "count": 8
+    },
+    {
+      "word": "language",
+      "count": 7
+    },
+    {
+      "word": "show",
+      "count": 7
+    },
+    {
+      "word": "governed",
+      "count": 7
+    },
+    {
+      "word": "finops",
+      "count": 7
+    },
+    {
+      "word": "trusted",
+      "count": 6
+    },
+    {
+      "word": "metrics",
+      "count": 6
+    }
+  ],
+  "Data Strategy": [
+    {
+      "word": "platform",
+      "count": 17
+    },
+    {
+      "word": "enterprise",
+      "count": 12
+    },
+    {
+      "word": "strategy",
+      "count": 11
+    },
+    {
+      "word": "foundation",
+      "count": 9
+    },
+    {
+      "word": "while",
+      "count": 8
+    },
+    {
+      "word": "teams",
+      "count": 8
+    },
+    {
+      "word": "financial",
+      "count": 8
+    },
+    {
+      "word": "architecture",
+      "count": 8
+    },
+    {
+      "word": "over",
+      "count": 7
+    },
+    {
+      "word": "transformation",
+      "count": 7
+    },
+    {
+      "word": "unified",
+      "count": 6
+    },
+    {
+      "word": "energy",
+      "count": 5
+    },
+    {
+      "word": "intelligence",
+      "count": 5
+    },
+    {
+      "word": "governed",
+      "count": 5
+    },
+    {
+      "word": "single",
+      "count": 5
+    },
+    {
+      "word": "governance",
+      "count": 5
+    },
+    {
+      "word": "lakehouse",
+      "count": 5
+    },
+    {
+      "word": "digital",
+      "count": 5
+    },
+    {
+      "word": "decisions",
+      "count": 5
+    },
+    {
+      "word": "promotion",
+      "count": 5
+    },
+    {
+      "word": "insights",
+      "count": 4
+    },
+    {
+      "word": "business",
+      "count": 4
+    },
+    {
+      "word": "cost",
+      "count": 4
+    },
+    {
+      "word": "enables",
+      "count": 4
+    },
+    {
+      "word": "silos",
+      "count": 4
+    }
+  ],
+  "Data Warehousing": [
+    {
+      "word": "serverless",
+      "count": 19
+    },
+    {
+      "word": "cost",
+      "count": 15
+    },
+    {
+      "word": "platform",
+      "count": 15
+    },
+    {
+      "word": "operations",
+      "count": 13
+    },
+    {
+      "word": "analytics",
+      "count": 13
+    },
+    {
+      "word": "migration",
+      "count": 12
+    },
+    {
+      "word": "scale",
+      "count": 10
+    },
+    {
+      "word": "costs",
+      "count": 10
+    },
+    {
+      "word": "legacy",
+      "count": 10
+    },
+    {
+      "word": "warehouse",
+      "count": 9
+    },
+    {
+      "word": "workloads",
+      "count": 8
+    },
+    {
+      "word": "modernization",
+      "count": 8
+    },
+    {
+      "word": "enterprise",
+      "count": 7
+    },
+    {
+      "word": "governance",
+      "count": 7
+    },
+    {
+      "word": "compute",
+      "count": 7
+    },
+    {
+      "word": "cloud",
+      "count": 6
+    },
+    {
+      "word": "global",
+      "count": 6
+    },
+    {
+      "word": "business",
+      "count": 6
+    },
+    {
+      "word": "catalog",
+      "count": 6
+    },
+    {
+      "word": "warehouses",
+      "count": 6
+    },
+    {
+      "word": "migrating",
+      "count": 6
+    },
+    {
+      "word": "attendees",
+      "count": 6
+    },
+    {
+      "word": "query",
+      "count": 6
+    },
+    {
+      "word": "geospatial",
+      "count": 6
+    },
+    {
+      "word": "spatial",
+      "count": 6
+    }
+  ],
+  "Governance & Security": [
+    {
+      "word": "governance",
+      "count": 30
+    },
+    {
+      "word": "platform",
+      "count": 24
+    },
+    {
+      "word": "access",
+      "count": 21
+    },
+    {
+      "word": "agents",
+      "count": 17
+    },
+    {
+      "word": "scale",
+      "count": 16
+    },
+    {
+      "word": "catalog",
+      "count": 14
+    },
+    {
+      "word": "security",
+      "count": 14
+    },
+    {
+      "word": "unity",
+      "count": 13
+    },
+    {
+      "word": "enterprise",
+      "count": 13
+    },
+    {
+      "word": "architecture",
+      "count": 12
+    },
+    {
+      "word": "control",
+      "count": 12
+    },
+    {
+      "word": "lakehouse",
+      "count": 11
+    },
+    {
+      "word": "iceberg",
+      "count": 10
+    },
+    {
+      "word": "unified",
+      "count": 9
+    },
+    {
+      "word": "model",
+      "count": 9
+    },
+    {
+      "word": "abac",
+      "count": 8
+    },
+    {
+      "word": "tools",
+      "count": 8
+    },
+    {
+      "word": "analytics",
+      "count": 7
+    },
+    {
+      "word": "business",
+      "count": 7
+    },
+    {
+      "word": "fine-grained",
+      "count": 6
+    },
+    {
+      "word": "open",
+      "count": 6
+    },
+    {
+      "word": "migration",
+      "count": 6
+    },
+    {
+      "word": "policies",
+      "count": 6
+    },
+    {
+      "word": "teams",
+      "count": 6
+    },
+    {
+      "word": "serverless",
+      "count": 6
+    }
+  ],
+  "Lakebase": [
+    {
+      "word": "lakebase",
+      "count": 27
+    },
+    {
+      "word": "lakehouse",
+      "count": 9
+    },
+    {
+      "word": "analytics",
+      "count": 8
+    },
+    {
+      "word": "platform",
+      "count": 8
+    },
+    {
+      "word": "architecture",
+      "count": 8
+    },
+    {
+      "word": "governed",
+      "count": 7
+    },
+    {
+      "word": "business",
+      "count": 6
+    },
+    {
+      "word": "applications",
+      "count": 5
+    },
+    {
+      "word": "systems",
+      "count": 5
+    },
+    {
+      "word": "insights",
+      "count": 5
+    },
+    {
+      "word": "attendees",
+      "count": 5
+    },
+    {
+      "word": "governance",
+      "count": 5
+    },
+    {
+      "word": "scale",
+      "count": 5
+    },
+    {
+      "word": "access",
+      "count": 5
+    },
+    {
+      "word": "retool",
+      "count": 5
+    },
+    {
+      "word": "postgres",
+      "count": 5
+    },
+    {
+      "word": "afresh",
+      "count": 5
+    },
+    {
+      "word": "operational",
+      "count": 4
+    },
+    {
+      "word": "built",
+      "count": 4
+    },
+    {
+      "word": "trusted",
+      "count": 4
+    },
+    {
+      "word": "time",
+      "count": 4
+    },
+    {
+      "word": "unity",
+      "count": 4
+    },
+    {
+      "word": "catalog",
+      "count": 4
+    },
+    {
+      "word": "while",
+      "count": 4
+    },
+    {
+      "word": "tools",
+      "count": 4
+    }
+  ],
+  "Data Sharing & Collaboration": [
+    {
+      "word": "sharing",
+      "count": 20
+    },
+    {
+      "word": "delta",
+      "count": 14
+    },
+    {
+      "word": "open",
+      "count": 6
+    },
+    {
+      "word": "share",
+      "count": 6
+    },
+    {
+      "word": "live",
+      "count": 6
+    },
+    {
+      "word": "analytics",
+      "count": 6
+    },
+    {
+      "word": "lseg",
+      "count": 6
+    },
+    {
+      "word": "unity",
+      "count": 6
+    },
+    {
+      "word": "catalog",
+      "count": 6
+    },
+    {
+      "word": "scale",
+      "count": 5
+    },
+    {
+      "word": "architecture",
+      "count": 5
+    },
+    {
+      "word": "access",
+      "count": 5
+    },
+    {
+      "word": "protocol",
+      "count": 4
+    },
+    {
+      "word": "complex",
+      "count": 4
+    },
+    {
+      "word": "governance",
+      "count": 4
+    },
+    {
+      "word": "halliburton",
+      "count": 4
+    },
+    {
+      "word": "chevron",
+      "count": 4
+    },
+    {
+      "word": "without",
+      "count": 4
+    },
+    {
+      "word": "internal",
+      "count": 4
+    },
+    {
+      "word": "pfizer",
+      "count": 4
+    },
+    {
+      "word": "cloud",
+      "count": 4
+    },
+    {
+      "word": "procore",
+      "count": 4
+    },
+    {
+      "word": "most",
+      "count": 3
+    },
+    {
+      "word": "organizations",
+      "count": 3
+    },
+    {
+      "word": "real-time",
+      "count": 3
+    }
+  ]
+}
