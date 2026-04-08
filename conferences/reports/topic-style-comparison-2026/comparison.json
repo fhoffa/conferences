@@ -1,0 +1,663 @@
+{
+  "Agents": {
+    "GCP Next": {
+      "count": 349,
+      "style_counts": {
+        "Strategic": 13,
+        "Architectural": 55,
+        "Operational": 21,
+        "Product-demo": 2,
+        "Customer-story": 7,
+        "Developer-howto": 48
+      },
+      "sample_titles": [
+        {
+          "title": "8 Tips to Agentic Security Operations in 18 Minutes",
+          "url": ""
+        },
+        {
+          "title": "A peek into the future: How agents transform SRE",
+          "url": ""
+        },
+        {
+          "title": "Accelerate agent development with Gemini CLI, MCP, and Weave",
+          "url": ""
+        },
+        {
+          "title": "Accelerate CI/CD with coding agents",
+          "url": ""
+        },
+        {
+          "title": "Accelerate domain AI agents on Google Cloud Vertex AI with NVIDIA NeMo and NVIDIA Nemotron",
+          "url": ""
+        },
+        {
+          "title": "Accelerate R&D with Gemini-based agents Co-Scientist and AlphaEvolve",
+          "url": ""
+        },
+        {
+          "title": "Accelerate, automate, earn: Partner incentives in the agentic era",
+          "url": ""
+        },
+        {
+          "title": "Accelerating the agent lifecycle: From concept to commercialization",
+          "url": ""
+        }
+      ]
+    },
+    "Databricks": {
+      "count": 48,
+      "style_counts": {
+        "Strategic": 13,
+        "Architectural": 43,
+        "Operational": 23,
+        "Product-demo": 6,
+        "Customer-story": 30,
+        "Developer-howto": 13
+      },
+      "sample_titles": [
+        {
+          "title": "800TB, Zero Pipelines: How Ensemble Health Partners Built an AI-Ready Revenue Cycle on Lakebase",
+          "url": "https://www.databricks.com/dataaisummit/session/800tb-zero-pipelines-how-ensemble-health-partners-built-ai-ready-revenue"
+        },
+        {
+          "title": "Agent Evaluations",
+          "url": "https://www.databricks.com/dataaisummit/session/agent-evaluations"
+        },
+        {
+          "title": "AI Agents for the Frontline: 7-Eleven\u2019s GenAI Maintenance Assistant",
+          "url": "https://www.databricks.com/dataaisummit/session/ai-agents-frontline-7-elevens-genai-maintenance-assistant"
+        },
+        {
+          "title": "Alinta Energy\u2019s Data Platform: From Platform Migration to Enterprise Ready AI-Driven Energy Ops",
+          "url": "https://www.databricks.com/dataaisummit/session/alinta-energys-data-platform-platform-migration-enterprise-ready-ai"
+        },
+        {
+          "title": "AstraZeneca's Multi-Agent System: Lessons Scaling Agents by 10x With Agent Bricks",
+          "url": "https://www.databricks.com/dataaisummit/session/astrazenecas-multi-agent-system-lessons-scaling-agents-10x-agent-bricks"
+        },
+        {
+          "title": "Atlassian's Journey of Using AI/BI Genie From Pilot to Production and What's Next?",
+          "url": "https://www.databricks.com/dataaisummit/session/atlassians-journey-using-aibi-genie-pilot-production-and-whats-next"
+        },
+        {
+          "title": "Automating KPI Reasoning and Narrative Generation With Agent Bricks and Databricks Apps",
+          "url": "https://www.databricks.com/dataaisummit/session/automating-kpi-reasoning-and-narrative-generation-agent-bricks-and"
+        },
+        {
+          "title": "Beyond the Trace: adidas\u2019 Agent Digital Twin for Governance, Cost and ROI",
+          "url": "https://www.databricks.com/dataaisummit/session/beyond-trace-adidas-agent-digital-twin-governance-cost-and-roi"
+        }
+      ]
+    },
+    "Snowflake": {
+      "count": 110,
+      "style_counts": {
+        "Strategic": 23,
+        "Architectural": 59,
+        "Operational": 32,
+        "Product-demo": 14,
+        "Customer-story": 49,
+        "Developer-howto": 33
+      },
+      "sample_titles": [
+        {
+          "title": "20-Minute Threat Hunt: Building and Deploying a Cybersecurity Agent with Cortex",
+          "url": ""
+        },
+        {
+          "title": "3 Essentials for Building Winning AI Projects",
+          "url": ""
+        },
+        {
+          "title": "Achieving Agentic AI ROI with Snowflake: Is Your Data Ready?",
+          "url": ""
+        },
+        {
+          "title": "Agentic Data Access: Booking.com\u2019s Agentic Travel Experience, Secured by Immuta",
+          "url": ""
+        },
+        {
+          "title": "Agentic Source-to-Pay: Accelerating Drug Development with Autonomous Procurement",
+          "url": ""
+        },
+        {
+          "title": "Agent Monday: Automated, Personalized Shopper Insights at Scale",
+          "url": ""
+        },
+        {
+          "title": "Agent-to-Agent Data Supply Chains: Delivering Data at Machine Scale",
+          "url": ""
+        },
+        {
+          "title": "AI Agents and Forward Deployed Engineering for Commercial Decision Intelligence",
+          "url": ""
+        }
+      ]
+    }
+  },
+  "Governance": {
+    "GCP Next": {
+      "count": 75,
+      "style_counts": {
+        "Strategic": 3,
+        "Architectural": 17,
+        "Operational": 1,
+        "Product-demo": 0,
+        "Customer-story": 1,
+        "Developer-howto": 3
+      },
+      "sample_titles": [
+        {
+          "title": "8 Tips to Agentic Security Operations in 18 Minutes",
+          "url": ""
+        },
+        {
+          "title": "A deep dive into Gemini Enterprise governance, security, and compliance",
+          "url": ""
+        },
+        {
+          "title": "Achieve multicloud security at scale with Google Unified Security",
+          "url": ""
+        },
+        {
+          "title": "Agent security at scale: Protect against the OWASP Top 10 application risks",
+          "url": ""
+        },
+        {
+          "title": "Agentic defense: Security operations at machine speed",
+          "url": ""
+        },
+        {
+          "title": "Agentic Threat Intelligence: Your new AI security teammate",
+          "url": ""
+        },
+        {
+          "title": "AgentOps Cockpit: Architecting Agents at Scale with Governance-as-Code",
+          "url": ""
+        },
+        {
+          "title": "AI driven, human led: Accelerate security outcomes with an agentic SOC",
+          "url": ""
+        }
+      ]
+    },
+    "Databricks": {
+      "count": 83,
+      "style_counts": {
+        "Strategic": 16,
+        "Architectural": 80,
+        "Operational": 41,
+        "Product-demo": 10,
+        "Customer-story": 41,
+        "Developer-howto": 19
+      },
+      "sample_titles": [
+        {
+          "title": "0 to 100 AI/BI Apps in 120 Days: Building an Enterprise Data and AI Platform From Scratch @ Alpura",
+          "url": "https://www.databricks.com/dataaisummit/session/0-100-aibi-apps-120-days-building-enterprise-data-and-ai-platform"
+        },
+        {
+          "title": "Accelerating AI From Model to Impact at Workday With Databricks Apps",
+          "url": "https://www.databricks.com/dataaisummit/session/accelerating-ai-model-impact-workday-databricks-apps"
+        },
+        {
+          "title": "Accelerating the Future of Mobility: Unlock Real-Time Data Streaming for Connected Vehicle Platform",
+          "url": "https://www.databricks.com/dataaisummit/session/accelerating-future-mobility-unlock-real-time-data-streaming-connected"
+        },
+        {
+          "title": "Agent Evaluations",
+          "url": "https://www.databricks.com/dataaisummit/session/agent-evaluations"
+        },
+        {
+          "title": "Aladdin and Genie \u2014 the Ultimate Engineering and Insights Duo",
+          "url": "https://www.databricks.com/dataaisummit/session/aladdin-and-genie-ultimate-engineering-and-insights-duo"
+        },
+        {
+          "title": "Alinta Energy\u2019s Data Platform: From Platform Migration to Enterprise Ready AI-Driven Energy Ops",
+          "url": "https://www.databricks.com/dataaisummit/session/alinta-energys-data-platform-platform-migration-enterprise-ready-ai"
+        },
+        {
+          "title": "Apps Factory on Databricks\u200b: Provision, Standardize, Observe and Govern 100+ Apps\u200b",
+          "url": "https://www.databricks.com/dataaisummit/session/apps-factory-databricks-provision-standardize-observe-and-govern-100"
+        },
+        {
+          "title": "AstraZeneca's Multi-Agent System: Lessons Scaling Agents by 10x With Agent Bricks",
+          "url": "https://www.databricks.com/dataaisummit/session/astrazenecas-multi-agent-system-lessons-scaling-agents-10x-agent-bricks"
+        }
+      ]
+    },
+    "Snowflake": {
+      "count": 130,
+      "style_counts": {
+        "Strategic": 22,
+        "Architectural": 105,
+        "Operational": 32,
+        "Product-demo": 10,
+        "Customer-story": 70,
+        "Developer-howto": 30
+      },
+      "sample_titles": [
+        {
+          "title": "12 Million Queries, 2,500 Users: How Siemens Energy Scales AI with Alteryx",
+          "url": ""
+        },
+        {
+          "title": "20-Minute Threat Hunt: Building and Deploying a Cybersecurity Agent with Cortex",
+          "url": ""
+        },
+        {
+          "title": "3 Essentials for Building Winning AI Projects",
+          "url": ""
+        },
+        {
+          "title": "Activating Enterprise Audience Intelligence with Snowflake Intelligence",
+          "url": ""
+        },
+        {
+          "title": "Agentic Data Access: Booking.com\u2019s Agentic Travel Experience, Secured by Immuta",
+          "url": ""
+        },
+        {
+          "title": "Agentic Source-to-Pay: Accelerating Drug Development with Autonomous Procurement",
+          "url": ""
+        },
+        {
+          "title": "Agent Monday: Automated, Personalized Shopper Insights at Scale",
+          "url": ""
+        },
+        {
+          "title": "AI Agents and Forward Deployed Engineering for Commercial Decision Intelligence",
+          "url": ""
+        }
+      ]
+    }
+  },
+  "SQL_Querying": {
+    "GCP Next": {
+      "count": 43,
+      "style_counts": {
+        "Strategic": 1,
+        "Architectural": 6,
+        "Operational": 1,
+        "Product-demo": 0,
+        "Customer-story": 0,
+        "Developer-howto": 3
+      },
+      "sample_titles": [
+        {
+          "title": "Accelerated modernization: Navigating the journey from SQL Server to PostgreSQL",
+          "url": ""
+        },
+        {
+          "title": "Agent development and AgentOps with BigQuery, ADK, and MCP",
+          "url": ""
+        },
+        {
+          "title": "Agent development and AgentOps with BigQuery, ADK, and MCP",
+          "url": ""
+        },
+        {
+          "title": "Agentic FinOps for BigQuery cost optimization",
+          "url": ""
+        },
+        {
+          "title": "AlloyDB AI in action: Powering next-gen search and intelligent agents",
+          "url": ""
+        },
+        {
+          "title": "Automate BigQuery optimization for continuous cost efficiency",
+          "url": ""
+        },
+        {
+          "title": "Beyond the simple SELECT: Become an analytics hero with AlloyDB NL2SQL",
+          "url": ""
+        },
+        {
+          "title": "Beyond the warehouse: Architecting BigQuery for the future of analytics",
+          "url": ""
+        }
+      ]
+    },
+    "Databricks": {
+      "count": 55,
+      "style_counts": {
+        "Strategic": 8,
+        "Architectural": 51,
+        "Operational": 22,
+        "Product-demo": 5,
+        "Customer-story": 30,
+        "Developer-howto": 21
+      },
+      "sample_titles": [
+        {
+          "title": "800TB, Zero Pipelines: How Ensemble Health Partners Built an AI-Ready Revenue Cycle on Lakebase",
+          "url": "https://www.databricks.com/dataaisummit/session/800tb-zero-pipelines-how-ensemble-health-partners-built-ai-ready-revenue"
+        },
+        {
+          "title": "Accelerating AI From Model to Impact at Workday With Databricks Apps",
+          "url": "https://www.databricks.com/dataaisummit/session/accelerating-ai-model-impact-workday-databricks-apps"
+        },
+        {
+          "title": "Alinta Energy\u2019s Data Platform: From Platform Migration to Enterprise Ready AI-Driven Energy Ops",
+          "url": "https://www.databricks.com/dataaisummit/session/alinta-energys-data-platform-platform-migration-enterprise-ready-ai"
+        },
+        {
+          "title": "AstraZeneca's Multi-Agent System: Lessons Scaling Agents by 10x With Agent Bricks",
+          "url": "https://www.databricks.com/dataaisummit/session/astrazenecas-multi-agent-system-lessons-scaling-agents-10x-agent-bricks"
+        },
+        {
+          "title": "Automate Deployment with Databricks Asset Bundles",
+          "url": "https://www.databricks.com/dataaisummit/session/automate-deployment-databricks-asset-bundles"
+        },
+        {
+          "title": "Automating KPI Reasoning and Narrative Generation With Agent Bricks and Databricks Apps",
+          "url": "https://www.databricks.com/dataaisummit/session/automating-kpi-reasoning-and-narrative-generation-agent-bricks-and"
+        },
+        {
+          "title": "BP Cut Cloud Spend by 43% and Speed Critical Jobs From Days to ~8 Hours With Databricks SQL",
+          "url": "https://www.databricks.com/dataaisummit/session/bp-cut-cloud-spend-43-and-speed-critical-jobs-days-8-hours-databricks"
+        },
+        {
+          "title": "Bringing Agents to Data: How Workday Architects Governed Agentic AI with Iceberg and Unity Catalog",
+          "url": "https://www.databricks.com/dataaisummit/session/bringing-agents-data-how-workday-architects-governed-agentic-ai-iceberg"
+        }
+      ]
+    },
+    "Snowflake": {
+      "count": 42,
+      "style_counts": {
+        "Strategic": 9,
+        "Architectural": 21,
+        "Operational": 13,
+        "Product-demo": 2,
+        "Customer-story": 17,
+        "Developer-howto": 15
+      },
+      "sample_titles": [
+        {
+          "title": "12 Million Queries, 2,500 Users: How Siemens Energy Scales AI with Alteryx",
+          "url": ""
+        },
+        {
+          "title": "20-Minute Threat Hunt: Building and Deploying a Cybersecurity Agent with Cortex",
+          "url": ""
+        },
+        {
+          "title": "Activating Enterprise Audience Intelligence with Snowflake Intelligence",
+          "url": ""
+        },
+        {
+          "title": "AI-Guided Migration: From Manual Rewrites to Automation",
+          "url": ""
+        },
+        {
+          "title": "AI-Powered Conversations with Your Data Using Amazon Quick and Snowflake via MCP",
+          "url": ""
+        },
+        {
+          "title": "AI-Powered Modernization: Oregon's Multnomah County Leverages SnowConvert AI",
+          "url": ""
+        },
+        {
+          "title": "Batch Data Extraction at Scale with Cortex AI Functions",
+          "url": ""
+        },
+        {
+          "title": "Bridging the Gap: Powering Real-Time Apps with Snowflake and Postgres",
+          "url": ""
+        }
+      ]
+    }
+  },
+  "Pipelines": {
+    "GCP Next": {
+      "count": 22,
+      "style_counts": {
+        "Strategic": 2,
+        "Architectural": 2,
+        "Operational": 1,
+        "Product-demo": 0,
+        "Customer-story": 0,
+        "Developer-howto": 5
+      },
+      "sample_titles": [
+        {
+          "title": "AI-powered media management: Fox Sports, EPAM & Google Cloud Transform Workflows",
+          "url": ""
+        },
+        {
+          "title": "Architecting reinforcement learning workflows for LLMs",
+          "url": ""
+        },
+        {
+          "title": "Beyond the hype: Orchestrating end-to-end developer workflows with agents",
+          "url": ""
+        },
+        {
+          "title": "Build an AI threat hunter: Agentic workflows with Google ADK",
+          "url": ""
+        },
+        {
+          "title": "Building multi-agent orchestration: Key challenges and solution approaches",
+          "url": ""
+        },
+        {
+          "title": "Building reliable agentic workflows with Cloud Composer and Airflow 3",
+          "url": ""
+        },
+        {
+          "title": "Complex workflows made easy with Gemini Enterprise agents",
+          "url": ""
+        },
+        {
+          "title": "Event-driven AI agents: A pattern for secure agentic workflows",
+          "url": ""
+        }
+      ]
+    },
+    "Databricks": {
+      "count": 72,
+      "style_counts": {
+        "Strategic": 15,
+        "Architectural": 69,
+        "Operational": 39,
+        "Product-demo": 5,
+        "Customer-story": 34,
+        "Developer-howto": 22
+      },
+      "sample_titles": [
+        {
+          "title": "800TB, Zero Pipelines: How Ensemble Health Partners Built an AI-Ready Revenue Cycle on Lakebase",
+          "url": "https://www.databricks.com/dataaisummit/session/800tb-zero-pipelines-how-ensemble-health-partners-built-ai-ready-revenue"
+        },
+        {
+          "title": "Accelerating AI From Model to Impact at Workday With Databricks Apps",
+          "url": "https://www.databricks.com/dataaisummit/session/accelerating-ai-model-impact-workday-databricks-apps"
+        },
+        {
+          "title": "Accelerating Corteva\u2019s Data Source Onboarding With Lakeflow",
+          "url": "https://www.databricks.com/dataaisummit/session/accelerating-cortevas-data-source-onboarding-lakeflow"
+        },
+        {
+          "title": "Accelerating the Future of Mobility: Unlock Real-Time Data Streaming for Connected Vehicle Platform",
+          "url": "https://www.databricks.com/dataaisummit/session/accelerating-future-mobility-unlock-real-time-data-streaming-connected"
+        },
+        {
+          "title": "Alinta Energy\u2019s Data Platform: From Platform Migration to Enterprise Ready AI-Driven Energy Ops",
+          "url": "https://www.databricks.com/dataaisummit/session/alinta-energys-data-platform-platform-migration-enterprise-ready-ai"
+        },
+        {
+          "title": "AstraZeneca's Multi-Agent System: Lessons Scaling Agents by 10x With Agent Bricks",
+          "url": "https://www.databricks.com/dataaisummit/session/astrazenecas-multi-agent-system-lessons-scaling-agents-10x-agent-bricks"
+        },
+        {
+          "title": "Automate Deployment with Databricks Asset Bundles",
+          "url": "https://www.databricks.com/dataaisummit/session/automate-deployment-databricks-asset-bundles"
+        },
+        {
+          "title": "Automating KPI Reasoning and Narrative Generation With Agent Bricks and Databricks Apps",
+          "url": "https://www.databricks.com/dataaisummit/session/automating-kpi-reasoning-and-narrative-generation-agent-bricks-and"
+        }
+      ]
+    },
+    "Snowflake": {
+      "count": 112,
+      "style_counts": {
+        "Strategic": 19,
+        "Architectural": 67,
+        "Operational": 44,
+        "Product-demo": 13,
+        "Customer-story": 56,
+        "Developer-howto": 44
+      },
+      "sample_titles": [
+        {
+          "title": "12 Million Queries, 2,500 Users: How Siemens Energy Scales AI with Alteryx",
+          "url": ""
+        },
+        {
+          "title": "20-Minute Threat Hunt: Building and Deploying a Cybersecurity Agent with Cortex",
+          "url": ""
+        },
+        {
+          "title": "3 Essentials for Building Winning AI Projects",
+          "url": ""
+        },
+        {
+          "title": "Accelerate and Automate: Mastering Snowflake ML with Cortex Code",
+          "url": ""
+        },
+        {
+          "title": "Accelerating AI Readiness: Data to Real-Time Answers with Snowflake Intelligence",
+          "url": ""
+        },
+        {
+          "title": "Accelerating T.Rowe Price\u2019s Data Product Strategy with Modern MDM on Snowflake",
+          "url": ""
+        },
+        {
+          "title": "Achieving Agentic AI ROI with Snowflake: Is Your Data Ready?",
+          "url": ""
+        },
+        {
+          "title": "A Computation-First Architecture for Real-Time ML Feature Stores",
+          "url": ""
+        }
+      ]
+    }
+  },
+  "Iceberg": {
+    "GCP Next": {
+      "count": 2,
+      "style_counts": {
+        "Strategic": 0,
+        "Architectural": 0,
+        "Operational": 0,
+        "Product-demo": 0,
+        "Customer-story": 0,
+        "Developer-howto": 0
+      },
+      "sample_titles": [
+        {
+          "title": "Building an Apache Iceberg lakehouse in a multicloud world",
+          "url": ""
+        },
+        {
+          "title": "Unified Iceberg: Open standards, native performance",
+          "url": ""
+        }
+      ]
+    },
+    "Databricks": {
+      "count": 9,
+      "style_counts": {
+        "Strategic": 1,
+        "Architectural": 9,
+        "Operational": 1,
+        "Product-demo": 1,
+        "Customer-story": 2,
+        "Developer-howto": 1
+      },
+      "sample_titles": [
+        {
+          "title": "Bringing Agents to Data: How Workday Architects Governed Agentic AI with Iceberg and Unity Catalog",
+          "url": "https://www.databricks.com/dataaisummit/session/bringing-agents-data-how-workday-architects-governed-agentic-ai-iceberg"
+        },
+        {
+          "title": "Building an AI Database for Agentic GTM Operations",
+          "url": "https://www.databricks.com/dataaisummit/session/building-ai-database-agentic-gtm-operations"
+        },
+        {
+          "title": "Building the Commercial Lakehouse: AI-Driven, Open and Interoperable",
+          "url": "https://www.databricks.com/dataaisummit/session/building-commercial-lakehouse-ai-driven-open-and-interoperable"
+        },
+        {
+          "title": "Data Interoperability with Unity Catalog",
+          "url": "https://www.databricks.com/dataaisummit/session/data-interoperability-unity-catalog"
+        },
+        {
+          "title": "Enabling a Low-Latency Data Mesh at Warner Music Group Using Lakebase, Iceberg and Unity Catalog",
+          "url": "https://www.databricks.com/dataaisummit/session/enabling-low-latency-data-mesh-warner-music-group-using-lakebase-iceberg"
+        },
+        {
+          "title": "Feature and ML Platform Powered by Databricks",
+          "url": "https://www.databricks.com/dataaisummit/session/feature-and-ml-platform-powered-databricks"
+        },
+        {
+          "title": "Goldman Sach's Fully-Interoperable Lakehouse With Iceberg",
+          "url": "https://www.databricks.com/dataaisummit/session/goldman-sachs-fully-interoperable-lakehouse-iceberg"
+        },
+        {
+          "title": "How Open Lakehouse Architectures Drive Data and AI Platform Modernization",
+          "url": "https://www.databricks.com/dataaisummit/session/how-open-lakehouse-architectures-drive-data-and-ai-platform"
+        }
+      ]
+    },
+    "Snowflake": {
+      "count": 34,
+      "style_counts": {
+        "Strategic": 4,
+        "Architectural": 27,
+        "Operational": 10,
+        "Product-demo": 4,
+        "Customer-story": 18,
+        "Developer-howto": 8
+      },
+      "sample_titles": [
+        {
+          "title": "Apache Iceberg\u2122 v3 Tables in Snowflake: A Practical Guide",
+          "url": ""
+        },
+        {
+          "title": "Apache Polaris in Practice: Open Catalogs, Open Formats, Open Community",
+          "url": ""
+        },
+        {
+          "title": "AT&T\u2019s Interoperable Iceberg Journey",
+          "url": ""
+        },
+        {
+          "title": "Beyond the Landing Zone: From Raw Streams and Files to Governed Iceberg Tables",
+          "url": ""
+        },
+        {
+          "title": "Build an Iceberg Lakehouse with Snowflake and Microsoft Fabric OneLake",
+          "url": ""
+        },
+        {
+          "title": "Build a Unified Metadata Catalog with Iceberg in DoorDash's Lakehouse Platform",
+          "url": ""
+        },
+        {
+          "title": "Building a Cross-Cloud Data Platform with Iceberg, Horizon Catalog and Pulsar",
+          "url": ""
+        },
+        {
+          "title": "Building an End-to-End AI Application on Snowflake: From Data to Intelligence",
+          "url": ""
+        }
+      ]
+    }
+  }
+}
