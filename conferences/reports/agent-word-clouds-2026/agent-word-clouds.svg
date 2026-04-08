@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900">
+<style>text{font-family:Arial,sans-serif;fill:#222}.title{font-size:34px;font-weight:bold}.sub{font-size:18px;fill:#555}.panelTitle{font-size:24px;font-weight:bold}.foot{font-size:22px;font-weight:bold}.rep{font-size:16px}.small{font-size:13px;fill:#666}</style>
+<rect width="100%" height="100%" fill="white"/>
+<text x="750.0" y="42" text-anchor="middle" class="title">What do they mean by “agents”?</text>
+<text x="750.0" y="70" text-anchor="middle" class="sub">Three 2026 conference catalogs use the same word very differently</text>
+<rect x="40" y="110" width="430" height="540" rx="18" fill="#fafafa" stroke="#e5e5e5"/>
+<text x="255.0" y="144" text-anchor="middle" class="panelTitle" fill="#4285F4">Google Cloud Next</text>
+<text x="110" y="205" font-size="42" fill="#4285F4" fill-opacity="1.00" rotate(-8 110 205)>agentic</text>
+<text x="280" y="230" font-size="39" fill="#4285F4" fill-opacity="0.96">technical</text>
+<text x="160" y="290" font-size="38" fill="#4285F4" fill-opacity="0.94">gemini</text>
+<text x="340" y="320" font-size="38" fill="#4285F4" fill-opacity="0.94">technology</text>
+<text x="220" y="380" font-size="37" fill="#4285F4" fill-opacity="0.91">security</text>
+<text x="120" y="430" font-size="37" fill="#4285F4" fill-opacity="0.91" rotate(-8 120 430)>leadership</text>
+<text x="320" y="470" font-size="36" fill="#4285F4" fill-opacity="0.90">business</text>
+<text x="200" y="520" font-size="33" fill="#4285F4" fill-opacity="0.83" rotate(8 200 520)>leaders</text>
+<text x="360" y="565" font-size="31" fill="#4285F4" fill-opacity="0.81">breakouts</text>
+<text x="130" y="605" font-size="31" fill="#4285F4" fill-opacity="0.80">enterprise</text>
+<text x="290" y="630" font-size="31" fill="#4285F4" fill-opacity="0.80" rotate(-8 290 630)>engineers</text>
+<text x="225" y="255" font-size="30" fill="#4285F4" fill-opacity="0.79">customer</text>
+<text x="370" y="260" font-size="30" fill="#4285F4" fill-opacity="0.79">managers</text>
+<text x="95" y="345" font-size="30" fill="#4285F4" fill-opacity="0.78">platform</text>
+<text x="250" y="475" font-size="29" fill="#4285F4" fill-opacity="0.77" rotate(8 250 475)>developers</text>
+<text x="350" y="410" font-size="29" fill="#4285F4" fill-opacity="0.76" rotate(-8 350 410)>application</text>
+<text x="40" y="682" class="small">Representative sessions</text>
+<text x="40" y="706" class="rep">• Architecting Multi-Agent AI: A 2-Hour Workshop on the </text>
+<text x="40" y="730" class="rep">• Accelerate agent development with Gemini CLI, MCP, and</text>
+<text x="40" y="754" class="rep">• Agents in the CLI: Planning, delegation, and multi-age</text>
+<rect x="535" y="110" width="430" height="540" rx="18" fill="#fafafa" stroke="#e5e5e5"/>
+<text x="750.0" y="144" text-anchor="middle" class="panelTitle" fill="#29B5E8">Snowflake Summit</text>
+<text x="605" y="205" font-size="42" fill="#29B5E8" fill-opacity="1.00" rotate(-8 605 205)>cortex</text>
+<text x="775" y="230" font-size="35" fill="#29B5E8" fill-opacity="0.88">agentic</text>
+<text x="655" y="290" font-size="33" fill="#29B5E8" fill-opacity="0.84">intelligence</text>
+<text x="835" y="320" font-size="30" fill="#29B5E8" fill-opacity="0.79">business</text>
+<text x="715" y="380" font-size="30" fill="#29B5E8" fill-opacity="0.79">semantic</text>
+<text x="615" y="430" font-size="30" fill="#29B5E8" fill-opacity="0.79" rotate(-8 615 430)>enterprise</text>
+<text x="815" y="470" font-size="29" fill="#29B5E8" fill-opacity="0.76">analytics</text>
+<text x="695" y="520" font-size="28" fill="#29B5E8" fill-opacity="0.74" rotate(8 695 520)>new</text>
+<text x="855" y="565" font-size="25" fill="#29B5E8" fill-opacity="0.70">governed</text>
+<text x="625" y="605" font-size="25" fill="#29B5E8" fill-opacity="0.69">see</text>
+<text x="785" y="630" font-size="25" fill="#29B5E8" fill-opacity="0.69" rotate(-8 785 630)>teams</text>
+<text x="720" y="255" font-size="25" fill="#29B5E8" fill-opacity="0.68">insights</text>
+<text x="865" y="260" font-size="24" fill="#29B5E8" fill-opacity="0.68">code</text>
+<text x="590" y="345" font-size="24" fill="#29B5E8" fill-opacity="0.68">context</text>
+<text x="745" y="475" font-size="24" fill="#29B5E8" fill-opacity="0.67" rotate(8 745 475)>workflows</text>
+<text x="845" y="410" font-size="24" fill="#29B5E8" fill-opacity="0.67" rotate(-8 845 410)>customer</text>
+<text x="535" y="682" class="small">Representative sessions</text>
+<text x="535" y="706" class="rep">• 20-Minute Threat Hunt: Building and Deploying a Cybers</text>
+<text x="535" y="730" class="rep">• 3 Essentials for Building Winning AI Projects</text>
+<text x="535" y="754" class="rep">• Achieving Agentic AI ROI with Snowflake: Is Your Data </text>
+<rect x="1030" y="110" width="430" height="540" rx="18" fill="#fafafa" stroke="#e5e5e5"/>
+<text x="1245.0" y="144" text-anchor="middle" class="panelTitle" fill="#FF3621">Databricks</text>
+<text x="1100" y="205" font-size="42" fill="#FF3621" fill-opacity="1.00" rotate(-8 1100 205)>platform</text>
+<text x="1270" y="230" font-size="40" fill="#FF3621" fill-opacity="0.98">agentic</text>
+<text x="1150" y="290" font-size="40" fill="#FF3621" fill-opacity="0.97">genie</text>
+<text x="1330" y="320" font-size="35" fill="#FF3621" fill-opacity="0.88">architecture</text>
+<text x="1210" y="380" font-size="35" fill="#FF3621" fill-opacity="0.88">business</text>
+<text x="1110" y="430" font-size="35" fill="#FF3621" fill-opacity="0.88" rotate(-8 1110 430)>unity</text>
+<text x="1310" y="470" font-size="34" fill="#FF3621" fill-opacity="0.87">governance</text>
+<text x="1190" y="520" font-size="34" fill="#FF3621" fill-opacity="0.85" rotate(8 1190 520)>catalog</text>
+<text x="1350" y="565" font-size="32" fill="#FF3621" fill-opacity="0.83">including</text>
+<text x="1120" y="605" font-size="32" fill="#FF3621" fill-opacity="0.82">analytics</text>
+<text x="1280" y="630" font-size="32" fill="#FF3621" fill-opacity="0.82" rotate(-8 1280 630)>enterprise</text>
+<text x="1215" y="255" font-size="30" fill="#FF3621" fill-opacity="0.79">model</text>
+<text x="1360" y="260" font-size="30" fill="#FF3621" fill-opacity="0.79">production</text>
+<text x="1085" y="345" font-size="29" fill="#FF3621" fill-opacity="0.77">unified</text>
+<text x="1240" y="475" font-size="29" fill="#FF3621" fill-opacity="0.76" rotate(8 1240 475)>built</text>
+<text x="1340" y="410" font-size="29" fill="#FF3621" fill-opacity="0.76" rotate(-8 1340 410)>insights</text>
+<text x="1030" y="682" class="small">Representative sessions</text>
+<text x="1030" y="706" class="rep">• Agent Evaluations</text>
+<text x="1030" y="730" class="rep">• AstraZeneca&#x27;s Multi-Agent System: Lessons Scaling Agen</text>
+<text x="1030" y="754" class="rep">• AI Agents for the Frontline: 7-Eleven’s GenAI Maintena</text>
+<text x="750.0" y="850" text-anchor="middle" class="foot">GCP talks about agents like a platform layer. Snowflake talks about governed enterprise workflows. Databricks talks about production systems.</text>
+</svg>
