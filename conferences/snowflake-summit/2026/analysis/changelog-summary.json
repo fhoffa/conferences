@@ -1,0 +1,582 @@
+{
+  "conference": "snowflake-summit",
+  "year": 2026,
+  "generatedAt": "2026-04-13T18:00:00Z",
+  "comparison": {
+    "previous": {
+      "source": "git:HEAD~1:conferences/snowflake-summit/2026/normalized/sessions.json",
+      "count": 319
+    },
+    "current": {
+      "source": "conferences/snowflake-summit/2026/normalized/sessions.json",
+      "count": 339
+    }
+  },
+  "diff": {
+    "addedCount": 22,
+    "removedCount": 2,
+    "materialChangeCount": 7,
+    "minorChangeCount": 58
+  },
+  "added": [
+    {
+      "id": null,
+      "title": "2026 Data Driver Awards"
+    },
+    {
+      "id": null,
+      "title": "80x Faster Data Engineering: From Prompts to Pipelines with Maia"
+    },
+    {
+      "id": null,
+      "title": "Automating Governed Analytics with Qlik MCP and Snowflake Cortex Code"
+    },
+    {
+      "id": null,
+      "title": "Autonomous Data Pipelines for Explainable AI: From Insight to Source"
+    },
+    {
+      "id": null,
+      "title": "Basecamp Happy Hour"
+    },
+    {
+      "id": null,
+      "title": "Basecamp Welcome Reception"
+    },
+    {
+      "id": null,
+      "title": "Beyond the Silo: AI-Driven Manufacturing with Snowflake, SAP and AWS"
+    },
+    {
+      "id": null,
+      "title": "Building Powerful AI Data Tools with AI Functions and Agentic Search"
+    },
+    {
+      "id": null,
+      "title": "Building the Block Data MCP: A Blueprint for Gen AI Insights and Analytics"
+    },
+    {
+      "id": null,
+      "title": "Data Discovery and Semantic Context for Agentic AI with Horizon Catalog"
+    },
+    {
+      "id": null,
+      "title": "Driving Innovation in Global Clinical Operations Through AI"
+    },
+    {
+      "id": null,
+      "title": "Enabling Enterprise AI at Scale: Mitsui’s Federated AI Mesh"
+    },
+    {
+      "id": null,
+      "title": "From Tankers to Tickers: Spot Market Stress Earlier with Connected Data"
+    },
+    {
+      "id": null,
+      "title": "Full Throttle from Day One"
+    },
+    {
+      "id": null,
+      "title": "How DTCC Created a Cultural Shift Around Proactive Visibility and Governance"
+    },
+    {
+      "id": null,
+      "title": "Leaders from Affirm, Booking.com, DoorDash and Indeed Discuss Apache Iceberg"
+    },
+    {
+      "id": null,
+      "title": "Ontology on Snowflake: From Unified Data to AI-Powered Intelligence"
+    },
+    {
+      "id": null,
+      "title": "Snowbash"
+    },
+    {
+      "id": null,
+      "title": "The Optima Vision: Making it Impossible to Run Inefficiently on Snowflake"
+    },
+    {
+      "id": null,
+      "title": "Training // Track 3 - Snowflake Platform Training + Exam - Thursday"
+    },
+    {
+      "id": null,
+      "title": "Training // Track 3 - Snowflake Platform Training + Exam - Wednesday"
+    },
+    {
+      "id": null,
+      "title": "Turn Your Data into Revenue: How to Achieve Real-Time Marketing and AI"
+    }
+  ],
+  "removed": [
+    {
+      "id": null,
+      "title": "AI-Enabled Audit Preparedness with Snowflake and DataHub"
+    },
+    {
+      "id": null,
+      "title": "Making AI Real for Marketing: Where Trust Powers Growth"
+    }
+  ],
+  "materialChanges": [
+    {
+      "id": "1768236990610001yLWn",
+      "title": "Agentic Procurement: Accelerating Drug Development with Autonomous Procurement",
+      "fields": [
+        "title"
+      ]
+    },
+    {
+      "id": "1769095877783001semG",
+      "title": "Banking on Uptime: Morgan Stanley Achieves Resilience at Scale with Snowflake",
+      "fields": [
+        "title",
+        "abstract"
+      ]
+    },
+    {
+      "id": "1772040004754001FpSj",
+      "title": "Training // Track 1 - Snowflake GenAI Essentials Training",
+      "fields": [
+        "title"
+      ]
+    },
+    {
+      "id": "1772040004895001FB7z",
+      "title": "Training // Track 2 - Snowflake Accelerator Training",
+      "fields": [
+        "title"
+      ]
+    },
+    {
+      "id": "1772040004986001FjbA",
+      "title": "Training // Track 3 - Snowflake Platform Training + Exam - Monday",
+      "fields": [
+        "title"
+      ]
+    },
+    {
+      "id": "1773336032636001TfEB",
+      "title": "What's New: Connectivity for AI-Ready Pipelines, with AI",
+      "fields": [
+        "abstract",
+        "speakers"
+      ]
+    },
+    {
+      "id": "1773336091459001TtPn",
+      "title": "What's New: Connectivity for AI-Ready Pipelines, with AI",
+      "fields": [
+        "abstract"
+      ]
+    }
+  ],
+  "minorChanges": [
+    {
+      "id": "1762560781701001Fe0z",
+      "title": "How Capital One Architected for Interoperability in a Multi-Catalog/Table Setup",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1762643162326001fda7",
+      "title": "AI-Powered Modernization: Oregon's Multnomah County Leverages SnowConvert AI",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1764946771726001dtF1",
+      "title": "Millions Saved: Unity's Native Apps, Data Sharing and AI Strategy",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1764984691483001vsTd",
+      "title": "PayPal: Merchant Fee Predictions in Snowflake ML",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1765241516076001OBk0",
+      "title": "Maximizing Performance and Cost Efficiency with Virtual Warehouses",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1765254315154001htIB",
+      "title": "NTT DOCOMO’s Data Platform Evolution for the Agentic AI Era",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1765487465723001tnVc",
+      "title": "Build a Universal Semantic Layer for BI and AI: Hands-On Lab",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1765504978350001uyPq",
+      "title": "Itron Powerflow for Grid Planning on Snowflake ML",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1765619438799001IrDC",
+      "title": "Snowflake Intelligence for Trading and Risk Management",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1765744105052001llHM",
+      "title": "Building a Cross-Cloud Data Platform with Iceberg, Horizon Catalog and Pulsar",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1765991219440001dBPD",
+      "title": "Governed Zero-Copy Data with Horizon Catalog and Iceberg Catalog Federation",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1766013788965001vags",
+      "title": "AI-Powered Analytics and Data Discovery Using Snowflake at Booking.com",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1766036452589001pAqu",
+      "title": "Honda’s Data Mesh Strategy: Apache Iceberg, Cortex AI and Horizon Catalog",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1766047542125001dDbc",
+      "title": "Samsung Ads: Building Open Analytics on a Single Data Copy with Apache Iceberg",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1766052027160001YnML",
+      "title": "Bridging the Gap: Powering Real-Time Apps with Snowflake and Postgres",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1766091003313001USDX",
+      "title": "Zero-Copy, Bidirectional Connectivity: Salesforce, Workday and Beyond",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1766160972009001OC9s",
+      "title": "20-Minute Threat Hunt: Building and Deploying a Cybersecurity Agent with Cortex",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1766164579956001RoPA",
+      "title": "Build Real-Time User Analytics with Snowpipe Streaming and Cortex Agents",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1767703874323001llUM",
+      "title": "Deploying Geospatial Solutions via Natural Language with Cortex Code",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1767859872282001rEG9",
+      "title": "From Customer to Co‑Creator: Aviv’s Role in Shaping dbt Projects on Snowflake",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768105521142001Mj2x",
+      "title": "Accelerating AI Readiness: Data to Real-Time Answers with Snowflake Intelligence",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768230177253001okt2",
+      "title": "Deploying Geospatial Solutions Using Cortex Code Skills",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768236981281001y5xK",
+      "title": "Security Benefit Achieves 4× Faster Legacy Migration with Snowflake and Coalesce",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768236982312001y4jL",
+      "title": "How CarGurus Freed 24K Engineering Hours to Allow Data Teams to Build Cool Sh*t",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768236982556001ytLX",
+      "title": "How Fanatics Manages dbt Metrics with Cortex Code for Natural Language Analytics",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768236987379001yzJ4",
+      "title": "Booking.com's Data Travels: Platform Foundations to Agentic Analytics",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768236995428001y9PQ",
+      "title": "How LendingTree Marketers Built a Snowflake Agent for Smarter SEM Decisions",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768272611323001avg6",
+      "title": "How to Evaluate Snowflake Gen2 Safely in Production and the Outcomes at Scale",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768338323307001PHmq",
+      "title": "Postgres and Snowflake Open Lakehouse: ETL is dead, ELT is dead. T lives on.",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768409065763001kUI3",
+      "title": "Structured Data Sharing for Government: From Secure Sharing to Clean Rooms",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768414293158001FKKA",
+      "title": "From Tables to Predictions: Zero-Shot ML Insights in Snowflake",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768425128861001Cc3r",
+      "title": "Interoperable Lakehouse 101: Single Governed Data Copy for AI Readiness",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768441227855001zQrx",
+      "title": "Secure by Default: Implementing Zero-Trust Identity and Access in Snowflake",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768502655491001k93Y",
+      "title": "Building an End-to-End AI Application on Snowflake: From Data to Intelligence",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768512288379001Jrx5",
+      "title": "Modern Data Governance and Security at Scale with Snowflake at T-Mobile",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768524811642001NLL3",
+      "title": "NBCU Adsales Platform and Operation Model",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768843431010001X3tR",
+      "title": "How Canva Built a Petabyte-Scale Optimization Ecosystem",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1768844244760001eg4i",
+      "title": "Consistency Before Intelligence: The Hidden Work Behind AI Analytics",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1769523192752001rzd4",
+      "title": "The Healthcare and Life Sciences Executive Panel",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1769523457309001ulSq",
+      "title": "Built with Care: Powering the Next Wave of Healthcare Technology on Snowflake",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1770823489055001i33d",
+      "title": "The Infrastructure Behind Grindr’s AI Transformation",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1770823492399001iPqG",
+      "title": "Industry Use Cases: Data Modeling for Enterprise Scale and AI Readiness",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1771612872317001s97Y",
+      "title": "The Future of Retail and Travel: Architecting for the Agentic Era with Snowflake",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1771691188105001RyH3",
+      "title": "Scaling AI in Manufacturing: Executive Panel",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1771882089895001zNll",
+      "title": "The Future of Media: Composable Solutions for People and Agents",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1772636972968001P2Os",
+      "title": "Build an Iceberg Lakehouse with Snowflake and Microsoft Fabric OneLake",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1773119073654001x05z",
+      "title": "The Future of HCLS: Modern Strategies for Interoperability and Agentic AI",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1773166110375001gAnp",
+      "title": "Platform Keynote",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1773336036400001ThUJ",
+      "title": "What's New: Power Real-Time Apps and AI Without Complex Data Movement",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1773336040275001TsEA",
+      "title": "What's New: Smart Pipeline Development",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1773336047771001TuWO",
+      "title": "What’s New: Innovate at Scale: Powering a Secure and Resilient AI Estate",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1773336055561001TqTG",
+      "title": "What’s New: Modernizing Your Data Estate in Snowflake",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1773336067306001Tf4X",
+      "title": "What’s New: AI-Powered Observability at Scale with Observe by Snowflake",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1773336071109001Td8j",
+      "title": "What's New: Snowflake Intelligence and Cortex Agents for Real Business Impact",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1773336078518001Tz1w",
+      "title": "What’s New: Zero to a Trusted Semantic Layer in Snowflake",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1773336099037001TEDF",
+      "title": "What's New: Smart Pipeline Development",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1773336106566001TZOZ",
+      "title": "What’s New: Innovate at Scale: Powering a Secure and Resilient AI Estate",
+      "fields": [
+        "speakers"
+      ]
+    },
+    {
+      "id": "1773336114227001TK93",
+      "title": "What’s New: Modernizing Your Data Estate in Snowflake",
+      "fields": [
+        "speakers"
+      ]
+    }
+  ]
+}

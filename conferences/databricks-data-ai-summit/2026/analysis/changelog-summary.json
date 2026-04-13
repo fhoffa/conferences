@@ -1,0 +1,26 @@
+{
+  "conference": "databricks-data-ai-summit",
+  "year": 2026,
+  "generatedAt": "2026-04-13T18:00:00Z",
+  "comparison": {
+    "previous": {
+      "source": "conferences/databricks-data-ai-summit/2026/normalized/snapshots/2026-04-07.sessions.json",
+      "count": 158
+    },
+    "current": {
+      "source": "conferences/databricks-data-ai-summit/2026/normalized/current/sessions.json",
+      "count": 158
+    }
+  },
+  "diff": {
+    "addedCount": 0,
+    "removedCount": 0,
+    "materialChangeCount": 0,
+    "minorChangeCount": 0
+  },
+  "added": [],
+  "removed": [],
+  "materialChanges": [],
+  "minorChanges": [],
+  "note": "Current file is byte-for-byte identical to the 2026-04-07 snapshot."
+}
