@@ -1,12 +1,8 @@
 {
-  "snapshot_date": "2026-04-07",
-  "session_count": 158,
-  "sessions_with_speakers": 142,
-  "speaker_count": 223,
-  "speakers_with_job_title": 204,
-  "unique_companies": 140,
-  "sessions_with_level": 142,
-  "sessions_with_track": 142,
-  "sessions_with_format": 158,
-  "sessions_with_any_timing": 16
+  "session_count": 540,
+  "sessions_with_speakers": 523,
+  "speaker_count": 836,
+  "speakers_with_job_title": 779,
+  "unique_companies": 388,
+  "sessions_with_any_timing": 331
 }
