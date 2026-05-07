@@ -1,26 +1,6318 @@
 {
   "conference": "databricks-data-ai-summit",
   "year": 2026,
-  "generatedAt": "2026-04-13T18:00:00Z",
+  "generatedAt": "2026-05-06T23:56:00Z",
   "comparison": {
     "previous": {
-      "source": "conferences/databricks-data-ai-summit/2026/normalized/snapshots/2026-04-07.sessions.json",
+      "source": "conferences/databricks-data-ai-summit/2026/normalized/snapshots/2026-04-13.sessions.json",
       "count": 158
     },
     "current": {
-      "source": "conferences/databricks-data-ai-summit/2026/normalized/current/sessions.json",
-      "count": 158
+      "source": "conferences/databricks-data-ai-summit/2026/normalized/sessions.json",
+      "count": 540
     }
   },
   "diff": {
-    "addedCount": 0,
-    "removedCount": 0,
-    "materialChangeCount": 0,
-    "minorChangeCount": 0
+    "addedCount": 387,
+    "removedCount": 5,
+    "changedCount": 153,
+    "materialContentChangeCount": 78,
+    "scheduleChangeCount": 132,
+    "metadataOnlyChangeCount": 16
   },
-  "added": [],
-  "removed": [],
-  "materialChanges": [],
-  "minorChanges": [],
-  "note": "Current file is byte-for-byte identical to the 2026-04-07 snapshot."
+  "fieldChangeCounts": {
+    "areas_of_interest": 132,
+    "day": 132,
+    "start_time": 132,
+    "end_time": 132,
+    "starts_pst": 132,
+    "ends_pst": 132,
+    "topic_tags": 119,
+    "speakers": 74,
+    "industry": 61,
+    "companies": 31,
+    "track": 16,
+    "abstract": 7,
+    "title": 3
+  },
+  "added": [
+    {
+      "id": "18762",
+      "title": " Sponsored by: Genpact | Enabling AI-Ready Data",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Baker Hughes",
+        "Genpact"
+      ]
+    },
+    {
+      "id": "18884",
+      "title": "1000× Faster Retrieval: Indexed and Full-Text Search in the Lakehouse",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "Capital One Financial"
+      ],
+      "day": "Thursday",
+      "start_time": "5:20 pm"
+    },
+    {
+      "id": "18410",
+      "title": "3 Steps to Red Team Your LLMs on Databricks (Using Tools You Didn't Know You Had)",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "Advancing Analytics"
+      ],
+      "day": "Tuesday",
+      "start_time": "7:20 pm"
+    },
+    {
+      "id": "18439",
+      "title": "A Unified Future for Delta and Apache Iceberg™",
+      "type_or_track": "Data Warehousing",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "4:10 pm"
+    },
+    {
+      "id": "18395",
+      "title": "ADBC and the Future of Universal Data Connectivity for Agentic Systems",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Columnar"
+      ],
+      "day": "Thursday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18436",
+      "title": "AI_DIAGNOSE: Automating Spark Job Debugging with LLM Agents",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18553",
+      "title": "Accelerating Data Utility at Toyota: How vista Unifies Data Access and Governance via Data Mesh",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Toyota Motor Corporation"
+      ]
+    },
+    {
+      "id": "19051",
+      "title": "Accelerating the Monthly Financial Closing with Genie",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "19052",
+      "title": "Accelerating the Speed to Value of Analytics with Databricks AI/BI & Agents",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Addepar"
+      ]
+    },
+    {
+      "id": "18986",
+      "title": "Activating AI With Lakeflow and Agent Bricks",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "19021",
+      "title": "Agentic Admins: Managing Databricks @ Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "11:10 pm"
+    },
+    {
+      "id": "18984",
+      "title": "Agentic Data Engineering with Lakeflow, Genie Code, and IDEs",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18204",
+      "title": "Agentic Feature Engineering: How McAfee Drives Personalization With Agent Bricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "McAfee"
+      ],
+      "day": "Wednesday",
+      "start_time": "7:20 pm"
+    },
+    {
+      "id": "19164",
+      "title": "Agentic workflows: Transforming, structuring, enriching data at scale with AI",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18988",
+      "title": "AiChemy: How MCP-Powered Agents Cut Drug Discovery Research from Weeks to Minutes",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19195",
+      "title": "An Intro to Building and Scaling Agentic Apps",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18441",
+      "title": "Anthropic + Adidas + Databricks: Unlocking 400 Hours of Productivity Weekly with Conversational AI",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "adidas AG"
+      ],
+      "day": "Wednesday",
+      "start_time": "11:10 pm"
+    },
+    {
+      "id": "18544",
+      "title": "Apache Iceberg™ Interoperability: First-Class Open Support in Databricks Delta Sharing",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Databricks, Inc.",
+        "Foot Locker"
+      ],
+      "day": "Tuesday",
+      "start_time": "12:20 am"
+    },
+    {
+      "id": "18860",
+      "title": "AppKit: The Official Full-Stack SDK for Databricks Apps",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18891",
+      "title": "Architecting Agentic Security: Scaling Threat Detection with LLM and Lake house Architecture ",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "Adobe"
+      ]
+    },
+    {
+      "id": "18411",
+      "title": "Ask Astro: How CAVA Built an Enterprise scale Agentic Data Copilot on Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "CAVA Group"
+      ],
+      "day": "Wednesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18557",
+      "title": "AskPorto - a unified Agentic AI solution for data analytics and discovery",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "CENTRAL PROVIDENT FUND BOARD",
+        "CPFB Singapore"
+      ],
+      "day": "Tuesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18892",
+      "title": "Automating Phishing Triage With Agentic AI and Knowledge Graph Memory on Databricks",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "CVS Health"
+      ],
+      "day": "Thursday",
+      "start_time": "4:10 pm"
+    },
+    {
+      "id": "19017",
+      "title": "BASF Coatings: Scaling Enterprise Multi-Agent Systems with Federated Governance on Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "BASF SE"
+      ]
+    },
+    {
+      "id": "19095",
+      "title": "Behind the Curtain: How We Do Eval in Genie ",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19099",
+      "title": "Behind the curtain: Key learnings from building Genie ",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19173",
+      "title": "Benchmarks Don't Lie: Inside Lakebase Performance Engineering",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "19135",
+      "title": "Best Practices for Lakebase",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18233",
+      "title": "Beyond Dashboards: How Grupo Bimbo Delivers Insights with Databricks AgentBricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Grupo Bimbo"
+      ],
+      "day": "Wednesday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "18987",
+      "title": "Beyond Monitoring: Lakeflow Observability for Operational Health",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "18427",
+      "title": "Blueprint to Breakthrough: Activating Banking Analytics, AI, and Agentic Use Cases",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Deloitte",
+        "First Horizon Bank"
+      ],
+      "day": "Wednesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "19094",
+      "title": "Breaking Down Data Silos: Mastercard’s Path to Comprehensive, Privacy‑Safe Marketing Intelligence ",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Mastercard",
+        "Rearc LLC"
+      ]
+    },
+    {
+      "id": "19020",
+      "title": "Bridging Transactional Speed and Analytical Depth with AI/BI, Genies Lakebase & Databricks Apps",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18957",
+      "title": "Build Better & Faster on Databricks with the AI Dev Kit",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18983",
+      "title": "Build and Deploy Databricks Projects Using Automation Bundles and Agents",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "19023",
+      "title": "Building AI That Matters: Powering Global Healthcare at The Virtue Foundation",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Virtue Foundation"
+      ]
+    },
+    {
+      "id": "19162",
+      "title": "Building Agentic Apps on the Databricks Platform: Architecture, Considerations, and Key Patterns",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "19115",
+      "title": "Building Better Apps: Architecture Best Practices and Common Patterns on Databricks Apps",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18981",
+      "title": "Building Permission-Aware AI for Enterprise Content with LakeFlow Connect",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18428",
+      "title": "Building Production Data Products: HDC Journey from Asset Bundle Automation to Genie Orchestration",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "MiQ"
+      ],
+      "day": "Wednesday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "19196",
+      "title": "Building Secure AI-Powered Analytics Experiences Across Organizational Boundaries",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18541",
+      "title": "Building Secure Retail Data Sharing at Walmart With Databricks Delta Sharing",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Databricks",
+        "Walmart"
+      ],
+      "day": "Thursday",
+      "start_time": "4:10 pm"
+    },
+    {
+      "id": "18963",
+      "title": "Building With Community Connectors: Custom Data Sources, Managed Reliability",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "7:20 pm"
+    },
+    {
+      "id": "18460",
+      "title": "Building Workforce Intelligence With Unity Catalog and Databricks Genie",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Mars Information Services",
+        "Tiger Analytics"
+      ],
+      "day": "Wednesday",
+      "start_time": "11:10 pm"
+    },
+    {
+      "id": "18890",
+      "title": "Building Your Open Security Lakehouse: Ingest, Normalize, and Model Security Data at Scale",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "19074",
+      "title": "Building higher quality Genie Spaces: How to ensure accuracy and trust",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18438",
+      "title": "Bulk Metadata Generation To Bring Genie to Life",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks",
+        "Optus"
+      ],
+      "day": "Tuesday",
+      "start_time": "11:10 pm"
+    },
+    {
+      "id": "18399",
+      "title": "Cascading Failures in Multi-Agent Systems",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "9:00 pm"
+    },
+    {
+      "id": "18903",
+      "title": "Cielo modernized its data platform and migrated 6,000+ pipelines from EMR to Databricks.",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Cielo S.A. – Instituição de Pagamento"
+      ]
+    },
+    {
+      "id": "18978",
+      "title": "Clean, Correct Change Data Capture with Spark Declarative Pipelines",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18517",
+      "title": "Consumer Industries Forum | Sponsored by: Deloitte ",
+      "type_or_track": "Special Interest",
+      "companies": [
+        "DICK'S Sporting Goods",
+        "Databricks",
+        "Mondelez International"
+      ],
+      "day": "Wednesday",
+      "start_time": "8:00 pm"
+    },
+    {
+      "id": "18521",
+      "title": "Consumer Industries: The Last Mile of Intelligence— Building Apps That Actually Reach the Frontline",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18456",
+      "title": "Control and governing your coding agents with LLMOps",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "5:40 pm"
+    },
+    {
+      "id": "18532",
+      "title": "Cross-Cloud Delta Sharing: Eliminate Egress cost with Delta Sharing Global Distribution",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Databricks, Inc."
+      ],
+      "day": "Wednesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18434",
+      "title": "DABS: do like a pro: all the best tips & tricks",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks MVP community"
+      ],
+      "day": "Tuesday",
+      "start_time": "11:30 pm"
+    },
+    {
+      "id": "18422",
+      "title": "Data Analytics with Multi-Modal Data",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18446",
+      "title": "Data Intelligence for SaaS Threat Hunting: How Obsidian uses Databricks at scale",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "Obsidian Security"
+      ],
+      "day": "Tuesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "19114",
+      "title": "Databricks Apps for Everyone: Build Custom Apps Without Writing a Line of Code",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18974",
+      "title": "Databricks on Databricks: Automating Service Reliability at Scale",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19014",
+      "title": "Databricks on Databricks: Build Your Own Experimentation Platform",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18398",
+      "title": "Decathlon’s Race to Unified Governance: Securing Interoperability at Scale",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "Databricks",
+        "Decathlon"
+      ],
+      "day": "Thursday",
+      "start_time": "4:10 pm"
+    },
+    {
+      "id": "18394",
+      "title": "Delta Kernel <> Catalog-Managed Tables",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18908",
+      "title": "Delta Sharing SecureConnect: Simplify Network Configuration for External Data Collaboration",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Amadeus",
+        "Databricks",
+        "Databricks, Inc."
+      ],
+      "day": "Thursday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "18250",
+      "title": "Democratizing Data and AI at Freshworks With Governed Lakehouse and Freddy AI",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Freshworks"
+      ]
+    },
+    {
+      "id": "19075",
+      "title": "Designing beautiful, effective dashboards: Best practices for visual story telling in AI/BI",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18464",
+      "title": "Detecting and Reducing Manipulative AI Outputs With Interpretable Governance Signals",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "New York University"
+      ],
+      "day": "Tuesday",
+      "start_time": "8:10 pm"
+    },
+    {
+      "id": "18403",
+      "title": "Dialing Up with Genie: How Telecom Providers are Winning with Natural Language AI/BI",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks",
+        "DirectTV"
+      ],
+      "day": "Wednesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18902",
+      "title": "Dialogues with Data: Accelerating Pre-Sales Discovery through Agentic AI",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "12:20 am"
+    },
+    {
+      "id": "18977",
+      "title": "Ditch the Message Bus with Zerobus Ingest",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "5:20 pm"
+    },
+    {
+      "id": "18990",
+      "title": "Dr. Jekyll and Mr. H-AI-de: Using MLflow and AI Judges to measure model alignment and safety",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18447",
+      "title": "Duct Tape to Databricks: 3 years of Brickbot at Data & AI Summit",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "9:00 pm"
+    },
+    {
+      "id": "18461",
+      "title": "Effective document management and retrieval for generative AI",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "5:20 pm"
+    },
+    {
+      "id": "19055",
+      "title": "Embedded Analytics with Databricks AI/BI",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "4:10 pm"
+    },
+    {
+      "id": "18515",
+      "title": "Energy & Utilities Industry Forum | Sponsored by: Infosys",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Alinta Servco Pty Ltd",
+        "Chevron Corporation",
+        "Constellation",
+        "Databricks",
+        "Shell"
+      ],
+      "day": "Wednesday",
+      "start_time": "8:00 pm"
+    },
+    {
+      "id": "18202",
+      "title": "Engineering the AI-Powered Practice: Scaling Vertical AI on a Foundation of Three Trillion Data Points",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "ModMed"
+      ],
+      "day": "Tuesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18992",
+      "title": "Enterprise Observability with ZeroBus and OTEL at Scale with Databricks",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "19081",
+      "title": "Enterprise Reporting and Embedded Analytics with AI/BI Dashboards ",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18997",
+      "title": "Evolution of the Databricks Commercial Motion: Building Scalable Intelligence on Databricks",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18437",
+      "title": "Evolving Apache Spark Structured Streaming in Open Source: A Year in Review and the Road Ahead!",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "18423",
+      "title": "Faster queries in local laptop mode for Apache Spark",
+      "type_or_track": "Data Warehousing",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "5:20 pm"
+    },
+    {
+      "id": "18401",
+      "title": "Faster, Leaner, and Easier to Debug: PySpark UDFs in 2026",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "4:10 pm"
+    },
+    {
+      "id": "18885",
+      "title": "FinOps for Cybersecurity at Scale: Balancing Cost, Speed, and Safety at HSBC",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "HSBC"
+      ]
+    },
+    {
+      "id": "18514",
+      "title": "Financial Services Industry Forum",
+      "type_or_track": "Special Interest",
+      "companies": [
+        "Databricks",
+        "Robinhood"
+      ],
+      "day": "Wednesday",
+      "start_time": "8:00 pm"
+    },
+    {
+      "id": "18767",
+      "title": "Fireside Chat: No Hype, No Slides: The 24-Month Data and AI Decisions That Actually Matter",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "SAP SE",
+        "adidas"
+      ],
+      "day": "Wednesday",
+      "start_time": "11:10 pm"
+    },
+    {
+      "id": "18985",
+      "title": "First‑Class Containers Across Databricks: A Unified, Portable Dependency Management Strategy",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "19018",
+      "title": "Forecasting Friction: Unpacking the Trust, Accuracy, and Data Gaps in SaaS Consumption Models",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18210",
+      "title": "From 0 to 100: How One NASCAR Team Is Moving up the Grid With Databricks and Zerobus Ingest",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks",
+        "Trackhouse Racing"
+      ],
+      "day": "Wednesday",
+      "start_time": "11:10 pm"
+    },
+    {
+      "id": "19112",
+      "title": "From App to App Ecosystem: An Operating Model for Thousands of Enterprise-Scale Databricks Apps",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19019",
+      "title": "From Bottlenecks to Breakthroughs: Empowering Comcast SLT with Self-Service Analytics",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Comcast"
+      ],
+      "day": "Tuesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "19016",
+      "title": "From Classic ML to Agentic Predictions",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "dealsumm.com"
+      ]
+    },
+    {
+      "id": "18229",
+      "title": "From Cost Mystery to Cost Mastery COPA Airlines Journey to Lakehouse Efficiency",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Copa Airlines"
+      ],
+      "day": "Tuesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "19058",
+      "title": "From Dashboards to Decisioning: How We Rebuilt Marketing",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18586",
+      "title": "From Dashboards to Dialogue: Powering Feature Launches with a Databricks Genie for Gaming Studios",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Ubisoft"
+      ]
+    },
+    {
+      "id": "18431",
+      "title": "From Data Platform to App Platform: Building Production Apps on Lakebase",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "West Monroe"
+      ],
+      "day": "Wednesday",
+      "start_time": "9:50 pm"
+    },
+    {
+      "id": "18407",
+      "title": "From Data Silos to Patient 360: Building Real-Time Cohort Analytics With Zero-ETL Graph Technology",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "PuppyGraph"
+      ],
+      "day": "Wednesday",
+      "start_time": "12:20 am"
+    },
+    {
+      "id": "18404",
+      "title": "From Molecule to Market: How Life Sciences Companies are Compressing the Data-to-Decision Curve with Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks",
+        "Takeda Pharmaceuticals",
+        "Takeda Pharmaceuticals - USA"
+      ]
+    },
+    {
+      "id": "18859",
+      "title": "From Petabytes to Proactive Defense: Powering an AI Swarm with Databricks",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "Arctic Wolf",
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18416",
+      "title": "From Reactive to Proactive Mobility Insights: Caltrans’ Agentic Solution on a Unified Lakehouse",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Accenture"
+      ],
+      "day": "Thursday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18435",
+      "title": "From Repetition to Reuse: The Evolution of Apache Spark™ Declarative Pipelines",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "18861",
+      "title": "From SIEM to Lakehouse: A Practical Path to an AI-powered SOC",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "Anvilogic",
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "18420",
+      "title": "From Search to SQL: How Glean Agents Tap Databricks Genie for Everyday Analytics",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Glean"
+      ],
+      "day": "Thursday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18910",
+      "title": "From Space to Scale: What to do (and not do) for Secure, Fast, Production AI/BI",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "4:50 pm"
+    },
+    {
+      "id": "18443",
+      "title": "GPU-Accelerated Operations Research: Production-Grade Optimization with NVIDIA cuOpt on Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks",
+        "NVIDIA"
+      ],
+      "day": "Tuesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "19073",
+      "title": "Genie Code for data science: Work at the speed of your ideas",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19077",
+      "title": "Genie at scale: Best practices for enterprise rollout",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19033",
+      "title": "Genie is a game changer",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "AkzoNobel"
+      ]
+    },
+    {
+      "id": "18965",
+      "title": "Genie, Who Broke My Cluster? Using AI Functions, APIs and Genie Code to understand your workload",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18959",
+      "title": "Get Started Ingesting Data with Lakeflow Connect",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks",
+        "Databricks, Inc."
+      ],
+      "day": "Wednesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "19172",
+      "title": "Getting started with AI Governance on Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19076",
+      "title": "Getting the Most out of AI in BI: From Dashboard Creation to Intelligent Insights",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18542",
+      "title": "Governed Data Sharing & Collaboration at Scale: Deep Dive On Security Best Practices for Zero-Trust Architectures",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18967",
+      "title": "Governing MCPs at scale with Unity AI Gateway",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18265",
+      "title": "Governing at Hyper-Growth: How HelloFresh Cut Data Access from Days to Minutes with Unity Catalog",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "HelloFresh",
+        "HelloFresh SE"
+      ],
+      "day": "Tuesday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "18511",
+      "title": "Healthcare & Life Sciences Industry Forum | Sponsored by: SAP",
+      "type_or_track": "Special Interest",
+      "companies": [
+        "Akron Children's Hospital",
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "19192",
+      "title": "High-Throughput, Low-Latency: The Databricks Playbook for Production Model Serving",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19145",
+      "title": "How Data Warehousing Changes in the World of Agents",
+      "type_or_track": "Data Warehousing",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18893",
+      "title": "How Databricks Ships AI Safely: Inside the Team Enabling Secure Innovation",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "Databricks",
+        "Databricks, Inc."
+      ]
+    },
+    {
+      "id": "19168",
+      "title": "How Lakebase and Unity Catalog Are Replacing SQL Server Sprawl in Healthcare",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Stryker"
+      ]
+    },
+    {
+      "id": "18246",
+      "title": "How Musinsa Built a Self-Optimizing Semantic Layer on Databricks",
+      "type_or_track": "Data Warehousing",
+      "companies": [
+        "MUSINSA"
+      ],
+      "day": "Tuesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18201",
+      "title": "How Samsara Built a Multi-Agent System to Drive a 36x Lift in Meeting Bookings on Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks",
+        "Samsara"
+      ],
+      "day": "Wednesday",
+      "start_time": "8:10 pm"
+    },
+    {
+      "id": "19136",
+      "title": "How TBC Bank Uses AI and Lakebase to Stop Money Laundering",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Databricks",
+        "TBC Bank"
+      ],
+      "day": "Thursday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "19097",
+      "title": "How We Built Agent Mode in Genie Spaces",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19101",
+      "title": "How to Be An Agentic Analyst",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18975",
+      "title": "How to Bridge the Gap Between No-Code and Pro-Code with Lakeflow Designer",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19189",
+      "title": "How to Govern and Audit Your Coding Agent Usage with Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18991",
+      "title": "How to Modernize Your ETL with Declarative Pipelines",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "12:20 am"
+    },
+    {
+      "id": "19194",
+      "title": "How to Solve the Context Gap: Engineering Reliable AI Agents",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18448",
+      "title": "How to Vibe Code Successfully: Make Your Agents Love Databricks",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "7:20 pm"
+    },
+    {
+      "id": "18393",
+      "title": "How to scale governance to External Engines with Unity Catalog Open APIs",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "18976",
+      "title": "Intelligent Document Processing With Lakeflow Connect and AI Parse",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19117",
+      "title": "Introducing the Vibe to Value Workshop: Your Fast Track to Building Databricks Apps",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18966",
+      "title": "Introduction to Lakeflow Spark Declarative Pipelines: Reliable Data Pipelines Made Easy",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "18958",
+      "title": "Introduction to Unified Data Engineering with Databricks Lakeflow",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "19034",
+      "title": "KISS-ing Your Data+AI Platform: Rapid Multi-Cloud Migration to Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Adevinta"
+      ]
+    },
+    {
+      "id": "18400",
+      "title": "KRAFTON at Scale: Architecting Real-Time Game AI with MLflow & Serving",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "KRAFTON",
+        "Krafton Inc."
+      ],
+      "day": "Wednesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "19170",
+      "title": "Lakebase 101: core workflows and the Lakebase experience",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18263",
+      "title": "Lakebase and Serving Endpoints Implementation in Real-Time Pricing",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "STU ERGO Hestia SA"
+      ],
+      "day": "Wednesday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "18972",
+      "title": "Lakeflow Designer: No-code ETL— Authored With AI, Built for Production",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "12:20 am"
+    },
+    {
+      "id": "19053",
+      "title": "Lakeflow Designer: Removing the Technical Barrier to Self-Service Data Prep",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18979",
+      "title": "Lakeflow Jobs: Modern Orchestration for the Data Platform",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18442",
+      "title": "Large scale Member and Claims Data Platform modernization Using Databricks on AWS GovCloud",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Citiustech",
+        "Johns Hopkins Health Plans"
+      ],
+      "day": "Wednesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "19057",
+      "title": "Latest innovations in BI and AI for business users",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19054",
+      "title": "Latest innovations in Genie Code: The Future of Agentic Data Work",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18888",
+      "title": "Learn How We Secure and Govern Lakewatch on the Databricks Trusted Lakehouse",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "11:10 pm"
+    },
+    {
+      "id": "18585",
+      "title": "Less Infrastructure, Higher Impact: Nationwide’s Serverless Transformation with Databricks",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks",
+        "Nationwide"
+      ],
+      "day": "Tuesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18396",
+      "title": "Let AI Work on Your Database: Safe AI-Driven Development with Database Branches",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "8:10 pm"
+    },
+    {
+      "id": "18510",
+      "title": "Manufacturing & Transportation Industry Forum | Sponsored by: SAP",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks",
+        "TK Elevator",
+        "TK Elevator GmbH",
+        "Xylem"
+      ],
+      "day": "Wednesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18513",
+      "title": "Marketing Forum",
+      "type_or_track": "Special Interest",
+      "companies": [
+        "Databricks",
+        "FanDuel"
+      ],
+      "day": "Wednesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18518",
+      "title": "Media & Entertainment Industry Forum",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Acxiom",
+        "Databricks",
+        "Epsilon",
+        "GSK",
+        "Integral Ad Science",
+        "Pacers Sports and Entertainment"
+      ],
+      "day": "Wednesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18989",
+      "title": "Meet Bricksy - The Hyper-Personalized, Privacy-First AI Copilot for the Software-Defined Vehicle",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks India Private Limited"
+      ]
+    },
+    {
+      "id": "18430",
+      "title": "Metric Views — What They Are, How They Work, and How to Model Them",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Knowit"
+      ],
+      "day": "Thursday",
+      "start_time": "4:00 pm"
+    },
+    {
+      "id": "18970",
+      "title": "Migrate to Lakeflow Jobs: Modernizing Data Orchestration on Databricks",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "19022",
+      "title": "Migrating to Serverless: The Databricks Journey",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "19139",
+      "title": "Millisecond Pricing: High-Velocity Feature Serving on the Lakebase",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "19161",
+      "title": "Mission-Critical Inference: Powering High-Scale AI in Production ",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18249",
+      "title": "Modernizing Data Governance at Thailand’s Oldest Bank To Prepare for an AI-First World",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "DataX",
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18887",
+      "title": "Mo’ Agents Mo’ Problems: How We Simplified Lakehouse Threat Hunting as a Service at Scale",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "Booz Allen"
+      ]
+    },
+    {
+      "id": "19015",
+      "title": "Multitenant Architecture at Scale: Fewer Workspaces, Less Admin, No silos",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Procter & Gamble"
+      ],
+      "day": "Wednesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18412",
+      "title": "New Foundations of Delta Lake with Kernel and Spark's Data Source V2",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "5:20 pm"
+    },
+    {
+      "id": "18433",
+      "title": "O(n*m) Architecture in Open Source. What Could Possibly Go Wrong?",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "19163",
+      "title": "OLTP on the Object Store: Reimagining Postgres with the Lakebase Architecture",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "4:10 pm"
+    },
+    {
+      "id": "18426",
+      "title": "Oil and Gas: Powering the Future with Data-Driven Energy Intelligence",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Repsol, SA",
+        "TotalEnergies"
+      ],
+      "day": "Thursday",
+      "start_time": "4:10 pm"
+    },
+    {
+      "id": "19165",
+      "title": "One Platform, One Policy: Governing Operational and Analytical Data with Lakebase and Unity Catalog",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18247",
+      "title": "One Stack for Retail AI: From Transactional Planning to Agentic Intelligence on Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Algonomy"
+      ],
+      "day": "Wednesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18432",
+      "title": "Open Streaming Meets Governed Lakehouse: Running Apache Flink With Unity Catalog–Managed Delta Tables",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks, Inc."
+      ],
+      "day": "Tuesday",
+      "start_time": "9:00 pm"
+    },
+    {
+      "id": "18459",
+      "title": "OpenAI + Hertz Global + Databricks: Turning Customer Feedback into Business Impact",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Hertz Global"
+      ]
+    },
+    {
+      "id": "19079",
+      "title": "Optimizing AI/BI Dashboard performance: Best practices for speed and scale",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18969",
+      "title": "Performance Tuning the Data Platform at Databricks",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "5:20 pm"
+    },
+    {
+      "id": "18203",
+      "title": "Phar Lakehouse: The Evolution of Our Data Market",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "Schwarz Digits Spain"
+      ],
+      "day": "Wednesday",
+      "start_time": "8:10 pm"
+    },
+    {
+      "id": "18408",
+      "title": "Pilot to Platform: How NAB Deployed Databricks Genie at Scale Across the Bank",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18587",
+      "title": "Powering KPMG Audit’s AI Future with Databricks",
+      "type_or_track": "Data Warehousing",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "4:10 pm"
+    },
+    {
+      "id": "19078",
+      "title": "Powering bespoke experiences with Genie: APIs, integrations, and embedded AI agents",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18450",
+      "title": "Precision and Progress: An Industry Manufacturing Executive Session",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Corning Inc",
+        "Corning Incorporated",
+        "Cummins"
+      ],
+      "day": "Tuesday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "19134",
+      "title": "Predictable Migrations: Scaling Lakebase Adoption with Provider-Agnostic Readiness Tools",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "5:20 pm"
+    },
+    {
+      "id": "18457",
+      "title": "Press Start: From Gaming to Real-Time Analytics with Databricks Apps",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Aimpoint Digital",
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18543",
+      "title": "Privacy-Centric Identity Resolution for Analytics and Activation",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Databricks",
+        "LiveRamp"
+      ],
+      "day": "Wednesday",
+      "start_time": "11:10 pm"
+    },
+    {
+      "id": "18452",
+      "title": "Production Lakebase Patterns: OAuth Token Lifecycle, Async Pooling, and Caching for Databricks Apps",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "3:10 pm"
+    },
+    {
+      "id": "19113",
+      "title": "Provisioning for the Agentic Era: How Databricks Built a Self-Serve Infrastructure Vending Machine",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18507",
+      "title": "Public Sector Industry Forum",
+      "type_or_track": "Special Interest",
+      "companies": [
+        "Amtrak",
+        "Anduril",
+        "Cal Department of Health Care Services",
+        "California Department of Public Health",
+        "California State Transportation Agency",
+        "Databricks",
+        "U.S. Dept. of War",
+        "US Patent & Trademark Office (PTO)"
+      ],
+      "day": "Wednesday",
+      "start_time": "8:00 pm"
+    },
+    {
+      "id": "18463",
+      "title": "Read-Time CDF in Delta Lake",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "5:20 pm"
+    },
+    {
+      "id": "18458",
+      "title": "Real-Time Context Engineering for AI With Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Confluent"
+      ],
+      "day": "Wednesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18964",
+      "title": "Real-time Data, Real Business Results: An Introduction to Streaming on Databricks",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "4:10 pm"
+    },
+    {
+      "id": "18961",
+      "title": "Redact at the Speed of AI: De‑identifying PII in the Lakehouse with ai_query",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18405",
+      "title": "Redefining Detection Engineering With Interactive AI Agents in the SOC",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "Databricks",
+        "Rearc"
+      ],
+      "day": "Wednesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18445",
+      "title": "Reimagining SIEM: SAP ECS’s Journey to an Open Security Lakehouse",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "Databricks",
+        "SAP SE"
+      ],
+      "day": "Tuesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18883",
+      "title": "Replace your Legacy SIEM with Lakewatch: Build Your Own Custom Apps with Lakehouse & Lakebase",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "12:20 am"
+    },
+    {
+      "id": "19138",
+      "title": "Rethinking Database Cost with Lakebase Autoscaling",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19190",
+      "title": "SAP and Databricks: Unlock the Full Potential of Databricks on Your SAP Data",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "CAF",
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18419",
+      "title": "SQL Is Still Your Superpower: Building Production Ready Data Pipelines Using Only SQL",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Unifeye"
+      ],
+      "day": "Wednesday",
+      "start_time": "9:00 pm"
+    },
+    {
+      "id": "18200",
+      "title": "SQM: From Fragmented Data Silos to Real-Time ML Operations with Delta Sharing",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "SQM"
+      ],
+      "day": "Tuesday",
+      "start_time": "8:10 pm"
+    },
+    {
+      "id": "18509",
+      "title": "Scale Trust, Not Headcount: AI-Powered Semantic Engineering at Southern Glazer’s Wine & Spirits",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Deloitte",
+        "Southern Glazers Wine and Spirits"
+      ],
+      "day": "Tuesday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "18907",
+      "title": "Scaling Custom LLMs with vLLM and Databricks Model Serving: Fast, Flexible, and Production-Ready",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "11:30 pm"
+    },
+    {
+      "id": "18886",
+      "title": "Scaling Cybersecurity Analytics Without Scaling Costs",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "JetBlue Airways"
+      ],
+      "day": "Wednesday",
+      "start_time": "11:10 pm"
+    },
+    {
+      "id": "18231",
+      "title": "Scaling Data and AI Trust: How Credicorp Built a Cross-Institution Data Product Marketplace",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "Banco de Credito del Peru",
+        "Credicorp"
+      ],
+      "day": "Thursday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "19025",
+      "title": "Scaling Executive-Ready Insight with Databricks AI Query on AI/BI",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks",
+        "Databricks, Inc."
+      ]
+    },
+    {
+      "id": "18424",
+      "title": "Scaling Governed AI Beyond PoCs: A Public Sector Agent Architecture with Lakebase and AgentBricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks",
+        "Skills SA, Dept. of State Development"
+      ],
+      "day": "Tuesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18588",
+      "title": "Scaling Human Connection with Real-Time AI Conversation Monitoring",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Crisis Text Line"
+      ],
+      "day": "Wednesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18230",
+      "title": "Scaling Micro-Offers With Hybrid AI",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Caixa Economica Federal",
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18449",
+      "title": "Scaling Responsible AI and Powering Product Innovation in Banking and Payments",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks",
+        "Santander Group",
+        "Santander Group - Getnet",
+        "Vantage Bank"
+      ],
+      "day": "Thursday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18406",
+      "title": "Scaling a Multi-Agent App Platform with Databricks @ SKULD ",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Hiflylabs",
+        "Skuld"
+      ],
+      "day": "Thursday",
+      "start_time": "7:20 pm"
+    },
+    {
+      "id": "18208",
+      "title": "Scaling at Scale: The Journey of RAIP and DS Genie at Repsol",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "REPSOL",
+        "Repsol"
+      ],
+      "day": "Tuesday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "19029",
+      "title": "Scaling for MHHS: Octopus Energy’s 50x Cost-Efficient Margin Data Engineering",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Octopus Energy"
+      ]
+    },
+    {
+      "id": "18894",
+      "title": "Securing the Grid: Modernizing E&U Security Operations with Lakewatch (AI-Native SIEM)",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "12:20 am"
+    },
+    {
+      "id": "19056",
+      "title": "Semantic Modeling Best Practices for BI and AI",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18993",
+      "title": "Serverless Scala on Databricks: Running Apache Spark™ JARs Without Managing Clusters",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18980",
+      "title": "SharePoint to Lakehouse with Lakeflow Connect — Top 5 Powerful GenAI Patterns",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "19137",
+      "title": "Ship Faster: Dev Workflows with Lakebase Branching",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19103",
+      "title": "Sneak Peek: How We Use Databricks Apps to Power Field Demos at Scale",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18454",
+      "title": "Spark Connect: The Path to Modern, AI-Ready Spark",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "4:10 pm"
+    },
+    {
+      "id": "18418",
+      "title": "Spark DSV2: Growing Up Fast",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18784",
+      "title": "Sponosred by: Acryl DataHub | How Genworth built a governed, AI-Ready data platform with Databricks & DataHub",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Data Hub",
+        "DataHub"
+      ]
+    },
+    {
+      "id": "18759",
+      "title": "Sponsored by: Acceldata | Trust at the Speed of Agents: Reliable AI and Data on Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Acceldata"
+      ]
+    },
+    {
+      "id": "18736",
+      "title": "Sponsored by: Actian | Scaling AI: Why Data Products and Contracts are the Essential Foundation for Success  ",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Actian"
+      ]
+    },
+    {
+      "id": "18795",
+      "title": "Sponsored by: Acxiom | From Weeks to Minutes: Democratizing Marketing Analytics with Governed AI Agents on Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Acxiom",
+        "Prophecy"
+      ]
+    },
+    {
+      "id": "18742",
+      "title": "Sponsored by: Alteryx | The Foundation Comes First: Building a Tax Data Strategy That Scales with AI",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Starbucks"
+      ]
+    },
+    {
+      "id": "18733",
+      "title": "Sponsored by: Amperity | GOAL! How Amperity helped Seattle Sounders & Baltimore Ravens fan engagement in Futbol & Football",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Amperity"
+      ]
+    },
+    {
+      "id": "18793",
+      "title": "Sponsored by: Amperity | How 5 of the Largest Airlines Are Turning Customer Data Into a Competitive Edge ",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Amperity"
+      ]
+    },
+    {
+      "id": "18780",
+      "title": "Sponsored by: Anomalo | How GM Uses an Intelligent Data Analyst to Scale AI with Trusted Data",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "General Motors"
+      ]
+    },
+    {
+      "id": "18790",
+      "title": "Sponsored by: Artefact | The workforce you won't recognise: Building the hybrid organization with AI Agents",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Artefact"
+      ]
+    },
+    {
+      "id": "18756",
+      "title": "Sponsored by: Astronomer | Unifying Data and AI Orchestration with Apache Airflow",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Astronomer"
+      ]
+    },
+    {
+      "id": "18747",
+      "title": "Sponsored by: Astronomer | Your AI Strategy Has a Context Problem. Orchestration Solves It.",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Astronomer"
+      ]
+    },
+    {
+      "id": "18764",
+      "title": "Sponsored by: Atlan | Mastercard's \"Context by Design\": Engineering AI-Ready Data Products at Scale",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "Atlan"
+      ]
+    },
+    {
+      "id": "18841",
+      "title": "Sponsored by: Atlan | The Enterprise Context Layer: Why Agents Fail — and the Fix — Demystified and Demoed",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Atlan"
+      ]
+    },
+    {
+      "id": "18741",
+      "title": "Sponsored by: Boomi | Action Is the New Insight: Agentic Workflows in Practice",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Boomi"
+      ]
+    },
+    {
+      "id": "18757",
+      "title": "Sponsored by: CDW | Ask Your Data Anything — The Day Trust Flatlined",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "CDW"
+      ]
+    },
+    {
+      "id": "18812",
+      "title": "Sponsored by: CEI | The Agentic Enterprise: How AI Engineering Is Rewiring Business Models",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "CEI"
+      ]
+    },
+    {
+      "id": "18814",
+      "title": "Sponsored by: Capgemini | The Foundations for a Million Agents",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Capgemini",
+        "T-Mobile (Primary)"
+      ]
+    },
+    {
+      "id": "18847",
+      "title": "Sponsored by: Capital One Software | Utilizing Context and AI for Cost Optimization & Security",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Capital One Software"
+      ]
+    },
+    {
+      "id": "18798",
+      "title": "Sponsored by: Capital One | Secure Data Collaboration: A Modern Enterprise Enclave Architecture",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Capital One"
+      ]
+    },
+    {
+      "id": "18811",
+      "title": "Sponsored by: Coalesce | The Age of Data Exhaustion",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "Coalesce Software"
+      ]
+    },
+    {
+      "id": "18845",
+      "title": "Sponsored by: Cognizant | An AI Data Foundation for Decision Intelligence for Medtronic, in Partnership with Cognizant",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Cognizant Technology Solutions (HQ)",
+        "Medtronic"
+      ]
+    },
+    {
+      "id": "18817",
+      "title": "Sponsored by: Cognizant | The Autonomous Data Value Chain: How Agent Bricks is Redefining Data Engineering on Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Cognizant"
+      ]
+    },
+    {
+      "id": "18745",
+      "title": "Sponsored by: Confluent | How Grainger Powers Real-time Supplier Compliance with Confluent and Databricks",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Grainger",
+        "W.W. Grainger, Inc."
+      ]
+    },
+    {
+      "id": "18760",
+      "title": "Sponsored by: Confluent | Simplify AI-Ready Tables with Confluent Tableflow, Databricks, & Unity Catalog",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Confluent"
+      ]
+    },
+    {
+      "id": "18844",
+      "title": "Sponsored by: Datadog | 4,500 Jobs, No Blind Spots: AccuWeather's Serverless Databricks Migration with Datadog",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "AccuWeather",
+        "Datadog"
+      ]
+    },
+    {
+      "id": "18746",
+      "title": "Sponsored by: Datadog | Experimentation & Product Analytics in the Agentic World: Bringing User Signals to Every Release",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Datadog"
+      ]
+    },
+    {
+      "id": "18794",
+      "title": "Sponsored by: Dataiku | Dataiku + Databricks: Your Stack for Production-Ready AI Agents",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Dataiku"
+      ]
+    },
+    {
+      "id": "18834",
+      "title": "Sponsored by: Deloitte | Driving Enterprise Transformation with Agentic AI ",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Deloitte"
+      ]
+    },
+    {
+      "id": "18827",
+      "title": "Sponsored by: Deloitte | Generating Realistic, High-Fidelity Synthetic Financial Data on Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Deloitte"
+      ]
+    },
+    {
+      "id": "18804",
+      "title": "Sponsored by: Deloitte | Scale Trust, Not Headcount: AI-Powered Semantic Engineering at Southern Glazer's Wine and Spirits",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Deloitte",
+        "Southern Glazers Wine and Spirits"
+      ]
+    },
+    {
+      "id": "18740",
+      "title": "Sponsored by: Domo | Eliminating the Warehouse “Tail Problem”: AI-Powered Optimization on Databricks + Domo",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Domo"
+      ]
+    },
+    {
+      "id": "18774",
+      "title": "Sponsored by: Domo | From 20 Hours to 2: Databricks + Domo—Billion-Row Insights, Delivered to Every Customer",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Domo",
+        "Live Nation"
+      ]
+    },
+    {
+      "id": "18744",
+      "title": "Sponsored by: Domo | From Prediction to Action: Agentic AI for Ambulatory Care on Databricks",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Domo"
+      ]
+    },
+    {
+      "id": "18771",
+      "title": "Sponsored by: EXL | From Dilemma to Decision-Ready: Turning Data into Actionable Intelligence",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "EXL"
+      ]
+    },
+    {
+      "id": "18836",
+      "title": "Sponsored by: EY | Executive Decisions at-Speed: Accelerating AI with Trusted Data Products on Databricks",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "EY"
+      ]
+    },
+    {
+      "id": "18799",
+      "title": "Sponsored by: EY | The Future of Finance Is Now",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "EY"
+      ]
+    },
+    {
+      "id": "18788",
+      "title": "Sponsored by: F5 | Who’s Controlling Your Agents?",
+      "type_or_track": "Artificial Intelligence & Agents"
+    },
+    {
+      "id": "18849",
+      "title": "Sponsored by: Fireworks AI | Own Your AI: Beat Frontier Models With Your Own Data - Presented by Fireworks AI ",
+      "type_or_track": "Artificial Intelligence & Agents"
+    },
+    {
+      "id": "18731",
+      "title": "Sponsored by: Fivetran | Building an AI-ready data foundation at Superhuman with Databricks and Fivetran",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Grammarly"
+      ]
+    },
+    {
+      "id": "18739",
+      "title": "Sponsored by: Fivetran | From Backlog to Breakthrough: Inova Scales Data & AI with Fivetran and Databricks",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Inova Health"
+      ]
+    },
+    {
+      "id": "18797",
+      "title": "Sponsored by: Fivetran | Open Data Infrastructure: Built for agentic AI",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Fivetran"
+      ]
+    },
+    {
+      "id": "18851",
+      "title": "Sponsored by: Fractal | From Questions to Action: Conversational AI for Occasion‑Based Marketing",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "The Magnum Ice Cream Company"
+      ]
+    },
+    {
+      "id": "18850",
+      "title": "Sponsored by: Genpact | Enabling AI-Ready Data ",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Genpact"
+      ]
+    },
+    {
+      "id": "18803",
+      "title": "Sponsored by: Glean | From Analytics to Action: Powering Databricks Insights with Full Enterprise Context",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Glean Technologies, Inc."
+      ]
+    },
+    {
+      "id": "18807",
+      "title": "Sponsored by: Glean | How Enterprises Turn Databricks Data Into Everyday Value with Glean",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Glean Technologies, Inc."
+      ]
+    },
+    {
+      "id": "18825",
+      "title": "Sponsored by: Glean | Powering Enterprise-Grade Agents: Glean + MCP for Databricks Agent Bricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Glean Technologies, Inc."
+      ]
+    },
+    {
+      "id": "18776",
+      "title": "Sponsored by: Hex | The evolution of data teams with AI analytics",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Hex",
+        "Rivian And VW Group Technology, LLC"
+      ]
+    },
+    {
+      "id": "18749",
+      "title": "Sponsored by: Hightouch | How Chick-fil-A Turns Guest Data into Caring Experiences",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Hightouch"
+      ]
+    },
+    {
+      "id": "18779",
+      "title": "Sponsored by: Hightouch | How XP Drove a 72% Lift in Account Opens and 35% Activation Increase with Agentic CRM",
+      "type_or_track": "Artificial Intelligence & Agents"
+    },
+    {
+      "id": "18761",
+      "title": "Sponsored by: IBM | Empower AI with real-time context across hybrid data estates",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "IBM"
+      ]
+    },
+    {
+      "id": "18852",
+      "title": "Sponsored by: IBM | Scale AI agents from prototype to production into enterprise systems",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "IBM"
+      ]
+    },
+    {
+      "id": "18754",
+      "title": "Sponsored by: Immuta | How Vizient AI Transformation Starts with Scaling Data Access with Immuta",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Immuta",
+        "Vizient Inc."
+      ]
+    },
+    {
+      "id": "18775",
+      "title": "Sponsored by: Impetus Technologies | Powering Context-Aware Agentic AI at Scale: Why Modernization Must Come First",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Impetus Technologies"
+      ]
+    },
+    {
+      "id": "18783",
+      "title": "Sponsored by: Infogain | AI-Accelerated Real Time Supply Chain Operations on Databricks ",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Tenarai"
+      ]
+    },
+    {
+      "id": "18772",
+      "title": "Sponsored by: Informatica | Accelerating Trusted Data for AI: Informatica’s Enterprise Data Management Solution for Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Informatica by Salesforce"
+      ]
+    },
+    {
+      "id": "18753",
+      "title": "Sponsored by: Informatica | Govern Like You Mean It: Centralized Governance, Security and Compliance for Databricks and Beyond",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "Informatica by Salesforce"
+      ]
+    },
+    {
+      "id": "18786",
+      "title": "Sponsored by: Informatica | Unlocking AI-Ready Data: How To Transform Pharmaceutical Research with Informatica & Databricks",
+      "type_or_track": "Data Warehousing",
+      "companies": [
+        "Informatica by Salesforce"
+      ]
+    },
+    {
+      "id": "18828",
+      "title": "Sponsored by: Insight | Use the Data Built Tool (dbt) to build a Databricks SQL Warehouse",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Insight Digital Innovations"
+      ]
+    },
+    {
+      "id": "18833",
+      "title": "Sponsored by: Insight| Beyond the Sandbox: Using Lakebase Instant Branching for High-Stakes AI Agent Deployment",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Insight"
+      ],
+      "day": "Thursday",
+      "start_time": "5:20 pm"
+    },
+    {
+      "id": "18810",
+      "title": "Sponsored by: KPMG | Activation of Agentic AI in Data Engineering Leveraging Databricks Agent Bricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "KPMG LLP (US)"
+      ]
+    },
+    {
+      "id": "18789",
+      "title": "Sponsored by: KPMG | From Blank Page to Production: How KPMG built a Full-Stack Al Factory on Databricks",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "KPMG"
+      ]
+    },
+    {
+      "id": "18781",
+      "title": "Sponsored by: Keebo | Teach Your Warehouse to Drive Itself: Cutting Costs with Reinforcement Learning on Databricks SQL",
+      "type_or_track": "Data Warehousing",
+      "companies": [
+        "Keebo"
+      ]
+    },
+    {
+      "id": "18835",
+      "title": "Sponsored by: LakeFusion | When MDM Meets Ontology: A New Architecture for Enterprise Data Intelligence ",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "LakeFusion"
+      ]
+    },
+    {
+      "id": "18829",
+      "title": "Sponsored by: Lovelytics | Automating High-Stakes Finance Workflows with AI Agents",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Lovelytics"
+      ]
+    },
+    {
+      "id": "18824",
+      "title": "Sponsored by: Lovelytics | Cutting the AI Noise: A CEO Guide to Real ROI with Robert Herjavec",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Lovelytics",
+        "Shark Tank & Herjavec Ventures"
+      ]
+    },
+    {
+      "id": "18816",
+      "title": "Sponsored by: Microsoft | Unlocking the Microsoft Data & AI Ecosystem with Azure Databricks: From Insight to Impact",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Microsoft"
+      ]
+    },
+    {
+      "id": "18802",
+      "title": "Sponsored by: MinIO | How a Fortune 500 Manufacturer Runs Databricks AI on 250 TB of On-Premises Data",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Databricks",
+        "MinIO"
+      ]
+    },
+    {
+      "id": "18751",
+      "title": "Sponsored by: MinIO | On-Prem to Databricks: Zero-Copy Analytics with Native Delta Sharing for Iceberg and Delta Lake",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "MinIO"
+      ]
+    },
+    {
+      "id": "18818",
+      "title": "Sponsored by: Monte Carlo | Building Trusted AI on Certifiable Data Assets at American Airlines",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "American Airlines"
+      ]
+    },
+    {
+      "id": "18735",
+      "title": "Sponsored by: Monte Carlo | Building the Foundation for Trusted AI in Regulated Industries",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Monte Carlo",
+        "Nasdaq, Inc."
+      ],
+      "day": "Thursday",
+      "start_time": "4:10 pm"
+    },
+    {
+      "id": "18730",
+      "title": "Sponsored by: Monte Carlo | Why Your Agents Keep Failing (And What to Do About It)",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Monte Carlo"
+      ]
+    },
+    {
+      "id": "18743",
+      "title": "Sponsored by: Moveworks | The end of standalone analytics: How AI is merging insight and action ",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "ServiceNow"
+      ]
+    },
+    {
+      "id": "18805",
+      "title": "Sponsored by: NTT Data | From Months to Days: Using AI DevKit to Democratize Data Development and Accelerate Insights",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "NTT DATA"
+      ]
+    },
+    {
+      "id": "18821",
+      "title": "Sponsored by: NTT Data | Powering the Grid: Southern Company, NTT DATA & Databricks' Modern Data & AI Foundation",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "NTT Data",
+        "Southern Company"
+      ]
+    },
+    {
+      "id": "18752",
+      "title": "Sponsored by: Nagarro | The Agentic Enterprise: What has to be True Before AI can Act Autonomously",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Nagarro",
+        "Oversight"
+      ],
+      "day": "Tuesday",
+      "start_time": "12:20 am"
+    },
+    {
+      "id": "18773",
+      "title": "Sponsored by: Neo4j | Financial Crime Hides Between the Rows",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Neo4j"
+      ]
+    },
+    {
+      "id": "18787",
+      "title": "Sponsored by: Neurealm | AI driven Approach to Accelerate Data Modernization by up to 25%",
+      "type_or_track": "Data Warehousing",
+      "companies": [
+        "Neurealm"
+      ]
+    },
+    {
+      "id": "18823",
+      "title": "Sponsored by: Nimble Gravity | When Agents Should Ask for Help: Designing Human Escalation in Agent Bricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Nimble Gravity"
+      ]
+    },
+    {
+      "id": "18766",
+      "title": "Sponsored by: Omni | AI analytics at Condé Nast: What it took to get to production",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Condé Nast",
+        "Omni"
+      ]
+    },
+    {
+      "id": "18801",
+      "title": "Sponsored by: Omni | How BambooHR built a branded AI data product for 100K users",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "BambooHR"
+      ]
+    },
+    {
+      "id": "18785",
+      "title": "Sponsored by: OneTrust | From Innovation to Accountability: Governing Data and AI on Databricks with Guardrails",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18843",
+      "title": "Sponsored by: Onehouse | From JVM Gymnastics to Vectorized Performance in One K8s Operator Deploy",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Onehouse.ai"
+      ]
+    },
+    {
+      "id": "18768",
+      "title": "Sponsored by: Perficient | From Second Gear to Full Throttle: Unlocking Trapped Value in Your Databricks Investment",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Perficient"
+      ]
+    },
+    {
+      "id": "18727",
+      "title": "Sponsored by: Pogo | You're Overthinking It: What Analyzing $500B in Consumer Spend Taught Us About Building AI Agents",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Pogo"
+      ]
+    },
+    {
+      "id": "18838",
+      "title": "Sponsored by: Polestar Analytics | Real-Time Working Capital on Databricks: From Siloed P2P, O2C & Inventory to Cash Flow Action",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Polestar Analytics"
+      ]
+    },
+    {
+      "id": "18750",
+      "title": "Sponsored by: Precisely | Architecting Agentic-Ready Data Pipelines with Databricks and Precisely ",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Precisely"
+      ]
+    },
+    {
+      "id": "18758",
+      "title": "Sponsored by: Precisely | Architecting Agentic-Ready Data Pipelines with Databricks and Precisely ",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Precisely"
+      ]
+    },
+    {
+      "id": "18734",
+      "title": "Sponsored by: Prophecy | Accelerating Investment Decisions with Specialized Claude Code",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Waterfall Asset Management"
+      ]
+    },
+    {
+      "id": "18813",
+      "title": "Sponsored by: Qualytics | Your Agents Are Flying Blind: How to Close the Data Control Gap",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Qualytics"
+      ]
+    },
+    {
+      "id": "18732",
+      "title": "Sponsored by: Qubika | Building a Modern Data Foundation on Databricks: Lessons learned from FanDuel Migration",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Qubika"
+      ]
+    },
+    {
+      "id": "18819",
+      "title": "Sponsored by: Quest Software | From Logical Model to Databricks: Automating Data Product Publishing at Scale",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Quest Software"
+      ]
+    },
+    {
+      "id": "18763",
+      "title": "Sponsored by: Quest | From Back Office to Boardroom: The New Era of Data Modeling for AI ",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Quest Software"
+      ]
+    },
+    {
+      "id": "18815",
+      "title": "Sponsored by: Quest | From Model to Marketplace: A Better Way to Manage Data End-to-End ",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Quest Software"
+      ]
+    },
+    {
+      "id": "18800",
+      "title": "Sponsored by: Red Hat | Why AI Evaluation Breaks at Scale — and How to Fix It End-to-End",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Red Hat"
+      ],
+      "day": "Thursday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18820",
+      "title": "Sponsored by: Reducto | Better Agents with Better Data: How leading AI teams ingest unstructured data at scale",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Reducto"
+      ]
+    },
+    {
+      "id": "18778",
+      "title": "Sponsored by: Reltio | From fragmented records to trusted context: Unified 360 profiles for Databricks",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Reltio"
+      ]
+    },
+    {
+      "id": "18792",
+      "title": "Sponsored by: Retool | Responding to Signals That Drive High-Stakes Decisions with Databricks Genie",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Retool"
+      ]
+    },
+    {
+      "id": "18808",
+      "title": "Sponsored by: Retool | The Last Mile of Enterprise AI Adoption: How Reckitt Operationalizes AI on the Lakehouse",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Retool"
+      ]
+    },
+    {
+      "id": "18832",
+      "title": "Sponsored by: RowZero | AI spreadsheets and the modern data stack: security, governance, and self-serve analytics ",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Row Zero"
+      ]
+    },
+    {
+      "id": "18846",
+      "title": "Sponsored by: S&P Global | Leveraging Genie to Remove Friction From Exploratory Data Analysis (EDA)",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "S&P GLOBAL"
+      ]
+    },
+    {
+      "id": "18770",
+      "title": "Sponsored by: SAP | SAP and Databricks turn SAP Data into AI-Driven Business Outcomes",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "SAP"
+      ]
+    },
+    {
+      "id": "18738",
+      "title": "Sponsored by: Safe Software | All Data, Any AI: Building MCP-Ready Ecosystems with FME",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Safe Software Inc."
+      ]
+    },
+    {
+      "id": "18822",
+      "title": "Sponsored by: Salesforce | How Salesforce Gets More Done Daily with Slack and Slackbot",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Salesforce"
+      ]
+    },
+    {
+      "id": "18737",
+      "title": "Sponsored by: Salesforce | Tableau & Databricks: Demystifying the Open Semantic Interchange (OSI)",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Salesforce"
+      ]
+    },
+    {
+      "id": "18837",
+      "title": "Sponsored by: Salesforce | Turn Databricks Data into Action with Trusted Context from Salesforce Data 360",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Salesforce"
+      ]
+    },
+    {
+      "id": "18769",
+      "title": "Sponsored by: Sigma | How Sigma Makes Databricks AI Safe and Scalable for Every Business User",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Sigma Computing"
+      ]
+    },
+    {
+      "id": "18755",
+      "title": "Sponsored by: Sigma | How Unilever Optimizes Supply Chain Inventory with Sigma and Databricks",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Unilever"
+      ]
+    },
+    {
+      "id": "18765",
+      "title": "Sponsored by: Sigma | Reinventing Healthcare Finance: How HSS Built XRAY on Databricks with Sigma",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Hospital for Special Surgery"
+      ]
+    },
+    {
+      "id": "18848",
+      "title": "Sponsored by: Slalom | From Legacy Drag to AI Value: A Framework for Databricks AI Success",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Slalom"
+      ]
+    },
+    {
+      "id": "18830",
+      "title": "Sponsored by: Snorkel AI | The Art & Science of Benchmarking Agents",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Snorkel AI"
+      ]
+    },
+    {
+      "id": "18806",
+      "title": "Sponsored by: Snowplow | The Missing Layer Between Your Lakehouse and Genie: Customer Context with Snowplow",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Snowplow"
+      ]
+    },
+    {
+      "id": "18840",
+      "title": "Sponsored by: Stardog | Implementing Agentic AI on Databricks with an Ontology-Driven Semantic Layer",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Stardog"
+      ]
+    },
+    {
+      "id": "18809",
+      "title": "Sponsored by: Tealium | Unifying Data and Action: WGU, Databricks & Tealium Driving Real-Time Insights at Scale",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Tealium"
+      ]
+    },
+    {
+      "id": "18777",
+      "title": "Sponsored by: Tech Mahindra Limited | From Data to Decisions - How We Gave Our AI a Business Brain ",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Tech Mahindra Limited (HQ)"
+      ],
+      "day": "Thursday",
+      "start_time": "4:10 pm"
+    },
+    {
+      "id": "18796",
+      "title": "Sponsored by: Tenarai | AI-Accelerated Real Time Supply Chain Operations on Databricks ",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Tenarai"
+      ]
+    },
+    {
+      "id": "18782",
+      "title": "Sponsored by: Tiger Analytics | From Data Potential to Business Value: Scaling Commercial & Consumer Products at PepsiCo",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Tiger Analytics"
+      ]
+    },
+    {
+      "id": "18748",
+      "title": "Sponsored by: Tredence | PepsiCo’s Enterprise Data Foundation Journey for Agentic AI Readiness ",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Pepsico",
+        "Tredence Analytics"
+      ]
+    },
+    {
+      "id": "18826",
+      "title": "Sponsored by: Weil | Goldmines and Minefields: Building AI Systems for High-Stakes Work",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Weil, Gotshal & Manges LLP"
+      ]
+    },
+    {
+      "id": "18839",
+      "title": "Sponsored by: West Monroe | Operational Intelligence at the Point of Decision with Clonal and Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "West Monroe"
+      ]
+    },
+    {
+      "id": "18729",
+      "title": "Sponsored by: Wisdom AI | Why Data Analysts are the Future of AI: The Rise of AI Context Engineers",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "WisdomAI"
+      ],
+      "day": "Thursday",
+      "start_time": "5:20 pm"
+    },
+    {
+      "id": "18728",
+      "title": "Sponsored by: You.com | Achieving State of the Art on Deep Search: Lessons for Agent Builders",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "You.com"
+      ]
+    },
+    {
+      "id": "18791",
+      "title": "Sponsored by: dbt Labs | Automating Multi-Tenant Analytics from Zero to Production",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "isolved"
+      ]
+    },
+    {
+      "id": "18831",
+      "title": "Sponsored by: dbt Labs | dbt + Databricks Partner Well Architected Framework for AI Apps",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "dbt Labs"
+      ]
+    },
+    {
+      "id": "18842",
+      "title": "Sponsored by: definity | From Observability to Agentic Data Engineering: What It Actually Takes",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "definity"
+      ]
+    },
+    {
+      "id": "18508",
+      "title": "Startup Forum",
+      "type_or_track": "Meetup",
+      "companies": [
+        "Alpha Level",
+        "Curative AI, Inc.",
+        "Databricks",
+        "Linkup",
+        "a16z"
+      ],
+      "day": "Tuesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "19116",
+      "title": "Stateful Apps for Thousands of Users: Horizontal Scaling, Session Affinity, and Sharding in Databricks Apps",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18409",
+      "title": "Stream into the Future: Mastering Stream processing for All Workloads",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18971",
+      "title": "Streaming NASA Data with Lakeflow and Agent Bricks: A Data Engineer's Guide to Databricks AI",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "19096",
+      "title": "Supercharging Genie Performance with Metric Views",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18512",
+      "title": "Tech Industry Forum | Sponsored by Entrada ",
+      "type_or_track": "Special Interest",
+      "companies": [
+        "Databricks",
+        "Intuit",
+        "Meta Platforms",
+        "Modernizing Medicine",
+        "Rivian And VW Group Technology, LLC",
+        "Workday"
+      ],
+      "day": "Wednesday",
+      "start_time": "8:00 pm"
+    },
+    {
+      "id": "18444",
+      "title": "Tech Industry Session: How AI is Redefining the Way Apps are Built",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks",
+        "DoorDash",
+        "Workday",
+        "Zillow"
+      ],
+      "day": "Wednesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18392",
+      "title": "Tech Industry Session: The High-Velocity Platform for Customer Apps",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks",
+        "OpenAI",
+        "Superhuman"
+      ]
+    },
+    {
+      "id": "19121",
+      "title": "Technical Deep Dive: Architecting Production-Ready Data & AI Apps",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18506",
+      "title": "Telecommunications Industry Forum",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "AT&T",
+        "Airties",
+        "Databricks",
+        "Dish Network",
+        "Globe Telecoms"
+      ],
+      "day": "Wednesday",
+      "start_time": "8:00 pm"
+    },
+    {
+      "id": "18453",
+      "title": "The 52x Multiplier: How Zepto Mastered AI Agent Evaluation at Scale",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks",
+        "Zepto"
+      ],
+      "day": "Thursday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "18429",
+      "title": "The Agentic Lakehouse: Optiver’s AI Data Stack",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Optiver"
+      ],
+      "day": "Thursday",
+      "start_time": "4:10 pm"
+    },
+    {
+      "id": "18528",
+      "title": "The Alpha Advantage: Building the Intelligent Capital Markets Firm with Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks",
+        "Franklin Templeton",
+        "LSEG",
+        "RBC Capital Markets"
+      ],
+      "day": "Wednesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18901",
+      "title": "The Databricks Big Book of AgentOps: The New DevOps Principles for AI Agents ",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "9:50 pm"
+    },
+    {
+      "id": "18271",
+      "title": "The Databridge Platform: Connecting Data Silos Seamlessly With Databricks",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "Rakuten Group"
+      ],
+      "day": "Tuesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18982",
+      "title": "The Evolution of Prompting: From Artisan Craft to Algorithmic Optimization",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18397",
+      "title": "The Full Databricks App Experience",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Advancing Analytics"
+      ],
+      "day": "Wednesday",
+      "start_time": "8:10 pm"
+    },
+    {
+      "id": "19191",
+      "title": "The Future of Cross-Company Collaboration on Databricks",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Databricks",
+        "Databricks, Inc."
+      ],
+      "day": "Tuesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18402",
+      "title": "The Intelligent Healthcare System: How Agentic AI is Redefining Care Delivery and Coverage",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Centene",
+        "Slalom LLC"
+      ],
+      "day": "Wednesday",
+      "start_time": "11:10 pm"
+    },
+    {
+      "id": "19082",
+      "title": "The Modern Databricks Notebook: Tips, AI workflows, and Best Practices for Every Practitioner",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19080",
+      "title": "The New Genie: From Data Q&A to Enterprise Agent",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19197",
+      "title": "The Right Model for the Job: A Practical Framework for AI  ",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18248",
+      "title": "The Talent Engineering Playbook : How Yanolja Built a High-Performance Data Culture",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "NOL Universe",
+        "Yanolja"
+      ],
+      "day": "Tuesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18962",
+      "title": "The Upcoming Apache Spark™ 4.2: The Next Chapter in Unified Analytics",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "11:10 pm"
+    },
+    {
+      "id": "19198",
+      "title": "Thinking Fast & Slow: How Databricks Built High-Speed and Deep Research Agents",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19171",
+      "title": "Tips and Tricks for Postgres Observability at Scale",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18417",
+      "title": "Travel & Hospitality: The Making of the Modern Hospitality Experience— Humans, Data, and the Age of Anticipation",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "United Airlines"
+      ],
+      "day": "Thursday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18264",
+      "title": "Turning Data Requests Into Self-Service: Building an AI-Powered Analytics Product Users Love",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Ticketmaster"
+      ],
+      "day": "Tuesday",
+      "start_time": "12:20 am"
+    },
+    {
+      "id": "18994",
+      "title": "Ultra Low Latency Streaming for Real-Time Feature Engineering",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Wednesday",
+      "start_time": "10:00 pm"
+    },
+    {
+      "id": "18973",
+      "title": "Under the Hood: Scalable Ingestion Strategies for Databases, Applications, and File Sources",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "18451",
+      "title": "Underwriting the Future: How Leading Insurers Turn Proprietary Data into Competitive Advantage with Databricks",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "American Modern Insurance Group",
+        "Databricks",
+        "First American",
+        "Howden Group Holdings"
+      ],
+      "day": "Tuesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "19024",
+      "title": "Unified SRE Observability: How Workday Democratizes Multi-Platform Insights With Databricks AI/BI Genie",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Workday"
+      ],
+      "day": "Wednesday",
+      "start_time": "6:30 pm"
+    },
+    {
+      "id": "19193",
+      "title": "Unify Your Data + AI Ecosystem via Databricks Marketplace",
+      "type_or_track": "Data Sharing & Collaboration",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18245",
+      "title": "Unifying Upstream Intelligence with Generative AI",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks",
+        "PETRONAS"
+      ],
+      "day": "Thursday",
+      "start_time": "4:10 pm"
+    },
+    {
+      "id": "19167",
+      "title": "Unity AI Gateway: How to Govern Multi-AI Access Across Your Company",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18440",
+      "title": "Unity Catalog Implementation at Navy Federal Credit Union",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "Ernst and Young",
+        "Navy Federal Credit Union"
+      ],
+      "day": "Tuesday",
+      "start_time": "11:10 pm"
+    },
+    {
+      "id": "18415",
+      "title": "Unlocking Cross-Engine Governance With Scan APIs",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks, Inc."
+      ],
+      "day": "Tuesday",
+      "start_time": "10:40 pm"
+    },
+    {
+      "id": "18960",
+      "title": "Unlocking Video Data at Scale: VLM Batch Inference with Ray on Databricks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19166",
+      "title": "Using Genie to Speed Traditional Machine Learning Tasks",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18516",
+      "title": "Utilities: Modernizing the Grid with AI and Real-Time Data",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "EDP",
+        "EDP - Energias de Portugal, SA",
+        "Eversource"
+      ],
+      "day": "Thursday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "18889",
+      "title": "Vibe Investigating with Lakewatch and Genie",
+      "type_or_track": "Cybersecurity",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "18425",
+      "title": "Virtual Delta Tables: Building a Multimodal Lakehouse",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Scribd, Inc."
+      ],
+      "day": "Thursday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "19100",
+      "title": "What is Databricks Apps?",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18968",
+      "title": "What's New in Apache Spark™ 4.1",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "19104",
+      "title": "What's New in Databricks Apps",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18465",
+      "title": "What’s New in Apache Spark™ 4.1?",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "7:40 pm"
+    },
+    {
+      "id": "19111",
+      "title": "Who Goes There? Enterprise Auth and Identity Management on Databricks Apps ",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19098",
+      "title": "Who's Building Enterprise Apps Now? Scaling App Development Beyond the Data Team",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "18414",
+      "title": "Why Caresource Chose Databricks AI/BI Over Traditional BI for Regulatory Reporting",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "CareSource"
+      ],
+      "day": "Thursday",
+      "start_time": "8:50 pm"
+    },
+    {
+      "id": "18462",
+      "title": "Why Vector Stores Are Not Enough: Using Lakebase as a Durable Memory Layer for Autonomous Agents",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Thursday",
+      "start_time": "4:10 pm"
+    },
+    {
+      "id": "19122",
+      "title": "You Built That with Databricks Apps?! A Customer Showcase of What’s Possible",
+      "type_or_track": "Application Development",
+      "companies": [
+        "Databricks"
+      ]
+    },
+    {
+      "id": "19169",
+      "title": "ZeroETL Was Just the Start: Operational Databases belong in the Medallion Architecture",
+      "type_or_track": "Lakebase",
+      "companies": [
+        "Databricks"
+      ],
+      "day": "Tuesday",
+      "start_time": "12:20 am"
+    },
+    {
+      "id": "18413",
+      "title": "“Make Me a Map”: Building a GIS Agent with AgentBricks, MCP, and Lakebase",
+      "type_or_track": "Artificial Intelligence & Agents",
+      "companies": [
+        "Felt"
+      ],
+      "day": "Wednesday",
+      "start_time": "10:40 pm"
+    }
+  ],
+  "removed": [
+    {
+      "id": "17748",
+      "title": "Accelerating the Future of Mobility: Unlock Real-Time Data Streaming for Connected Vehicle Platform",
+      "type_or_track": "Data Engineering & Streaming",
+      "companies": [
+        "Databricks",
+        "Toyota Motor Corporation"
+      ]
+    },
+    {
+      "id": "18158",
+      "title": "Building a Financial Services Customer 360 and Agentic Decision Engine on Databricks",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "Barclays Bank PLC"
+      ]
+    },
+    {
+      "id": "18149",
+      "title": "From Beauty Company to Beauty Tech: Scaling AI and Data for 2 Billion Consumers",
+      "type_or_track": "Data Strategy",
+      "companies": [
+        "L'Oréal - US"
+      ]
+    },
+    {
+      "id": "17769",
+      "title": "Reinventing Data Platform Operations and Governance: AI Agents as Your New DevOps Teammates",
+      "type_or_track": "Governance & Security",
+      "companies": [
+        "CARIAD SE (A Volkswagen Group Company)",
+        "CARIAD SE (Volkswagen Group Company)"
+      ]
+    },
+    {
+      "id": "18136",
+      "title": "Wish It. Find It. Query It—How Rooms To Go Connects AI Assistants to the Databricks Data Platform",
+      "type_or_track": "Analytics & BI",
+      "companies": [
+        "Rooms To Go",
+        "Rooms to Go"
+      ]
+    }
+  ],
+  "materialContentChanges": [
+    {
+      "id": "17723",
+      "title": "Scaling Geospatial Analytics at S&P Global Energy: From Billions of Points to AI-Powered Map Agents with Databricks",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17724",
+      "title": "Built on Databricks: How CMSPI Scaled Payments Routing and Optimization Using Lakebase and DBSQL",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17726",
+      "title": "Data Governance at Scale with ABAC at Atlassian",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17728",
+      "title": "Building Data Pipelines with Lakeflow Spark Declarative Pipelines",
+      "fields": [
+        "title",
+        "track"
+      ]
+    },
+    {
+      "id": "17744",
+      "title": "Grounding Legacy BI: Etihad Airways’ Transition to AI-Powered Self-Service with Genie",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17766",
+      "title": "From Eight Hours to Eight Minutes: Automating A/B Test Analysis on Databricks",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17767",
+      "title": "AI Agents for the Frontline: 7-Eleven’s GenAI Maintenance Assistant",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17768",
+      "title": "The Open Handshake: Scaling Multi-Cloud Delivery via Delta Sharing and Iceberg",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17770",
+      "title": "Beyond the Trace: adidas’ Agent Digital Twin for Governance, Cost and ROI",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17771",
+      "title": "0 to 100 AI/BI Apps in 120 Days: Building an Enterprise Data and AI Platform From Scratch @ Alpura",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17772",
+      "title": "How Nubank Migrated to Databricks SQL Reducing Costs by 40% and Doubling Queries",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17773",
+      "title": "Building Agentic Business Applications on Databricks with Lakebase, MCP and Marvis AI",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17774",
+      "title": "Building the Commercial Lakehouse: AI-Driven, Open and Interoperable",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17775",
+      "title": "Let Your Agent Pilot Your Fleet: Business Insights From 35,000 Feet",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17784",
+      "title": "From Legacy to Lakehouse: Proven Best Practices From Databricks and McKinsey on Modernization",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17785",
+      "title": "Databricks Apps: A Magic Wand for Driving Data Quality Adoption and Observability",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17888",
+      "title": "Driving Enterprise Transformation With an AI‑Enabled Field Assistant",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17889",
+      "title": "800TB, Zero Pipelines: How Ensemble Health Partners Built an AI-Ready Revenue Cycle on Lakebase",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17890",
+      "title": "PRADA Serves Looks and High Quality Business Metrics with Lakebase",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17891",
+      "title": "Move Fast, Stay Secure: Enterprise AI Agent Security in Practice",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17893",
+      "title": "How Supercell Uses Databricks to Serve Nearly 300M Monthly Players and Prevent Player Harm",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17894",
+      "title": "Apps Factory on Databricks​: Provision, Standardize, Observe and Govern 100+ Apps​",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17895",
+      "title": "How Mastercard Turns Transaction Data into Trusted Merchant Insights with AI",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17897",
+      "title": "Enabling a Low-Latency Data Mesh at Warner Music Group Using Lakebase, Iceberg and Unity Catalog",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17899",
+      "title": "From Two Hours to Two Minutes: Panasonic’s Global Scale Engineering With the Data Intelligence Platform",
+      "fields": [
+        "title",
+        "abstract",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17901",
+      "title": "Fireside Chat: A Candid Conversation on AI, Data Stacks and What Matters for the Next 24 Months",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17902",
+      "title": "Using Databricks Geospatial Processing at Scale",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17903",
+      "title": "Delta Sharing: The Most Widely Adopted Open Protocol for Data and AI Sharing",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17904",
+      "title": "How to Turn Every Business User Into a Decision Maker With AI/BI and Databricks One",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17908",
+      "title": "Databricks FinOps Genie — Cost Observability Meets Optimization Insights",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17910",
+      "title": "When Redis Isn’t the Answer: Serving Lakehouse Data at Scale",
+      "fields": [
+        "industry",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17912",
+      "title": "Feature and ML Platform Powered by Databricks",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17914",
+      "title": "Revolutionizing Construction Intelligence: Scaling Procore Analytics With Delta Sharing & AI",
+      "fields": [
+        "abstract",
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17918",
+      "title": "AstraZeneca's Multi-Agent System: Lessons Scaling Agents by 10x With Agent Bricks",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17919",
+      "title": "Comprehensive Data Warehouse Migrations With Lakebridge",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17921",
+      "title": "AI Will Go Wrong and the Blueprint to Get It Right",
+      "fields": [
+        "title",
+        "abstract",
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17923",
+      "title": "BP Accelerates Maintenance Decisions With Conversational Analytics With Genie",
+      "fields": [
+        "abstract",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17924",
+      "title": "Scaling Energy Deal Evaluation With Databricks Lakebase",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17926",
+      "title": "Inside our Lakeflow Journey at SEGA: Scaling Streaming Analytics Across Titles",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17976",
+      "title": "Scaling AI Agents at Mercedes-Benz: Unified AI Governance in a Multi-Cloud Enterprise Ecosystem",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17978",
+      "title": "Unlocking Antibody Space With Databricks Vector Search",
+      "fields": [
+        "topic_tags",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17979",
+      "title": "How Open Lakehouse Architectures Drive Data and AI Platform Modernization",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17980",
+      "title": "Lakeflow Connect: Cutting Enterprise Ingestion Costs by up to 90% on Databricks",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17981",
+      "title": "From Unstructured Data to Structured Insights: How YipitData Scales Data Enrichment with AI Agents",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17982",
+      "title": "Fox One: Video Content Personalization Powered by GenAI",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17985",
+      "title": "From Job Clusters to DBSQL Serverless: How GetYourGuide Improved DBT Pipelines",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17987",
+      "title": "Modernizing Clinical Data Integration at Novo Nordisk With Lakebase and the Databricks Lakehouse",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17988",
+      "title": "Automating KPI Reasoning and Narrative Generation With Agent Bricks and Databricks Apps",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17990",
+      "title": "Doubling Medical Safety: Fine-Tuning Open LLMs for Women's Health Without Human Labels",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17992",
+      "title": "Building Query Expert MCP: Using RAG to Build an Analytics Agent That Goes Beyond Text-to-SQL",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17994",
+      "title": "Cleared for Takeoff: Modern Air Operations Intelligence on Databricks",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17998",
+      "title": "Bionic Supply Chain: Architecting a Unified Agentic Framework for Risk & Cost Recovery",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18114",
+      "title": "The Write Way: Building Bi-Directional Data Pipelines in the Lakehouse",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18115",
+      "title": "Accelerating Corteva’s Data Source Onboarding With Lakeflow",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18118",
+      "title": "Streaming at Scale With Real-Time Mode: Sub-Second Train Telemetry Across the Netherlands",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18120",
+      "title": "Real-Time ML Features for Payment Fraud: Architecture Patterns at Scale",
+      "fields": [
+        "abstract",
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18123",
+      "title": "Streaming the Game: Scaling Real-Time Intelligence at DraftKings With Kafka, Databricks & Sigma",
+      "fields": [
+        "industry",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18127",
+      "title": "From Day-Old Data to Real-Time Retail: Modernizing CDC With Spark Declarative Pipelines and Lakeflow",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18134",
+      "title": "Safe Skies: Automating Trust at Scale With AI-Generated Contracts at Boeing",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18137",
+      "title": "Beacon: Revolutionizing Media Analytics With Near Real-Time Declarative Pipelines",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18138",
+      "title": "NBCUniversal Media Group's Journey to Databricks",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18139",
+      "title": "Insights at Scale With Agentic AI: How AI Ready Data is Transforming Commercial Life Sciences",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18140",
+      "title": "From Oracle Cloud to a Governed Lakehouse: Real-Time Streaming With Spark Declarative Pipelines",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18141",
+      "title": "Rewind, Replay, Recover: Building Operational Resilience at NAB With Spark Declarative Pipelines",
+      "fields": [
+        "abstract",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18145",
+      "title": "From Fragmented Data To AI-Driven Portfolio Impact With Digital Operations",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18147",
+      "title": "Unified Governance for Enterprise Analytics and AI",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18151",
+      "title": "Closing the Insight-To-Action Gap With Databricks AI/BI Genie, Apps and Databricks One",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18154",
+      "title": "Building Enterprise-Scale Agentic Claims Automation and AI Observability With Databricks",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18155",
+      "title": "Building an Explainable AI Research Agent With Databricks Genie",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18156",
+      "title": "Serverless at Bank Scale: NAB's Complete Workload Migration to Serverless at Enterprise Scale",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18160",
+      "title": "Next-Generation Data Platform Transformation",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18162",
+      "title": "Your AI Strategy is Only as Good as Your People Strategy",
+      "fields": [
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18164",
+      "title": "Blue Origin — Using Data to Build a Road to Space",
+      "fields": [
+        "abstract",
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18165",
+      "title": "Building a Data Telescope to Study the Vast Expanse of Social Media",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18166",
+      "title": "From Fresh Data to Big Impact: Afresh and Lakebase Fuel Retail Innovation",
+      "fields": [
+        "topic_tags",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18169",
+      "title": "MGM Enterprise Data Hub: Accelerating Data Delivery With DABS CI/CD Approach",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18171",
+      "title": "Deep Dive Into Streaming and Batch ETLs With Lakeflow Spark Declarative Pipelines",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18173",
+      "title": "Molecules, Merchants & Models: How Structure-First AI Makes Promotion Intelligence Trustworthy",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "speakers"
+      ]
+    }
+  ],
+  "scheduleChangesSample": [
+    {
+      "id": "17723",
+      "title": "Scaling Geospatial Analytics at S&P Global Energy: From Billions of Points to AI-Powered Map Agents with Databricks",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17724",
+      "title": "Built on Databricks: How CMSPI Scaled Payments Routing and Optimization Using Lakebase and DBSQL",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17726",
+      "title": "Data Governance at Scale with ABAC at Atlassian",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17744",
+      "title": "Grounding Legacy BI: Etihad Airways’ Transition to AI-Powered Self-Service with Genie",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17749",
+      "title": "Pipeline to Production in Minutes: How a Leading P&C Insurer Achieved End-to-End DevOps on Databricks",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17766",
+      "title": "From Eight Hours to Eight Minutes: Automating A/B Test Analysis on Databricks",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17767",
+      "title": "AI Agents for the Frontline: 7-Eleven’s GenAI Maintenance Assistant",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17768",
+      "title": "The Open Handshake: Scaling Multi-Cloud Delivery via Delta Sharing and Iceberg",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17770",
+      "title": "Beyond the Trace: adidas’ Agent Digital Twin for Governance, Cost and ROI",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17771",
+      "title": "0 to 100 AI/BI Apps in 120 Days: Building an Enterprise Data and AI Platform From Scratch @ Alpura",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17772",
+      "title": "How Nubank Migrated to Databricks SQL Reducing Costs by 40% and Doubling Queries",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17773",
+      "title": "Building Agentic Business Applications on Databricks with Lakebase, MCP and Marvis AI",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17774",
+      "title": "Building the Commercial Lakehouse: AI-Driven, Open and Interoperable",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17775",
+      "title": "Let Your Agent Pilot Your Fleet: Business Insights From 35,000 Feet",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17776",
+      "title": "Beyond Batch: Engineering Self-Evolving Ingestion with Databricks Auto Loader",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17785",
+      "title": "Databricks Apps: A Magic Wand for Driving Data Quality Adoption and Observability",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17786",
+      "title": "How Databricks Apps Facilitated Model Retraining",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17787",
+      "title": "What Worked, What Didn’t: Virgin Atlantic’s Flight to Trusted Generative BI",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17788",
+      "title": "Bringing Agents to Data: How Workday Architects Governed Agentic AI with Iceberg and Unity Catalog",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17888",
+      "title": "Driving Enterprise Transformation With an AI‑Enabled Field Assistant",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17890",
+      "title": "PRADA Serves Looks and High Quality Business Metrics with Lakebase",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17891",
+      "title": "Move Fast, Stay Secure: Enterprise AI Agent Security in Practice",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17892",
+      "title": "Using AI to Migrate Semantic Models and Dashboards to Databricks Metric Views and AI/BI",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17893",
+      "title": "How Supercell Uses Databricks to Serve Nearly 300M Monthly Players and Prevent Player Harm",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17894",
+      "title": "Apps Factory on Databricks​: Provision, Standardize, Observe and Govern 100+ Apps​",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17895",
+      "title": "How Mastercard Turns Transaction Data into Trusted Merchant Insights with AI",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17896",
+      "title": "Modern Data Modeling at Scale: Advanced Patterns",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17897",
+      "title": "Enabling a Low-Latency Data Mesh at Warner Music Group Using Lakebase, Iceberg and Unity Catalog",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17898",
+      "title": "From Wellhead to Insight: Halliburton’s Real‑Time Data Sharing with Chevron",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17899",
+      "title": "From Two Hours to Two Minutes: Panasonic’s Global Scale Engineering With the Data Intelligence Platform",
+      "fields": [
+        "title",
+        "abstract",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17901",
+      "title": "Fireside Chat: A Candid Conversation on AI, Data Stacks and What Matters for the Next 24 Months",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17902",
+      "title": "Using Databricks Geospatial Processing at Scale",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17903",
+      "title": "Delta Sharing: The Most Widely Adopted Open Protocol for Data and AI Sharing",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17904",
+      "title": "How to Turn Every Business User Into a Decision Maker With AI/BI and Databricks One",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17905",
+      "title": "Accelerating AI From Model to Impact at Workday With Databricks Apps",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17907",
+      "title": "How Pfizer and REDCap Cloud Modernized Clinical Data Sharing",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17908",
+      "title": "Databricks FinOps Genie — Cost Observability Meets Optimization Insights",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17909",
+      "title": "Governed Data Sharing at Scale: UBS RiskLab + LSEG via Unity Catalog and Delta Sharing",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17910",
+      "title": "When Redis Isn’t the Answer: Serving Lakehouse Data at Scale",
+      "fields": [
+        "industry",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17911",
+      "title": "Building “Vehicle 360” at Daimler Truck & Bus — How We Find Needles in a 30,000 Parameter Haystack",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17912",
+      "title": "Feature and ML Platform Powered by Databricks",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17914",
+      "title": "Revolutionizing Construction Intelligence: Scaling Procore Analytics With Delta Sharing & AI",
+      "fields": [
+        "abstract",
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17916",
+      "title": "Empowering Non-Technical Users in Pharma With Dashboards and Chatbots Working Together in Databricks",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17918",
+      "title": "AstraZeneca's Multi-Agent System: Lessons Scaling Agents by 10x With Agent Bricks",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17919",
+      "title": "Comprehensive Data Warehouse Migrations With Lakebridge",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17920",
+      "title": "From Power BI DAX to Metric View KPIs: How Mercedes-Benz Korea Built “Talk to Your Data” at Scale",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17921",
+      "title": "AI Will Go Wrong and the Blueprint to Get It Right",
+      "fields": [
+        "title",
+        "abstract",
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17923",
+      "title": "BP Accelerates Maintenance Decisions With Conversational Analytics With Genie",
+      "fields": [
+        "abstract",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17924",
+      "title": "Scaling Energy Deal Evaluation With Databricks Lakebase",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17925",
+      "title": "Creating Better Travel Experiences for All — Confronting Airline Pricing Pressures From Legacy Tools",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17926",
+      "title": "Inside our Lakeflow Journey at SEGA: Scaling Streaming Analytics Across Titles",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17927",
+      "title": "From Dashboards to Data Products: MBC Shahid's App-Driven Revolution",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17976",
+      "title": "Scaling AI Agents at Mercedes-Benz: Unified AI Governance in a Multi-Cloud Enterprise Ecosystem",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17977",
+      "title": "Embracing Serverless SQL at Riot Games",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17978",
+      "title": "Unlocking Antibody Space With Databricks Vector Search",
+      "fields": [
+        "topic_tags",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17979",
+      "title": "How Open Lakehouse Architectures Drive Data and AI Platform Modernization",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17980",
+      "title": "Lakeflow Connect: Cutting Enterprise Ingestion Costs by up to 90% on Databricks",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17981",
+      "title": "From Unstructured Data to Structured Insights: How YipitData Scales Data Enrichment with AI Agents",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17982",
+      "title": "Fox One: Video Content Personalization Powered by GenAI",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17983",
+      "title": "Scaling Agentic AI and Enterprise Data Mesh With Databricks Lakebase",
+      "fields": [
+        "industry",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17984",
+      "title": "Stop Arguing About Numbers: How Zalando Scales Governance With Unity Catalog and Metric Views",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17985",
+      "title": "From Job Clusters to DBSQL Serverless: How GetYourGuide Improved DBT Pipelines",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17986",
+      "title": "lululemon: How We Modernized Our Audience Segmentation and Where It's Taking Us With Agentic AI",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17987",
+      "title": "Modernizing Clinical Data Integration at Novo Nordisk With Lakebase and the Databricks Lakehouse",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17988",
+      "title": "Automating KPI Reasoning and Narrative Generation With Agent Bricks and Databricks Apps",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17989",
+      "title": "Operationalizing Fine-Grained Data Security With ABAC at Enterprise Scale",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17990",
+      "title": "Doubling Medical Safety: Fine-Tuning Open LLMs for Women's Health Without Human Labels",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17991",
+      "title": "Modernization Without Illusions: Migrating a Business-Critical Equities Data Warehouse to Databricks",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17992",
+      "title": "Building Query Expert MCP: Using RAG to Build an Analytics Agent That Goes Beyond Text-to-SQL",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17993",
+      "title": "Building a Production: Scale Dimensional Data Mart With Lakeflow Spark Declarative Pipelines and AUTO CDC",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17994",
+      "title": "Cleared for Takeoff: Modern Air Operations Intelligence on Databricks",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "17995",
+      "title": "Translating Nubank’s Data Lake Access Control Model Into Databricks Unity Catalog",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17996",
+      "title": "BP Cut Cloud Spend by 43% and Speed Critical Jobs From Days to ~8 Hours With Databricks SQL",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17997",
+      "title": "Atlassian's Journey of Using AI/BI Genie From Pilot to Production and What's Next?",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "17998",
+      "title": "Bionic Supply Chain: Architecting a Unified Agentic Framework for Risk & Cost Recovery",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18113",
+      "title": "How Unified Data Can Help Secure the Future of Global Food Production",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "18114",
+      "title": "The Write Way: Building Bi-Directional Data Pipelines in the Lakehouse",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18115",
+      "title": "Accelerating Corteva’s Data Source Onboarding With Lakeflow",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18116",
+      "title": "Beyond Medallion: Architecting Disney’s DATOS for Complex, Real-Time Data Streams With Databricks",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "18117",
+      "title": "The Lakehouse Behind a Modern CDP",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "18118",
+      "title": "Streaming at Scale With Real-Time Mode: Sub-Second Train Telemetry Across the Netherlands",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18119",
+      "title": "Streaming Data for Operational Apps: Building the Bridge From Analytics to Serving",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "18120",
+      "title": "Real-Time ML Features for Payment Fraud: Architecture Patterns at Scale",
+      "fields": [
+        "abstract",
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18121",
+      "title": "Weaving Data Into the Financial Fabric: How Nasdaq Uses Databricks to Power the Innovation Economy",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "18122",
+      "title": "The Data Gap in Women's Football & How FIFPro and Databricks Are Helping to Close It",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "18123",
+      "title": "Streaming the Game: Scaling Real-Time Intelligence at DraftKings With Kafka, Databricks & Sigma",
+      "fields": [
+        "industry",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18124",
+      "title": "Streaming the Agency: Databricks-Powered Contest Management, Scalable Dashboards and GenAI Chatbots",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "18125",
+      "title": "Securing the Databricks Lakehouse — a Multi-Layered Defense Against Outside and Inside Threats",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "18126",
+      "title": "Building a Lakehouse Data Strategy for Healthcare",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "18127",
+      "title": "From Day-Old Data to Real-Time Retail: Modernizing CDC With Spark Declarative Pipelines and Lakeflow",
+      "fields": [
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18128",
+      "title": "Breaking the Silos: Data Fusion for Financial Crime and Cyber Security",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "18129",
+      "title": "From Raw Signals to Real-Time Insights: Building an End-to-End IoT Pipeline With Zerobus",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "18130",
+      "title": "Emotional Congruence at Scale: Using Databricks AI to Align Ads and Content",
+      "fields": [
+        "industry",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "18131",
+      "title": "Transforming Governance Into a Scalable Data & AI Capability in the Data Mesh Era",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "18132",
+      "title": "Scaling Databricks Genie 10x at GSK Global Supply Chain: Building a Production AI/BI Factory",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "18133",
+      "title": "Alinta Energy’s Data Platform: From Platform Migration to Enterprise Ready AI-Driven Energy Ops",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "18134",
+      "title": "Safe Skies: Automating Trust at Scale With AI-Generated Contracts at Boeing",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18135",
+      "title": "Streaming to Lakehouse: How Launchmetrics Simplified Pipelines, Built Data Trust and Adopted Genie",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst"
+      ]
+    },
+    {
+      "id": "18137",
+      "title": "Beacon: Revolutionizing Media Analytics With Near Real-Time Declarative Pipelines",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "speakers"
+      ]
+    },
+    {
+      "id": "18138",
+      "title": "NBCUniversal Media Group's Journey to Databricks",
+      "fields": [
+        "industry",
+        "topic_tags",
+        "areas_of_interest",
+        "day",
+        "start_time",
+        "end_time",
+        "starts_pst",
+        "ends_pst",
+        "companies",
+        "speakers"
+      ]
+    }
+  ],
+  "metadataOnlyChangesSample": [
+    {
+      "id": "17731",
+      "title": "Data Interoperability with Unity Catalog",
+      "fields": [
+        "track"
+      ]
+    },
+    {
+      "id": "17789",
+      "title": "Agent Evaluations",
+      "fields": [
+        "track"
+      ]
+    },
+    {
+      "id": "17791",
+      "title": "Deploying and Monitoring Agents on Databricks",
+      "fields": [
+        "track"
+      ]
+    },
+    {
+      "id": "17796",
+      "title": "Developing BI Dashboards with AI/BI",
+      "fields": [
+        "track"
+      ]
+    },
+    {
+      "id": "17797",
+      "title": "Building Agentic Applications on Databricks",
+      "fields": [
+        "track"
+      ]
+    },
+    {
+      "id": "17799",
+      "title": "Building RAG Agents with Agent Bricks",
+      "fields": [
+        "track"
+      ]
+    },
+    {
+      "id": "17800",
+      "title": "Integrating Lakebase Databases into Intelligent Applications",
+      "fields": [
+        "track"
+      ]
+    },
+    {
+      "id": "17802",
+      "title": "Building Enterprise Applications with Databricks Apps",
+      "fields": [
+        "track"
+      ]
+    },
+    {
+      "id": "17803",
+      "title": "Databricks Performance Optimization",
+      "fields": [
+        "track"
+      ]
+    },
+    {
+      "id": "17807",
+      "title": "Automate Deployment with Databricks Asset Bundles",
+      "fields": [
+        "track"
+      ]
+    },
+    {
+      "id": "17809",
+      "title": "Modern Data Warehousing",
+      "fields": [
+        "track"
+      ]
+    },
+    {
+      "id": "17810",
+      "title": "Implementing Data Governance with Unity Catalog",
+      "fields": [
+        "track"
+      ]
+    },
+    {
+      "id": "17811",
+      "title": "Data Governance at Scale",
+      "fields": [
+        "track"
+      ]
+    },
+    {
+      "id": "17812",
+      "title": "SQL Programming and Procedural Logic",
+      "fields": [
+        "track"
+      ]
+    },
+    {
+      "id": "17915",
+      "title": "Game Day at Global Scale: How PepsiCo Foods Uses AI to Feed the World Cup",
+      "fields": [
+        "topic_tags",
+        "areas_of_interest"
+      ]
+    },
+    {
+      "id": "18186",
+      "title": "Developing BI Dashboards with AI/BI",
+      "fields": [
+        "track"
+      ]
+    }
+  ]
 }
