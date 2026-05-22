@@ -16,12 +16,12 @@ Conference catalogs tell you:
 
 Current public snapshot:
 
-- **Snowflake 2026 sessions:** 319
-- **Databricks 2026 sessions:** 158
-- **Snowflake speaker entries:** 502
-- **Databricks speaker entries:** 223
-- **Snowflake unique external companies:** 206
-- **Databricks unique external companies:** 137
+- **Snowflake 2026 sessions:** 517
+- **Databricks 2026 sessions:** 714
+- **Snowflake speaker entries:** 954
+- **Databricks speaker entries:** 1150
+- **Snowflake unique external companies:** 383
+- **Databricks unique external companies:** 479
 
 And timing matters: **Snowflake happens first.**
 
@@ -39,37 +39,37 @@ Snowflake’s sharpest argument would be:
 
 That is not just rhetoric. There is evidence for it.
 
-Snowflake’s catalog is currently about **2x larger** in visible session count (319 vs 158). Because Snowflake is earlier on the calendar, some of that is expected. But expected does not mean meaningless. If Snowflake were still sparse despite going first, that would be a problem. It is not sparse.
+Databricks' catalog is now larger in visible session count (714 vs 517), reversing the earlier sparse-catalog read. Because Snowflake is earlier on the calendar, some of that is expected. But expected does not mean meaningless. If Snowflake were still sparse despite going first, that would be a problem. It is not sparse.
 
-Snowflake also shows more visible external-company breadth in the current public data (206 unique external companies vs 137 for Databricks). Again, that does not automatically mean stronger ecosystem quality. But it does mean Snowflake is already showing the market a broader coalition.
+Databricks now shows broader visible external-company breadth in the current public data (479 unique external companies vs 383 for Snowflake). Again, that does not automatically mean stronger ecosystem quality. But it does mean the earlier Snowflake-breadth argument needs to be weaker and more specific.
 
 ### Snowflake’s best evidence-based punch
 
 Snowflake can point to the current vocabulary and say Databricks is still obsessing over the machinery:
 
 **Databricks top words**
-- platform: 184
-- governance: 127
-- architecture: 122
-- analytics: 121
-- pipelines: 91
-- scale: 90
-- built: 89
-- enterprise: 85
+- agents: 381
+- scale: 351
+- governance: 339
+- catalog: 283
+- genie: 281
+- unity: 269
+- agent: 259
+- lakehouse: 253
 
 Snowflake can frame that as the language of a company still asking buyers to do a lot of systems work before they feel visible value.
 
 By contrast, Snowflake’s current catalog words lean toward a broader business-and-AI posture:
 
 **Snowflake top words**
-- analytics: 105
-- business: 92
-- governance: 91
-- enterprise: 90
-- agents: 86
-- platform: 79
-- intelligence: 78
-- scale: 74
+- cortex: 231
+- agents: 225
+- scale: 172
+- governance: 165
+- intelligence: 150
+- agentic: 133
+- code: 118
+- governed: 105
 
 Snowflake’s attack line would be:
 
@@ -90,18 +90,18 @@ The right way to read company evidence is in **three layers**:
 3. **Diversity of company types** — are you attracting digital natives, regulated giants, industrials, global consumer brands, etc.?
 
 Snowflake’s repeated external companies currently include:
-- Salesforce: 7
-- Booking.com: 6
-- Canva: 6
-- dbt Labs: 4
-- Fivetran: 4
-- T-Mobile USA: 4
-- Capital One: 4
-- Sigma Computing: 4
-- Domo: 3
-- Ally Financial: 3
-- Siemens: 3
-- Morgan Stanley: 3
+- Accenture: 10
+- Salesforce: 9
+- OpenAI: 9
+- Booking.com: 8
+- Matillion: 7
+- EY: 7
+- Canva: 7
+- Sigma: 6
+- dbt Labs: 6
+- Capital One: 6
+- Morgan Stanley: 5
+- Schroders: 5
 
 That list matters not just because of repetition, but because of its shape: consumer internet, enterprise software, finance, telecom, industrials, data ecosystem players.
 
