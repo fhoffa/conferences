@@ -1,279 +1,1012 @@
 {
   "snowflake": {
-    "session_count": 319,
-    "sessions_with_speakers": 315,
-    "speaker_count": 502,
-    "speakers_with_job_title": 494,
-    "unique_companies": 210,
+    "session_count": 517,
+    "sessions_with_speakers": 492,
+    "speaker_count": 954,
+    "speakers_with_job_title": 953,
+    "unique_external_companies": 383,
     "sessions_with_track": 0,
     "sessions_with_level": 0,
-    "sessions_with_format": 0,
+    "sessions_with_format": 517,
+    "sessions_with_any_timing": 517,
+    "top_speakers": [
+      {
+        "speaker": "Ruchi Soni",
+        "count": 6
+      },
+      {
+        "speaker": "Pooja Sahu Sahu",
+        "count": 5
+      },
+      {
+        "speaker": "Karthik Raman",
+        "count": 5
+      },
+      {
+        "speaker": "Josh Klahr",
+        "count": 5
+      },
+      {
+        "speaker": "Gilberto Hernandez",
+        "count": 4
+      },
+      {
+        "speaker": "Ankit Gupta",
+        "count": 4
+      },
+      {
+        "speaker": "Rajiv Gupta",
+        "count": 4
+      },
+      {
+        "speaker": "Dash Desai",
+        "count": 4
+      },
+      {
+        "speaker": "Effie Goenawan",
+        "count": 4
+      },
+      {
+        "speaker": "Kaushal Jain",
+        "count": 4
+      },
+      {
+        "speaker": "Pranav Pokharel",
+        "count": 4
+      },
+      {
+        "speaker": "Anahita Tafvizi",
+        "count": 4
+      },
+      {
+        "speaker": "Saptarshi Mukherjee",
+        "count": 3
+      },
+      {
+        "speaker": "Federico Zoufaly Boldrini",
+        "count": 3
+      },
+      {
+        "speaker": "Piotr Paczewski",
+        "count": 3
+      }
+    ],
+    "top_speaker_titles": [
+      {
+        "title": "Staff Product Manager",
+        "count": 25
+      },
+      {
+        "title": "Senior Product Manager",
+        "count": 24
+      },
+      {
+        "title": "Principal Product Manager",
+        "count": 14
+      },
+      {
+        "title": "Product Manager",
+        "count": 13
+      },
+      {
+        "title": "Data Engineer",
+        "count": 12
+      },
+      {
+        "title": "CTO",
+        "count": 10
+      },
+      {
+        "title": "Solutions Architect",
+        "count": 9
+      },
+      {
+        "title": "Lead Developer Advocate",
+        "count": 9
+      },
+      {
+        "title": "Principal Architect",
+        "count": 8
+      },
+      {
+        "title": "Director, Product Management",
+        "count": 8
+      },
+      {
+        "title": "Principal Data Engineer",
+        "count": 7
+      },
+      {
+        "title": "Managing Director",
+        "count": 7
+      },
+      {
+        "title": "Director of Product Management",
+        "count": 7
+      },
+      {
+        "title": "Principal Solution Engineer",
+        "count": 6
+      },
+      {
+        "title": "Snowflake Global Practice Lead",
+        "count": 6
+      }
+    ],
+    "top_speaker_title_words": [
+      {
+        "word": "product",
+        "count": 178
+      },
+      {
+        "word": "manager",
+        "count": 167
+      },
+      {
+        "word": "director",
+        "count": 156
+      },
+      {
+        "word": "senior",
+        "count": 114
+      },
+      {
+        "word": "engineer",
+        "count": 106
+      },
+      {
+        "word": "engineering",
+        "count": 101
+      },
+      {
+        "word": "principal",
+        "count": 95
+      },
+      {
+        "word": "head",
+        "count": 86
+      },
+      {
+        "word": "architect",
+        "count": 77
+      },
+      {
+        "word": "chief",
+        "count": 67
+      },
+      {
+        "word": "officer",
+        "count": 58
+      },
+      {
+        "word": "lead",
+        "count": 50
+      },
+      {
+        "word": "staff",
+        "count": 50
+      },
+      {
+        "word": "global",
+        "count": 47
+      },
+      {
+        "word": "solutions",
+        "count": 40
+      }
+    ],
     "top_tracks": [],
-    "top_formats": [],
+    "top_formats": [
+      {
+        "format": "Breakout Session",
+        "count": 224
+      },
+      {
+        "format": "Theater Session",
+        "count": 195
+      },
+      {
+        "format": "Hands-on Lab",
+        "count": 31
+      },
+      {
+        "format": "Executive Content",
+        "count": 25
+      },
+      {
+        "format": "AI Pop Up",
+        "count": 17
+      },
+      {
+        "format": "Dev Day Luminary Talk",
+        "count": 9
+      },
+      {
+        "format": "Snowflake Training",
+        "count": 5
+      },
+      {
+        "format": "Activity",
+        "count": 4
+      },
+      {
+        "format": "Keynote",
+        "count": 3
+      },
+      {
+        "format": "CTO Circle",
+        "count": 3
+      },
+      {
+        "format": "Engineering Advocate Program",
+        "count": 1
+      }
+    ],
+    "top_levels": [],
+    "top_topics": [],
+    "top_days": [
+      {
+        "day": "2026-06-03",
+        "count": 172
+      },
+      {
+        "day": "2026-06-02",
+        "count": 148
+      },
+      {
+        "day": "2026-06-01",
+        "count": 115
+      },
+      {
+        "day": "2026-06-04",
+        "count": 82
+      }
+    ],
     "top_words": [
       {
         "word": "cortex",
-        "count": 160
-      },
-      {
-        "word": "analytics",
-        "count": 124
-      },
-      {
-        "word": "business",
-        "count": 110
+        "count": 231
       },
       {
         "word": "agents",
-        "count": 107
-      },
-      {
-        "word": "governance",
-        "count": 105
-      },
-      {
-        "word": "enterprise",
-        "count": 102
-      },
-      {
-        "word": "intelligence",
-        "count": 98
+        "count": 225
       },
       {
         "word": "scale",
-        "count": 97
+        "count": 172
       },
       {
-        "word": "platform",
-        "count": 85
+        "word": "governance",
+        "count": 165
       },
       {
-        "word": "iceberg",
-        "count": 75
-      },
-      {
-        "word": "code",
-        "count": 72
-      },
-      {
-        "word": "semantic",
-        "count": 71
-      },
-      {
-        "word": "teams",
-        "count": 69
-      },
-      {
-        "word": "governed",
-        "count": 68
-      },
-      {
-        "word": "architecture",
-        "count": 65
+        "word": "intelligence",
+        "count": 150
       },
       {
         "word": "agentic",
-        "count": 65
+        "count": 133
+      },
+      {
+        "word": "code",
+        "count": 118
+      },
+      {
+        "word": "governed",
+        "count": 105
+      },
+      {
+        "word": "semantic",
+        "count": 100
+      },
+      {
+        "word": "context",
+        "count": 100
       },
       {
         "word": "insights",
-        "count": 63
+        "count": 93
       },
       {
-        "word": "real-time",
-        "count": 61
+        "word": "workflows",
+        "count": 92
       },
       {
-        "word": "pipelines",
-        "count": 60
+        "word": "architecture",
+        "count": 91
       },
       {
-        "word": "customer",
-        "count": 59
-      },
-      {
-        "word": "tables",
-        "count": 56
+        "word": "iceberg",
+        "count": 91
       },
       {
         "word": "access",
-        "count": 54
+        "count": 90
       },
       {
-        "word": "complex",
-        "count": 54
+        "word": "real-time",
+        "count": 87
       },
       {
-        "word": "without",
-        "count": 53
+        "word": "pipelines",
+        "count": 87
       },
       {
-        "word": "built",
-        "count": 51
+        "word": "foundation",
+        "count": 86
+      },
+      {
+        "word": "see",
+        "count": 85
+      },
+      {
+        "word": "engineering",
+        "count": 84
+      },
+      {
+        "word": "but",
+        "count": 78
+      },
+      {
+        "word": "agent",
+        "count": 77
+      },
+      {
+        "word": "production",
+        "count": 77
+      }
+    ],
+    "top_external_companies": [
+      {
+        "company": "Accenture",
+        "count": 10
+      },
+      {
+        "company": "Salesforce",
+        "count": 9
+      },
+      {
+        "company": "OpenAI",
+        "count": 9
+      },
+      {
+        "company": "Booking.com",
+        "count": 8
+      },
+      {
+        "company": "Matillion",
+        "count": 7
+      },
+      {
+        "company": "EY",
+        "count": 7
+      },
+      {
+        "company": "Canva",
+        "count": 7
+      },
+      {
+        "company": "Sigma",
+        "count": 6
+      },
+      {
+        "company": "dbt Labs",
+        "count": 6
+      },
+      {
+        "company": "Capital One",
+        "count": 6
+      },
+      {
+        "company": "Morgan Stanley",
+        "count": 5
+      },
+      {
+        "company": "Schroders",
+        "count": 5
+      },
+      {
+        "company": "Zendesk",
+        "count": 5
+      },
+      {
+        "company": "AWS",
+        "count": 5
+      },
+      {
+        "company": "Sanofi",
+        "count": 5
+      },
+      {
+        "company": "LTM",
+        "count": 5
+      },
+      {
+        "company": "CDW",
+        "count": 5
+      },
+      {
+        "company": "Atlan",
+        "count": 5
+      },
+      {
+        "company": "Microsoft",
+        "count": 4
+      },
+      {
+        "company": "Fanatics",
+        "count": 4
       }
     ]
   },
   "databricks": {
-    "session_count": 158,
-    "sessions_with_speakers": 142,
-    "speaker_count": 223,
-    "speakers_with_job_title": 204,
-    "unique_companies": 140,
-    "sessions_with_track": 142,
-    "sessions_with_level": 142,
-    "sessions_with_format": 158,
-    "top_tracks": [
+    "session_count": 714,
+    "sessions_with_speakers": 681,
+    "speaker_count": 1150,
+    "speakers_with_job_title": 1096,
+    "unique_external_companies": 479,
+    "sessions_with_track": 677,
+    "sessions_with_level": 661,
+    "sessions_with_format": 714,
+    "sessions_with_any_timing": 709,
+    "top_speakers": [
       {
-        "value": "Data Engineering & Streaming",
-        "count": 29
+        "speaker": "Julie Nguyen",
+        "count": 3
       },
       {
-        "value": "Artificial Intelligence & Agents",
+        "speaker": "Sanjay Ashok",
+        "count": 3
+      },
+      {
+        "speaker": "Bruce Wong",
+        "count": 3
+      },
+      {
+        "speaker": "Youssef Mrini",
+        "count": 3
+      },
+      {
+        "speaker": "Samrat Ray",
+        "count": 3
+      },
+      {
+        "speaker": "Ajay Gollapalli",
+        "count": 3
+      },
+      {
+        "speaker": "Surya Sai Turaga",
+        "count": 2
+      },
+      {
+        "speaker": "Anoop Johnson",
+        "count": 2
+      },
+      {
+        "speaker": "Kent Marten",
+        "count": 2
+      },
+      {
+        "speaker": "Archika Dogra",
+        "count": 2
+      },
+      {
+        "speaker": "Jason Ping",
+        "count": 2
+      },
+      {
+        "speaker": "Gal Oshri",
+        "count": 2
+      },
+      {
+        "speaker": "Lennart Kats",
+        "count": 2
+      },
+      {
+        "speaker": "Allison Wang",
+        "count": 2
+      },
+      {
+        "speaker": "Brad Walker",
+        "count": 2
+      }
+    ],
+    "top_speaker_titles": [
+      {
+        "title": "Product Manager",
+        "count": 33
+      },
+      {
+        "title": "Software Engineer",
+        "count": 27
+      },
+      {
+        "title": "Staff Software Engineer",
+        "count": 25
+      },
+      {
+        "title": "Staff Product Manager",
+        "count": 22
+      },
+      {
+        "title": "Solutions Architect",
         "count": 21
       },
       {
-        "value": "Analytics & BI",
-        "count": 17
+        "title": "Principal Software Engineer",
+        "count": 12
       },
       {
-        "value": "Governance & Security",
-        "count": 17
+        "title": "Sr. Solutions Architect",
+        "count": 12
       },
       {
-        "value": "Data Warehousing",
-        "count": 16
-      },
-      {
-        "value": "Data Strategy",
-        "count": 15
-      },
-      {
-        "value": "Application Development",
+        "title": "CEO",
         "count": 11
       },
       {
-        "value": "Lakebase",
+        "title": "CTO",
         "count": 10
       },
       {
-        "value": "Data Sharing & Collaboration",
-        "count": 6
+        "title": "Sr. Staff Software Engineer",
+        "count": 10
+      },
+      {
+        "title": "Senior Software Engineer",
+        "count": 10
+      },
+      {
+        "title": "Specialist Solutions Architect",
+        "count": 10
+      },
+      {
+        "title": "Director of Product Management",
+        "count": 9
+      },
+      {
+        "title": "Senior Data Engineer",
+        "count": 8
+      },
+      {
+        "title": "Senior Solutions Architect",
+        "count": 8
+      }
+    ],
+    "top_speaker_title_words": [
+      {
+        "word": "engineer",
+        "count": 209
+      },
+      {
+        "word": "product",
+        "count": 191
+      },
+      {
+        "word": "manager",
+        "count": 186
+      },
+      {
+        "word": "director",
+        "count": 151
+      },
+      {
+        "word": "architect",
+        "count": 145
+      },
+      {
+        "word": "senior",
+        "count": 126
+      },
+      {
+        "word": "solutions",
+        "count": 113
+      },
+      {
+        "word": "staff",
+        "count": 109
+      },
+      {
+        "word": "software",
+        "count": 109
+      },
+      {
+        "word": "engineering",
+        "count": 81
+      },
+      {
+        "word": "lead",
+        "count": 66
+      },
+      {
+        "word": "head",
+        "count": 63
+      },
+      {
+        "word": "specialist",
+        "count": 48
+      },
+      {
+        "word": "principal",
+        "count": 47
+      },
+      {
+        "word": "chief",
+        "count": 45
+      }
+    ],
+    "top_tracks": [
+      {
+        "track": "Artificial Intelligence & Agents",
+        "count": 189
+      },
+      {
+        "track": "Data Engineering & Streaming",
+        "count": 99
+      },
+      {
+        "track": "Analytics & BI",
+        "count": 80
+      },
+      {
+        "track": "Governance & Security",
+        "count": 69
+      },
+      {
+        "track": "Application Development",
+        "count": 45
+      },
+      {
+        "track": "Data Warehousing",
+        "count": 43
+      },
+      {
+        "track": "Data Strategy",
+        "count": 41
+      },
+      {
+        "track": "Data Sharing & Collaboration",
+        "count": 30
+      },
+      {
+        "track": "Lakebase",
+        "count": 30
+      },
+      {
+        "track": "Cybersecurity",
+        "count": 28
+      },
+      {
+        "track": "Paid Training",
+        "count": 23
       }
     ],
     "top_formats": [
       {
-        "value": "Breakout",
-        "count": 120
+        "format": "Breakout",
+        "count": 465
       },
       {
-        "value": "Lightning Talk",
-        "count": 22
+        "format": "Lightning Talk",
+        "count": 192
       },
       {
-        "value": "Paid Training",
-        "count": 16
+        "format": "Paid Training",
+        "count": 25
+      },
+      {
+        "format": "Special Interest",
+        "count": 14
+      },
+      {
+        "format": "Deep Dive",
+        "count": 12
+      },
+      {
+        "format": "Evening Event",
+        "count": 2
+      },
+      {
+        "format": "Meetup",
+        "count": 2
+      },
+      {
+        "format": "Keynote",
+        "count": 2
+      }
+    ],
+    "top_levels": [
+      {
+        "level": "Intermediate",
+        "count": 423
+      },
+      {
+        "level": "Beginner",
+        "count": 179
+      },
+      {
+        "level": "Advanced",
+        "count": 59
+      }
+    ],
+    "top_topics": [
+      {
+        "topic": "Unity Catalog",
+        "count": 373
+      },
+      {
+        "topic": "AI Agents",
+        "count": 257
+      },
+      {
+        "topic": "AI/BI",
+        "count": 243
+      },
+      {
+        "topic": "Databricks Agents",
+        "count": 189
+      },
+      {
+        "topic": "Databricks SQL",
+        "count": 174
+      },
+      {
+        "topic": "Lakebase",
+        "count": 146
+      },
+      {
+        "topic": "Generative AI",
+        "count": 130
+      },
+      {
+        "topic": "Data Intelligence",
+        "count": 116
+      },
+      {
+        "topic": "Databricks Apps",
+        "count": 114
+      },
+      {
+        "topic": "Lakeflow",
+        "count": 110
+      },
+      {
+        "topic": "Architecture & Interoperability",
+        "count": 100
+      },
+      {
+        "topic": "Data Lakehouse",
+        "count": 96
+      },
+      {
+        "topic": "Data Applications",
+        "count": 75
+      },
+      {
+        "topic": "Delta Sharing",
+        "count": 69
+      },
+      {
+        "topic": "Data Ingestion",
+        "count": 60
+      },
+      {
+        "topic": "Thought Leadership",
+        "count": 58
+      },
+      {
+        "topic": "Security & Compliance",
+        "count": 54
+      },
+      {
+        "topic": "Industry Experience",
+        "count": 50
+      },
+      {
+        "topic": "Catalogs",
+        "count": 49
+      },
+      {
+        "topic": "Migrations & Modernizations",
+        "count": 48
+      }
+    ],
+    "top_days": [
+      {
+        "day": "Tuesday",
+        "count": 254
+      },
+      {
+        "day": "Wednesday",
+        "count": 230
+      },
+      {
+        "day": "Thursday",
+        "count": 200
+      },
+      {
+        "day": "Sunday",
+        "count": 14
+      },
+      {
+        "day": "Monday",
+        "count": 11
       }
     ],
     "top_words": [
       {
-        "word": "span",
-        "count": 712
-      },
-      {
-        "word": "style",
-        "count": 426
-      },
-      {
-        "word": "platform",
-        "count": 249
-      },
-      {
-        "word": "governance",
-        "count": 181
-      },
-      {
-        "word": "architecture",
-        "count": 157
-      },
-      {
-        "word": "analytics",
-        "count": 146
+        "word": "agents",
+        "count": 381
       },
       {
         "word": "scale",
-        "count": 137
+        "count": 351
       },
       {
-        "word": "business",
-        "count": 124
+        "word": "governance",
+        "count": 339
       },
       {
-        "word": "including",
-        "count": 122
+        "word": "catalog",
+        "count": 283
       },
       {
-        "word": "access",
-        "count": 121
+        "word": "genie",
+        "count": 281
       },
       {
-        "word": "pipelines",
-        "count": 118
-      },
-      {
-        "word": "font-size",
-        "count": 118
-      },
-      {
-        "word": "font-family",
-        "count": 118
-      },
-      {
-        "word": "sans'",
-        "count": 118
-      },
-      {
-        "word": "sans-serif",
-        "count": 118
-      },
-      {
-        "word": "color",
-        "count": 118
-      },
-      {
-        "word": "enterprise",
-        "count": 107
+        "word": "unity",
+        "count": 269
       },
       {
         "word": "agent",
-        "count": 107
-      },
-      {
-        "word": "built",
-        "count": 104
-      },
-      {
-        "word": "while",
-        "count": 102
-      },
-      {
-        "word": "cost",
-        "count": 99
+        "count": 259
       },
       {
         "word": "lakehouse",
-        "count": 97
+        "count": 253
+      },
+      {
+        "word": "agentic",
+        "count": 241
+      },
+      {
+        "word": "architecture",
+        "count": 239
+      },
+      {
+        "word": "pipelines",
+        "count": 235
+      },
+      {
+        "word": "production",
+        "count": 218
       },
       {
         "word": "model",
-        "count": 96
+        "count": 214
       },
       {
-        "word": "agents",
-        "count": 93
+        "word": "governed",
+        "count": 187
       },
       {
-        "word": "teams",
-        "count": 91
+        "word": "workflows",
+        "count": 185
+      },
+      {
+        "word": "access",
+        "count": 182
+      },
+      {
+        "word": "systems",
+        "count": 177
+      },
+      {
+        "word": "without",
+        "count": 175
+      },
+      {
+        "word": "security",
+        "count": 175
+      },
+      {
+        "word": "real-time",
+        "count": 174
+      },
+      {
+        "word": "apps",
+        "count": 167
+      },
+      {
+        "word": "engineering",
+        "count": 167
+      },
+      {
+        "word": "but",
+        "count": 165
+      },
+      {
+        "word": "sql",
+        "count": 164
+      }
+    ],
+    "top_external_companies": [
+      {
+        "company": "Workday",
+        "count": 12
+      },
+      {
+        "company": "Deloitte",
+        "count": 10
+      },
+      {
+        "company": "Advancing Analytics",
+        "count": 8
+      },
+      {
+        "company": "Mastercard",
+        "count": 8
+      },
+      {
+        "company": "Acxiom",
+        "count": 8
+      },
+      {
+        "company": "Adobe",
+        "count": 7
+      },
+      {
+        "company": "Atlassian",
+        "count": 7
+      },
+      {
+        "company": "Retool",
+        "count": 7
+      },
+      {
+        "company": "Superhuman",
+        "count": 7
+      },
+      {
+        "company": "Salesforce",
+        "count": 7
+      },
+      {
+        "company": "CVS Health",
+        "count": 6
+      },
+      {
+        "company": "bp",
+        "count": 6
+      },
+      {
+        "company": "Thoughtworks",
+        "count": 6
+      },
+      {
+        "company": "Novo Nordisk",
+        "count": 6
+      },
+      {
+        "company": "West Monroe",
+        "count": 6
+      },
+      {
+        "company": "MinIO",
+        "count": 6
+      },
+      {
+        "company": "Domo",
+        "count": 6
+      },
+      {
+        "company": "Glean Technologies, Inc.",
+        "count": 6
+      },
+      {
+        "company": "Chick-fil-A",
+        "count": 6
       }
     ]
   },
@@ -281,366 +1014,107 @@
     "snowflake": [
       {
         "word": "cortex",
-        "ratio_vs_databricks": 161.0,
-        "snowflake_count": 160,
-        "databricks_count": 0
+        "count": 231
       },
       {
-        "word": "catalog",
-        "ratio_vs_databricks": 43.0,
-        "snowflake_count": 42,
-        "databricks_count": 0
+        "word": "intelligence",
+        "count": 150
       },
       {
-        "word": "horizon",
-        "ratio_vs_databricks": 33.0,
-        "snowflake_count": 32,
-        "databricks_count": 0
+        "word": "code",
+        "count": 118
       },
       {
-        "word": "openflow",
-        "ratio_vs_databricks": 22.0,
-        "snowflake_count": 21,
-        "databricks_count": 0
+        "word": "join",
+        "count": 101
       },
       {
-        "word": "polaris",
-        "ratio_vs_databricks": 14.0,
-        "snowflake_count": 13,
-        "databricks_count": 0
+        "word": "semantic",
+        "count": 100
       },
       {
-        "word": "what's",
-        "ratio_vs_databricks": 11.0,
-        "snowflake_count": 21,
-        "databricks_count": 1
+        "word": "context",
+        "count": 100
       },
       {
-        "word": "layers",
-        "ratio_vs_databricks": 11.0,
-        "snowflake_count": 10,
-        "databricks_count": 0
+        "word": "insights",
+        "count": 93
       },
       {
-        "word": "snowconvert",
-        "ratio_vs_databricks": 11.0,
-        "snowflake_count": 10,
-        "databricks_count": 0
+        "word": "iceberg",
+        "count": 91
       },
       {
-        "word": "snowpark",
-        "ratio_vs_databricks": 11.0,
-        "snowflake_count": 10,
-        "databricks_count": 0
+        "word": "foundation",
+        "count": 86
       },
       {
-        "word": "connectors",
-        "ratio_vs_databricks": 10.0,
-        "snowflake_count": 9,
-        "databricks_count": 0
-      },
-      {
-        "word": "means",
-        "ratio_vs_databricks": 10.0,
-        "snowflake_count": 9,
-        "databricks_count": 0
-      },
-      {
-        "word": "multimodal",
-        "ratio_vs_databricks": 10.0,
-        "snowflake_count": 9,
-        "databricks_count": 0
-      },
-      {
-        "word": "streamlit",
-        "ratio_vs_databricks": 10.0,
-        "snowflake_count": 9,
-        "databricks_count": 0
-      },
-      {
-        "word": "universal",
-        "ratio_vs_databricks": 10.0,
-        "snowflake_count": 9,
-        "databricks_count": 0
-      },
-      {
-        "word": "coding",
-        "ratio_vs_databricks": 9.0,
-        "snowflake_count": 8,
-        "databricks_count": 0
-      },
-      {
-        "word": "composable",
-        "ratio_vs_databricks": 9.0,
-        "snowflake_count": 8,
-        "databricks_count": 0
-      },
-      {
-        "word": "siemens",
-        "ratio_vs_databricks": 9.0,
-        "snowflake_count": 8,
-        "databricks_count": 0
-      },
-      {
-        "word": "initiatives",
-        "ratio_vs_databricks": 8.0,
-        "snowflake_count": 7,
-        "databricks_count": 0
-      },
-      {
-        "word": "interchange",
-        "ratio_vs_databricks": 8.0,
-        "snowflake_count": 7,
-        "databricks_count": 0
-      },
-      {
-        "word": "procurement",
-        "ratio_vs_databricks": 8.0,
-        "snowflake_count": 7,
-        "databricks_count": 0
-      },
-      {
-        "word": "protection",
-        "ratio_vs_databricks": 8.0,
-        "snowflake_count": 7,
-        "databricks_count": 0
-      },
-      {
-        "word": "snowpipe",
-        "ratio_vs_databricks": 8.0,
-        "snowflake_count": 7,
-        "databricks_count": 0
-      },
-      {
-        "word": "exposure",
-        "ratio_vs_databricks": 7.0,
-        "snowflake_count": 6,
-        "databricks_count": 0
-      },
-      {
-        "word": "marketers",
-        "ratio_vs_databricks": 7.0,
-        "snowflake_count": 6,
-        "databricks_count": 0
-      },
-      {
-        "word": "morgan",
-        "ratio_vs_databricks": 7.0,
-        "snowflake_count": 6,
-        "databricks_count": 0
-      },
-      {
-        "word": "panel",
-        "ratio_vs_databricks": 7.0,
-        "snowflake_count": 6,
-        "databricks_count": 0
-      },
-      {
-        "word": "saas",
-        "ratio_vs_databricks": 7.0,
-        "snowflake_count": 6,
-        "databricks_count": 0
-      },
-      {
-        "word": "snowflake's",
-        "ratio_vs_databricks": 7.0,
-        "snowflake_count": 6,
-        "databricks_count": 0
-      },
-      {
-        "word": "stanley",
-        "ratio_vs_databricks": 7.0,
-        "snowflake_count": 6,
-        "databricks_count": 0
-      },
-      {
-        "word": "zendesk",
-        "ratio_vs_databricks": 7.0,
-        "snowflake_count": 6,
-        "databricks_count": 0
+        "word": "see",
+        "count": 85
       }
     ],
     "databricks": [
       {
-        "word": "span",
-        "ratio_vs_snowflake": 713.0,
-        "databricks_count": 712,
-        "snowflake_count": 0
+        "word": "agents",
+        "count": 381
       },
       {
-        "word": "style",
-        "ratio_vs_snowflake": 427.0,
-        "databricks_count": 426,
-        "snowflake_count": 0
+        "word": "scale",
+        "count": 351
       },
       {
-        "word": "color",
-        "ratio_vs_snowflake": 119.0,
-        "databricks_count": 118,
-        "snowflake_count": 0
+        "word": "governance",
+        "count": 339
       },
       {
-        "word": "font-family",
-        "ratio_vs_snowflake": 119.0,
-        "databricks_count": 118,
-        "snowflake_count": 0
+        "word": "catalog",
+        "count": 283
       },
       {
-        "word": "font-size",
-        "ratio_vs_snowflake": 119.0,
-        "databricks_count": 118,
-        "snowflake_count": 0
+        "word": "genie",
+        "count": 281
       },
       {
-        "word": "sans'",
-        "ratio_vs_snowflake": 119.0,
-        "databricks_count": 118,
-        "snowflake_count": 0
+        "word": "unity",
+        "count": 269
       },
       {
-        "word": "sans-serif",
-        "ratio_vs_snowflake": 119.0,
-        "databricks_count": 118,
-        "snowflake_count": 0
+        "word": "agent",
+        "count": 259
       },
       {
-        "word": "lakebase",
-        "ratio_vs_snowflake": 85.0,
-        "databricks_count": 84,
-        "snowflake_count": 0
+        "word": "lakehouse",
+        "count": 253
       },
       {
-        "word": "disc",
-        "ratio_vs_snowflake": 70.0,
-        "databricks_count": 69,
-        "snowflake_count": 0
+        "word": "agentic",
+        "count": 241
       },
       {
-        "word": "list-style-type",
-        "ratio_vs_snowflake": 70.0,
-        "databricks_count": 69,
-        "snowflake_count": 0
+        "word": "architecture",
+        "count": 239
       },
       {
-        "word": "familiarity",
-        "ratio_vs_snowflake": 57.0,
-        "databricks_count": 56,
-        "snowflake_count": 0
+        "word": "pipelines",
+        "count": 235
       },
       {
-        "word": "delta",
-        "ratio_vs_snowflake": 38.5,
-        "databricks_count": 76,
-        "snowflake_count": 1
+        "word": "production",
+        "count": 218
       },
       {
-        "word": "june",
-        "ratio_vs_snowflake": 35.0,
-        "databricks_count": 34,
-        "snowflake_count": 0
+        "word": "model",
+        "count": 214
       },
       {
-        "word": "courses",
-        "ratio_vs_snowflake": 33.0,
-        "databricks_count": 32,
-        "snowflake_count": 0
+        "word": "governed",
+        "count": 187
       },
       {
-        "word": "mlflow",
-        "ratio_vs_snowflake": 33.0,
-        "databricks_count": 32,
-        "snowflake_count": 0
-      },
-      {
-        "word": "note",
-        "ratio_vs_snowflake": 33.0,
-        "databricks_count": 32,
-        "snowflake_count": 0
-      },
-      {
-        "word": "reflect",
-        "ratio_vs_snowflake": 33.0,
-        "databricks_count": 32,
-        "snowflake_count": 0
-      },
-      {
-        "word": "genai",
-        "ratio_vs_snowflake": 32.0,
-        "databricks_count": 31,
-        "snowflake_count": 0
-      },
-      {
-        "word": "bricks",
-        "ratio_vs_snowflake": 30.0,
-        "databricks_count": 29,
-        "snowflake_count": 0
-      },
-      {
-        "word": "presentation",
-        "ratio_vs_snowflake": 29.0,
-        "databricks_count": 28,
-        "snowflake_count": 0
-      },
-      {
-        "word": "basic",
-        "ratio_vs_snowflake": 25.5,
-        "databricks_count": 50,
-        "snowflake_count": 1
-      },
-      {
-        "word": "components",
-        "ratio_vs_snowflake": 25.0,
-        "databricks_count": 24,
-        "snowflake_count": 0
-      },
-      {
-        "word": "vector",
-        "ratio_vs_snowflake": 22.0,
-        "databricks_count": 21,
-        "snowflake_count": 0
-      },
-      {
-        "word": "declarative",
-        "ratio_vs_snowflake": 20.67,
-        "databricks_count": 61,
-        "snowflake_count": 2
-      },
-      {
-        "word": "course",
-        "ratio_vs_snowflake": 20.33,
-        "databricks_count": 60,
-        "snowflake_count": 2
-      },
-      {
-        "word": "serverless",
-        "ratio_vs_snowflake": 20.0,
-        "databricks_count": 59,
-        "snowflake_count": 2
-      },
-      {
-        "word": "proficiency",
-        "ratio_vs_snowflake": 19.0,
-        "databricks_count": 18,
-        "snowflake_count": 0
-      },
-      {
-        "word": "dabs",
-        "ratio_vs_snowflake": 18.0,
-        "databricks_count": 17,
-        "snowflake_count": 0
-      },
-      {
-        "word": "safe",
-        "ratio_vs_snowflake": 18.0,
-        "databricks_count": 17,
-        "snowflake_count": 0
-      },
-      {
-        "word": "updated",
-        "ratio_vs_snowflake": 17.5,
-        "databricks_count": 34,
-        "snowflake_count": 1
+        "word": "workflows",
+        "count": 185
       }
     ]
-  }
+  },
+  "generatedAt": "2026-05-21T23:15:21Z"
 }
