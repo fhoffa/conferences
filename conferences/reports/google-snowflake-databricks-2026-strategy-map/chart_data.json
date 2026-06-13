@@ -1,0 +1,578 @@
+{
+  "denominators": {
+    "databricks": 802,
+    "snowflake": 537
+  },
+  "captured": "2026-06-13",
+  "rows": [
+    {
+      "key": "genai_app_layer",
+      "label": "Cortex / GenAI app layer",
+      "dbx_label": "Mosaic AI / Agent Bricks / Genie",
+      "snow_label": "Cortex agents + AI functions",
+      "dbx_sessions": 414,
+      "snow_sessions": 370,
+      "dbx_share_pct": 51.6,
+      "snow_share_pct": 68.9,
+      "leader": "Snowflake",
+      "delta_pct_pts": 17.3
+    },
+    {
+      "key": "semantic_context",
+      "label": "Semantic context for agents",
+      "dbx_label": "Metric Views / semantic models",
+      "snow_label": "Semantic Views",
+      "dbx_sessions": 34,
+      "snow_sessions": 113,
+      "dbx_share_pct": 4.2,
+      "snow_share_pct": 21.0,
+      "leader": "Snowflake",
+      "delta_pct_pts": 16.8
+    },
+    {
+      "key": "sharing_marketplace",
+      "label": "Sharing / marketplace / clean rooms",
+      "dbx_label": "Delta Sharing + Marketplace",
+      "snow_label": "Secure Sharing + Marketplace + Clean Rooms",
+      "dbx_sessions": 110,
+      "snow_sessions": 97,
+      "dbx_share_pct": 13.7,
+      "snow_share_pct": 18.1,
+      "leader": "Snowflake",
+      "delta_pct_pts": 4.3
+    },
+    {
+      "key": "iceberg_open",
+      "label": "Iceberg / open-lakehouse interoperability",
+      "dbx_label": "Iceberg / Uniform / open formats",
+      "snow_label": "Iceberg + Polaris + interoperability",
+      "dbx_sessions": 48,
+      "snow_sessions": 154,
+      "dbx_share_pct": 6.0,
+      "snow_share_pct": 28.7,
+      "leader": "Snowflake",
+      "delta_pct_pts": 22.7
+    },
+    {
+      "key": "named_control_plane",
+      "label": "Unity Catalog vs Horizon control plane",
+      "dbx_label": "Unity Catalog",
+      "snow_label": "Horizon Catalog",
+      "dbx_sessions": 450,
+      "snow_sessions": 68,
+      "dbx_share_pct": 56.1,
+      "snow_share_pct": 12.7,
+      "leader": "Databricks",
+      "delta_pct_pts": 43.4
+    },
+    {
+      "key": "bi_analytics",
+      "label": "BI dashboards / metrics / AI-BI",
+      "dbx_label": "AI/BI dashboards",
+      "snow_label": "BI & Analytics",
+      "dbx_sessions": 298,
+      "snow_sessions": 79,
+      "dbx_share_pct": 37.2,
+      "snow_share_pct": 14.7,
+      "leader": "Databricks",
+      "delta_pct_pts": 22.4
+    },
+    {
+      "key": "app_operational_db",
+      "label": "App / operational database substrate",
+      "dbx_label": "Lakebase / app database substrate",
+      "snow_label": "Snowflake Postgres + Unistore / app-data bridge",
+      "dbx_sessions": 206,
+      "snow_sessions": 92,
+      "dbx_share_pct": 25.7,
+      "snow_share_pct": 17.1,
+      "leader": "Databricks",
+      "delta_pct_pts": 8.6
+    },
+    {
+      "key": "evals_strict",
+      "label": "Evals / red teaming / AI quality (strict)",
+      "dbx_label": "Evals / red teaming / AI quality (strict)",
+      "snow_label": "Evals / red teaming / AI quality (strict)",
+      "dbx_sessions": 90,
+      "snow_sessions": 23,
+      "dbx_share_pct": 11.2,
+      "snow_share_pct": 4.3,
+      "leader": "Databricks",
+      "delta_pct_pts": 6.9
+    },
+    {
+      "key": "pipelines_streaming",
+      "label": "Lakeflow / Spark / streaming pipelines",
+      "dbx_label": "Lakeflow / Spark / streaming",
+      "snow_label": "Snowpipe + Openflow + Snowpark + dbt",
+      "dbx_sessions": 279,
+      "snow_sessions": 194,
+      "dbx_share_pct": 34.8,
+      "snow_share_pct": 36.1,
+      "leader": "Snowflake",
+      "delta_pct_pts": 1.3
+    },
+    {
+      "key": "warehouse_modernization",
+      "label": "SQL warehouse / lakehouse modernization",
+      "dbx_label": "Databricks SQL / DW modernization",
+      "snow_label": "Gen2 warehouses + migrations",
+      "dbx_sessions": 347,
+      "snow_sessions": 200,
+      "dbx_share_pct": 43.3,
+      "snow_share_pct": 37.2,
+      "leader": "Databricks",
+      "delta_pct_pts": 6.0
+    }
+  ],
+  "side_callouts": {
+    "nvidia_gpu": {
+      "databricks_sessions": 12,
+      "snowflake_sessions": 3,
+      "databricks_share_pct": 1.5,
+      "snowflake_share_pct": 0.6,
+      "databricks_titles": [
+        "AI Can\u2019t Wait: How to Overcome GPU Scarcity and Keep Workloads Running",
+        "Coding with AI Agents to Supercharge Your Spark UDFs with GPU-Acceleration",
+        "From Training to Production: MLOps for Deep Learning on Databricks",
+        "GPU-Accelerated Operations Research: Production-Grade Optimization with NVIDIA cuOpt on Databricks",
+        "High-Throughput, Low-Latency: The Databricks Playbook for Production Model Serving",
+        "Managing Data at Exabyte Scale for AI Model Training",
+        "Mission-Critical Inference: Powering High-Scale AI in Production ",
+        "Scaling Custom LLMs with vLLM and Databricks Model Serving: Fast, Flexible, and Production-Ready",
+        "Sponsored by: AMD | Run Databricks More Efficiently on AMD CPUs Lessons from AMD\u2019s GPU Telemetry Team",
+        "Three Steps to Red Team Your LLMs on Databricks (Using Tools You Didn't Know You Had)",
+        "Train and Fine-Tune AI Models Without Managing GPUs",
+        "Unlocking Video Data at Scale: VLM Batch Inference with Ray on Databricks"
+      ],
+      "snowflake_titles": [
+        "Agentic ML in Action: Train, Deploy and Monitor Models with Snowflake CoCo",
+        "Real-Time Lead Prioritization with Snowflake Model Serving Boosts Podium Sales",
+        "Building an End-to-End AI Application on Snowflake: From Data to Intelligence"
+      ]
+    },
+    "shared_companies": {
+      "dbx_unique": 515,
+      "snow_unique": 416,
+      "shared_count": 83,
+      "shared": [
+        {
+          "company": "openai",
+          "dbx_sessions": 6,
+          "snow_sessions": 9
+        },
+        {
+          "company": "accenture",
+          "dbx_sessions": 4,
+          "snow_sessions": 10
+        },
+        {
+          "company": "salesforce",
+          "dbx_sessions": 4,
+          "snow_sessions": 7
+        },
+        {
+          "company": "deloitte",
+          "dbx_sessions": 6,
+          "snow_sessions": 4
+        },
+        {
+          "company": "ey",
+          "dbx_sessions": 2,
+          "snow_sessions": 6
+        },
+        {
+          "company": "workday",
+          "dbx_sessions": 5,
+          "snow_sessions": 3
+        },
+        {
+          "company": "dbt labs",
+          "dbx_sessions": 2,
+          "snow_sessions": 5
+        },
+        {
+          "company": "domo",
+          "dbx_sessions": 3,
+          "snow_sessions": 4
+        },
+        {
+          "company": "anthropic",
+          "dbx_sessions": 5,
+          "snow_sessions": 2
+        },
+        {
+          "company": "capital one",
+          "dbx_sessions": 1,
+          "snow_sessions": 5
+        },
+        {
+          "company": "morgan stanley",
+          "dbx_sessions": 1,
+          "snow_sessions": 5
+        },
+        {
+          "company": "capital one software",
+          "dbx_sessions": 1,
+          "snow_sessions": 4
+        },
+        {
+          "company": "astronomer",
+          "dbx_sessions": 2,
+          "snow_sessions": 3
+        },
+        {
+          "company": "quest software",
+          "dbx_sessions": 4,
+          "snow_sessions": 1
+        },
+        {
+          "company": "cognizant",
+          "dbx_sessions": 2,
+          "snow_sessions": 3
+        },
+        {
+          "company": "glean",
+          "dbx_sessions": 2,
+          "snow_sessions": 3
+        },
+        {
+          "company": "cdw",
+          "dbx_sessions": 2,
+          "snow_sessions": 3
+        },
+        {
+          "company": "aimpoint digital",
+          "dbx_sessions": 1,
+          "snow_sessions": 4
+        },
+        {
+          "company": "atlan",
+          "dbx_sessions": 1,
+          "snow_sessions": 4
+        },
+        {
+          "company": "acxiom",
+          "dbx_sessions": 4,
+          "snow_sessions": 1
+        },
+        {
+          "company": "fivetran",
+          "dbx_sessions": 1,
+          "snow_sessions": 4
+        },
+        {
+          "company": "slalom",
+          "dbx_sessions": 3,
+          "snow_sessions": 1
+        },
+        {
+          "company": "infosys",
+          "dbx_sessions": 1,
+          "snow_sessions": 3
+        },
+        {
+          "company": "lseg",
+          "dbx_sessions": 3,
+          "snow_sessions": 1
+        },
+        {
+          "company": "hex",
+          "dbx_sessions": 1,
+          "snow_sessions": 3
+        },
+        {
+          "company": "crewai",
+          "dbx_sessions": 2,
+          "snow_sessions": 2
+        },
+        {
+          "company": "at&t",
+          "dbx_sessions": 1,
+          "snow_sessions": 3
+        },
+        {
+          "company": "ntt data",
+          "dbx_sessions": 2,
+          "snow_sessions": 2
+        },
+        {
+          "company": "ibm",
+          "dbx_sessions": 3,
+          "snow_sessions": 1
+        },
+        {
+          "company": "microsoft",
+          "dbx_sessions": 1,
+          "snow_sessions": 3
+        },
+        {
+          "company": "capgemini",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "google",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "lancedb",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "trade desk",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "thoughtspot",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "block",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "novo nordisk",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "qlik",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "boomi",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "gsk",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "siemens",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "dataiku",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "s&p global",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "neo4j",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "amperity",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "barclays",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "omni",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "nbcuniversal",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "sap",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "datadog",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "northern trust",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "nasdaq",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "genpact",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "coinbase",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "deloitte consulting llp",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "immuta",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "cummins",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "servicenow",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "nokia",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "acceldata",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "precisely",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "draftkings",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "onetrust",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "goldman sachs",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "intel",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "directv",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "prophecy",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "warner music group",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "zscaler",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "comcast",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "collibra",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "centene",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "johnson & johnson",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "salesforcecom",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "informatica",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "snowplow",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "nea",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "reducto",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "keebo",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "8451",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "tealium",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "sigma computing",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "walt disney company",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        }
+      ]
+    }
+  }
+}
