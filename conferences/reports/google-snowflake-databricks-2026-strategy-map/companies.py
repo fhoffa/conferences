@@ -62,9 +62,9 @@ for v in ("databricks", "snowflake"):
     dbx_c.pop(v, None)
     snow_c.pop(v, None)
 
-shared = sorted(set(dbx_c) & set(snow_c), key=lambda x: -(len(dbx_c[x]) + len(snow_c[x])))
-only_dbx = sorted(set(dbx_c) - set(snow_c), key=lambda x: -len(dbx_c[x]))
-only_snow = sorted(set(snow_c) - set(dbx_c), key=lambda x: -len(snow_c[x]))
+shared = sorted(set(dbx_c) & set(snow_c), key=lambda x: (-(len(dbx_c[x]) + len(snow_c[x])), x))
+only_dbx = sorted(set(dbx_c) - set(snow_c), key=lambda x: (-len(dbx_c[x]), x))
+only_snow = sorted(set(snow_c) - set(dbx_c), key=lambda x: (-len(snow_c[x]), x))
 
 
 def top_topics(pairs):

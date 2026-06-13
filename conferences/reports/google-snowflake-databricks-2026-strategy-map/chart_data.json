@@ -188,11 +188,6 @@
           "snow_sessions": 3
         },
         {
-          "company": "domo",
-          "dbx_sessions": 3,
-          "snow_sessions": 4
-        },
-        {
           "company": "anthropic",
           "dbx_sessions": 5,
           "snow_sessions": 2
@@ -203,12 +198,17 @@
           "snow_sessions": 5
         },
         {
-          "company": "morgan stanley",
+          "company": "domo",
+          "dbx_sessions": 3,
+          "snow_sessions": 4
+        },
+        {
+          "company": "capital one",
           "dbx_sessions": 1,
           "snow_sessions": 5
         },
         {
-          "company": "capital one",
+          "company": "morgan stanley",
           "dbx_sessions": 1,
           "snow_sessions": 5
         },
@@ -218,14 +218,9 @@
           "snow_sessions": 1
         },
         {
-          "company": "quest software",
-          "dbx_sessions": 4,
-          "snow_sessions": 1
-        },
-        {
-          "company": "glean",
-          "dbx_sessions": 2,
-          "snow_sessions": 3
+          "company": "aimpoint digital",
+          "dbx_sessions": 1,
+          "snow_sessions": 4
         },
         {
           "company": "astronomer",
@@ -233,9 +228,19 @@
           "snow_sessions": 3
         },
         {
-          "company": "aimpoint digital",
+          "company": "atlan",
           "dbx_sessions": 1,
           "snow_sessions": 4
+        },
+        {
+          "company": "capital one software",
+          "dbx_sessions": 1,
+          "snow_sessions": 4
+        },
+        {
+          "company": "cdw",
+          "dbx_sessions": 2,
+          "snow_sessions": 3
         },
         {
           "company": "cognizant",
@@ -248,32 +253,17 @@
           "snow_sessions": 4
         },
         {
-          "company": "cdw",
+          "company": "glean",
           "dbx_sessions": 2,
           "snow_sessions": 3
         },
         {
-          "company": "capital one software",
-          "dbx_sessions": 1,
-          "snow_sessions": 4
+          "company": "quest software",
+          "dbx_sessions": 4,
+          "snow_sessions": 1
         },
         {
-          "company": "atlan",
-          "dbx_sessions": 1,
-          "snow_sessions": 4
-        },
-        {
-          "company": "hex",
-          "dbx_sessions": 1,
-          "snow_sessions": 3
-        },
-        {
-          "company": "ntt data",
-          "dbx_sessions": 2,
-          "snow_sessions": 2
-        },
-        {
-          "company": "infosys",
+          "company": "at&t",
           "dbx_sessions": 1,
           "snow_sessions": 3
         },
@@ -283,14 +273,9 @@
           "snow_sessions": 2
         },
         {
-          "company": "slalom",
-          "dbx_sessions": 3,
-          "snow_sessions": 1
-        },
-        {
-          "company": "lseg",
-          "dbx_sessions": 3,
-          "snow_sessions": 1
+          "company": "hex",
+          "dbx_sessions": 1,
+          "snow_sessions": 3
         },
         {
           "company": "ibm",
@@ -298,14 +283,89 @@
           "snow_sessions": 1
         },
         {
-          "company": "at&t",
+          "company": "infosys",
           "dbx_sessions": 1,
           "snow_sessions": 3
+        },
+        {
+          "company": "lseg",
+          "dbx_sessions": 3,
+          "snow_sessions": 1
         },
         {
           "company": "microsoft",
           "dbx_sessions": 1,
           "snow_sessions": 3
+        },
+        {
+          "company": "ntt data",
+          "dbx_sessions": 2,
+          "snow_sessions": 2
+        },
+        {
+          "company": "slalom",
+          "dbx_sessions": 3,
+          "snow_sessions": 1
+        },
+        {
+          "company": "amperity",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "barclays",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "block",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "boomi",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "capgemini",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "datadog",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "dataiku",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "google",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "gsk",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "lancedb",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "nasdaq",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "nbcuniversal",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
         },
         {
           "company": "neo4j",
@@ -318,77 +378,7 @@
           "snow_sessions": 2
         },
         {
-          "company": "thoughtspot",
-          "dbx_sessions": 1,
-          "snow_sessions": 2
-        },
-        {
-          "company": "boomi",
-          "dbx_sessions": 1,
-          "snow_sessions": 2
-        },
-        {
-          "company": "barclays",
-          "dbx_sessions": 1,
-          "snow_sessions": 2
-        },
-        {
-          "company": "lancedb",
-          "dbx_sessions": 2,
-          "snow_sessions": 1
-        },
-        {
-          "company": "trade desk",
-          "dbx_sessions": 1,
-          "snow_sessions": 2
-        },
-        {
-          "company": "capgemini",
-          "dbx_sessions": 1,
-          "snow_sessions": 2
-        },
-        {
-          "company": "block",
-          "dbx_sessions": 2,
-          "snow_sessions": 1
-        },
-        {
-          "company": "siemens",
-          "dbx_sessions": 1,
-          "snow_sessions": 2
-        },
-        {
-          "company": "google",
-          "dbx_sessions": 1,
-          "snow_sessions": 2
-        },
-        {
-          "company": "s&p global",
-          "dbx_sessions": 2,
-          "snow_sessions": 1
-        },
-        {
-          "company": "nasdaq",
-          "dbx_sessions": 2,
-          "snow_sessions": 1
-        },
-        {
           "company": "novo nordisk",
-          "dbx_sessions": 2,
-          "snow_sessions": 1
-        },
-        {
-          "company": "gsk",
-          "dbx_sessions": 2,
-          "snow_sessions": 1
-        },
-        {
-          "company": "sap",
-          "dbx_sessions": 1,
-          "snow_sessions": 2
-        },
-        {
-          "company": "nbcuniversal",
           "dbx_sessions": 2,
           "snow_sessions": 1
         },
@@ -398,122 +388,37 @@
           "snow_sessions": 2
         },
         {
-          "company": "amperity",
-          "dbx_sessions": 2,
-          "snow_sessions": 1
-        },
-        {
-          "company": "dataiku",
-          "dbx_sessions": 1,
-          "snow_sessions": 2
-        },
-        {
-          "company": "datadog",
-          "dbx_sessions": 2,
-          "snow_sessions": 1
-        },
-        {
           "company": "qlik",
           "dbx_sessions": 1,
           "snow_sessions": 2
         },
         {
-          "company": "collibra",
-          "dbx_sessions": 1,
+          "company": "s&p global",
+          "dbx_sessions": 2,
           "snow_sessions": 1
         },
         {
-          "company": "sigma computing",
+          "company": "sap",
           "dbx_sessions": 1,
-          "snow_sessions": 1
+          "snow_sessions": 2
         },
         {
-          "company": "keebo",
+          "company": "siemens",
           "dbx_sessions": 1,
-          "snow_sessions": 1
+          "snow_sessions": 2
         },
         {
-          "company": "nokia",
+          "company": "thoughtspot",
           "dbx_sessions": 1,
-          "snow_sessions": 1
+          "snow_sessions": 2
         },
         {
-          "company": "prophecy",
+          "company": "trade desk",
           "dbx_sessions": 1,
-          "snow_sessions": 1
-        },
-        {
-          "company": "coinbase",
-          "dbx_sessions": 1,
-          "snow_sessions": 1
-        },
-        {
-          "company": "draftkings",
-          "dbx_sessions": 1,
-          "snow_sessions": 1
-        },
-        {
-          "company": "nea",
-          "dbx_sessions": 1,
-          "snow_sessions": 1
-        },
-        {
-          "company": "precisely",
-          "dbx_sessions": 1,
-          "snow_sessions": 1
-        },
-        {
-          "company": "onetrust",
-          "dbx_sessions": 1,
-          "snow_sessions": 1
-        },
-        {
-          "company": "walt disney company",
-          "dbx_sessions": 1,
-          "snow_sessions": 1
+          "snow_sessions": 2
         },
         {
           "company": "8451",
-          "dbx_sessions": 1,
-          "snow_sessions": 1
-        },
-        {
-          "company": "johnson & johnson",
-          "dbx_sessions": 1,
-          "snow_sessions": 1
-        },
-        {
-          "company": "warner music group",
-          "dbx_sessions": 1,
-          "snow_sessions": 1
-        },
-        {
-          "company": "tealium",
-          "dbx_sessions": 1,
-          "snow_sessions": 1
-        },
-        {
-          "company": "servicenow",
-          "dbx_sessions": 1,
-          "snow_sessions": 1
-        },
-        {
-          "company": "informatica",
-          "dbx_sessions": 1,
-          "snow_sessions": 1
-        },
-        {
-          "company": "goldman sachs",
-          "dbx_sessions": 1,
-          "snow_sessions": 1
-        },
-        {
-          "company": "salesforcecom",
-          "dbx_sessions": 1,
-          "snow_sessions": 1
-        },
-        {
-          "company": "zscaler",
           "dbx_sessions": 1,
           "snow_sessions": 1
         },
@@ -523,22 +428,17 @@
           "snow_sessions": 1
         },
         {
-          "company": "reducto",
+          "company": "centene",
           "dbx_sessions": 1,
           "snow_sessions": 1
         },
         {
-          "company": "immuta",
+          "company": "coinbase",
           "dbx_sessions": 1,
           "snow_sessions": 1
         },
         {
-          "company": "deloitte consulting llp",
-          "dbx_sessions": 1,
-          "snow_sessions": 1
-        },
-        {
-          "company": "genpact",
+          "company": "collibra",
           "dbx_sessions": 1,
           "snow_sessions": 1
         },
@@ -553,7 +453,7 @@
           "snow_sessions": 1
         },
         {
-          "company": "snowplow",
+          "company": "deloitte consulting llp",
           "dbx_sessions": 1,
           "snow_sessions": 1
         },
@@ -563,12 +463,112 @@
           "snow_sessions": 1
         },
         {
+          "company": "draftkings",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "genpact",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "goldman sachs",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "immuta",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "informatica",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
           "company": "intel",
           "dbx_sessions": 1,
           "snow_sessions": 1
         },
         {
-          "company": "centene",
+          "company": "johnson & johnson",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "keebo",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "nea",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "nokia",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "onetrust",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "precisely",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "prophecy",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "reducto",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "salesforcecom",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "servicenow",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "sigma computing",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "snowplow",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "tealium",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "walt disney company",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "warner music group",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "zscaler",
           "dbx_sessions": 1,
           "snow_sessions": 1
         }

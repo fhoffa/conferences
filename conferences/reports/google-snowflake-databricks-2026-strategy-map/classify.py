@@ -300,7 +300,7 @@ def main():
     for v in ("databricks", "snowflake"):
         dc.pop(v, None)
         sc.pop(v, None)
-    shared = sorted(set(dc) & set(sc), key=lambda x: -(dc[x] + sc[x]))
+    shared = sorted(set(dc) & set(sc), key=lambda x: (-(dc[x] + sc[x]), x))
     shared_out = [{"company": x, "dbx_sessions": dc[x], "snow_sessions": sc[x]} for x in shared]
 
     out = {
