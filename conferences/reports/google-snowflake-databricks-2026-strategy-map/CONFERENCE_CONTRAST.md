@@ -13,6 +13,47 @@ cited in `VENDOR_POSITIONING_SOURCES.md`.*
 
 ---
 
+## Spicy takes — how the two conferences differ
+
+The eight differences, each grounded in the data below. Spicy, not mean: every one is about
+*emphasis and audience*, not a vendor's competence.
+
+1. **Snowflake Summit is a VP conference; Databricks is a practitioner conference.** 44% of
+   Snowflake's customer talks put a VP-or-above on stage (vs 33% at Databricks) — and Databricks
+   is the only one of the two where hands-on practitioners (35%) outnumber the execs.
+
+2. **The same customer tells two different stories.** Novo Nordisk brought platform architects +
+   Lakebase to Databricks and a VP of AI + CoWork to Snowflake — each host's flagship, each host's
+   framing. Build vs outcome, from one company in one month.
+
+3. **Snowflake sells legibility; Databricks sells operability.** Snowflake's agenda foregrounds the
+   AI surface and meaning (Cortex 69%, Semantic Views 21% vs 4%, Iceberg 29% vs 6%); Databricks
+   foregrounds the governed substrate and tooling (Unity Catalog 56%, AI/BI 37% vs 15%, Lakebase,
+   evals).
+
+4. **They barely share a guest list.** Of ~848 companies that took a speaking slot, fewer than 10%
+   (just 83) appeared at both. Two nearly separate universes of customers.
+
+5. **Snowflake's BI story is a guest list; Databricks' is a product.** Third-party BI vendors take
+   16 Snowflake slots to Databricks' 5; the modern-data-stack ecosystem, 23 to 7. Snowflake rents
+   the layers it doesn't own; Databricks builds them in-house.
+
+6. **The only talks that play in both rooms are about not having to pick a room.** The near-verbatim
+   repeat talks — Astronomer, ServiceNow, Tableau's Open Semantic Interchange — are all the
+   semantic/context layer, engineered to be platform-neutral, so the slides port unchanged.
+
+7. **Snowflake says "open" the loudest; Databricks quietly open-sourced its catalog.** Iceberg
+   headlines 29% of Snowflake's agenda vs 6% of Databricks' — yet Databricks ships Delta UniForm
+   and gave Unity Catalog to Apache. A volume gap, not a capability gap.
+
+8. **Even the no-shows tilt.** Databricks-only logos skew tech and consumer (Mastercard, Adobe,
+   Nubank, PepsiCo); Snowflake-only skew regulated and industrial (Toyota, Roche, BlackRock,
+   Sanofi). Different rooms attract different rosters.
+
+*Full evidence, fairness caveats, and citations in the sections below.*
+
+---
+
 ## One company, two stages
 
 The whole story compresses into a single customer. **Novo Nordisk** — one pharma company, one
