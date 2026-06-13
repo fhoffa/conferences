@@ -308,7 +308,7 @@ Google is the reference because it shows the third path: AI as the new cloud sub
 
 ## Who should attend which conference?
 
-If your AI problem is **operability**, go to Databricks.
+If your problem is **building and running it**, go to Databricks.
 
 You are probably asking:
 
@@ -318,7 +318,7 @@ You are probably asking:
 - How do we connect streaming, BI, ML, apps, and agents into one platform?
 - How do we stop building separate stacks for analytics, ML, AI, governance, and orchestration?
 
-If your AI problem is **adoption**, go to Snowflake.
+If your problem is **the business outcome**, go to Snowflake.
 
 You are probably asking:
 
@@ -328,7 +328,7 @@ You are probably asking:
 - How do we make the semantic layer and governed data products useful to non-engineers?
 - How do we make AI show up as decisions, applications, and business value?
 
-If your AI problem is **platform possibility**, go to Google.
+If your problem is **what's even possible**, go to Google.
 
 You are probably asking:
 
