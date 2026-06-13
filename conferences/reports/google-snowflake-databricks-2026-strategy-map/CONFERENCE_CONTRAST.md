@@ -206,6 +206,48 @@ up when you read the room rather than the press release.
 
 ---
 
+## Part 5 — who they send (the org chart on stage)
+
+Novo Nordisk sent architects to Databricks and an AI VP to Snowflake. Is that a fluke, or a
+pattern? Classifying the **job titles of every customer speaker** (enterprises only — hosts,
+vendors, GSIs, and field roles removed; DBX 607 / SNOW 516 speakers) says it's a real tilt:
+
+| Seniority tier | Databricks | Snowflake |
+|---|---:|---:|
+| C-suite | 17.8% | 20.0% |
+| VP | 10.9% | 13.6% |
+| Director / Head | 27.8% | 28.7% |
+| Manager | 10.7% | 11.0% |
+| Senior IC (principal/staff/lead) | 11.9% | 10.5% |
+| IC / practitioner (engineer/architect/scientist) | 14.3% | 11.4% |
+
+**First, the honest part: both stages are senior.** "Director / Head" is the single largest tier
+at *both* events (~28%), and C-suite is ~1 in 5 at each. Neither conference is an engineering
+meetup — these are decision-maker rooms.
+
+**But the tilt is real and it points the way Novo Nordisk predicted.** The cleanest way to see it
+is a **builder-to-buyer ratio** — practitioners (IC + senior IC) divided by executives (VP +
+C-suite):
+
+- **Databricks — 0.91 builders per buyer** (159 practitioners, 174 executives): nearly balanced.
+- **Snowflake — 0.65 builders per buyer** (113 practitioners, 173 executives): execs outnumber
+  builders about 3 to 2.
+
+Databricks puts ~40% more builders per executive on stage. Snowflake is the more
+executive-heavy room (C-suite + VP = 33.6% vs 28.7%).
+
+**And even the executives are titled differently** — build vs outcome shows up in the C-suite too:
+
+- **Databricks execs lean architecture/data-platform:** Chief Data & AI Officer, **Chief
+  Architect**, VP of Data + AI Architecture, VP of Digital, Data & AI Foundation.
+- **Snowflake execs lean strategy/innovation/product:** **Chief Innovation Officer**, SVP –
+  Digital Strategy & Operations, VP of AI and Head of Product, VP of AI and Data Innovation.
+
+So the people each conference attracts match the story it tells: Databricks fills the room with
+the people who **architect and build**; Snowflake fills it with the people who **own the strategy
+and report the outcome**. (Caveat: a tilt, not a chasm — and DAIS is still upcoming, so its
+speaker list may shift.)
+
 ## The thesis (what survives all the receipts)
 
 > **Snowflake's conference sells legibility; Databricks' conference sells operability.**
