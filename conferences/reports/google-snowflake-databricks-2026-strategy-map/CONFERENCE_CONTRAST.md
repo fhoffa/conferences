@@ -217,6 +217,20 @@ room you're in not matter.
 
 ## Part 4 — who's in the room, and who isn't
 
+**First: is anyone outside the host even on stage?** Not always. Splitting every session by who
+heads it (of talks with a named speaker):
+
+- **Databricks — 37% host-led · 29% partner-led · 34% customer-led**
+- **Snowflake — 20% host-led · 33% partner-led · 47% customer-led**
+
+So no, it isn't "almost every talk has a guest." **Databricks keeps over a third of its agenda
+in-house** — its own engineers presenting product depth — while **Snowflake fronts an outside
+company in 4 of 5 sessions and a *customer* in nearly half of them.** Snowflake's stage runs on
+customer proof points; Databricks' runs more on its own product team. The two lean on partners
+about equally (~30%). And of the guest companies, roughly **3 in 4 are end customers**; about
+**1 in 4 are vendors / partners / SIs** (a heuristic split: curated vendor list + the companies
+named in "Sponsored by" titles + name markers, so the long tail of boutique SIs is caught).
+
 **The rosters barely overlap.** Of ~**790** distinct companies that took a speaking slot across
 the two events — names normalized to merge regional/legal variants (e.g. "AWS" = "Amazon Web
 Services", "EY New Zealand" = "EY") — only **~85, about 1 in 9,** appeared at both. (The raw,

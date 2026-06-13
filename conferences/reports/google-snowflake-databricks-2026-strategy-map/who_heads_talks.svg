@@ -1,0 +1,23 @@
+<svg viewBox="0 0 700 196" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+<title id="t">Who heads the talks — host vs partner vs customer, Databricks vs Snowflake 2026</title>
+<desc id="d">Stacked bars of who leads each session (talks with a named speaker). Snowflake: 20% host-led, 33% partner/vendor-led, 47% customer-led. Databricks: 37% host-led, 29% partner/vendor-led, 34% customer-led. Snowflake fronts customers far more and keeps much less in-house.</desc>
+<text x="20" y="26" font-size="15" font-weight="500" fill="var(--color-text-primary)">Who heads the talks</text>
+<text x="20" y="44" font-size="12" fill="var(--color-text-secondary)">share of sessions with a named speaker</text>
+<g font-size="12">
+<rect x="372" y="16" width="11" height="11" rx="2" fill="#5F5E5A"/><text x="388" y="26" fill="var(--color-text-secondary)">Host-led</text>
+<rect x="452" y="16" width="11" height="11" rx="2" fill="#BA7517"/><text x="468" y="26" fill="var(--color-text-secondary)">Partner-led</text>
+<rect x="556" y="16" width="11" height="11" rx="2" fill="#1D9E75"/><text x="572" y="26" fill="var(--color-text-secondary)">Customer-led</text>
+</g>
+
+<text x="82" y="92" text-anchor="end" font-size="13" font-weight="500" fill="#185FA5">Snowflake</text>
+<rect x="90" y="74" width="117" height="30" rx="2" fill="#5F5E5A"/><text x="148" y="93" text-anchor="middle" font-size="12" fill="#ffffff">20%</text>
+<rect x="209" y="74" width="191" height="30" rx="2" fill="#BA7517"/><text x="304" y="93" text-anchor="middle" font-size="12" fill="#ffffff">33%</text>
+<rect x="402" y="74" width="268" height="30" rx="2" fill="#1D9E75"/><text x="536" y="93" text-anchor="middle" font-size="12" fill="#ffffff">47%</text>
+
+<text x="82" y="140" text-anchor="end" font-size="13" font-weight="500" fill="#A32D2D">Databricks</text>
+<rect x="90" y="122" width="212" height="30" rx="2" fill="#5F5E5A"/><text x="196" y="141" text-anchor="middle" font-size="12" fill="#ffffff">37%</text>
+<rect x="304" y="122" width="170" height="30" rx="2" fill="#BA7517"/><text x="389" y="141" text-anchor="middle" font-size="12" fill="#ffffff">29%</text>
+<rect x="476" y="122" width="194" height="30" rx="2" fill="#1D9E75"/><text x="573" y="141" text-anchor="middle" font-size="12" fill="#ffffff">34%</text>
+
+<text x="20" y="180" font-size="12" fill="var(--color-text-secondary)">Snowflake fronts customers in ~half its sessions and keeps ~1 in 5 in-house; Databricks keeps a third in-house.</text>
+</svg>
