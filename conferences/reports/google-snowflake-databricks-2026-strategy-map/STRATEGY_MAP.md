@@ -24,14 +24,14 @@ data are stated here.
 
 ## The one-line story
 
-Both vendors now run the *same* play — an AI/agent layer on top of a governed lakehouse —
-but they foreground different halves of it. **Snowflake's agenda is louder on the AI app
-surface and the meaning layer** (Cortex, Semantic Views, the neutral Iceberg format).
-**Databricks' agenda is louder on the governed substrate and the analyst/operational tooling
-around it** (Unity Catalog, Lakebase, BI, evals). Under the fair method (length-controlled
-symmetric keywords; `AUDITS.md §0`) Databricks leads 7 of 10 rows by emphasis, but only **one**
-gap is decisive — Unity Catalog (+15pp). Snowflake's real leads are the GenAI app layer (+4.7)
-and the semantic layer (+6.4); everything else is a modest lean or a tie.
+Both vendors now run the *same* play — an AI/agent layer on top of a governed lakehouse — and
+under the fair method (length-controlled symmetric keywords; `AUDITS.md §0`) **the two agendas
+are strikingly close: no topic gap exceeds ~8pp.** They foreground different halves: Snowflake's
+real leads are the **AI app surface** (+4.7) and the **meaning layer** (semantic, +6.4);
+Databricks' is the **operational-DB substrate** (Lakebase, +8.3, the board's biggest), with
+narrower edges on BI and evals. Notably, **governance is a dead tie** (~27% each) — Databricks
+just *names* Unity Catalog 4× more than Snowflake names Horizon, which is brand prominence, not
+coverage.
 
 ---
 
@@ -49,13 +49,10 @@ and the semantic layer (+6.4); everything else is a modest lean or a tie.
 
 ## Where Databricks' agenda leans in
 
-- **Unity Catalog vs Horizon (19.7% vs 4.7%, +15.0).** The **only decisive gap on the board.**
-  Unity Catalog is named in ~1 in 5 Databricks sessions; Horizon in ~5% of Snowflake's. **Frame
-  as named-control-plane prominence** — broad governance is strong on both sides (`AUDITS.md §1`).
-- **App / operational DB substrate (13.1% vs 4.8%, +8.3).** Databricks leads on **branding and
-  concentration** — Lakebase gets its own track plus a heavy Databricks Apps push. Snowflake is
-  **not absent**: Native Apps + Streamlit + Snowflake Postgres carry a real app-on-data story
-  (`AUDITS.md §3`).
+- **App / operational DB substrate (13.1% vs 4.8%, +8.3) — the board's largest gap.** Databricks
+  leads on **branding and concentration** — Lakebase gets its own track plus a heavy Databricks
+  Apps push. Snowflake is **not absent**: Native Apps + Streamlit + Snowflake Postgres carry a
+  real app-on-data story (`AUDITS.md §3`).
 - **BI / AI-BI (10.8% vs 7.1%, +3.8) — a lean.** First-party AI/BI (Genie + dashboards) beats
   Snowflake's dashboard presence, but by ~4pp, not the 22pp the taxonomy draft showed (AI/BI-tag
   artifact). Snowflake cedes dashboards to Streamlit/partners by design.
@@ -64,6 +61,10 @@ and the semantic layer (+6.4); everything else is a modest lean or a tie.
 
 ## Where it's effectively a tie
 
+- **Governance / control plane (26.7% vs 27.6%, +0.9 Snowflake).** Governance *coverage* is even.
+  The eye-catching "Unity Catalog vs Horizon" gap (20% vs 5%) is **brand naming**, not governance
+  volume — Unity Catalog is the Databricks platform spine, named far more than Horizon
+  (`AUDITS.md §1`).
 - **Open lakehouse / table formats (10.5% vs 10.1%).** Equal airtime — Databricks on Delta,
   Snowflake on Iceberg (`AUDITS.md §2`).
 - **Pipelines / streaming (26.6% vs 25.1%).** Lakeflow/Spark vs Snowpipe/Openflow/Snowpark/dbt.

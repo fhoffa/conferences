@@ -17,7 +17,7 @@ sessions ÷ that vendor's total. Rows overlap, so columns do **not** sum to 100%
 | 2 | Semantic context for agents | Metric Views | 38 | 4.7% | Semantic Views / Cortex Analyst | 60 | 11.2% | **Snowflake** | 6.4 |
 | 3 | Sharing / marketplace / clean rooms | Delta Sharing + Marketplace | 31 | 3.9% | Secure Sharing + Marketplace + Clean Rooms | 35 | 6.5% | Snowflake | 2.7 |
 | 4 | Open lakehouse / table formats | Delta Lake + UniForm (+ Iceberg) | 84 | 10.5% | Iceberg + Polaris | 54 | 10.1% | tie | 0.4 |
-| 5 | Unity Catalog vs Horizon control plane | Unity Catalog | 158 | 19.7% | Horizon Catalog | 25 | 4.7% | **Databricks** | 15.0 |
+| 5 | Governance / control plane | Governance / lineage / access | 214 | 26.7% | Governance / lineage / access | 148 | 27.6% | tie | 0.9 |
 | 6 | BI dashboards / metrics / AI-BI | AI/BI dashboards | 87 | 10.8% | BI & Analytics / Snowsight | 38 | 7.1% | Databricks | 3.8 |
 | 7 | App / operational database substrate | Lakebase / app database substrate | 105 | 13.1% | Snowflake Postgres + Unistore / app-data bridge | 26 | 4.8% | **Databricks** | 8.3 |
 | 8 | Evals / red teaming / AI quality (strict) | eval / benchmark / red-team | 55 | 6.9% | eval / benchmark / red-team | 21 | 3.9% | Databricks | 2.9 |
@@ -26,16 +26,18 @@ sessions ÷ that vendor's total. Rows overlap, so columns do **not** sum to 100%
 
 ## Reading the split
 
-- **Only one decisive gap:** Unity Catalog vs Horizon (**+15.0pp, Databricks**) — the named
-  control plane is the single clearest divergence on the board.
+- **No decisive gaps.** The agendas are remarkably close — **no topic gap exceeds ~8pp.** The
+  biggest is the **operational-DB substrate** (+8.3, Databricks).
 - **Snowflake's real leads** are the **AI app layer** (+4.7) and the **semantic layer** (+6.4) —
   modest but consistent; the "AI surface + meaning" half (selling the outcome).
-- **Databricks' real leads** are the **named control plane** (+15.0) and the **operational-DB
-  substrate** (+8.3); plus narrower edges on BI (+3.8) and evals (+2.9) — the "governed system"
-  half (selling the build).
-- **Genuine ties (<2pp):** open lakehouse/formats (0.4), pipelines (1.4), warehouse (0.1). Claim
-  no leader.
+- **Databricks' real leads** are the **operational-DB substrate** (+8.3); plus narrower edges on
+  BI (+3.8) and evals (+2.9) — the "governed system" half (selling the build).
+- **Genuine ties (<2pp):** governance/control plane (0.9), open lakehouse/formats (0.4), pipelines
+  (1.4), warehouse (0.1). Claim no leader.
 - **Leans (2–4pp), not wins:** sharing/marketplace (SNOW +2.7), BI (DBX +3.8), evals (DBX +2.9).
+- **Brand-name caveat (row 5):** governance *coverage* is a tie, but Databricks **names** its
+  catalog far more — "Unity Catalog" appears in 19.6% of its sessions vs "Horizon" in 4.7% of
+  Snowflake's. That's brand prominence, not governance volume (`AUDITS.md §1`).
 
 Margins here are ~3× smaller than the earlier taxonomy-based draft, which overstated both
 vendors' leads. The directional thesis survives; the dominance did not. See `AUDITS.md §0` for

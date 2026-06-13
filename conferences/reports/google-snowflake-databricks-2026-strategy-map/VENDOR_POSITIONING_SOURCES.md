@@ -81,7 +81,8 @@ forward-looking agenda and Snowflake's as a settled one.
   ([product page](https://www.snowflake.com/en/product/features/horizon/),
   [press release](https://www.snowflake.com/en/news/press-releases/snowflake-advances-trusted-ai-with-snowflake-horizon-catalog-centralizing-governance-context-and-security-across-the-enterprise/))
 - **Databricks Unity Catalog** is the platform spine connecting Lakebase, Genie, Agent Bricks,
-  Lakeflow, Lakehouse — which is *why* it's named in ~20% of sessions (the board's one decisive gap).
+  Lakeflow, Lakehouse — which is *why* it's named in ~20% of sessions vs Horizon's ~5%. **But that's
+  brand prominence, not governance volume:** governance *coverage* is a tie (~27% each, row 5).
 - **Fair read:** the 43pp gap is **named-brand prominence**, not a governance-capability gap.
   Broad governance is strong on both sides (Snowflake "Governance" topic = 167 sessions).
 

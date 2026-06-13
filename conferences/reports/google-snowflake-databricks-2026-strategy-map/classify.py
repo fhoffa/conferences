@@ -167,12 +167,20 @@ row(
     snow_label="Iceberg + Polaris",
 )
 
-# 5. Unity Catalog vs Horizon governance control plane (NAMED control plane only)
+# 5. Governance / control plane — as a CONCEPT, not a brand count.
+#    NB: the earlier "Unity Catalog vs Horizon" row counted only the two product *names* —
+#    but those are vendor-exclusive ("Unity Catalog" is Databricks-only, "Horizon" Snowflake-only),
+#    so it measured brand repetition, not governance coverage. Bare "governance" is a dead tie
+#    (DBX 21.2% / SNOW 21.4%). This row uses governance *concept* terms only (no product names),
+#    which is the fair topic measure. The named-catalog brand prominence (Unity Catalog ~20% vs
+#    Horizon ~5%) is reported separately as a side callout. See AUDITS §1.
 row(
-    "named_control_plane", "Unity Catalog vs Horizon control plane",
-    ["unity catalog", "horizon catalog", "horizon"],
-    dbx_label="Unity Catalog",
-    snow_label="Horizon Catalog",
+    "governance_control_plane", "Governance / control plane",
+    ["governance", "data governance", "lineage", "access control", "rbac", "role-based access",
+     "row-level security", "column-level", "data masking", "masking", "data quality", "compliance",
+     "regulatory", "sovereignty", "data classification", "trust center", "catalog federation"],
+    dbx_label="Governance / lineage / access",
+    snow_label="Governance / lineage / access",
 )
 
 # 6. BI dashboards / metrics / AI-BI (dashboard/BI surface, not all "analytics" talk)
@@ -281,6 +289,11 @@ def main():
     dbx_nv = [s["title"] for s in dbx if nvidia(s)]
     snow_nv = [s["title"] for s in snow if nvidia(s)]
 
+    # Side callout -- named-catalog BRAND prominence (length-controlled). This is the
+    # vendor-exclusive product naming that does NOT belong in the governance topic row (§5).
+    uc = sum(1 for s in dbx if kw(text_capped(s), "unity catalog"))
+    hz = sum(1 for s in snow if kw(text_capped(s), "horizon catalog", "horizon"))
+
     # Side callout -- shared speaker-affiliation companies (vendor self excluded)
     dc = speaker_companies(dbx)
     sc = speaker_companies(snow)
@@ -304,6 +317,11 @@ def main():
             "shared_companies": {
                 "dbx_unique": len(dc), "snow_unique": len(sc), "shared_count": len(shared),
                 "shared": shared_out,
+            },
+            "named_catalog_brand": {
+                "note": "Brand-name prominence, NOT governance coverage (which is a tie — see row 5).",
+                "unity_catalog_dbx_pct": round(100.0 * uc / nd, 1),
+                "horizon_snow_pct": round(100.0 * hz / ns, 1),
             },
         },
     }

@@ -117,14 +117,15 @@ clears 10pp — but they're consistent:
   Cortex Analyst appear on **11%** of sessions vs **5%** for Databricks' Metric Views. Snowflake
   gave semantics its own Summit domain (Semantic Studio, Cortex Sense). The message: *the value
   is in making your data legible to agents.*
-- **Databricks leans into the governed substrate.** Unity Catalog is named in **~20%** of its
-  sessions vs Horizon's **~5%** — the **one decisive gap on the board (+15pp)** and the most
-  omnipresent single product at either event, because it's the connective tissue wiring Lakebase,
-  Genie, Agent Bricks, and Lakeflow together. Snowflake's governance rides on Horizon, a full
-  control plane that simply isn't repeated on every slide.
-- **Databricks owns more of the operational-DB substrate** (**13% vs 5%**). Both tell the same
-  "agents need an OLTP database" story (Lakebase vs Snowflake Postgres + Unistore); Databricks
-  gives it more agenda real estate and its own track.
+- **Databricks owns more of the operational-DB substrate** (**13% vs 5%** — the board's largest
+  gap). Both tell the same "agents need an OLTP database" story (Lakebase vs Snowflake Postgres +
+  Unistore); Databricks gives it more agenda real estate and its own track.
+- **Governance is a dead tie — but the branding isn't.** Governance *coverage* is even (~27%
+  each). What looks lopsided is the **product name**: "Unity Catalog" appears in ~20% of Databricks
+  sessions vs "Horizon" in ~5% of Snowflake's. Unity Catalog is the connective tissue wiring
+  Lakebase, Genie, Agent Bricks and Lakeflow together, so it gets repeated on nearly every slide;
+  Snowflake's governance rides on Horizon, named far more sparingly. Brand prominence, not a
+  governance gap.
 - **Smaller Databricks leans:** first-party AI/BI dashboards (**10.8% vs 7.1%** — a lean, not the
   rout the first draft implied) and explicit evals (**6.9% vs 3.9%**, ~1.8×; both ship it —
   Snowflake via TruEra/TruLens — only one headlines it).
@@ -323,9 +324,9 @@ speaker list may shift.)
 
 > **Databricks sells the build; Snowflake sells the outcome.**
 
-Databricks spends its stage time on the *system* — one governed control plane (Unity Catalog,
-the only decisive gap on the board), its own operational-DB and analytics surfaces, evaluation on
-the main stage, and the engineers and architects who wire it together. Snowflake spends its stage
+Databricks spends its stage time on the *system* — its operational-DB substrate (Lakebase, the
+board's biggest gap), its own analytics surface, evaluation on the main stage, the Unity Catalog
+spine it names on nearly every slide, and the engineers and architects who wire it together. Snowflake spends its stage
 time on the *result* — the AI app surface, the semantic layer that makes data legible to agents, a
 partner bench that handles BI and data movement, and the VPs and customers who report business
 outcomes. Same destination, opposite half of the stack. Neither picture is the *whole* company —

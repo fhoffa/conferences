@@ -3,7 +3,7 @@ genai_app_layer,Cortex / GenAI app layer,Mosaic AI / Agent Bricks / Genie,Cortex
 semantic_context,Semantic context for agents,Metric Views,Semantic Views / Cortex Analyst,38,4.7,60,11.2,Snowflake,6.4
 sharing_marketplace,Sharing / marketplace / clean rooms,Delta Sharing + Marketplace,Secure Sharing + Marketplace + Clean Rooms,31,3.9,35,6.5,Snowflake,2.7
 open_lakehouse,Open lakehouse / table formats,Delta Lake + UniForm (+ Iceberg),Iceberg + Polaris,84,10.5,54,10.1,Databricks,0.4
-named_control_plane,Unity Catalog vs Horizon control plane,Unity Catalog,Horizon Catalog,158,19.7,25,4.7,Databricks,15.0
+governance_control_plane,Governance / control plane,Governance / lineage / access,Governance / lineage / access,214,26.7,148,27.6,Snowflake,0.9
 bi_analytics,BI dashboards / metrics / AI-BI,AI/BI dashboards,BI & Analytics / Snowsight,87,10.8,38,7.1,Databricks,3.8
 app_operational_db,App / operational database substrate,Lakebase / app database substrate,Snowflake Postgres + Unistore / app-data bridge,105,13.1,26,4.8,Databricks,8.3
 evals_strict,Evals / red teaming / AI quality (strict),eval / benchmark / red-team,eval / benchmark / red-team,55,6.9,21,3.9,Databricks,2.9

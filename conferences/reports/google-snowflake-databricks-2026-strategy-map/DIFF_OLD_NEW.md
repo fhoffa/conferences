@@ -13,7 +13,7 @@ drift**, not classifier drift. Reproduce: `python3 diff_old_new.py`.
 | Semantic context for agents | −6.6 | −6.4 | +0.2 | Snowflake (stable) |
 | Sharing / marketplace / clean rooms | −2.5 | −2.7 | −0.2 | Snowflake (lean, stable) |
 | Open lakehouse / table formats | +0.5 | +0.4 | −0.1 | tie |
-| Unity Catalog vs Horizon | +15.3 | +15.0 | −0.3 | Databricks (stable) |
+| Governance / control plane | −0.6 | −0.9 | −0.3 | tie |
 | BI / AI-BI | +4.2 | +3.8 | −0.4 | Databricks (lean, stable) |
 | App / operational DB substrate | +7.5 | +8.3 | +0.8 | Databricks (stable) |
 | Evals / red teaming (strict) | +1.7 | +2.9 | +1.2 | Databricks (lean, stable) |
@@ -26,8 +26,8 @@ drift**, not classifier drift. Reproduce: `python3 diff_old_new.py`.
 - **Zero leader flips.**
 - **No delta moved ≥ 5 pp.** Largest move is GenAI (−3.4), widening slightly in Snowflake's
   favour but staying a modest lead.
-- The decisive gap (Unity Catalog +15) and the next-largest (operational DB +8, semantic −6.4,
-  GenAI −4.7) are all stable to within ~3 pp.
+- The largest gaps (operational DB +8.3, semantic −6.4, GenAI −4.7) are all stable to within
+  ~3 pp. No gap on the board exceeds ~8 pp.
 
 **Implication:** the strategy narrative is robust to the 759→802 / 550→537 refresh. Every
 published claim survives; none needs re-litigating on the new data. The watch items are the
