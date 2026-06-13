@@ -22,21 +22,25 @@ The eight differences, each grounded in the data below. Spicy, not mean: every o
    Snowflake's customer talks put a VP-or-above on stage (vs 33% at Databricks) — and Databricks
    is the only one of the two where hands-on practitioners (35%) outnumber the execs.
 
-2. **The same customer tells two different stories.** Novo Nordisk brought platform architects +
-   Lakebase to Databricks and a VP of AI + CoWork to Snowflake — each host's flagship, each host's
-   framing. Build vs outcome, from one company in one month.
+2. **Databricks sells the build; Snowflake sells the outcome.** Databricks fills its stage with the
+   people who construct the system — practitioners and architects, the governed substrate (Unity
+   Catalog), the operational database. Snowflake fills its stage with the people who report the
+   results — VPs and customers, the AI app surface, the semantic layer. You can read the whole
+   split off one company: Novo Nordisk sent platform architects + Lakebase to Databricks and a VP
+   of AI + CoWork to Snowflake — same company, same month, opposite half of the story.
 
-3. **Snowflake sells legibility; Databricks sells operability.** The tilts are modest but
-   consistent: Snowflake edges the AI app layer (46% vs 42%) and leads the semantic layer (11% vs
-   5%); Databricks owns the named control plane (Unity Catalog 20% vs 5% — the one decisive gap)
-   and the operational-DB substrate (13% vs 5%). Same destination, opposite emphasis.
+3. **Customers tailor their story to each host.** It isn't just Novo Nordisk — across the ~85
+   companies that present at both, the same logo routinely brings each conference the half of its
+   program that fits the host's pitch (Fivetran is "pipelines" at Snowflake, "AI/BI" at
+   Databricks; Capital One is "secure sharing" at Databricks, "Iceberg interoperability" at
+   Snowflake).
 
 4. **They barely share a guest list.** Of the ~790 distinct companies that took a speaking slot,
    only about 1 in 9 (~85) appeared at both. Two nearly separate universes of customers.
 
 5. **Snowflake's BI story is a guest list; Databricks' is a product.** Third-party BI vendors take
-   16 Snowflake slots to Databricks' 5; the modern-data-stack ecosystem, 23 to 7. Snowflake rents
-   the layers it doesn't own; Databricks builds them in-house.
+   16 Snowflake slots to Databricks' 5; the modern-data-stack ecosystem, 23 to 7. Snowflake leans
+   on partner ecosystems for those layers; Databricks brings more of them in-house.
 
 6. **The only talks that play in both rooms are about not having to pick a room.** The near-verbatim
    repeat talks — Astronomer, ServiceNow, Tableau's Open Semantic Interchange — are all the
@@ -50,6 +54,13 @@ The eight differences, each grounded in the data below. Spicy, not mean: every o
 8. **Even the no-shows tilt.** Databricks-only logos skew tech and consumer (Mastercard, Adobe,
    Nubank, PepsiCo); Snowflake-only skew regulated and industrial (Toyota, Roche, BlackRock,
    Sanofi). Different rooms attract different rosters.
+
+9. **NVIDIA changed tables.** Jensen Huang keynoted Snowflake Summit in 2024 (the "data flywheel"
+   fireside); in 2026 NVIDIA has **zero** sessions at Snowflake and **two** at Databricks, and
+   Snowflake's marquee AI-fireside slot went to **Anthropic's Daniela Amodei** instead. The
+   partnership lives on in *both* products (NeMo/NIM inside Cortex; H100/TensorRT at Databricks) —
+   but the *stage* moved to the platform that sells raw compute. Snowflake's headline AI partner
+   shifted from the chip vendor to the model lab — from compute to agents.
 
 *Full evidence, fairness caveats, and citations in the sections below.*
 
@@ -77,8 +88,8 @@ launch, a *business-outcome* story:
   Associate Director.
 
 Same company, same underlying reality — governed AI on regulated pharma data. But **Databricks
-frames it as operability** (architects, Lakebase, 30× throughput, the semantic plumbing) and
-**Snowflake frames it as legibility and outcomes** (an AI VP, CoWork, commercial impact). Even the
+frames it as the build** (architects, Lakebase, 30× throughput, the semantic plumbing) and
+**Snowflake frames it as the outcome** (an AI VP, CoWork, commercial impact). Even the
 *speakers* each vendor recruited carry the message: Databricks gets the people who **build** the
 platform; Snowflake gets the people who **report results** to the business. One customer, two
 stages, and you can read each company's entire positioning off which Novo Nordisk talk you walk
@@ -310,14 +321,15 @@ speaker list may shift.)
 
 ## The thesis (what survives all the receipts)
 
-> **Snowflake's conference sells legibility; Databricks' conference sells operability.**
+> **Databricks sells the build; Snowflake sells the outcome.**
 
-Snowflake spends its stage time making data *legible* — to agents (semantics), to the open
-ecosystem (the neutral Iceberg format), and through a partner bench that handles BI and data
-movement. Databricks
-spends its stage time making AI *operable* — one governed control plane (Unity Catalog), its own
-analytics and operational-DB surfaces, and evaluation on the main stage. Same destination,
-opposite emphasis. Neither picture is the *whole* company — it's the half each one chose to show.
+Databricks spends its stage time on the *system* — one governed control plane (Unity Catalog,
+the only decisive gap on the board), its own operational-DB and analytics surfaces, evaluation on
+the main stage, and the engineers and architects who wire it together. Snowflake spends its stage
+time on the *result* — the AI app surface, the semantic layer that makes data legible to agents, a
+partner bench that handles BI and data movement, and the VPs and customers who report business
+outcomes. Same destination, opposite half of the stack. Neither picture is the *whole* company —
+it's the half each one chose to show.
 
 It even shows in the seats (Part 5): Snowflake's stage is pitched at the **VP who buys the
 outcome**; Databricks' at the **practitioner who builds it**. The story each sells and the

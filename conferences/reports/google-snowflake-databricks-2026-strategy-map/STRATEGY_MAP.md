@@ -71,11 +71,12 @@ and the semantic layer (+6.4); everything else is a modest lean or a tie.
 
 ## Side callouts
 
-- **NVIDIA / accelerated compute:** Databricks 12 sessions (incl. an NVIDIA-partnered talk)
-  vs Snowflake 3 incidental model-serving mentions. **Both have real NVIDIA partnerships** —
-  Databricks foregrounds raw GPU compute (H100, Photon, serverless GPUs), Snowflake abstracts
-  it behind managed Cortex inference (NeMo/NIM/Triton). The gap is emphasis, not absence
-  (`AUDITS.md §4`).
+- **NVIDIA changed tables.** Jensen Huang keynoted Snowflake Summit 2024; in 2026 NVIDIA has
+  **0** speaking sessions at Snowflake and **2** at Databricks, and Snowflake's marquee AI
+  fireside went to **Anthropic** instead. **Both still have real NVIDIA partnerships** (H100 +
+  Photon at Databricks; NeMo/NIM in Cortex at Snowflake) — so this is about *stage billing*, not
+  the partnership: Snowflake's headline AI guest moved from the chip vendor to the model lab,
+  while NVIDIA presents at the platform that sells raw compute (`AUDITS.md §4`).
 - **Shared companies:** ~85 companies speak at both summits — dominated by the model labs
   (OpenAI, Anthropic), the GSI bench (Accenture, Deloitte, EY), and the modern-data-stack
   ecosystem (dbt Labs, Fivetran, Atlan) (`AUDITS.md §5`).

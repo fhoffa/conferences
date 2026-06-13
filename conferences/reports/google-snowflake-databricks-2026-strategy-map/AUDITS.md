@@ -136,10 +136,24 @@ operational-DB / app story.
 | | Databricks | Snowflake |
 |---|---|---|
 | Sessions matching GPU/NVIDIA/accelerated-compute | 12 (1.5%) | 3 (0.6%) |
+| **NVIDIA-the-company on stage (speaker)** | **2** | **0** |
 
-**Verdict: the prior hypothesis holds — Databricks has meaningful GPU/accelerated-compute
-presence; Snowflake's is incidental.** Databricks' 12 include genuinely accelerator-themed
-sessions, at least one explicitly NVIDIA-partnered:
+**The sharpest read — NVIDIA changed tables.** At **Snowflake Summit 2024**, NVIDIA CEO **Jensen
+Huang** did the marquee AI fireside with Sridhar Ramaswamy ("create a data flywheel with AI")
+([NVIDIA blog](https://blogs.nvidia.com/blog/snowflake-summit-2024/),
+[Fortune](https://fortune.com/2024/06/04/snowflake-ceo-sridhar-ramaswamy-interview-ai-nvidia-summit/)).
+In **2026**, NVIDIA has **no speaking session at Snowflake at all** — while it sends two NVIDIA
+employees to present at **Databricks** — and Snowflake's headline AI fireside slot went to
+**Anthropic's Daniela Amodei** instead. Read it as Snowflake's marquee AI partner shifting *up the
+stack*, from the **chip vendor** (compute) to the **model lab** (agents): exactly the "abstract the
+GPU, sell the agent" posture the rest of this map shows. NVIDIA's on-stage energy, meanwhile, went
+to the platform that still sells raw compute. **Fairness guard:** this is about *stage billing*,
+not the partnership — which is alive in both products (capability floor below). Don't write
+"NVIDIA dumped Snowflake"; write "NVIDIA's keynote presence moved, and Snowflake's headline AI
+guest is now a model lab."
+
+**Databricks' 12 GPU/accelerator sessions** include genuinely accelerator-themed talks, at least
+one explicitly NVIDIA-partnered (and NVIDIA staff present two of them):
 
 - *GPU-Accelerated Operations Research: Production-Grade Optimization with NVIDIA …*
 - *AI Can't Wait: How to Overcome GPU Scarcity and Keep Workloads Running*
