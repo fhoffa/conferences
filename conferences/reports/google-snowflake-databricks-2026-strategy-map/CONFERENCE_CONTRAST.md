@@ -55,12 +55,13 @@ The eight differences, each grounded in the data below. Spicy, not mean: every o
    Nubank, PepsiCo); Snowflake-only skew regulated and industrial (Toyota, Roche, BlackRock,
    Sanofi). Different rooms attract different rosters.
 
-9. **NVIDIA changed tables.** Jensen Huang keynoted Snowflake Summit in 2024 (the "data flywheel"
-   fireside); in 2026 NVIDIA has **zero** sessions at Snowflake and **two** at Databricks, and
-   Snowflake's marquee AI-fireside slot went to **Anthropic's Daniela Amodei** instead. The
-   partnership lives on in *both* products (NeMo/NIM inside Cortex; H100/TensorRT at Databricks) —
-   but the *stage* moved to the platform that sells raw compute. Snowflake's headline AI partner
-   shifted from the chip vendor to the model lab — from compute to agents.
+9. **Snowflake's marquee AI guest changed from NVIDIA to Anthropic.** NVIDIA has never had a
+   breakout session in Snowflake's catalog — **0 in 2024, 2025, and 2026.** Its one Snowflake
+   moment was the **2024 keynote fireside** (Jensen Huang + Ramaswamy, "data flywheel"). In 2026
+   that marquee AI-fireside slot went to **Anthropic's Daniela Amodei** instead — while NVIDIA does
+   present working sessions at **Databricks** (2 in 2026). The partnership lives on in both products
+   (NeMo/NIM in Cortex; H100/TensorRT at Databricks) — but Snowflake's headline AI guest shifted
+   from the chip vendor to the model lab, from compute to agents.
 
 *Full evidence, fairness caveats, and citations in the sections below.*
 

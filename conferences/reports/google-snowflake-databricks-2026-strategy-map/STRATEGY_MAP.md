@@ -72,12 +72,13 @@ coverage.
 
 ## Side callouts
 
-- **NVIDIA changed tables.** Jensen Huang keynoted Snowflake Summit 2024; in 2026 NVIDIA has
-  **0** speaking sessions at Snowflake and **2** at Databricks, and Snowflake's marquee AI
-  fireside went to **Anthropic** instead. **Both still have real NVIDIA partnerships** (H100 +
-  Photon at Databricks; NeMo/NIM in Cortex at Snowflake) — so this is about *stage billing*, not
-  the partnership: Snowflake's headline AI guest moved from the chip vendor to the model lab,
-  while NVIDIA presents at the platform that sells raw compute (`AUDITS.md §4`).
+- **Snowflake's marquee AI guest changed from NVIDIA to Anthropic.** NVIDIA has had **0** breakout
+  sessions in Snowflake's catalog in 2024, 2025 *and* 2026 — its one Snowflake moment was the 2024
+  *keynote* fireside (Jensen Huang). In 2026 that slot went to **Anthropic** instead, while NVIDIA
+  presents 2 working sessions at Databricks. **Both still have real NVIDIA partnerships** (H100 +
+  Photon at Databricks; NeMo/NIM in Cortex at Snowflake) — so this is about *keynote billing*, not
+  the partnership: Snowflake's headline AI guest moved from the chip vendor to the model lab
+  (`AUDITS.md §4`).
 - **Shared companies:** ~85 companies speak at both summits — dominated by the model labs
   (OpenAI, Anthropic), the GSI bench (Accenture, Deloitte, EY), and the modern-data-stack
   ecosystem (dbt Labs, Fivetran, Atlan) (`AUDITS.md §5`).

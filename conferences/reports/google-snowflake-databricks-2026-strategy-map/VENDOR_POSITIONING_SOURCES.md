@@ -141,10 +141,11 @@ forward-looking agenda and Snowflake's as a settled one.
   [AI Runtime serverless GPUs](https://www.databricks.com/blog/introducing-ai-runtime-scalable-serverless-nvidia-gpus-databricks-training-and-finetuning))
 - **Snowflake + NVIDIA**: NeMo Retriever, Triton, and **NIM microservices** inside Cortex via
   Snowpark Container Services; Arctic LLM optimized with TensorRT-LLM. ([Snowflake+NVIDIA PR](https://www.snowflake.com/en/news/press-releases/snowflake-and-nvidia-power-customized-ai-applications-for-customers-and-partners/))
-- **Stage shift (2024 → 2026):** Jensen Huang keynoted Snowflake Summit **2024** ([NVIDIA blog](https://blogs.nvidia.com/blog/snowflake-summit-2024/));
-  in **2026** NVIDIA has 0 sessions at Snowflake and 2 at Databricks, and Snowflake's marquee AI
-  fireside went to Anthropic. The partnership persists in product on both sides — what moved is the
-  *keynote billing*.
+- **Keynote-billing shift:** NVIDIA has had **0 breakout sessions at Snowflake in 2024, 2025, and
+  2026** (verified in the catalogs). Its one Snowflake moment was the 2024 *keynote* fireside with
+  Jensen Huang ([NVIDIA blog](https://blogs.nvidia.com/blog/snowflake-summit-2024/)); in 2026 that
+  marquee AI-fireside slot went to **Anthropic**, while NVIDIA presents 2 working sessions at
+  Databricks. The partnership persists in product on both sides — what moved is the *keynote guest*.
 - **Fair read:** Databricks foregrounds **raw accelerated compute** (training, Photon); Snowflake
   abstracts the GPU behind **managed Cortex inference**, and now leads its AI keynote with a model
   lab rather than the chip vendor. The catalog gap (12 vs 3 sessions; 2 vs 0 NVIDIA speakers) is

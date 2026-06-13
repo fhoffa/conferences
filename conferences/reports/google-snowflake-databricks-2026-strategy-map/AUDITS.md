@@ -145,24 +145,27 @@ operational-DB / app story.
 
 ## 4. NVIDIA / GPU / accelerated compute (side callout)
 
-| | Databricks | Snowflake |
+| NVIDIA-the-company breakout sessions (catalog) | Databricks | Snowflake |
 |---|---|---|
-| Sessions matching GPU/NVIDIA/accelerated-compute | 12 (1.5%) | 3 (0.6%) |
-| **NVIDIA-the-company on stage (speaker)** | **2** | **0** |
+| 2024 | — | **0** |
+| 2025 | — | **0** |
+| 2026 | **2** | **0** |
+| GPU/accelerated-compute keyword sessions (2026) | 12 (1.5%) | 3 (0.6%) |
 
-**The sharpest read — NVIDIA changed tables.** At **Snowflake Summit 2024**, NVIDIA CEO **Jensen
-Huang** did the marquee AI fireside with Sridhar Ramaswamy ("create a data flywheel with AI")
-([NVIDIA blog](https://blogs.nvidia.com/blog/snowflake-summit-2024/),
-[Fortune](https://fortune.com/2024/06/04/snowflake-ceo-sridhar-ramaswamy-interview-ai-nvidia-summit/)).
-In **2026**, NVIDIA has **no speaking session at Snowflake at all** — while it sends two NVIDIA
-employees to present at **Databricks** — and Snowflake's headline AI fireside slot went to
-**Anthropic's Daniela Amodei** instead. Read it as Snowflake's marquee AI partner shifting *up the
-stack*, from the **chip vendor** (compute) to the **model lab** (agents): exactly the "abstract the
-GPU, sell the agent" posture the rest of this map shows. NVIDIA's on-stage energy, meanwhile, went
-to the platform that still sells raw compute. **Fairness guard:** this is about *stage billing*,
-not the partnership — which is alive in both products (capability floor below). Don't write
-"NVIDIA dumped Snowflake"; write "NVIDIA's keynote presence moved, and Snowflake's headline AI
-guest is now a model lab."
+**The precise read — Snowflake's marquee AI guest changed from NVIDIA to Anthropic.** Verified
+against the catalogs: **NVIDIA has never had a breakout session at Snowflake — 0 in 2024, 2025,
+and 2026** (the SNOW catalogs hold no NVIDIA-affiliated speaker in any year). Its single Snowflake
+moment was the **2024 *keynote* fireside** — NVIDIA CEO **Jensen Huang** with Sridhar Ramaswamy,
+"create a data flywheel with AI" ([NVIDIA blog](https://blogs.nvidia.com/blog/snowflake-summit-2024/),
+[Fortune](https://fortune.com/2024/06/04/snowflake-ceo-sridhar-ramaswamy-interview-ai-nvidia-summit/)) —
+which is a keynote slot, not a catalog session, so it doesn't show in the counts. In **2026** that
+marquee AI-fireside slot went to **Anthropic's Daniela Amodei** instead, while NVIDIA *does* present
+two working sessions at **Databricks**. Read it as Snowflake's headline AI guest shifting *up the
+stack*, from the **chip vendor** (compute) to the **model lab** (agents) — the "abstract the GPU,
+sell the agent" posture the rest of this map shows. **Fairness guard:** this is about *keynote
+billing*, not the partnership — which is alive in both products (capability floor below). Don't
+write "NVIDIA dumped Snowflake" (it never had breakout sessions there); write "Snowflake's
+keynote AI guest moved from the chip vendor to the model lab."
 
 **Databricks' 12 GPU/accelerator sessions** include genuinely accelerator-themed talks, at least
 one explicitly NVIDIA-partnered (and NVIDIA staff present two of them):
