@@ -124,11 +124,50 @@ for seg, names in SEGMENTS.items():
         if d or s:
             print(f"   {nm:<28} DBX {d} / SNOW {s}")
 
+# Curated set of genuine END-CUSTOMERS (enterprises whose business is NOT selling data
+# software) that present at BOTH summits. Hand-maintained because there's no reliable
+# company-type field; vendors/tools/GSIs/model-labs are deliberately excluded.
+CUSTOMERS = [
+    "morgan stanley", "capital one", "goldman sachs", "barclays", "northern trust",
+    "nasdaq", "coinbase", "block",
+    "gsk", "novo nordisk", "johnson & johnson", "centene",
+    "walt disney company", "nbcuniversal", "warner music group", "directv", "comcast",
+    "at&t", "nokia", "siemens", "cummins", "8451",
+]
+
+
+def best_title(pairs, topic):
+    for t, tp in pairs:
+        if tp == topic:
+            return t
+    return pairs[0][0] if pairs else ""
+
+
+print("\n" + "=" * 78)
+print("SHARED END-CUSTOMERS — different chapter of their story at each venue")
+print("=" * 78)
+customers_out = []
+for c in CUSTOMERS:
+    if c not in dbx_c or c not in snow_c:
+        continue
+    dt = top_topics(dbx_c[c])[0][0]
+    st = top_topics(snow_c[c])[0][0]
+    rec = {
+        "company": c,
+        "dbx_topic": dt, "dbx_sessions": len(dbx_c[c]), "dbx_title": best_title(dbx_c[c], dt),
+        "snow_topic": st, "snow_sessions": len(snow_c[c]), "snow_title": best_title(snow_c[c], st),
+    }
+    customers_out.append(rec)
+    print(f"\n{c.upper()}  (DBX {rec['dbx_sessions']} / SNOW {rec['snow_sessions']})")
+    print(f"   DBX  [{dt}]  {rec['dbx_title'][:72]}")
+    print(f"   SNOW [{st}]  {rec['snow_title'][:72]}")
+
 out = {
     "shared_count": len(shared),
     "only_dbx_count": len(only_dbx),
     "only_snow_count": len(only_snow),
     "divergent": [{"company": c, "dbx_topic": d, "snow_topic": s} for c, d, s in divergent],
+    "shared_customers": customers_out,
     "only_dbx_top": [{"company": c, "sessions": len(dbx_c[c])} for c in only_dbx[:40]],
     "only_snow_top": [{"company": c, "sessions": len(snow_c[c])} for c in only_snow[:40]],
 }

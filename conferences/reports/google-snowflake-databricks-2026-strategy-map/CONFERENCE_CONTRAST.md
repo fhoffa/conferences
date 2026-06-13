@@ -54,27 +54,48 @@ Reading the topic mix (share of each catalog; rows overlap, so they don't sum to
 
 ---
 
-## Part 2 — same logos, different talks
+## Part 2 — same customer, different chapter of their story
 
-83 companies presented at *both* summits. The interesting part isn't the overlap — it's that
-the **same company often gets framed differently at each event**, because each vendor slots the
-partner into its own story.
+The most revealing slice isn't the vendors — it's the **end-customers** who present at *both*
+summits. These are enterprises with one data program, yet they walk on stage and tell a
+**different chapter** depending on whose conference it is. The talk title they pick is a tell:
+it's the part of their story that fits the host's narrative.
 
-| Company | At Snowflake, it's about… | At Databricks, it's about… |
+| Customer | On the Databricks stage | On the Snowflake stage |
 |---|---|---|
-| **Fivetran** | Data engineering & pipelines (×4) | AI/BI (×1) |
-| **dbt Labs** | Data engineering + cost/performance | AI & agents / AI-BI |
-| **Microsoft** | Architectures & interoperability (×3) | Delta Sharing / interop (×1) |
-| **Capital One Software** | Performance/cost + governance (×4) | Unity Catalog (×1) |
-| **Anthropic** | Generative AI & agents (×2) | AI & agents **+ cybersecurity** (×5) |
-| **OpenAI** | Spread across GenAI, industry, BI, data eng (×9) | AI & agents (×6) |
+| **Capital One** | Secure data collaboration | Multi-catalog **Iceberg interoperability** |
+| **Coinbase** | Real-time **fraud feature serving** | **Growth-marketing** BI |
+| **Barclays** | Equities-platform **migration** | Enterprise **observability** |
+| **GSK** | Scaling **Genie 10×** (conversational analytics) | Clinical supply-chain innovation |
+| **Novo Nordisk** | Dashboards + **Lakebase** clinical data | Agents via **Snowflake CoWork** |
+| **Johnson & Johnson** | "Molecule to market" life-sci AI | Open-source **Native Apps** for drug discovery |
+| **Disney** | Real-time **streaming** architecture (DATOS) | Audience-flow app |
+| **NBCUniversal** | AI ad/content alignment | **Synthetic data** + privacy |
+| **AT&T** | *(industry-forum panel)* | **Iceberg** journey + **agentic** telecom (×3) |
+| **Morgan Stanley** | *(industry-forum panel)* | **FinOps** at scale + resilience (×5) |
 
-The pattern: at **Snowflake**, ecosystem partners are cast as **data-movement and
-cost/governance** players; at **Databricks**, the same partners are recast as **AI/agent**
-players. Microsoft is the neutral guest at both — invited specifically to say "interoperability."
-And the model labs hedge across both stages, but with different intensity: **Anthropic leans
-Databricks** (5 sessions to 2, including security talks), **OpenAI is courted slightly harder by
-Snowflake** (9 to 6).
+**The pattern mirrors Part 1 exactly — from the customer's mouth.** When these companies bring a
+talk to **Databricks**, it skews engineering-deep: streaming (Disney, Coinbase, 8451),
+Genie/AI-BI (GSK, Comcast, Centene), Lakebase (Warner Music, Novo Nordisk), migrations (Barclays).
+When the *same* companies bring a talk to **Snowflake**, it skews openness-and-meaning:
+Iceberg/interoperability (Capital One, AT&T, Goldman Sachs), Cortex/CoWork agents (Novo Nordisk,
+Cummins, AT&T), data sharing/marketplace (Goldman, J&J, Nokia), and FinOps/cost (Morgan Stanley,
+Northern Trust, 8451). The customers self-select into each platform's flagship story.
+
+**The honest counterpoint:** a few customers tell the *same* story everywhere. **Goldman Sachs**
+brings an "open, interoperable Iceberg lakehouse" talk to both; **Block** brings "build a data MCP
+for analytics agents" to both. Some enterprises have a platform-agnostic thesis (open lakehouse,
+MCP) they'll repeat regardless of host — and that's worth showing too.
+
+**One fairness caveat on counts:** Snowflake Summit already happened (final agenda); Databricks
+DAIS is still upcoming (June 15–18), so customers currently shown only on a Databricks
+industry-forum panel (Morgan Stanley, AT&T, DirecTV) may yet add dedicated talks. Read the
+**topic divergence** as the durable signal, not the session tally.
+
+*(The ecosystem vendors diverge the same way: Fivetran is a "pipelines" story at Snowflake but
+"AI/BI" at Databricks; dbt is "data engineering" at Snowflake, "AI & agents" at Databricks;
+Microsoft is the neutral "interoperability" guest at both. Anthropic leans Databricks 5-to-2;
+OpenAI leans Snowflake 9-to-6.)*
 
 ---
 
