@@ -99,7 +99,51 @@ OpenAI leans Snowflake 9-to-6.)*
 
 ---
 
-## Part 3 — who's in the room, and who isn't
+## Part 3 — the talks that play in both rooms
+
+Flip the question around. Instead of who tells a *different* story at each event, who tells the
+**exact same one** — sometimes the same slides? A near-duplicate-title check across the shared
+companies surfaces a small, revealing club:
+
+| Company | The talk (near-identical at both) | Similarity |
+|---|---|---|
+| **Astronomer** | "Your AI Strategy Has a Context Problem. Orchestration Solves It." | 0.86 |
+| **ServiceNow** | "The Patchwork Enterprise Is Holding Your AI Agents Back" | 0.83 |
+| **Salesforce / Tableau** | "Demystifying the Open Semantic Interchange (OSI)" — swap only the host name | 0.71 |
+| **IBM** | "…Real-time Context for AI…" | 0.57 |
+| **Atlan** | "The Enterprise Context Layer… Demystified and Demoed" | 0.56 |
+| **Capital One Software** | "Using Context and AI for Cost Optimization and Security" | 0.88 |
+
+**Look at what they're all selling: context.** Astronomer ("context problem"), Atlan ("enterprise
+context layer"), IBM ("real-time context"), Capital One Software ("context and AI"),
+Salesforce/Tableau (the semantic interchange), ServiceNow (stitching the "patchwork enterprise"
+so agents can use it). Every twin talk is about the **semantic / context / governance layer that
+feeds AI agents** — the layer that sits *above* whichever lakehouse you bought. And that's exactly
+why the talk ports unchanged: if your product's whole job is to make the platform underneath
+interchangeable, your pitch doesn't change when the logo on the lanyard does.
+
+**There's even a standard for it.** Several of these names — Salesforce/Tableau, Atlan, plus
+Sigma, Hex, ThoughtSpot, Omni, Alation from Part 4 — are founding members of the **Open Semantic
+Interchange (OSI)**, a vendor-neutral semantic-model spec launched September 2025 by Snowflake,
+Salesforce, dbt Labs, and BlackRock so one definition of "revenue" works across any BI or AI tool.
+([Snowflake announcement](https://www.snowflake.com/en/news/press-releases/snowflake-salesforce-dbt-labs-and-more-revolutionize-data-readiness-for-ai-with-open-semantic-interchange-initiative/),
+[dbt on the OSI spec](https://www.getdbt.com/blog/the-osi-spec-updates)) OSI is the literal
+embodiment of the pattern: a layer engineered to be platform-agnostic, presented identically to
+both platforms' audiences.
+
+**And the customers echo it one layer down.** The enterprises that *don't* change their story
+(Part 2) are doing the same thing at the storage and access layers: **Goldman Sachs** brings "open,
+interoperable Iceberg lakehouse" to both; **Workday** brings "governed agentic AI on Iceberg +
+context/semantics" to both; **Block** brings "build a data MCP for analytics agents" to both. Open
+table format (storage), semantic layer (meaning), MCP (agent access) — three portable layers,
+three repeatable talks.
+
+**The takeaway:** where the two conferences *disagree* is the platform itself. Where they
+*converge* is everything built to sit above it — Iceberg, the semantic/context layer, and MCP. The
+companies that can give one talk to both rooms are precisely the ones whose business is making the
+room you're in not matter.
+
+## Part 4 — who's in the room, and who isn't
 
 **The rosters barely overlap.** Of ~**848** distinct companies that took a speaking slot across
 the two events, only **83 (under 10%)** appeared at both. Each conference is mostly its own
@@ -140,6 +184,11 @@ ecosystem (Iceberg), and through a partner bench that handles BI and data moveme
 spends its stage time making AI *operable* — one governed control plane (Unity Catalog), its own
 analytics and operational-DB surfaces, and evaluation on the main stage. Same destination,
 opposite emphasis. Neither picture is the *whole* company — it's the half each one chose to show.
+
+And the kicker (Part 3): the two stages disagree about the platform but quietly **agree about the
+layers above it** — open table formats, the semantic/context layer, and agent access. The handful
+of companies that give the identical talk in both rooms are the ones building that neutral layer.
+The platform war is loud; the layer above it is already being standardized in public.
 
 ---
 

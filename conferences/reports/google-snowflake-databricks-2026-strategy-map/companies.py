@@ -162,12 +162,51 @@ for c in CUSTOMERS:
     print(f"   DBX  [{dt}]  {rec['dbx_title'][:72]}")
     print(f"   SNOW [{st}]  {rec['snow_title'][:72]}")
 
+# Twin talks: same company giving a near-identical talk at BOTH summits (the slides
+# port unchanged). Jaccard similarity over title tokens, minus boilerplate words.
+TWIN_STOP = set(
+    "the a an of to with and for in on how is your you are from at by using use as into "
+    "more not get built building build why fix data ai databricks snowflake sponsored".split()
+)
+
+
+def _toks(t):
+    import re as _re
+    t = _re.sub(r"[^a-z0-9 ]", " ", t.lower())
+    return {w for w in t.split() if w not in TWIN_STOP and len(w) > 2}
+
+
+twins = []
+for c in shared:
+    best, pair = 0.0, None
+    for dt, _ in dbx_c[c]:
+        for st, _ in snow_c[c]:
+            A, B = _toks(dt), _toks(st)
+            if not A or not B:
+                continue
+            j = len(A & B) / len(A | B)
+            if j > best:
+                best, pair = j, (dt, st)
+    if best >= 0.40:
+        twins.append({"company": c, "jaccard": round(best, 2),
+                      "dbx_title": pair[0], "snow_title": pair[1]})
+twins.sort(key=lambda x: -x["jaccard"])
+
+print("\n" + "=" * 78)
+print("TWIN TALKS — same company, near-identical talk at both (Jaccard >= .40)")
+print("=" * 78)
+for t in twins:
+    print(f"\n[{t['jaccard']}] {t['company'].upper()}")
+    print(f"   DBX : {t['dbx_title']}")
+    print(f"   SNOW: {t['snow_title']}")
+
 out = {
     "shared_count": len(shared),
     "only_dbx_count": len(only_dbx),
     "only_snow_count": len(only_snow),
     "divergent": [{"company": c, "dbx_topic": d, "snow_topic": s} for c, d, s in divergent],
     "shared_customers": customers_out,
+    "twin_talks": twins,
     "only_dbx_top": [{"company": c, "sessions": len(dbx_c[c])} for c in only_dbx[:40]],
     "only_snow_top": [{"company": c, "sessions": len(snow_c[c])} for c in only_snow[:40]],
 }

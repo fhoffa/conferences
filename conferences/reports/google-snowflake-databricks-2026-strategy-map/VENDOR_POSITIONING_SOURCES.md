@@ -162,3 +162,5 @@ forward-looking agenda and Snowflake's as a settled one.
 - Snowflake Summit 2026 recap (Atlan) — https://atlan.com/know/snowflake/summit-2026-announcements/
 - Snowflake Summit 2026 (diginomica) — https://diginomica.com/snowflake-summit-2026-how-snowflake-making-strategic-shift-towards-agentic-ai
 - Databricks DAIS 2026 (event page) — https://www.databricks.com/dataaisummit
+- Open Semantic Interchange (OSI) launch — https://www.snowflake.com/en/news/press-releases/snowflake-salesforce-dbt-labs-and-more-revolutionize-data-readiness-for-ai-with-open-semantic-interchange-initiative/
+- OSI spec (dbt Labs) — https://www.getdbt.com/blog/the-osi-spec-updates
