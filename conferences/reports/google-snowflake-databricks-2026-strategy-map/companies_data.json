@@ -1,0 +1,466 @@
+{
+  "shared_count": 83,
+  "only_dbx_count": 432,
+  "only_snow_count": 333,
+  "divergent": [
+    {
+      "company": "openai",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "Generative AI & Agents"
+    },
+    {
+      "company": "accenture",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "(untracked)"
+    },
+    {
+      "company": "salesforce",
+      "dbx_topic": "Governance & Security",
+      "snow_topic": "Generative AI & Agents"
+    },
+    {
+      "company": "deloitte",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "Industry Innovation"
+    },
+    {
+      "company": "workday",
+      "dbx_topic": "Application Development",
+      "snow_topic": "Data Engineering & Pipelines"
+    },
+    {
+      "company": "dbt labs",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "Data Engineering & Pipelines"
+    },
+    {
+      "company": "anthropic",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "(untracked)"
+    },
+    {
+      "company": "domo",
+      "dbx_topic": "Application Development",
+      "snow_topic": "Data Engineering & Pipelines"
+    },
+    {
+      "company": "morgan stanley",
+      "dbx_topic": "AI/BI",
+      "snow_topic": "Performance & Cost Optimization"
+    },
+    {
+      "company": "capital one",
+      "dbx_topic": "Data Sharing & Collaboration",
+      "snow_topic": "Architectures & Interoperability"
+    },
+    {
+      "company": "acxiom",
+      "dbx_topic": "Data Sharing & Collaboration",
+      "snow_topic": "Application Development"
+    },
+    {
+      "company": "atlan",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "Generative AI & Agents"
+    },
+    {
+      "company": "capital one software",
+      "dbx_topic": "Unity Catalog",
+      "snow_topic": "Performance & Cost Optimization"
+    },
+    {
+      "company": "glean",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "Generative AI & Agents"
+    },
+    {
+      "company": "aimpoint digital",
+      "dbx_topic": "Application Development",
+      "snow_topic": "(untracked)"
+    },
+    {
+      "company": "cdw",
+      "dbx_topic": "Governance & Security",
+      "snow_topic": "Architectures & Interoperability"
+    },
+    {
+      "company": "fivetran",
+      "dbx_topic": "AI/BI",
+      "snow_topic": "Data Engineering & Pipelines"
+    },
+    {
+      "company": "quest software",
+      "dbx_topic": "Data Sharing & Collaboration",
+      "snow_topic": "Migrations & Modernization"
+    },
+    {
+      "company": "cognizant",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "BI & Analytics"
+    },
+    {
+      "company": "astronomer",
+      "dbx_topic": "Data Engineering & Streaming",
+      "snow_topic": "Data Engineering & Pipelines"
+    },
+    {
+      "company": "ibm",
+      "dbx_topic": "Data Engineering & Streaming",
+      "snow_topic": "Generative AI & Agents"
+    },
+    {
+      "company": "slalom",
+      "dbx_topic": "Analytics & BI",
+      "snow_topic": "Migrations & Modernization"
+    },
+    {
+      "company": "microsoft",
+      "dbx_topic": "Delta Sharing",
+      "snow_topic": "Architectures & Interoperability"
+    },
+    {
+      "company": "crewai",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "AI Agents / Data Agents"
+    },
+    {
+      "company": "ntt data",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "Industry Innovation"
+    },
+    {
+      "company": "lseg",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "Performance & Cost Optimization"
+    },
+    {
+      "company": "infosys",
+      "dbx_topic": "Analytics & BI",
+      "snow_topic": "Data Sharing & Marketplace"
+    }
+  ],
+  "only_dbx_top": [
+    {
+      "company": "mastercard",
+      "sessions": 7
+    },
+    {
+      "company": "advancing analytics",
+      "sessions": 4
+    },
+    {
+      "company": "adidas",
+      "sessions": 4
+    },
+    {
+      "company": "pepsico",
+      "sessions": 4
+    },
+    {
+      "company": "minio",
+      "sessions": 3
+    },
+    {
+      "company": "retool",
+      "sessions": 3
+    },
+    {
+      "company": "west monroe",
+      "sessions": 3
+    },
+    {
+      "company": "cvs health",
+      "sessions": 3
+    },
+    {
+      "company": "sba communications",
+      "sessions": 3
+    },
+    {
+      "company": "hp",
+      "sessions": 3
+    },
+    {
+      "company": "nubank",
+      "sessions": 3
+    },
+    {
+      "company": "thoughtworks",
+      "sessions": 3
+    },
+    {
+      "company": "superhuman",
+      "sessions": 3
+    },
+    {
+      "company": "bp",
+      "sessions": 3
+    },
+    {
+      "company": "unilever",
+      "sessions": 3
+    },
+    {
+      "company": "atlassian",
+      "sessions": 3
+    },
+    {
+      "company": "glean technologies",
+      "sessions": 3
+    },
+    {
+      "company": "adobe",
+      "sessions": 3
+    },
+    {
+      "company": "general motors",
+      "sessions": 3
+    },
+    {
+      "company": "rearc",
+      "sessions": 3
+    },
+    {
+      "company": "tk elevator",
+      "sessions": 3
+    },
+    {
+      "company": "hospital for special surgery",
+      "sessions": 2
+    },
+    {
+      "company": "walmart",
+      "sessions": 2
+    },
+    {
+      "company": "rivian and vw group technology",
+      "sessions": 2
+    },
+    {
+      "company": "google cloud",
+      "sessions": 2
+    },
+    {
+      "company": "alinta energy",
+      "sessions": 2
+    },
+    {
+      "company": "rivian",
+      "sessions": 2
+    },
+    {
+      "company": "nvidia",
+      "sessions": 2
+    },
+    {
+      "company": "nab",
+      "sessions": 2
+    },
+    {
+      "company": "astrazeneca",
+      "sessions": 2
+    },
+    {
+      "company": "lovelytics",
+      "sessions": 2
+    },
+    {
+      "company": "llamaindex",
+      "sessions": 2
+    },
+    {
+      "company": "wiz",
+      "sessions": 2
+    },
+    {
+      "company": "zs associates",
+      "sessions": 2
+    },
+    {
+      "company": "liveramp",
+      "sessions": 2
+    },
+    {
+      "company": "celonis",
+      "sessions": 2
+    },
+    {
+      "company": "baker hughes",
+      "sessions": 2
+    },
+    {
+      "company": "chevron",
+      "sessions": 2
+    },
+    {
+      "company": "lovable",
+      "sessions": 2
+    },
+    {
+      "company": "fox",
+      "sessions": 2
+    }
+  ],
+  "only_snow_top": [
+    {
+      "company": "sigma",
+      "sessions": 6
+    },
+    {
+      "company": "ltm",
+      "sessions": 6
+    },
+    {
+      "company": "bookingcom",
+      "sessions": 6
+    },
+    {
+      "company": "accenture australia",
+      "sessions": 5
+    },
+    {
+      "company": "canva",
+      "sessions": 5
+    },
+    {
+      "company": "sanofi",
+      "sessions": 5
+    },
+    {
+      "company": "schroders",
+      "sessions": 5
+    },
+    {
+      "company": "matillion",
+      "sessions": 4
+    },
+    {
+      "company": "kipiai",
+      "sessions": 4
+    },
+    {
+      "company": "texas capital",
+      "sessions": 4
+    },
+    {
+      "company": "toyota motor europe",
+      "sessions": 4
+    },
+    {
+      "company": "whoop",
+      "sessions": 4
+    },
+    {
+      "company": "aws",
+      "sessions": 4
+    },
+    {
+      "company": "ey newzealand",
+      "sessions": 3
+    },
+    {
+      "company": "phdata",
+      "sessions": 3
+    },
+    {
+      "company": "truist",
+      "sessions": 3
+    },
+    {
+      "company": "roche",
+      "sessions": 3
+    },
+    {
+      "company": "blackrock",
+      "sessions": 3
+    },
+    {
+      "company": "fanatics",
+      "sessions": 3
+    },
+    {
+      "company": "under armour",
+      "sessions": 3
+    },
+    {
+      "company": "doordash",
+      "sessions": 3
+    },
+    {
+      "company": "tui",
+      "sessions": 3
+    },
+    {
+      "company": "resolve ai",
+      "sessions": 3
+    },
+    {
+      "company": "zendesk",
+      "sessions": 3
+    },
+    {
+      "company": "archetype consulting",
+      "sessions": 3
+    },
+    {
+      "company": "infomotion",
+      "sessions": 2
+    },
+    {
+      "company": "sqldbm",
+      "sessions": 2
+    },
+    {
+      "company": "dataworthyai",
+      "sessions": 2
+    },
+    {
+      "company": "human security",
+      "sessions": 2
+    },
+    {
+      "company": "blitzscaling ventures",
+      "sessions": 2
+    },
+    {
+      "company": "checkr",
+      "sessions": 2
+    },
+    {
+      "company": "wolfspeed",
+      "sessions": 2
+    },
+    {
+      "company": "gitlab",
+      "sessions": 2
+    },
+    {
+      "company": "national grid",
+      "sessions": 2
+    },
+    {
+      "company": "crowdstrike",
+      "sessions": 2
+    },
+    {
+      "company": "transunion",
+      "sessions": 2
+    },
+    {
+      "company": "elementum ai",
+      "sessions": 2
+    },
+    {
+      "company": "exxonmobil global services company",
+      "sessions": 2
+    },
+    {
+      "company": "s&p global market intelligence",
+      "sessions": 2
+    },
+    {
+      "company": "ernst & young",
+      "sessions": 2
+    }
+  ]
+}
