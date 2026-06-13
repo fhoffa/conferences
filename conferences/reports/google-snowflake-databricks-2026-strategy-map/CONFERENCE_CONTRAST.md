@@ -27,9 +27,9 @@ The eight differences, each grounded in the data below. Spicy, not mean: every o
    framing. Build vs outcome, from one company in one month.
 
 3. **Snowflake sells legibility; Databricks sells operability.** Snowflake's agenda foregrounds the
-   AI surface and meaning (Cortex 69%, Semantic Views 21% vs 4%, Iceberg 29% vs 6%); Databricks
-   foregrounds the governed substrate and tooling (Unity Catalog 56%, AI/BI 37% vs 15%, Lakebase,
-   evals).
+   AI surface and meaning (Cortex 69%, Semantic Views 21% vs 4%, the neutral Iceberg format 8% vs
+   4%); Databricks foregrounds the governed substrate and tooling (Unity Catalog 56%, AI/BI 37% vs
+   15%, Lakebase, evals).
 
 4. **They barely share a guest list.** Of the ~790 distinct companies that took a speaking slot,
    only about 1 in 9 (~85) appeared at both. Two nearly separate universes of customers.
@@ -42,9 +42,11 @@ The eight differences, each grounded in the data below. Spicy, not mean: every o
    repeat talks — Astronomer, ServiceNow, Tableau's Open Semantic Interchange — are all the
    semantic/context layer, engineered to be platform-neutral, so the slides port unchanged.
 
-7. **Snowflake says "open" the loudest; Databricks quietly open-sourced its catalog.** Iceberg
-   headlines 29% of Snowflake's agenda vs 6% of Databricks' — yet Databricks ships Delta UniForm
-   and gave Unity Catalog to Apache. A volume gap, not a capability gap.
+7. **Both run on open table formats — they just use different ones.** Open formats touch ~14% of
+   Databricks' agenda (its open house format, **Delta Lake**) vs ~10% of Snowflake's. Snowflake
+   leads the *Iceberg* word specifically (8% vs 4%) — it bet on the **neutral** format; Databricks
+   leads with Delta and bridges to Iceberg via UniForm. House format vs neutral format — neither
+   is "closed."
 
 8. **Even the no-shows tilt.** Databricks-only logos skew tech and consumer (Mastercard, Adobe,
    Nubank, PepsiCo); Snowflake-only skew regulated and industrial (Toyota, Roche, BlackRock,
@@ -103,11 +105,13 @@ Reading the topic mix (share of each catalog; rows overlap, so they don't sum to
   Semantic Views appear on **21%** of sessions vs **4%** for Databricks' Metric Views. Snowflake
   gave semantics its own Summit domain (Semantic Studio, Cortex Sense). The message: *the value
   is in making your data legible to agents.*
-- **Snowflake also brands "open" the loudest.** Iceberg / open-lakehouse shows up on **28.7%**
-  of its agenda vs **6%** for Databricks. Worth stating plainly so the gap isn't misread:
-  Databricks is *not* closed — it open-sourced Unity Catalog (Apache 2.0) and ships Delta
-  UniForm so one copy reads as Iceberg. Iceberg is simply Snowflake's billboard and Databricks'
-  default setting. (`VENDOR_POSITIONING_SOURCES.md §4`)
+- **Open table formats: house format vs neutral format.** Count fairly — Delta Lake is an
+  open-source table format just like Iceberg — and the "openness" gap inverts: open formats touch
+  **14.2%** of Databricks' agenda vs **10.1%** of Snowflake's, because **Delta Lake** (11.6% vs
+  0.4%) is everywhere on the Databricks stage. Snowflake leads the *Iceberg* word specifically
+  (**8.4%** vs **4.0%**) — its bet on the **industry-neutral** format. So Snowflake adopts the
+  neutral standard while Databricks leads with its own (open) Delta and bridges to Iceberg via
+  UniForm. Neither is "closed." (`AUDITS.md §2`)
 - **Databricks leans into the governed substrate.** Unity Catalog appears on **56%** of its
   sessions — the most omnipresent single product at either event. That's because it's the
   connective tissue: it's how Lakebase, Genie, Agent Bricks, and Lakeflow are wired together.
@@ -316,7 +320,8 @@ speaker list may shift.)
 > **Snowflake's conference sells legibility; Databricks' conference sells operability.**
 
 Snowflake spends its stage time making data *legible* — to agents (semantics), to the open
-ecosystem (Iceberg), and through a partner bench that handles BI and data movement. Databricks
+ecosystem (the neutral Iceberg format), and through a partner bench that handles BI and data
+movement. Databricks
 spends its stage time making AI *operable* — one governed control plane (Unity Catalog), its own
 analytics and operational-DB surfaces, and evaluation on the main stage. Same destination,
 opposite emphasis. Neither picture is the *whole* company — it's the half each one chose to show.

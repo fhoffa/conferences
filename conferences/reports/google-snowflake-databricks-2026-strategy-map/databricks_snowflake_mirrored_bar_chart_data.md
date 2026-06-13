@@ -13,7 +13,7 @@ independent topic prevalences (a session can match several rows), so columns do
 | 1 | Cortex / GenAI app layer | Mosaic AI / Agent Bricks / Genie | 414 | 51.6% | Cortex agents + AI functions | 370 | 68.9% | **Snowflake** | 17.3 |
 | 2 | Semantic context for agents | Metric Views / semantic models | 34 | 4.2% | Semantic Views | 113 | 21.0% | **Snowflake** | 16.8 |
 | 3 | Sharing / marketplace / clean rooms | Delta Sharing + Marketplace | 110 | 13.7% | Secure Sharing + Marketplace + Clean Rooms | 97 | 18.1% | **Snowflake** | 4.3 |
-| 4 | Iceberg / open-lakehouse interoperability | Iceberg / Uniform / open formats | 48 | 6.0% | Iceberg + Polaris + interoperability | 154 | 28.7% | **Snowflake** | 22.7 |
+| 4 | Open lakehouse / table formats | Delta Lake + UniForm (+ Iceberg) | 114 | 14.2% | Iceberg + Polaris | 54 | 10.1% | **Databricks** | 4.2 |
 | 5 | Unity Catalog vs Horizon control plane | Unity Catalog | 450 | 56.1% | Horizon Catalog | 68 | 12.7% | **Databricks** | 43.4 |
 | 6 | BI dashboards / metrics / AI-BI | AI/BI dashboards | 298 | 37.2% | BI & Analytics | 79 | 14.7% | **Databricks** | 22.4 |
 | 7 | App / operational database substrate | Lakebase / app database substrate | 206 | 25.7% | Snowflake Postgres + Unistore / app-data bridge | 92 | 17.1% | **Databricks** | 8.6 |
@@ -23,14 +23,17 @@ independent topic prevalences (a session can match several rows), so columns do
 
 ## Reading the split
 
-- **Snowflake leads (5 rows):** GenAI app layer, semantic context, sharing/marketplace,
-  Iceberg/open-lakehouse, and pipelines (by a hair).
-- **Databricks leads (5 rows):** named control plane, BI/AI-BI, operational-DB substrate,
-  evals, and warehouse/modernization.
-- **Decisive deltas (>20pp):** Unity Catalog vs Horizon (43.4pp, DBX), Iceberg/open
-  (22.7pp, SNOW), BI/AI-BI (22.4pp, DBX).
-- **Near-ties (<5pp):** pipelines (1.3pp), sharing/marketplace (4.3pp) — claim no clear
-  leader here.
+- **Snowflake leads (4 rows):** GenAI app layer, semantic context, sharing/marketplace,
+  and pipelines (by a hair).
+- **Databricks leads (6 rows):** open lakehouse/formats, named control plane, BI/AI-BI,
+  operational-DB substrate, evals, and warehouse/modernization — but four of these are
+  narrow (<10pp).
+- **Decisive deltas (>15pp) are balanced 2–2:** Unity Catalog vs Horizon (43.4pp, DBX) and
+  BI/AI-BI (22.4pp, DBX); GenAI app layer (17.3pp, SNOW) and semantic context (16.8pp, SNOW).
+- **Near-ties (<5pp):** pipelines (1.3pp), open lakehouse/formats (4.2pp), sharing/marketplace
+  (4.3pp) — claim a lean, not a win.
 
 See `AUDITS.md` for the fairness caveats that qualify several of these deltas (especially
-rows 4, 5, and 7).
+rows 4, 5, and 7). Row 4 counts **Delta Lake and Iceberg equally** — both are open-source
+table formats — so Databricks' Delta-default substrate isn't penalised for not being branded
+"Iceberg".

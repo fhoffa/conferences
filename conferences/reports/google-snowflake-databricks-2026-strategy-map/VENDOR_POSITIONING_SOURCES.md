@@ -55,17 +55,23 @@ forward-looking agenda and Snowflake's as a settled one.
   **Delta Sharing (open protocol) + Marketplace + Clean Rooms**. Near-tie (4.3pp) — call it a
   lean, not a win.
 
-### 4. Iceberg / open-lakehouse — *biggest fairness correction*
-- **Snowflake** brands openness loudly: **Apache Iceberg v3**, **Apache Polaris / Open Catalog**,
-  Datastream, Openflow. ([Atlan recap](https://atlan.com/know/snowflake/summit-2026-announcements/))
-- **Databricks is NOT closed** — it just defaults to Delta and labels openness differently:
-  it **open-sourced Unity Catalog (Apache 2.0)**, added **native Apache Iceberg managed tables**,
-  and ships **Delta UniForm** (one copy readable as Iceberg/Hudi by Trino, Dremio, DuckDB,
-  Snowflake). ([Databricks PR](https://www.databricks.com/company/newsroom/press-releases/databricks-open-sources-unity-catalog-creating-industrys-only-open),
+### 4. Open table formats — *count Delta, not just Iceberg*
+- **Delta Lake is open** (Linux Foundation / Apache 2.0), so a fair "open formats" row counts it
+  alongside Iceberg. Doing so (keyword-symmetric) gives **Databricks 14.2% vs Snowflake 10.1%** —
+  Databricks leads, because Delta (11.6% vs 0.4%) is its open house format and is everywhere on
+  its agenda. Snowflake leads only the **Iceberg word** (8.4% vs 4.0%).
+- **Snowflake** bet on the **industry-neutral** format: **Apache Iceberg v3**, **Apache Polaris /
+  Open Catalog**, reads/writes Iceberg as its interop play.
+  ([Atlan recap](https://atlan.com/know/snowflake/summit-2026-announcements/))
+- **Databricks** leads with its own open format and bridges out: it **open-sourced Unity Catalog
+  (Apache 2.0)**, added **native Apache Iceberg managed tables**, and ships **Delta UniForm** (one
+  copy readable as Iceberg/Hudi by Trino, Dremio, DuckDB, Snowflake).
+  ([Databricks PR](https://www.databricks.com/company/newsroom/press-releases/databricks-open-sources-unity-catalog-creating-industrys-only-open),
   [UC managed tables docs](https://docs.databricks.com/aws/en/tables/managed),
   [VentureBeat](https://venturebeat.com/data-infrastructure/databricks-open-sources-unity-catalog-challenging-snowflake-on-interoperability-for-data-workloads))
-- **Fair read:** the 6.0% vs 28.7% agenda gap is a **branding/labeling artifact**, not evidence
-  Databricks is proprietary. Both have first-class Iceberg interoperability stories.
+- **Fair read:** this is **house format vs neutral format**, not open vs closed. The earlier
+  "6% vs 28.7%" gap was an artifact of counting only "Iceberg" and giving Snowflake taxonomy
+  credit while Databricks got keyword-only. Both have first-class open-table-format stories.
 
 ### 5. Unity Catalog vs Horizon — named control plane
 - **Snowflake Horizon Catalog** is a *full* control plane: governance + discovery + RBAC across

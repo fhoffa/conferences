@@ -42,33 +42,39 @@ Genie, Agent Bricks, Lakeflow), not a governance gap at Snowflake.
 
 ---
 
-## 2. Iceberg / open-lakehouse interoperability (row 4)
+## 2. Open lakehouse / table formats (row 4) — count Delta *and* Iceberg
 
-| | Databricks | Snowflake |
+**Delta Lake is an open-source table format too** (Linux Foundation / Apache 2.0), so a fair
+"open formats" row must count it alongside Iceberg. The earlier draft counted only "Iceberg"
+*and* gave Snowflake credit from its native feature/track tags while Databricks got
+keyword-only — that double-penalised Databricks and produced a misleading 6%-vs-28.7% gap. The
+corrected row uses the **same keyword set on both vendors** (delta lake, uniform, iceberg, hudi,
+parquet, polaris, "open table/lakehouse", interoperability):
+
+| Signal (keyword-symmetric) | Databricks | Snowflake |
 |---|---|---|
-| Sessions | 48 (6.0%) | 154 (28.7%) |
-| Iceberg keyword only | 32 | 70 (feature tag) |
+| **Open lakehouse / formats (row 4)** | **114 (14.2%)** | **54 (10.1%)** |
+| "Delta Lake" | 93 (11.6%) | 2 (0.4%) |
+| "Iceberg" | 32 (4.0%) | 45 (8.4%) |
+| "Polaris" | 0 | 6 (1.1%) |
 
-**Verdict: Snowflake decisively out-brands Databricks on *open-table-format /
-interoperability* language — but this is partly a default-format artifact.** Databricks'
-default table format is **Delta**, so most of its open-lakehouse work is implicit; it says
-"Iceberg" (32) or "Uniform" (3) far less often than Snowflake foregrounds **Apache
-Iceberg** (70), **Polaris** (26), and "Open Lakehouse"/"Interoperability" topics. Snowflake
-has made Iceberg a marquee, externally-legible bet; Databricks treats open formats as
-plumbing under Delta/Uniform.
+**Verdict: both conferences run on open table formats — they just use different ones.**
+Databricks leads the row (14.2% vs 10.1%) because its open house format, **Delta Lake**, is
+everywhere on its agenda. Snowflake leads the *Iceberg* word specifically (8.4% vs 4.0%) — it
+bet on the **industry-neutral** format as its interoperability play. So the honest framing is
+**house format vs neutral format**, not open vs closed.
 
-**Fairness guard:** keep this row **separate from governance** (row 5). Iceberg is a
-table/interoperability layer; do **not** claim Databricks is "closed" — Delta + Uniform +
-Unity Catalog's external-engine access are a real openness story that simply isn't labeled
-"Iceberg." Frame as: *Snowflake leads on named open-format prominence; Databricks' openness
-is real but defaults to Delta and is less surfaced in session titles.*
+**Fairness guard:** keep this row **separate from governance** (row 5). Do **not** say Snowflake
+"leads openness" or that Databricks is "closed" — when Delta is counted, Databricks talks open
+formats *more*. The real difference: Snowflake adopts the neutral Iceberg standard; Databricks
+leads with its own (open) Delta and bridges to Iceberg via UniForm.
 
 **Capability floor (cited):** Databricks **open-sourced Unity Catalog (Apache 2.0)**, ships
 **native Apache Iceberg managed tables**, and **Delta UniForm** exposes one copy as
 Iceberg/Hudi to Trino, Dremio, DuckDB, and Snowflake
 ([Databricks PR](https://www.databricks.com/company/newsroom/press-releases/databricks-open-sources-unity-catalog-creating-industrys-only-open),
-[UC managed tables docs](https://docs.databricks.com/aws/en/tables/managed)). The 6-vs-28.7
-gap is a labeling artifact, not closure.
+[UC managed tables docs](https://docs.databricks.com/aws/en/tables/managed)). Snowflake reads/writes
+Iceberg and donated Polaris to Apache. **Both are genuinely open** at the table-format layer.
 
 ---
 

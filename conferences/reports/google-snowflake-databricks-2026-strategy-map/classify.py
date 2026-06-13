@@ -149,21 +149,24 @@ row(
     snow_label="Secure Sharing + Marketplace + Clean Rooms",
 )
 
-# 4. Iceberg / open-lakehouse interoperability (table/interop layer, NOT governance)
+# 4. Open lakehouse / table formats (the open-format substrate; table/interop layer, NOT
+#    governance). Counts Delta Lake AND Iceberg equally — both are open-source, openly governed
+#    table formats — so Databricks' default (Delta) is not penalised for not being called
+#    "Iceberg". Kept *keyword-symmetric* on both vendors on purpose: Databricks has no native
+#    "table format" taxonomy tag, so crediting Snowflake's Iceberg/Polaris feature tags while
+#    giving Databricks keyword-only would unfairly inflate Snowflake. See AUDITS §2.
+_OPEN_FORMATS = (
+    "delta lake", "delta table", "delta tables", "delta format", "delta uniform", "uniform",
+    "iceberg", "apache iceberg", "hudi", "parquet", "polaris", "apache polaris",
+    "open table format", "open table formats", "open format", "open formats", "open lakehouse",
+    "interoperab", "interoperable", "interoperability",
+)
 row(
-    "iceberg_open", "Iceberg / open-lakehouse interoperability",
-    dbx=lambda s: kw(
-        text_of(s), "iceberg", "uniform", "delta uniform", "open table format", "open table formats",
-        "open lakehouse", "open format", "open formats", "interoperab", "apache polaris", "polaris"
-    ),
-    snow=lambda s: (
-        {"apache iceberg™", "apache polaris"} & snow_features(s)
-        or {"open lakehouse", "interoperability", "open source"} & snow_topics(s)
-        or {"architectures & interoperability"} & snow_tracks(s)
-        or kw(text_of(s), "iceberg", "polaris", "open lakehouse", "open table format", "interoperab")
-    ),
-    dbx_label="Iceberg / Uniform / open formats",
-    snow_label="Iceberg + Polaris + interoperability",
+    "open_lakehouse", "Open lakehouse / table formats",
+    dbx=lambda s: kw(text_of(s), *_OPEN_FORMATS),
+    snow=lambda s: kw(text_of(s), *_OPEN_FORMATS),
+    dbx_label="Delta Lake + UniForm (+ Iceberg)",
+    snow_label="Iceberg + Polaris",
 )
 
 # 5. Unity Catalog vs Horizon governance control plane (NAMED control plane only)

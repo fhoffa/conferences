@@ -12,7 +12,7 @@ drift**, not classifier drift. Reproduce: `python3 diff_old_new.py`.
 | Cortex / GenAI app layer | −17.4 | −17.3 | +0.1 | Snowflake (stable) |
 | Semantic context for agents | −16.3 | −16.8 | −0.5 | Snowflake (stable) |
 | Sharing / marketplace / clean rooms | −4.1 | −4.3 | −0.2 | Snowflake (lean, stable) |
-| Iceberg / open-lakehouse | −22.6 | −22.7 | −0.1 | Snowflake (stable) |
+| Open lakehouse / table formats | +4.5 | +4.2 | −0.3 | Databricks (stable) |
 | Unity Catalog vs Horizon | +46.8 | +43.4 | −3.4 | Databricks (stable) |
 | BI / AI-BI | +25.6 | +22.4 | −3.2 | Databricks (stable) |
 | App / operational DB substrate | +9.6 | +8.6 | −1.0 | Databricks (stable) |
@@ -26,7 +26,7 @@ drift**, not classifier drift. Reproduce: `python3 diff_old_new.py`.
 - **Zero leader flips.**
 - **No delta moved ≥ 5 pp.** Largest moves are Unity Catalog (−3.4) and BI (−3.2), both
   *narrowing* slightly while staying decisive Databricks leads.
-- The two largest gaps on the board (Unity Catalog +43–47, Iceberg −22 to −23) are stable
+- The largest gaps on the board (Unity Catalog +43–47, BI +22–26, GenAI −17) are stable
   to within ~3 pp.
 
 **Implication:** the strategy narrative in `STRATEGY_MAP.md` is robust to the 759→802 /

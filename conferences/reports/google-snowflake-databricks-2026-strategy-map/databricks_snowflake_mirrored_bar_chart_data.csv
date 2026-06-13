@@ -2,7 +2,7 @@ row_key,row_label,dbx_label,snow_label,dbx_sessions,dbx_share_pct,snow_sessions,
 genai_app_layer,Cortex / GenAI app layer,Mosaic AI / Agent Bricks / Genie,Cortex agents + AI functions,414,51.6,370,68.9,Snowflake,17.3
 semantic_context,Semantic context for agents,Metric Views / semantic models,Semantic Views,34,4.2,113,21.0,Snowflake,16.8
 sharing_marketplace,Sharing / marketplace / clean rooms,Delta Sharing + Marketplace,Secure Sharing + Marketplace + Clean Rooms,110,13.7,97,18.1,Snowflake,4.3
-iceberg_open,Iceberg / open-lakehouse interoperability,Iceberg / Uniform / open formats,Iceberg + Polaris + interoperability,48,6.0,154,28.7,Snowflake,22.7
+open_lakehouse,Open lakehouse / table formats,Delta Lake + UniForm (+ Iceberg),Iceberg + Polaris,114,14.2,54,10.1,Databricks,4.2
 named_control_plane,Unity Catalog vs Horizon control plane,Unity Catalog,Horizon Catalog,450,56.1,68,12.7,Databricks,43.4
 bi_analytics,BI dashboards / metrics / AI-BI,AI/BI dashboards,BI & Analytics,298,37.2,79,14.7,Databricks,22.4
 app_operational_db,App / operational database substrate,Lakebase / app database substrate,Snowflake Postgres + Unistore / app-data bridge,206,25.7,92,17.1,Databricks,8.6

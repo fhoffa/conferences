@@ -16,9 +16,9 @@ data are stated here.
 > means one vendor *talks about* something more, not that the other *can't do* it.
 > `VENDOR_POSITIONING_SOURCES.md` cites each vendor's own product pages so no row is misread
 > as absence. The corrections that matter most: **NVIDIA** (Snowflake has a real Cortex+NVIDIA
-> partnership), **Iceberg** (Databricks is open via UniForm + open-sourced Unity Catalog),
-> **BI** (Snowflake cedes dashboards to Streamlit/partners *by design*), and **evals**
-> (Snowflake ships TruEra/TruLens AI Observability).
+> partnership), **open table formats** (count Delta Lake — it's open-source too — and Databricks
+> actually leads; Snowflake only leads the *Iceberg* word), **BI** (Snowflake cedes dashboards to
+> Streamlit/partners *by design*), and **evals** (Snowflake ships TruEra/TruLens AI Observability).
 
 ---
 
@@ -26,11 +26,11 @@ data are stated here.
 
 Both vendors now run the *same* play — an AI/agent layer on top of a governed lakehouse —
 but they foreground different halves of it. **Snowflake's agenda is louder on the AI app
-surface and on openness** (Cortex, Semantic Views, Iceberg). **Databricks' agenda is louder
-on the governed substrate and the analyst/operational tooling around it** (Unity Catalog,
-AI/BI, Lakebase, evals). The 2026 catalogs split 5–5 by row leader, but the *decisive* gaps
-sit on opposite ends: Unity Catalog dominance for Databricks, Iceberg/open-format dominance
-for Snowflake.
+surface and the meaning layer** (Cortex, Semantic Views, the neutral Iceberg format).
+**Databricks' agenda is louder on the governed substrate and the analyst/operational tooling
+around it** (Unity Catalog, AI/BI, Lakebase, evals). Databricks leads 6 of 10 rows by emphasis
+(four of them narrowly), but the *decisive* gaps are balanced 2–2: Unity Catalog and AI/BI for
+Databricks; the GenAI app layer and the semantic layer for Snowflake.
 
 ---
 
@@ -45,10 +45,12 @@ for Snowflake.
   Views / semantic-model language is a footnote (34, only 18 saying "metric view"). If
   agents-need-a-semantic-layer is the thesis, Snowflake is selling it far harder *on the
   agenda*.
-- **Iceberg / open-lakehouse (28.7% vs 6.0%).** Snowflake brands Apache Iceberg + Polaris +
-  interoperability as a marquee bet. Databricks defaults to Delta and rarely labels its
-  openness "Iceberg" — real openness, quietly surfaced. (See `AUDITS.md §2`: this is a
-  default-format artifact, *not* evidence Databricks is closed.)
+- **The neutral Iceberg format (8.4% vs 4.0%) — but not open formats overall.** Snowflake
+  brands Apache Iceberg + Polaris ~2× more — its bet on the *industry-neutral* table format.
+  **But count Delta (also open-source) and the gap inverts:** open table formats touch 14.2%
+  of Databricks' agenda vs 10.1% of Snowflake's, because Delta Lake (11.6% vs 0.4%) is
+  everywhere on the Databricks stage. So row 4 actually *leans Databricks* — this is a
+  which-format difference (house vs neutral), **not** open-vs-closed. (See `AUDITS.md §2`.)
 - **Sharing / marketplace / clean rooms (18.1% vs 13.7%) — narrow, <5pp.** Call it a lean,
   not a lead.
 
@@ -128,8 +130,9 @@ This is reproducible: `python3 classify.py` regenerates `chart_data.json` and th
 1. *Named-product prominence ≠ conceptual coverage.* Big deltas on rows 5 (Unity Catalog)
    and 2 (Semantic Views) reflect how dominant a *named brand* is in the agenda, not the
    presence/absence of the underlying capability.
-2. *Iceberg (row 4) is a table/interop layer, kept separate from the governance control
-   plane (row 5).* Databricks' lower Iceberg count is a Delta-default artifact, not closure.
+2. *Open table formats (row 4) count Delta and Iceberg equally* — both are open-source — and
+   the row is kept separate from the governance control plane (row 5). Databricks leads open
+   formats overall (Delta); Snowflake leads the neutral Iceberg format. Not open-vs-closed.
 3. *"Missing" means absent from current catalog signals* — not absent as a customer,
    partner, or user. Company overlap is speaker affiliation only.
 4. *Evals (row 8) is strict* — eval/benchmark/red-team/guardrail only, deliberately
