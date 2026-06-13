@@ -4,36 +4,38 @@
 **Denominators:** Databricks **802** sessions · Snowflake **537** sessions
 **Reproduce:** `python3 classify.py` → writes `chart_data.json` + this CSV (`databricks_snowflake_mirrored_bar_chart_data.csv`)
 
-Agenda share = sessions matching the row ÷ that vendor's total sessions. Rows are
-independent topic prevalences (a session can match several rows), so columns do
-**not** sum to 100%. Counts are whole sessions — no fractional crediting is applied.
+**Method (length-controlled symmetric keywords).** Each row applies the **same** keyword set
+(concept terms + every vendor's product names) to **both** vendors, over each session's
+title+abstract **capped at 680 characters** (Databricks abstracts run ~1.45× longer, which
+otherwise inflates its keyword hits). This replaces an earlier taxonomy-based method that
+silently inflated margins in both directions — see `AUDITS.md §0`. Agenda share = matching
+sessions ÷ that vendor's total. Rows overlap, so columns do **not** sum to 100%.
 
 | # | Row | Databricks signal | DBX sessions | DBX share | Snowflake signal | SNOW sessions | SNOW share | Leader | Δ (pp) |
 |---|-----|-------------------|-------------:|----------:|------------------|-------------:|-----------:|--------|-------:|
-| 1 | Cortex / GenAI app layer | Mosaic AI / Agent Bricks / Genie | 414 | 51.6% | Cortex agents + AI functions | 370 | 68.9% | **Snowflake** | 17.3 |
-| 2 | Semantic context for agents | Metric Views / semantic models | 34 | 4.2% | Semantic Views | 113 | 21.0% | **Snowflake** | 16.8 |
-| 3 | Sharing / marketplace / clean rooms | Delta Sharing + Marketplace | 110 | 13.7% | Secure Sharing + Marketplace + Clean Rooms | 97 | 18.1% | **Snowflake** | 4.3 |
-| 4 | Open lakehouse / table formats | Delta Lake + UniForm (+ Iceberg) | 114 | 14.2% | Iceberg + Polaris | 54 | 10.1% | **Databricks** | 4.2 |
-| 5 | Unity Catalog vs Horizon control plane | Unity Catalog | 450 | 56.1% | Horizon Catalog | 68 | 12.7% | **Databricks** | 43.4 |
-| 6 | BI dashboards / metrics / AI-BI | AI/BI dashboards | 298 | 37.2% | BI & Analytics | 79 | 14.7% | **Databricks** | 22.4 |
-| 7 | App / operational database substrate | Lakebase / app database substrate | 206 | 25.7% | Snowflake Postgres + Unistore / app-data bridge | 92 | 17.1% | **Databricks** | 8.6 |
-| 8 | Evals / red teaming / AI quality (strict) | eval/benchmark/red-team/guardrail | 90 | 11.2% | eval/benchmark/red-team/guardrail | 23 | 4.3% | **Databricks** | 6.9 |
-| 9 | Lakeflow / Spark / streaming pipelines | Lakeflow / Spark / streaming | 279 | 34.8% | Snowpipe + Openflow + Snowpark + dbt | 194 | 36.1% | **Snowflake** | 1.3 |
-| 10 | SQL warehouse / lakehouse modernization | Databricks SQL / DW modernization | 347 | 43.3% | Gen2 warehouses + migrations | 200 | 37.2% | **Databricks** | 6.0 |
+| 1 | Cortex / GenAI app layer | Mosaic AI / Agent Bricks / Genie | 334 | 41.6% | Cortex agents + CoWork | 249 | 46.4% | **Snowflake** | 4.7 |
+| 2 | Semantic context for agents | Metric Views | 38 | 4.7% | Semantic Views / Cortex Analyst | 60 | 11.2% | **Snowflake** | 6.4 |
+| 3 | Sharing / marketplace / clean rooms | Delta Sharing + Marketplace | 31 | 3.9% | Secure Sharing + Marketplace + Clean Rooms | 35 | 6.5% | Snowflake | 2.7 |
+| 4 | Open lakehouse / table formats | Delta Lake + UniForm (+ Iceberg) | 84 | 10.5% | Iceberg + Polaris | 54 | 10.1% | tie | 0.4 |
+| 5 | Unity Catalog vs Horizon control plane | Unity Catalog | 158 | 19.7% | Horizon Catalog | 25 | 4.7% | **Databricks** | 15.0 |
+| 6 | BI dashboards / metrics / AI-BI | AI/BI dashboards | 87 | 10.8% | BI & Analytics / Snowsight | 38 | 7.1% | Databricks | 3.8 |
+| 7 | App / operational database substrate | Lakebase / app database substrate | 105 | 13.1% | Snowflake Postgres + Unistore / app-data bridge | 26 | 4.8% | **Databricks** | 8.3 |
+| 8 | Evals / red teaming / AI quality (strict) | eval / benchmark / red-team | 55 | 6.9% | eval / benchmark / red-team | 21 | 3.9% | Databricks | 2.9 |
+| 9 | Lakeflow / Spark / streaming pipelines | Lakeflow / Spark / streaming | 213 | 26.6% | Snowpipe + Openflow + Snowpark + dbt | 135 | 25.1% | tie | 1.4 |
+| 10 | SQL warehouse / lakehouse modernization | Databricks SQL / Photon | 80 | 10.0% | Gen2 warehouses + migrations | 53 | 9.9% | tie | 0.1 |
 
 ## Reading the split
 
-- **Snowflake leads (4 rows):** GenAI app layer, semantic context, sharing/marketplace,
-  and pipelines (by a hair).
-- **Databricks leads (6 rows):** open lakehouse/formats, named control plane, BI/AI-BI,
-  operational-DB substrate, evals, and warehouse/modernization — but four of these are
-  narrow (<10pp).
-- **Decisive deltas (>15pp) are balanced 2–2:** Unity Catalog vs Horizon (43.4pp, DBX) and
-  BI/AI-BI (22.4pp, DBX); GenAI app layer (17.3pp, SNOW) and semantic context (16.8pp, SNOW).
-- **Near-ties (<5pp):** pipelines (1.3pp), open lakehouse/formats (4.2pp), sharing/marketplace
-  (4.3pp) — claim a lean, not a win.
+- **Only one decisive gap:** Unity Catalog vs Horizon (**+15.0pp, Databricks**) — the named
+  control plane is the single clearest divergence on the board.
+- **Snowflake's real leads** are the **AI app layer** (+4.7) and the **semantic layer** (+6.4) —
+  modest but consistent; this is the "legibility / meaning" half of the story.
+- **Databricks' real leads** are the **named control plane** (+15.0) and the **operational-DB
+  substrate** (+8.3); plus narrower edges on BI (+3.8) and evals (+2.9) — the "operability" half.
+- **Genuine ties (<2pp):** open lakehouse/formats (0.4), pipelines (1.4), warehouse (0.1). Claim
+  no leader.
+- **Leans (2–4pp), not wins:** sharing/marketplace (SNOW +2.7), BI (DBX +3.8), evals (DBX +2.9).
 
-See `AUDITS.md` for the fairness caveats that qualify several of these deltas (especially
-rows 4, 5, and 7). Row 4 counts **Delta Lake and Iceberg equally** — both are open-source
-table formats — so Databricks' Delta-default substrate isn't penalised for not being branded
-"Iceberg".
+Margins here are ~3× smaller than the earlier taxonomy-based draft, which overstated both
+vendors' leads. The directional thesis survives; the dominance did not. See `AUDITS.md §0` for
+the methodology change and §1–2 for the rows it most affected.

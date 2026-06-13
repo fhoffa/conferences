@@ -12,33 +12,58 @@ the catalog actually shows a counter-story.
 
 ---
 
+## 0. Methodology — why the margins are smaller than the first draft
+
+The mirrored chart uses **length-controlled symmetric keywords**: the same keyword set
+(concept terms + every vendor's product names) is applied to **both** vendors, over each
+session's title+abstract **capped at 680 characters**.
+
+This corrects two biases in the earlier taxonomy-based draft:
+1. **Taxonomy breadth.** Mixing each vendor's native tags (Databricks `topic_tags`/`track`,
+   Snowflake `attributes`) credited whichever side had the broader tag. Snowflake's
+   "AI Agents / Data Agents" covered-topic is auto-applied to 291 sessions; Databricks' "AI/BI"
+   and "Unity Catalog" tags are similarly broad. This inflated margins in **both** directions —
+   it overstated Snowflake's GenAI (+17→+5) and semantic (+17→+6) leads *and* Databricks' BI
+   (+22→+4) and control-plane (+43→+15) leads.
+2. **Abstract length.** Databricks abstracts run ~1.45× longer than Snowflake's (median 991 vs
+   680 chars), so plain keyword counts over-credit Databricks. Capping both at 680 neutralises it.
+
+**Net effect:** margins shrink ~3× and four rows become ties (open formats, pipelines, warehouse,
+and BI/evals are leans). **The directional thesis survives** — Snowflake leads the GenAI app
+layer and the semantic layer; Databricks leads the named control plane and the operational-DB
+substrate — but as modest tilts, not dominance. Only **one** gap exceeds 10pp: Unity Catalog (§1).
+
+*(Speaker/company findings — VP-vs-practitioner, who-heads-talks, twin talks, guest split,
+roster overlap — are unaffected: they key on titles and affiliations, not abstract keywords.)*
+
+---
+
 ## 1. Unity Catalog vs Horizon — named control plane (row 5)
 
 | | Databricks | Snowflake |
 |---|---|---|
 | Named control-plane signal | Unity Catalog | Horizon Catalog |
-| Sessions | 450 (56.1%) | 68 (12.7%) |
+| Sessions (length-controlled) | 158 (19.7%) | 25 (4.7%) |
 
-**Verdict: real but must be framed as *named-product prominence*, not "Snowflake has weak
-governance."** Databricks attaches the **Unity Catalog** tag to 370 sessions and the term
-appears in many more abstracts — UC is the gravitational center of the Databricks agenda
-and is tagged onto sessions that are only adjacently about governance. Snowflake's
-**Horizon Catalog** is a single named feature on 67 sessions.
+**Verdict: the one decisive gap on the board (+15pp) — but it's *named-product prominence*, not
+"Snowflake has weak governance."** Even under the fair method, "Unity Catalog" appears in ~1 in 5
+Databricks sessions — it's the gravitational center of the agenda, named in talks only adjacently
+about governance. Snowflake's **Horizon Catalog** is named far less often (the term appears in
+~5% of sessions).
 
 **Fairness guard:** broad *governance* coverage is strong on **both** sides — Snowflake's
-"Governance" covered-topic alone is on 167 sessions and its "Governance & Security" track
-on 34. The 43pp gap measures **how dominant the *named* catalog brand is in the agenda**,
-not the presence of governance capability. State it as: *Unity Catalog is the most
-over-represented single product in either catalog; Horizon is a comparatively contained,
-single-feature story.*
+"Governance" covered-topic alone is on 167 sessions. The 15pp gap measures **how dominant the
+*named* catalog brand is in the agenda**, not the presence of governance capability. State it as:
+*Unity Catalog is the most over-represented single product in either catalog; Horizon is named
+more sparingly.*
 
 **Capability floor (cited):** **Horizon Catalog** is itself a full control plane —
 cross-cloud RBAC, Trust Center, differential privacy, clean rooms, AI Agent Identity, and
 AI security posture management — re-announced and expanded on 2026-06-02
 ([product page](https://www.snowflake.com/en/product/features/horizon/),
 [press release](https://www.snowflake.com/en/news/press-releases/snowflake-advances-trusted-ai-with-snowflake-horizon-catalog-centralizing-governance-context-and-security-across-the-enterprise/)).
-Unity Catalog's 56% reflects its role as the Databricks platform spine (it connects Lakebase,
-Genie, Agent Bricks, Lakeflow), not a governance gap at Snowflake.
+Unity Catalog's prominence reflects its role as the Databricks platform spine (it connects
+Lakebase, Genie, Agent Bricks, Lakeflow), not a governance gap at Snowflake.
 
 ---
 
@@ -51,23 +76,24 @@ keyword-only — that double-penalised Databricks and produced a misleading 6%-v
 corrected row uses the **same keyword set on both vendors** (delta lake, uniform, iceberg, hudi,
 parquet, polaris, "open table/lakehouse", interoperability):
 
-| Signal (keyword-symmetric) | Databricks | Snowflake |
+| Signal | Databricks | Snowflake |
 |---|---|---|
-| **Open lakehouse / formats (row 4)** | **114 (14.2%)** | **54 (10.1%)** |
-| "Delta Lake" | 93 (11.6%) | 2 (0.4%) |
-| "Iceberg" | 32 (4.0%) | 45 (8.4%) |
-| "Polaris" | 0 | 6 (1.1%) |
+| **Open lakehouse / formats (row 4, length-controlled)** | **84 (10.5%)** | **54 (10.1%)** → **tie** |
+| "Delta Lake" (raw mention rate) | 11.6% | 0.4% |
+| "Iceberg" (raw mention rate) | 4.0% | 8.4% |
 
-**Verdict: both conferences run on open table formats — they just use different ones.**
-Databricks leads the row (14.2% vs 10.1%) because its open house format, **Delta Lake**, is
-everywhere on its agenda. Snowflake leads the *Iceberg* word specifically (8.4% vs 4.0%) — it
-bet on the **industry-neutral** format as its interoperability play. So the honest framing is
-**house format vs neutral format**, not open vs closed.
+**Verdict: it's a tie — both conferences run on open table formats, they just use different
+ones.** Under the fair method (count Delta, control for length) the row is **DBX 10.5% vs SNOW
+10.1%** — dead even. The composition differs: Databricks' open formats are **Delta Lake**
+(11.6% of its agenda), Snowflake's are **Iceberg** (8.4%). Snowflake bet on the
+**industry-neutral** format; Databricks leads with its own (open) Delta and bridges to Iceberg
+via UniForm.
 
 **Fairness guard:** keep this row **separate from governance** (row 5). Do **not** say Snowflake
-"leads openness" or that Databricks is "closed" — when Delta is counted, Databricks talks open
-formats *more*. The real difference: Snowflake adopts the neutral Iceberg standard; Databricks
-leads with its own (open) Delta and bridges to Iceberg via UniForm.
+"leads openness" or that Databricks is "closed" — open-format airtime is **equal**. The real
+difference is *which* open format: neutral (Iceberg) vs house (Delta). The earlier "6% vs 28.7%
+Snowflake-leads-openness" gap was an artifact of counting only "Iceberg" and giving Snowflake
+taxonomy credit.
 
 **Capability floor (cited):** Databricks **open-sourced Unity Catalog (Apache 2.0)**, ships
 **native Apache Iceberg managed tables**, and **Delta UniForm** exposes one copy as
@@ -176,24 +202,24 @@ non-user.
 Framed strictly as **absent from current catalog signals**, not absent as a
 customer/partner:
 
-- **Semantic layer (row 2):** Snowflake's **Semantic Views** (113 sessions, incl. 102
-  feature-tagged) dwarf Databricks' **Metric Views / semantic models** (34, of which only 18
-  say "metric view"). This is the clearest "named capability the other side barely surfaces"
-  on the Snowflake side — semantic-context-for-agents is a Snowflake headline and a
-  Databricks footnote *in the catalog*, even though UC Metric Views exist.
-- **Named control plane (row 5):** mirror image — Unity Catalog saturates the Databricks
-  agenda in a way Horizon does not for Snowflake.
-- **BI/AI-BI (row 6):** Databricks' **AI/BI** (Genie/dashboards) is a much larger labeled
-  presence (37.2%) than Snowflake's BI & Analytics track (14.7%).
-- **Evals (row 8):** strict eval/benchmark/red-team/guardrail language is roughly **2.6×**
-  more common on the Databricks agenda (11.2% vs 4.3%) — see audit 7.
+- **Semantic layer (row 2):** Snowflake's **Semantic Views / Cortex Analyst** (11.2%) lead
+  Databricks' **Metric Views** (4.7%) — Snowflake's clearest real lead after the AI app layer.
+  Semantic-context-for-agents is a Snowflake headline and a Databricks footnote *in the catalog*,
+  even though UC Metric Views exist.
+- **Named control plane (row 5):** mirror image, and the board's only decisive gap — Unity
+  Catalog is named in ~20% of Databricks sessions vs Horizon's ~5% for Snowflake.
+- **BI/AI-BI (row 6):** Databricks' **AI/BI** (Genie/dashboards) is a *lean*, not a rout —
+  10.8% vs 7.1% once length-controlled (the taxonomy draft's 37% vs 15% was an AI/BI-tag
+  artifact).
+- **Evals (row 8):** strict eval/benchmark/red-team/guardrail language is roughly **1.8×**
+  more common on the Databricks agenda (6.9% vs 3.9%) — see audit 7.
 
 ---
 
 ## 7. Evals — strict vs broad (row 8)
 
 The row counts **only** strict signals: `eval / evals / evaluation / benchmark / red team /
-LLM-as-judge / guardrail`. Result: DBX 90 (11.2%), SNOW 23 (4.3%).
+LLM-as-judge / guardrail` (length-controlled). Result: DBX 55 (6.9%), SNOW 21 (3.9%).
 
 **Fairness guard:** do **not** conflate this with broad "trust / quality / responsible AI"
 language, which is common on both sides (Snowflake's Governance/Compliance/Observability

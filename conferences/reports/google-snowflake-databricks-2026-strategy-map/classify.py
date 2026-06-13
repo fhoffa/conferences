@@ -88,63 +88,66 @@ def snow_code_prefix(s):
 
 
 # ---------------------------------------------------------------------------
-# Row matchers. Each returns a predicate(session)->bool for each vendor.
+# Row matchers — LENGTH-CONTROLLED SYMMETRIC KEYWORDS.
+#
+# Fairness methodology (see AUDITS §0). Earlier drafts mixed each vendor's native
+# taxonomy (Databricks topic_tags/track, Snowflake attributes) with keywords. Those
+# taxonomies differ wildly in breadth — Snowflake's "AI Agents / Data Agents"
+# covered-topic is auto-applied to 291 sessions; Databricks' "AI/BI" and "Unity
+# Catalog" tags are similarly broad — so the mix silently inflated whichever side had
+# the broader tag, in BOTH directions (it overstated Snowflake's GenAI/semantic leads
+# AND Databricks' BI lead). This version removes that bias two ways:
+#   1) the SAME keyword set is applied to BOTH vendors (concept terms + every vendor's
+#      product names), so neither gets taxonomy credit the other lacks;
+#   2) each session's text is capped at CAP chars before matching, because Databricks
+#      abstracts run ~1.45x longer than Snowflake's (median 991 vs 680) and longer text
+#      simply yields more keyword hits — an artifact, not signal.
+# Net effect vs the taxonomy draft: margins shrink ~3x and several rows become ties.
+# The directional thesis survives (Snowflake leads GenAI + semantic; Databricks leads
+# the named control plane + operational DB).
 # ---------------------------------------------------------------------------
+
+CAP = 680  # ~Snowflake median title+abstract length; applied to both vendors
+
+
+def text_capped(s):
+    return text_of(s)[:CAP]
+
 
 ROWS = []  # list of dicts: key, label, dbx_label, snow_label, dbx(fn), snow(fn)
 
 
-def row(key, label, dbx, snow, dbx_label=None, snow_label=None):
-    ROWS.append(dict(key=key, label=label, dbx=dbx, snow=snow,
-                     dbx_label=dbx_label or label, snow_label=snow_label or label))
+def row(key, label, terms, dbx_label, snow_label):
+    """Symmetric, length-controlled matcher: same keyword set on both vendors."""
+    matcher = lambda s, t=tuple(terms): kw(text_capped(s), *t)
+    ROWS.append(dict(key=key, label=label, dbx=matcher, snow=matcher,
+                     dbx_label=dbx_label, snow_label=snow_label))
 
 
-# 1. Cortex / GenAI app layer (broad GenAI + agent app layer)
+# 1. GenAI / agent app layer
 row(
     "genai_app_layer", "Cortex / GenAI app layer",
-    dbx=lambda s: (
-        {"databricks agents", "genie"} & dbx_tags(s)
-        or "artificial intelligence" in dbx_track(s)
-        or kw(text_of(s), "agent bricks", "mosaic ai", "generative ai", "genai", "llm", "ai agent", "ai agents", "gen ai")
-    ),
-    snow=lambda s: (
-        {"cortex agents", "cortex ai functions", "snowflake cowork", "snowflake coco"} & snow_features(s)
-        or {"generative ai & agents"} & snow_tracks(s)
-        or {"ai agents / data agents", "generative ai / llms"} & snow_topics(s)
-        or kw(text_of(s), "cortex", "generative ai", "genai", "gen ai", "ai agent", "ai agents", "llm")
-    ),
+    ["generative ai", "genai", "gen ai", "llm", "llms", "ai agent", "ai agents", "agentic",
+     "copilot", "chatbot", "rag", "foundation model", "fine-tun", "mosaic ai", "agent bricks",
+     "genie", "cortex", "cowork", "coco", "ai functions", "model serving"],
     dbx_label="Mosaic AI / Agent Bricks / Genie",
-    snow_label="Cortex agents + AI functions",
+    snow_label="Cortex agents + CoWork",
 )
 
 # 2. Semantic context for agents (semantic layer/models feeding agents)
 row(
     "semantic_context", "Semantic context for agents",
-    dbx=lambda s: (
-        kw(text_of(s), "semantic model", "semantic models", "semantic layer", "metric view", "metric views", "semantic view", "uc metric")
-        or ("genie" in dbx_tags(s) and kw(text_of(s), "semantic", "metric"))
-    ),
-    snow=lambda s: (
-        {"semantic views"} & snow_features(s)
-        or kw(text_of(s), "semantic view", "semantic views", "semantic model", "semantic layer", "semantic model")
-    ),
-    dbx_label="Metric Views / semantic models",
-    snow_label="Semantic Views",
+    ["semantic view", "semantic views", "semantic model", "semantic models", "semantic layer",
+     "metric view", "metric views", "semantics", "ontology", "semantic studio", "cortex analyst"],
+    dbx_label="Metric Views",
+    snow_label="Semantic Views / Cortex Analyst",
 )
 
 # 3. Sharing / marketplace / clean rooms
 row(
     "sharing_marketplace", "Sharing / marketplace / clean rooms",
-    dbx=lambda s: (
-        {"delta sharing", "data marketplace"} & dbx_tags(s)
-        or "data sharing" in dbx_track(s)
-        or kw(text_of(s), "delta sharing", "marketplace", "clean room", "clean rooms", "data sharing")
-    ),
-    snow=lambda s: (
-        {"secure data sharing", "marketplace", "data clean rooms"} & snow_features(s)
-        or {"data sharing & marketplace"} & snow_tracks(s)
-        or kw(text_of(s), "data sharing", "marketplace", "clean room", "clean rooms")
-    ),
+    ["data sharing", "delta sharing", "secure data sharing", "marketplace", "data marketplace",
+     "clean room", "clean rooms", "data exchange", "data clean room"],
     dbx_label="Delta Sharing + Marketplace",
     snow_label="Secure Sharing + Marketplace + Clean Rooms",
 )
@@ -155,16 +158,11 @@ row(
 #    "Iceberg". Kept *keyword-symmetric* on both vendors on purpose: Databricks has no native
 #    "table format" taxonomy tag, so crediting Snowflake's Iceberg/Polaris feature tags while
 #    giving Databricks keyword-only would unfairly inflate Snowflake. See AUDITS §2.
-_OPEN_FORMATS = (
-    "delta lake", "delta table", "delta tables", "delta format", "delta uniform", "uniform",
-    "iceberg", "apache iceberg", "hudi", "parquet", "polaris", "apache polaris",
-    "open table format", "open table formats", "open format", "open formats", "open lakehouse",
-    "interoperab", "interoperable", "interoperability",
-)
 row(
     "open_lakehouse", "Open lakehouse / table formats",
-    dbx=lambda s: kw(text_of(s), *_OPEN_FORMATS),
-    snow=lambda s: kw(text_of(s), *_OPEN_FORMATS),
+    ["delta lake", "delta table", "delta tables", "delta uniform", "uniform", "iceberg", "hudi",
+     "parquet", "polaris", "open table format", "open table formats", "open lakehouse",
+     "open format", "open formats", "interoperab", "interoperable", "interoperability"],
     dbx_label="Delta Lake + UniForm (+ Iceberg)",
     snow_label="Iceberg + Polaris",
 )
@@ -172,46 +170,26 @@ row(
 # 5. Unity Catalog vs Horizon governance control plane (NAMED control plane only)
 row(
     "named_control_plane", "Unity Catalog vs Horizon control plane",
-    dbx=lambda s: ("unity catalog" in dbx_tags(s) or kw(text_of(s), "unity catalog")),
-    snow=lambda s: ("horizon catalog" in snow_features(s) or kw(text_of(s), "horizon catalog", "horizon")),
+    ["unity catalog", "horizon catalog", "horizon"],
     dbx_label="Unity Catalog",
     snow_label="Horizon Catalog",
 )
 
-# 6. BI dashboards / metrics / AI-BI
-# Kept symmetric and tight: each vendor's BI *track* plus dashboard/BI keywords.
-# Deliberately excludes the bare "analytics" keyword (catches every "advanced
-# analytics" mention) and the Databricks SQL tag (SQL warehouse belongs to row 10),
-# so the row measures named dashboarding/AI-BI rather than all analytics talk.
+# 6. BI dashboards / metrics / AI-BI (dashboard/BI surface, not all "analytics" talk)
 row(
     "bi_analytics", "BI dashboards / metrics / AI-BI",
-    dbx=lambda s: (
-        {"ai/bi"} & dbx_tags(s)
-        or "analytics & bi" in dbx_track(s)
-        or kw(text_of(s), "ai/bi", "dashboard", "dashboards", "business intelligence")
-    ),
-    snow=lambda s: (
-        {"bi & analytics"} & snow_tracks(s)
-        or kw(text_of(s), "dashboard", "dashboards", "business intelligence")
-    ),
+    ["dashboard", "dashboards", "business intelligence", "ai/bi", "ai-bi", "bi tool",
+     "self-service analytics", "snowsight"],
     dbx_label="AI/BI dashboards",
-    snow_label="BI & Analytics",
+    snow_label="BI & Analytics / Snowsight",
 )
 
 # 7. App / operational database substrate (combined, vendor-specific labels)
 row(
     "app_operational_db", "App / operational database substrate",
-    dbx=lambda s: (
-        {"lakebase", "databricks apps"} & dbx_tags(s)
-        or "lakebase" in dbx_track(s)
-        or "application development" in dbx_track(s)
-        or kw(text_of(s), "lakebase", "operational database", "postgres", "oltp", "transactional database")
-    ),
-    snow=lambda s: (
-        {"snowflake postgres", "hybrid tables", "native apps", "streamlit / streamlit in snowflake"} & snow_features(s)
-        or {"application development"} & snow_tracks(s)
-        or kw(text_of(s), "unistore", "hybrid table", "hybrid tables", "snowflake postgres", "operational database", "oltp", "native app", "native apps", "streamlit")
-    ),
+    ["lakebase", "databricks apps", "postgres", "oltp", "operational database",
+     "transactional database", "unistore", "hybrid table", "hybrid tables", "native app",
+     "native apps", "streamlit", "app development"],
     dbx_label="Lakebase / app database substrate",
     snow_label="Snowflake Postgres + Unistore / app-data bridge",
 )
@@ -219,29 +197,18 @@ row(
 # 8. Evals / red teaming / AI quality (STRICT: eval/benchmark/red-team only)
 row(
     "evals_strict", "Evals / red teaming / AI quality (strict)",
-    dbx=lambda s: kw(
-        text_of(s), "eval", "evals", "evaluation", "evaluating", "benchmark", "benchmarks",
-        "red team", "red-team", "red teaming", "llm judge", "llm-as-a-judge", "llm as a judge", "guardrail", "guardrails"
-    ),
-    snow=lambda s: kw(
-        text_of(s), "eval", "evals", "evaluation", "evaluating", "benchmark", "benchmarks",
-        "red team", "red-team", "red teaming", "llm judge", "llm-as-a-judge", "llm as a judge", "guardrail", "guardrails"
-    ),
+    ["eval", "evals", "evaluation", "evaluating", "benchmark", "benchmarks", "red team",
+     "red-team", "red teaming", "llm judge", "llm-as-a-judge", "llm as a judge", "guardrail", "guardrails"],
+    dbx_label="eval / benchmark / red-team",
+    snow_label="eval / benchmark / red-team",
 )
 
 # 9. Lakeflow / Spark / streaming pipelines
 row(
     "pipelines_streaming", "Lakeflow / Spark / streaming pipelines",
-    dbx=lambda s: (
-        {"lakeflow"} & dbx_tags(s)
-        or "data engineering" in dbx_track(s)
-        or kw(text_of(s), "lakeflow", "spark", "structured streaming", "streaming", "delta live table", "dlt", "auto loader", "pipeline", "pipelines")
-    ),
-    snow=lambda s: (
-        {"snowpipe streaming / dynamic tables", "snowpark / snowpark connect", "snowflake openflow", "apache spark™", "apache nifi", "dbt projects on snowflake"} & snow_features(s)
-        or {"data engineering & pipelines"} & snow_tracks(s)
-        or kw(text_of(s), "snowpipe", "dynamic table", "dynamic tables", "openflow", "snowpark", "streaming", "pipeline", "pipelines", "spark")
-    ),
+    ["lakeflow", "spark", "structured streaming", "streaming", "dlt", "delta live", "auto loader",
+     "pipeline", "pipelines", "snowpipe", "dynamic table", "dynamic tables", "openflow",
+     "snowpark", "nifi", "dbt", "ingestion"],
     dbx_label="Lakeflow / Spark / streaming",
     snow_label="Snowpipe + Openflow + Snowpark + dbt",
 )
@@ -249,18 +216,9 @@ row(
 # 10. SQL warehouse / lakehouse modernization
 row(
     "warehouse_modernization", "SQL warehouse / lakehouse modernization",
-    dbx=lambda s: (
-        {"databricks sql"} & dbx_tags(s)
-        or "data warehousing" in dbx_track(s)
-        or kw(text_of(s), "databricks sql", "data warehouse", "warehouse", "migration", "migrate", "modernization", "modernize", "lakehouse")
-    ),
-    snow=lambda s: (
-        {"gen 2 warehouses", "snowflake optima"} & snow_features(s)
-        or {"data warehouse"} & snow_topics(s)
-        or {"migrations & modernization", "performance & cost optimization"} & snow_tracks(s)
-        or kw(text_of(s), "data warehouse", "warehouse", "migration", "migrate", "modernization", "modernize")
-    ),
-    dbx_label="Databricks SQL / DW modernization",
+    ["data warehouse", "warehouse", "photon", "gen2 warehouse", "optima", "migration",
+     "migrate", "modernization", "modernize"],
+    dbx_label="Databricks SQL / Photon",
     snow_label="Gen2 warehouses + migrations",
 )
 

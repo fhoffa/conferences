@@ -37,8 +37,8 @@ forward-looking agenda and Snowflake's as a settled one.
 - **Databricks**: **Agent Bricks** — unified platform to build/deploy/govern production agents
   with Lakehouse context, identity-first UC governance, and automated evaluation; GA Document
   Intelligence + Custom Agents. ([letsdatascience](https://letsdatascience.com/news/databricks-launches-agent-bricks-enterprise-agent-platform-6d7b19ad))
-- **Fair read:** both lead with an agentic-enterprise thesis. Agenda gap (SNOW 68.9% vs DBX
-  51.6%) is emphasis, not a capability gap — both ship a full GenAI/agent app layer.
+- **Fair read:** both lead with an agentic-enterprise thesis. The agenda gap is slim under the
+  fair method (SNOW 46.4% vs DBX 41.6%, length-controlled — +4.7) — emphasis, not capability.
 
 ### 2. Semantic context for agents — *Snowflake leads, and confirms it*
 - **Snowflake** made **context & semantics a named domain**: **Semantic Studio**, **Cortex
@@ -57,9 +57,10 @@ forward-looking agenda and Snowflake's as a settled one.
 
 ### 4. Open table formats — *count Delta, not just Iceberg*
 - **Delta Lake is open** (Linux Foundation / Apache 2.0), so a fair "open formats" row counts it
-  alongside Iceberg. Doing so (keyword-symmetric) gives **Databricks 14.2% vs Snowflake 10.1%** —
-  Databricks leads, because Delta (11.6% vs 0.4%) is its open house format and is everywhere on
-  its agenda. Snowflake leads only the **Iceberg word** (8.4% vs 4.0%).
+  alongside Iceberg. Doing so (length-controlled symmetric) gives **Databricks 10.5% vs Snowflake
+  10.1% — a tie.** The composition differs: Databricks' open formats are **Delta Lake** (11.6%
+  raw mention rate vs 0.4%), Snowflake's are **Iceberg** (8.4% vs 4.0%). Equal airtime, different
+  format.
 - **Snowflake** bet on the **industry-neutral** format: **Apache Iceberg v3**, **Apache Polaris /
   Open Catalog**, reads/writes Iceberg as its interop play.
   ([Atlan recap](https://atlan.com/know/snowflake/summit-2026-announcements/))
@@ -80,7 +81,7 @@ forward-looking agenda and Snowflake's as a settled one.
   ([product page](https://www.snowflake.com/en/product/features/horizon/),
   [press release](https://www.snowflake.com/en/news/press-releases/snowflake-advances-trusted-ai-with-snowflake-horizon-catalog-centralizing-governance-context-and-security-across-the-enterprise/))
 - **Databricks Unity Catalog** is the platform spine connecting Lakebase, Genie, Agent Bricks,
-  Lakeflow, Lakehouse — which is *why* it's tagged on 56% of sessions.
+  Lakeflow, Lakehouse — which is *why* it's named in ~20% of sessions (the board's one decisive gap).
 - **Fair read:** the 43pp gap is **named-brand prominence**, not a governance-capability gap.
   Broad governance is strong on both sides (Snowflake "Governance" topic = 167 sessions).
 
@@ -92,7 +93,7 @@ forward-looking agenda and Snowflake's as a settled one.
   investment goes into the *semantic layer* (row 2), not a dashboard product.
   ([Snowsight guide](https://coefficient.io/snowflake/what-is-snowsight),
   [Snowflake+Power BI guide](https://www.snowflake.com/en/developers/guides/end-to-end-analytics-with-snowflake-and-power-bi/))
-- **Fair read:** the 37.2% vs 14.7% gap reflects a **strategic split** — Databricks owns the
+- **Fair read:** the 10.8% vs 7.1% gap (length-controlled) reflects a **strategic split** — Databricks owns the
   dashboard surface; Snowflake owns the semantic layer and partners for dashboards. Neither
   "lacks BI."
 
@@ -117,7 +118,7 @@ forward-looking agenda and Snowflake's as a settled one.
   Snowflake Cortex** — LLM-as-a-judge with relevance, groundedness, harmfulness metrics.
   ([TruEra acquisition](https://www.snowflake.com/en/blog/snowflake-acquires-truera-to-bring-llm-ml-observability-to-data-cloud/),
   [AI Observability docs](https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability))
-- **Fair read:** the 11.2% vs 4.3% gap is **agenda emphasis**. Databricks talks eval mechanics
+- **Fair read:** the 6.9% vs 3.9% gap (length-controlled) is **agenda emphasis**. Databricks talks eval mechanics
   more; both vendors ship productized evaluation. Do not claim Snowflake "has no evals."
 
 ### 9. Lakeflow / Spark / streaming pipelines — near tie

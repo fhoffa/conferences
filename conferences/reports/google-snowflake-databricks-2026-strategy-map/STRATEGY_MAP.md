@@ -28,55 +28,46 @@ Both vendors now run the *same* play — an AI/agent layer on top of a governed 
 but they foreground different halves of it. **Snowflake's agenda is louder on the AI app
 surface and the meaning layer** (Cortex, Semantic Views, the neutral Iceberg format).
 **Databricks' agenda is louder on the governed substrate and the analyst/operational tooling
-around it** (Unity Catalog, AI/BI, Lakebase, evals). Databricks leads 6 of 10 rows by emphasis
-(four of them narrowly), but the *decisive* gaps are balanced 2–2: Unity Catalog and AI/BI for
-Databricks; the GenAI app layer and the semantic layer for Snowflake.
+around it** (Unity Catalog, Lakebase, BI, evals). Under the fair method (length-controlled
+symmetric keywords; `AUDITS.md §0`) Databricks leads 7 of 10 rows by emphasis, but only **one**
+gap is decisive — Unity Catalog (+15pp). Snowflake's real leads are the GenAI app layer (+4.7)
+and the semantic layer (+6.4); everything else is a modest lean or a tie.
 
 ---
 
 ## Where Snowflake's agenda leans in
 
-- **GenAI app layer (68.9% vs 51.6%).** Cortex agents + AI functions + CoWork/CoCo
-  saturate the Snowflake agenda; more than two of every three sessions touch the GenAI app
-  layer. Databricks' Mosaic AI / Agent Bricks / Genie story is large too (over half the
-  agenda) — this is a *prominence* gap, not a capability gap.
-- **Semantic context for agents (21.0% vs 4.2%).** The single sharpest asymmetry in
-  Snowflake's favor. **Semantic Views** are a headline (113 sessions); Databricks' Metric
-  Views / semantic-model language is a footnote (34, only 18 saying "metric view"). If
-  agents-need-a-semantic-layer is the thesis, Snowflake is selling it far harder *on the
-  agenda*.
-- **The neutral Iceberg format (8.4% vs 4.0%) — but not open formats overall.** Snowflake
-  brands Apache Iceberg + Polaris ~2× more — its bet on the *industry-neutral* table format.
-  **But count Delta (also open-source) and the gap inverts:** open table formats touch 14.2%
-  of Databricks' agenda vs 10.1% of Snowflake's, because Delta Lake (11.6% vs 0.4%) is
-  everywhere on the Databricks stage. So row 4 actually *leans Databricks* — this is a
-  which-format difference (house vs neutral), **not** open-vs-closed. (See `AUDITS.md §2`.)
-- **Sharing / marketplace / clean rooms (18.1% vs 13.7%) — narrow, <5pp.** Call it a lean,
-  not a lead.
+- **Semantic context for agents (11.2% vs 4.7%, +6.4).** Snowflake's clearest real lead.
+  **Semantic Views / Cortex Analyst** are a Snowflake headline (its own Summit domain); Databricks'
+  Metric Views language is a footnote. If agents-need-a-semantic-layer is the thesis, Snowflake is
+  selling it harder *on the agenda* — though the gap is ~6pp, not the ~17pp the taxonomy draft
+  showed.
+- **GenAI / agent app layer (46.4% vs 41.6%, +4.7).** Snowflake edges it — but both conferences
+  are heavily agent-focused, so this is a slim *prominence* lean, not the rout (69% vs 52%) the
+  taxonomy draft implied. The earlier gap was a Snowflake-covered-topic artifact.
+- **Sharing / marketplace / clean rooms (6.5% vs 3.9%, +2.7) — a lean, not a lead.**
 
 ## Where Databricks' agenda leans in
 
-- **Unity Catalog vs Horizon (56.1% vs 12.7%).** The largest delta on the board (43.4pp).
-  Unity Catalog is the gravitational center of the Databricks agenda; Horizon is a contained
-  single feature. **Frame as named-control-plane prominence** — broad governance is strong
-  on both sides (`AUDITS.md §1`).
-- **BI / AI-BI (37.2% vs 14.7%).** AI/BI (Genie + dashboards) is a much larger labeled
-  presence than Snowflake's BI & Analytics track. (Tightened to exclude the bare "analytics"
-  keyword and the Databricks SQL tag, which belong to the warehouse row.)
-- **App / operational DB substrate (25.7% vs 17.1%).** Databricks leads on **branding and
-  concentration** — Lakebase gets its own track plus a heavy Databricks Apps push. Snowflake
-  is **not absent**: Native Apps (36) + Streamlit (35) + Snowflake Postgres/Hybrid Tables
-  preview carry a real app-on-data story (`AUDITS.md §3`).
-- **Evals / red teaming (11.2% vs 4.3%).** Strict eval/benchmark/red-team/guardrail language
-  is ~2.6× more common on Databricks' agenda. Narrow claim only — broad trust/quality talk
-  is common on both sides (`AUDITS.md §7`).
-- **SQL warehouse / modernization (43.3% vs 37.2%) — modest, 6pp.** Both are deep here;
-  Databricks edges it.
+- **Unity Catalog vs Horizon (19.7% vs 4.7%, +15.0).** The **only decisive gap on the board.**
+  Unity Catalog is named in ~1 in 5 Databricks sessions; Horizon in ~5% of Snowflake's. **Frame
+  as named-control-plane prominence** — broad governance is strong on both sides (`AUDITS.md §1`).
+- **App / operational DB substrate (13.1% vs 4.8%, +8.3).** Databricks leads on **branding and
+  concentration** — Lakebase gets its own track plus a heavy Databricks Apps push. Snowflake is
+  **not absent**: Native Apps + Streamlit + Snowflake Postgres carry a real app-on-data story
+  (`AUDITS.md §3`).
+- **BI / AI-BI (10.8% vs 7.1%, +3.8) — a lean.** First-party AI/BI (Genie + dashboards) beats
+  Snowflake's dashboard presence, but by ~4pp, not the 22pp the taxonomy draft showed (AI/BI-tag
+  artifact). Snowflake cedes dashboards to Streamlit/partners by design.
+- **Evals / red teaming (6.9% vs 3.9%, ~1.8×) — narrow.** Both ship it (Snowflake via
+  TruEra/TruLens); only Databricks foregrounds the mechanics (`AUDITS.md §7`).
 
 ## Where it's effectively a tie
 
-- **Pipelines / streaming (34.8% vs 36.1%, 1.3pp).** Lakeflow/Spark vs
-  Snowpipe/Openflow/Snowpark/dbt — dead heat. Do not claim a leader.
+- **Open lakehouse / table formats (10.5% vs 10.1%).** Equal airtime — Databricks on Delta,
+  Snowflake on Iceberg (`AUDITS.md §2`).
+- **Pipelines / streaming (26.6% vs 25.1%).** Lakeflow/Spark vs Snowpipe/Openflow/Snowpark/dbt.
+- **SQL warehouse / modernization (~10% each, +0.1).** Both deep; dead heat.
 
 ## Side callouts
 
@@ -114,14 +105,14 @@ session crediting is applied anywhere in this build, so there are no "fractional
 credit" rows to label. (The TODO permits fractional only when a row *explicitly* uses
 fractional agenda share; none here do.)
 
-**Classification method.** Vendor-native taxonomy first, keyword backstop second:
-- *Databricks:* `track`, `topic_tags` (Unity Catalog, AI/BI, Databricks Agents, Databricks
-  SQL, Lakeflow, Lakebase, Databricks Apps, Genie, Delta Sharing, Data Marketplace), then
-  title+abstract keywords.
-- *Snowflake:* `attributes` → Session Tracks, Covered Topics, Covered Features (Cortex
-  Agents, Semantic Views, Apache Iceberg, Horizon Catalog, Secure Data Sharing, Snowflake
-  Postgres, Native Apps, Streamlit, Snowpipe/Dynamic Tables, etc.), then title+abstract
-  keywords.
+**Classification method — length-controlled symmetric keywords (`AUDITS.md §0`).** The **same**
+keyword set (concept terms + every vendor's product names) is applied to **both** vendors, over
+each session's title+abstract **capped at 680 characters**. This replaces an earlier draft that
+mixed each vendor's native taxonomy (Databricks `topic_tags`/`track`, Snowflake `attributes`)
+with keywords — those taxonomies differ in breadth and silently inflated whichever side had the
+broader tag, in both directions. The cap neutralises Databricks' ~1.45× longer abstracts (median
+991 vs 680 chars), which otherwise over-credit it on raw keyword counts. Net effect: margins are
+~3× smaller than the taxonomy draft and four rows are ties; the directional thesis survives.
 
 This is reproducible: `python3 classify.py` regenerates `chart_data.json` and the CSV;
 `python3 gen_chart.py` regenerates `chart.svg`.

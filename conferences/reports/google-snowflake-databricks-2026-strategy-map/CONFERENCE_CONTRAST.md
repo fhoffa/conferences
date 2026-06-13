@@ -26,10 +26,10 @@ The eight differences, each grounded in the data below. Spicy, not mean: every o
    Lakebase to Databricks and a VP of AI + CoWork to Snowflake — each host's flagship, each host's
    framing. Build vs outcome, from one company in one month.
 
-3. **Snowflake sells legibility; Databricks sells operability.** Snowflake's agenda foregrounds the
-   AI surface and meaning (Cortex 69%, Semantic Views 21% vs 4%, the neutral Iceberg format 8% vs
-   4%); Databricks foregrounds the governed substrate and tooling (Unity Catalog 56%, AI/BI 37% vs
-   15%, Lakebase, evals).
+3. **Snowflake sells legibility; Databricks sells operability.** The tilts are modest but
+   consistent: Snowflake edges the AI app layer (46% vs 42%) and leads the semantic layer (11% vs
+   5%); Databricks owns the named control plane (Unity Catalog 20% vs 5% — the one decisive gap)
+   and the operational-DB substrate (13% vs 5%). Same destination, opposite emphasis.
 
 4. **They barely share a guest list.** Of the ~790 distinct companies that took a speaking slot,
    only about 1 in 9 (~85) appeared at both. Two nearly separate universes of customers.
@@ -42,11 +42,10 @@ The eight differences, each grounded in the data below. Spicy, not mean: every o
    repeat talks — Astronomer, ServiceNow, Tableau's Open Semantic Interchange — are all the
    semantic/context layer, engineered to be platform-neutral, so the slides port unchanged.
 
-7. **Both run on open table formats — they just use different ones.** Open formats touch ~14% of
-   Databricks' agenda (its open house format, **Delta Lake**) vs ~10% of Snowflake's. Snowflake
-   leads the *Iceberg* word specifically (8% vs 4%) — it bet on the **neutral** format; Databricks
-   leads with Delta and bridges to Iceberg via UniForm. House format vs neutral format — neither
-   is "closed."
+7. **Open table formats are a dead tie — they just use different ones.** Open formats touch ~10%
+   of each agenda (Databricks on its open house format **Delta Lake**, Snowflake on **Iceberg**,
+   the neutral standard it bet on). Equal airtime, different format — neither is "closed," and the
+   "Snowflake leads openness" story was a counting artifact.
 
 8. **Even the no-shows tilt.** Databricks-only logos skew tech and consumer (Mastercard, Adobe,
    Nubank, PepsiCo); Snowflake-only skew regulated and industrial (Toyota, Roche, BlackRock,
@@ -98,35 +97,29 @@ You can see it in the topics, in how the same companies are framed, and in who's
 
 ## Part 1 — what each conference puts in the spotlight
 
-Reading the topic mix (share of each catalog; rows overlap, so they don't sum to 100):
+Reading the topic mix (share of each catalog, length-controlled symmetric keywords — see
+`AUDITS.md §0`; rows overlap, so they don't sum to 100). **The tilts are modest** — only one gap
+clears 10pp — but they're consistent:
 
-- **Snowflake leans into the AI app surface and "meaning."** Cortex/agents touch **68.9%** of
-  its agenda vs Databricks' 51.6%. The sharper signal is the **semantic layer**: Snowflake's
-  Semantic Views appear on **21%** of sessions vs **4%** for Databricks' Metric Views. Snowflake
+- **Snowflake leans into the AI app surface and "meaning."** It edges Databricks on the GenAI /
+  agent layer (**46% vs 42%**) and leads the **semantic layer** more clearly — Semantic Views /
+  Cortex Analyst appear on **11%** of sessions vs **5%** for Databricks' Metric Views. Snowflake
   gave semantics its own Summit domain (Semantic Studio, Cortex Sense). The message: *the value
   is in making your data legible to agents.*
-- **Open table formats: house format vs neutral format.** Count fairly — Delta Lake is an
-  open-source table format just like Iceberg — and the "openness" gap inverts: open formats touch
-  **14.2%** of Databricks' agenda vs **10.1%** of Snowflake's, because **Delta Lake** (11.6% vs
-  0.4%) is everywhere on the Databricks stage. Snowflake leads the *Iceberg* word specifically
-  (**8.4%** vs **4.0%**) — its bet on the **industry-neutral** format. So Snowflake adopts the
-  neutral standard while Databricks leads with its own (open) Delta and bridges to Iceberg via
-  UniForm. Neither is "closed." (`AUDITS.md §2`)
-- **Databricks leans into the governed substrate.** Unity Catalog appears on **56%** of its
-  sessions — the most omnipresent single product at either event. That's because it's the
-  connective tissue: it's how Lakebase, Genie, Agent Bricks, and Lakeflow are wired together.
-  Snowflake has no single product playing that narrative role; its governance is carried by
-  Horizon, a full control plane that simply isn't repeated on every slide.
-- **Databricks brings its own analytics surface.** First-party AI/BI (Genie + Dashboards) is on
-  **37%** of its agenda vs **15%** for Snowflake — because Snowflake, by design, leaves the
-  dashboard to partners (more on that below) and invests in the semantic layer underneath.
-- **Both arrived at the same operational-database conclusion.** Databricks' Lakebase and
-  Snowflake's Postgres + Unistore tell the same "agents need an OLTP database" story; Databricks
-  simply gives it more agenda real estate (25.7% vs 17.1%) and its own track.
-- **Evals: on the main stage vs inside the product.** Databricks puts evaluation/red-teaming on
-  the agenda 2.6× more (11.2% vs 4.3%). Snowflake keeps it productized (Cortex AI Observability,
-  the TruEra/TruLens lineage) rather than foregrounded. Both ship it; only one headlines it.
-- **A genuine tie:** data pipelines/streaming — 34.8% vs 36.1%, within noise.
+- **Databricks leans into the governed substrate.** Unity Catalog is named in **~20%** of its
+  sessions vs Horizon's **~5%** — the **one decisive gap on the board (+15pp)** and the most
+  omnipresent single product at either event, because it's the connective tissue wiring Lakebase,
+  Genie, Agent Bricks, and Lakeflow together. Snowflake's governance rides on Horizon, a full
+  control plane that simply isn't repeated on every slide.
+- **Databricks owns more of the operational-DB substrate** (**13% vs 5%**). Both tell the same
+  "agents need an OLTP database" story (Lakebase vs Snowflake Postgres + Unistore); Databricks
+  gives it more agenda real estate and its own track.
+- **Smaller Databricks leans:** first-party AI/BI dashboards (**10.8% vs 7.1%** — a lean, not the
+  rout the first draft implied) and explicit evals (**6.9% vs 3.9%**, ~1.8×; both ship it —
+  Snowflake via TruEra/TruLens — only one headlines it).
+- **Genuine ties:** open table formats (**10.5% vs 10.1%** — Databricks on Delta, Snowflake on
+  Iceberg, equal airtime; `AUDITS.md §2`), data pipelines/streaming (**26.6% vs 25.1%**), and
+  warehouse/modernization (**~10% each**). Claim no leader on these.
 
 ---
 

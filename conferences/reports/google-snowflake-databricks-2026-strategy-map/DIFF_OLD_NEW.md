@@ -1,35 +1,35 @@
 # Old-vs-new diff — does the refresh change any claim?
 
-**Method:** the *same* classifier (`classify.ROWS`) run against both the old
-**2026-06-02** snapshots (DBX 759 / SNOW 550) and the current **2026-06-13** catalogs
-(DBX 802 / SNOW 537). Because the method is held constant, any movement reflects **data
+**Method:** the *same* classifier (`classify.ROWS`, length-controlled symmetric keywords) run
+against both the old **2026-06-02** snapshots (DBX 759 / SNOW 550) and the current **2026-06-13**
+catalogs (DBX 802 / SNOW 537). Because the method is held constant, any movement reflects **data
 drift**, not classifier drift. Reproduce: `python3 diff_old_new.py`.
 
 Δ is signed in **percentage points, Databricks − Snowflake** (positive = Databricks ahead).
 
 | Row | old Δ | new Δ | moved | leader |
 |---|---:|---:|---:|---|
-| Cortex / GenAI app layer | −17.4 | −17.3 | +0.1 | Snowflake (stable) |
-| Semantic context for agents | −16.3 | −16.8 | −0.5 | Snowflake (stable) |
-| Sharing / marketplace / clean rooms | −4.1 | −4.3 | −0.2 | Snowflake (lean, stable) |
-| Open lakehouse / table formats | +4.5 | +4.2 | −0.3 | Databricks (stable) |
-| Unity Catalog vs Horizon | +46.8 | +43.4 | −3.4 | Databricks (stable) |
-| BI / AI-BI | +25.6 | +22.4 | −3.2 | Databricks (stable) |
-| App / operational DB substrate | +9.6 | +8.6 | −1.0 | Databricks (stable) |
-| Evals / red teaming (strict) | +5.6 | +6.9 | +1.3 | Databricks (stable) |
-| Lakeflow / Spark / streaming | −0.1 | −1.3 | −1.2 | tie → slight Snowflake |
-| SQL warehouse / modernization | +8.4 | +6.0 | −2.4 | Databricks (stable) |
+| Cortex / GenAI app layer | −1.3 | −4.7 | −3.4 | Snowflake (stable) |
+| Semantic context for agents | −6.6 | −6.4 | +0.2 | Snowflake (stable) |
+| Sharing / marketplace / clean rooms | −2.5 | −2.7 | −0.2 | Snowflake (lean, stable) |
+| Open lakehouse / table formats | +0.5 | +0.4 | −0.1 | tie |
+| Unity Catalog vs Horizon | +15.3 | +15.0 | −0.3 | Databricks (stable) |
+| BI / AI-BI | +4.2 | +3.8 | −0.4 | Databricks (lean, stable) |
+| App / operational DB substrate | +7.5 | +8.3 | +0.8 | Databricks (stable) |
+| Evals / red teaming (strict) | +1.7 | +2.9 | +1.2 | Databricks (lean, stable) |
+| Lakeflow / Spark / streaming | +1.9 | +1.4 | −0.5 | tie |
+| SQL warehouse / modernization | +0.4 | +0.1 | −0.3 | tie |
 
 ## Verdict
 
 **No material change.** Across all 10 rows:
 - **Zero leader flips.**
-- **No delta moved ≥ 5 pp.** Largest moves are Unity Catalog (−3.4) and BI (−3.2), both
-  *narrowing* slightly while staying decisive Databricks leads.
-- The largest gaps on the board (Unity Catalog +43–47, BI +22–26, GenAI −17) are stable
-  to within ~3 pp.
+- **No delta moved ≥ 5 pp.** Largest move is GenAI (−3.4), widening slightly in Snowflake's
+  favour but staying a modest lead.
+- The decisive gap (Unity Catalog +15) and the next-largest (operational DB +8, semantic −6.4,
+  GenAI −4.7) are all stable to within ~3 pp.
 
-**Implication:** the strategy narrative in `STRATEGY_MAP.md` is robust to the 759→802 /
-550→537 refresh. Every published claim survives; none needs re-litigating on the new data.
-The only watch item is the **pipelines** row, which was a dead-heat tie on the old basis
-(−0.1) and is now a hair toward Snowflake (−1.3) — still correctly described as a tie.
+**Implication:** the strategy narrative is robust to the 759→802 / 550→537 refresh. Every
+published claim survives; none needs re-litigating on the new data. The watch items are the
+**ties** — open formats (+0.4), pipelines (+1.4), warehouse (+0.1) — which stay within noise on
+both bases and are correctly described as ties, not wins.
