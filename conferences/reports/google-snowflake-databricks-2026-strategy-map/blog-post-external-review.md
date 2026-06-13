@@ -38,7 +38,9 @@ The short version:
 
 The spicy version:
 
-> Google sells possibility. Databricks sells operability. Snowflake sells legibility.
+> Google sells possibility. Databricks sells the build. Snowflake sells the outcome.
+
+(Databricks fills its stage with the people and products that *construct* the system; Snowflake fills its with the people and products that *report the result*. More on that below — it shows up in the topics, the partners, and even the job titles on stage.)
 
 For Snowflake vs. Databricks, that means the real fight is not “who has AI?”
 
@@ -46,30 +48,21 @@ They both do.
 
 The real fight is: **does enterprise AI attach to the governed lakehouse operating system, or does it attach to the governed business data cloud?**
 
-## How I counted it
+## How I counted it (and the traps I had to climb out of)
 
-Simple keyword counts are noisy because modern enterprise AI sessions touch too many concepts at once.
+Counting conference topics fairly is harder than it looks, and the first few methods I tried were quietly unfair. The honest method has one rule: **measure both vendors the exact same way.**
 
-A Databricks session about building governed streaming AI apps with Unity Catalog, Lakeflow, Mosaic AI, vector search, and model serving might reasonably touch:
+Concretely, for each topic (agents, governance, semantic layer, open formats, operational DB, evals, …) I apply the **same keyword set to both catalogs** — concept terms plus *every* vendor's product names — and count a session if its title+abstract matches. A row's "agenda share" is just matching sessions ÷ that vendor's total.
 
-- governance
-- streaming
-- orchestration
-- agent apps
-- vector/RAG
-- model serving
-- data quality
-- developer workflow
+Two non-obvious biases nearly fooled me, and both inflate one side without you noticing:
 
-If I counted that session as `1` in every category, the agenda would inflate badly. So the analysis uses fractional counting: each multi-topic session is split across the concepts it matches.
+1. **Don't trust the vendors' own taxonomies.** Each catalog ships topic tags, but they're applied with wildly different breadth (Snowflake auto-tags "AI Agents" onto ~290 sessions; Databricks tags "Unity Catalog" onto hundreds). Mixing those tags into the count inflated whichever vendor had the broader tag — in *both* directions.
+2. **Control for abstract length.** Databricks' session abstracts run ~1.45× longer than Snowflake's (median 991 vs 680 characters). Longer text → more keyword hits → Databricks looks bigger on everything. I cap every abstract at 680 characters before matching, so each session gets equal airtime.
+3. **Beware brand-vs-brand rows.** Two comparisons looked like blowouts but were just one vendor repeating its own product name: "Delta vs Iceberg" and "Unity Catalog vs Horizon." Counted as *concepts* (open table formats; governance) instead of brand names, both are ties.
 
-The format for final numeric tables should be:
+Net effect: the margins are about **3× smaller** than my first (taxonomy-based) draft, and several "obvious" gaps vanish. That's not a weaker story — it's a truer one. The differences that survive are about *emphasis and audience*, not capability.
 
-`weighted session-equivalents (raw touched sessions) share of conference catalog`
-
-Raw counts show breadth. Fractional counts show agenda centrality.
-
-**Data TODO before publication:** recompute all fractional shares against the refreshed **802 / 537 / 1,160** catalogs. Some older scratch drafts used Databricks/Snowflake denominators of **714 / 517** or **759 / 550** and should not be quoted in the final post.
+(Denominators: Databricks **802**, Snowflake **537**, Google **1,160**, captured 2026-06-13. The full per-row table, the classifier, and a stability check against an older snapshot are in the companion files.)
 
 ## The headline: Databricks owns the production loop; Snowflake owns the business translation layer
 
@@ -87,7 +80,9 @@ Cortex, Cortex Agents, Snowflake Intelligence, Cortex Analyst, Streamlit, Native
 
 That leads to a simple distinction:
 
-> Databricks is trying to make AI operational. Snowflake is trying to make AI legible.
+> Databricks sells the build; Snowflake sells the outcome.
+
+One caveat to keep this honest (it's the whole point of the analysis): measured fairly — the *same* keyword set applied to both vendors, over abstracts capped to the same length so Databricks' longer write-ups don't over-count — **the two agendas are remarkably close. No single topic gap exceeds ~8 points.** The tilts are real but modest: Snowflake leans to the AI app surface and the semantic layer; Databricks leans to the operational-database substrate. Several rows people *assume* are blowouts — governance, open formats, pipelines — are statistical ties.
 
 ## Databricks: where AI demos go to become production systems
 
@@ -224,12 +219,12 @@ The claim should be:
 
 > Databricks leads in agenda concentration and product branding around the app/operational database substrate. Snowflake has comparable operational pieces, but tells the story as Postgres + Unistore + Hybrid Tables woven into the AI Data Cloud.
 
-Similarly, Unity Catalog vs Horizon should not become “Databricks has governance; Snowflake does not.” Snowflake has a large governance story. The fair comparison is named catalog/control-plane prominence:
+Similarly, Unity Catalog vs Horizon should not become “Databricks has governance; Snowflake does not.” This one is worth dwelling on, because it's the trap I fell into first. If you count the *product names*, Databricks wins 4 to 1 — "Unity Catalog" shows up in ~20% of its sessions, "Horizon" in ~5% of Snowflake's. But "Unity Catalog" is Databricks-only and "Horizon" is Snowflake-only, so that's just measuring which brand gets repeated. Count **governance as a concept** instead — lineage, access control, RBAC, masking, compliance, classification — and it's a **dead tie** (~27% of each agenda). Databricks simply names its catalog more, because Unity Catalog is the spine that wires its whole platform together. So:
 
-- **Databricks:** Unity Catalog as the center of the governed production stack
-- **Snowflake:** Horizon Catalog as governance/context in the AI Data Cloud
+- **Governance coverage:** a tie. Both conferences take it seriously.
+- **Named-catalog prominence:** Databricks by 4×. That's branding, not coverage — don't let it masquerade as a governance gap.
 
-And Iceberg/open-lakehouse interoperability should remain separate from governance/control-plane. Iceberg is a table/interoperability layer; Horizon is the closer Snowflake counterpart to Unity Catalog.
+And open table formats are the same story: counted as a concept (Delta *and* Iceberg, both open-source), it's another tie — Databricks talks Delta, Snowflake talks Iceberg, equal airtime. "Snowflake leads openness" was a counting artifact of looking only for the word "Iceberg."
 
 ## The most important non-difference: RAG is table stakes
 
@@ -353,7 +348,7 @@ Snowflake Summit is for the business-data buyer asking how governed enterprise d
 
 Put differently:
 
-> If your AI problem is imagination, go to Google. If your AI problem is operability, go to Databricks. If your AI problem is adoption, go to Snowflake.
+> If you're asking what's *possible*, go to Google. If you're asking how to *build and run it*, go to Databricks. If you're asking what it *produces for the business*, go to Snowflake.
 
 ## What I would watch at Snowflake and Databricks
 
@@ -407,7 +402,7 @@ The question is what the agents attach to.
 External reviewers should focus on:
 
 1. Is the Snowflake-vs-Databricks framing fair to both sides?
-2. Are the spicy labels — possibility, operability, legibility — useful or too cute?
+2. Are the spicy labels — possibility (Google), the build (Databricks), the outcome (Snowflake) — useful, or still too cute?
 3. Does the Lakebase vs Snowflake Postgres/Unistore category avoid unfair feature framing?
 4. Does Unity Catalog vs Horizon avoid implying Snowflake lacks governance?
 5. Does the Google reference case clarify the comparison or distract from it?
@@ -415,10 +410,8 @@ External reviewers should focus on:
 
 ## Publication blockers
 
-Do not publish this draft until:
+The Snowflake-vs-Databricks analysis has been rebuilt with the fair (length-controlled symmetric) method and the mirrored chart now reflects it (`databricks_snowflake_mirrored_bar_chart_data.md`, `chart.svg`). Still open before publishing:
 
-- the fractional analysis is rerun against the refreshed **802 / 537 / 1,160** catalogs;
-- the mirrored Snowflake-vs-Databricks chart is rebuilt;
-- every numeric claim is reconciled with the latest catalogs;
-- the external-review TODO is complete;
-- the validation/evidence browser is either updated or removed from the final artifact references.
+- **Weave in the new findings this draft doesn't yet have:** who's actually on stage (Snowflake is a VP/customer conference, Databricks a practitioner one — 44% of Snowflake customer talks feature a VP+ vs 33% at Databricks); the Novo Nordisk "one company, two stages" anecdote; the twin talks / Open Semantic Interchange convergence; and **NVIDIA changing tables** (Jensen keynoted Snowflake in 2024; in 2026 NVIDIA has 0 Snowflake sessions, 2 at Databricks, and Snowflake's AI fireside went to Anthropic). See `CONFERENCE_CONTRAST.md`.
+- Reconcile the **Google** numbers (still on the older fractional basis) with the fair method, or scope the post to Snowflake-vs-Databricks and treat Google as a qualitative reference only.
+- Decide whether the three-way "possibility / build / outcome" framing earns its keep with Google in the mix (review request #2).
