@@ -110,6 +110,27 @@ The main rows needing skeptical review:
 - **Evals / AI quality**
   - distinguish strict eval/benchmark/red-team signals from broader trust/security/quality language.
 
+
+## Uploaded context for external reviewer
+
+This PR also includes the Tier 1/Tier 2 context requested by the external-review agent:
+
+### Tier 1 — old raw snapshots for apples-to-apples reruns
+
+- `conferences/databricks-data-ai-summit/2026/normalized/snapshots/2026-06-02.sessions.json` — **759** Databricks sessions, matching the prior Snowflake-vs-Databricks draft basis.
+- `conferences/snowflake-summit/2026/normalized/snapshots/2026-06-02.sessions.json` — **550** Snowflake sessions, matching the prior Snowflake-vs-Databricks draft basis.
+
+These are preferred over comparing against the old mirrored-bar CSV because the reviewer can run the same classifier on both old and current snapshots, isolating **data drift** from **method drift**.
+
+### Tier 2 — editorial intent and prior framing
+
+- `conferences/reports/google-snowflake-databricks-2026-strategy-map/prior-analysis/2026-06-02/databricks_snowflake_visualization_staging_notes.md` — prior mirrored-bar staging/design decisions.
+- `conferences/reports/google-snowflake-databricks-2026-strategy-map/prior-analysis/2026-06-02/databricks_snowflake_evals_chapter.md` — prior evals narrative/framing voice.
+
+### Explicitly not included
+
+The old mirrored-bar CSV/MD is not included because the raw 759/550 snapshots are available. The three prior audits are also not included because the reviewer already rebuilt those from fresh data in `AUDITS.md`; they can be added later only if needed as a methodology cross-check.
+
 ## Data work required before publication
 
 Recompute from current `normalized/current/sessions.json` files:
