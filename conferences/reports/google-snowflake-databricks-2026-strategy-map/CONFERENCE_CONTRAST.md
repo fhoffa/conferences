@@ -13,6 +13,37 @@ cited in `VENDOR_POSITIONING_SOURCES.md`.*
 
 ---
 
+## One company, two stages
+
+The whole story compresses into a single customer. **Novo Nordisk** — one pharma company, one
+data organization — presented at *both* summits within the same month. What it chose to talk
+about at each, and *who it sent*, is a near-perfect read of what each vendor wants to be known for.
+
+**At Databricks, Novo Nordisk sent its architects.** Two talks, both showcasing Databricks'
+flagship 2026 launches, both *build* stories:
+- *Modernizing Clinical Data Integration at Novo Nordisk With Lakebase* — replacing "fragmented,
+  self-hosted Postgres silos" with **Lakebase** (Databricks' new operational database) for "30×
+  faster" data availability. Speakers: platform & domain architects.
+- *Empowering Non-Technical Users in Pharma With Dashboards and Chatbots* — **Genie + Agent
+  Bricks** over a Unity Catalog semantic layer. Speaker: Principal IT Solution Architect.
+
+**At Snowflake, Novo Nordisk sent its AI VP.** One talk, showcasing Snowflake's flagship 2026
+launch, a *business-outcome* story:
+- *Move Beyond Prototypes to High-Velocity AI Products Using Snowflake CoWork* — **CoWork**
+  (Snowflake's flagship agent) with Cortex Analyst & Search, framed around a "NovoMind" operating
+  model and "commercial AI products that directly impact our field." Speakers: VP – AI Foundation;
+  Associate Director.
+
+Same company, same underlying reality — governed AI on regulated pharma data. But **Databricks
+frames it as operability** (architects, Lakebase, 30× throughput, the semantic plumbing) and
+**Snowflake frames it as legibility and outcomes** (an AI VP, CoWork, commercial impact). Even the
+*speakers* each vendor recruited carry the message: Databricks gets the people who **build** the
+platform; Snowflake gets the people who **report results** to the business. One customer, two
+stages, and you can read each company's entire positioning off which Novo Nordisk talk you walk
+into.
+
+---
+
 ## The headline
 
 Stand both agendas side by side and they're selling different halves of the same idea — an AI
