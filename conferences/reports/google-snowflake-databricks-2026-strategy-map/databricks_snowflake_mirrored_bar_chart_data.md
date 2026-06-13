@@ -29,9 +29,10 @@ sessions ÷ that vendor's total. Rows overlap, so columns do **not** sum to 100%
 - **Only one decisive gap:** Unity Catalog vs Horizon (**+15.0pp, Databricks**) — the named
   control plane is the single clearest divergence on the board.
 - **Snowflake's real leads** are the **AI app layer** (+4.7) and the **semantic layer** (+6.4) —
-  modest but consistent; this is the "legibility / meaning" half of the story.
+  modest but consistent; the "AI surface + meaning" half (selling the outcome).
 - **Databricks' real leads** are the **named control plane** (+15.0) and the **operational-DB
-  substrate** (+8.3); plus narrower edges on BI (+3.8) and evals (+2.9) — the "operability" half.
+  substrate** (+8.3); plus narrower edges on BI (+3.8) and evals (+2.9) — the "governed system"
+  half (selling the build).
 - **Genuine ties (<2pp):** open lakehouse/formats (0.4), pipelines (1.4), warehouse (0.1). Claim
   no leader.
 - **Leans (2–4pp), not wins:** sharing/marketplace (SNOW +2.7), BI (DBX +3.8), evals (DBX +2.9).
