@@ -57,6 +57,18 @@
       "ratio": 0.65
     }
   },
+  "talk_level": {
+    "dbx": {
+      "talks": 409,
+      "with_vp_plus_pct": 33.3,
+      "with_practitioner_pct": 34.7
+    },
+    "snow": {
+      "talks": 321,
+      "with_vp_plus_pct": 43.6,
+      "with_practitioner_pct": 27.7
+    }
+  },
   "exec_titles_dbx": [
     {
       "title": "CEO",

@@ -125,6 +125,34 @@ print(f"\nBuilders (IC+Senior IC) vs buyers (VP+C-suite):")
 print(f"  DBX : {db} builders / {dbuy} buyers  = {dr}:1 builder-to-buyer")
 print(f"  SNOW: {sb} builders / {sbuy} buyers  = {sr}:1 builder-to-buyer")
 
+
+def talk_level(sessions, host):
+    """Among customer-involving talks, share that feature a VP+ vs a practitioner on stage."""
+    talks = with_exec = with_prac = 0
+    for s in sessions:
+        ranks = []
+        for sp in (s.get("speakers") or []):
+            comp = C.norm_company(sp.get("company"))
+            title = (sp.get("job_title") or "").strip()
+            if not comp or not title or comp in NON_CUSTOMER or comp == host or FIELD_ROLE.search(title):
+                continue
+            ranks.append(seniority(title))
+        if not ranks:
+            continue
+        talks += 1
+        if any(r in ("C-suite", "VP") for r in ranks):
+            with_exec += 1
+        if any(r in ("IC / practitioner", "Senior IC") for r in ranks):
+            with_prac += 1
+    return talks, with_exec, with_prac
+
+
+dt_t, dt_e, dt_p = talk_level(dbx, "databricks")
+st_t, st_e, st_p = talk_level(snow, "snowflake")
+print(f"\nTalk-level — share of customer talks featuring...")
+print(f"  DBX ({dt_t} talks):  a VP+ {100*dt_e/dt_t:.0f}%   a practitioner {100*dt_p/dt_t:.0f}%")
+print(f"  SNOW ({st_t} talks): a VP+ {100*st_e/st_t:.0f}%   a practitioner {100*st_p/st_t:.0f}%")
+
 print("\n=== 'VP / C-suite of WHAT' — DBX top ===")
 for t, n in d_exec[:18]:
     print(f"  {n:>2}  {t}")
@@ -138,6 +166,12 @@ out = {
                       "dbx_n": dc.get(k, 0), "snow_n": sc.get(k, 0)} for k in SENIORITY_ORDER},
     "builder_buyer": {"dbx": {"builders": db, "buyers": dbuy, "ratio": dr},
                       "snow": {"builders": sb, "buyers": sbuy, "ratio": sr}},
+    "talk_level": {
+        "dbx": {"talks": dt_t, "with_vp_plus_pct": round(100 * dt_e / dt_t, 1),
+                "with_practitioner_pct": round(100 * dt_p / dt_t, 1)},
+        "snow": {"talks": st_t, "with_vp_plus_pct": round(100 * st_e / st_t, 1),
+                 "with_practitioner_pct": round(100 * st_p / st_t, 1)},
+    },
     "exec_titles_dbx": [{"title": t, "n": n} for t, n in d_exec[:30]],
     "exec_titles_snow": [{"title": t, "n": n} for t, n in s_exec[:30]],
 }

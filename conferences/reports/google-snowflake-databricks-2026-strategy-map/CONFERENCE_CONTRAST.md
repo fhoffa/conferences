@@ -208,9 +208,15 @@ up when you read the room rather than the press release.
 
 ## Part 5 — who they send (the org chart on stage)
 
-Novo Nordisk sent architects to Databricks and an AI VP to Snowflake. Is that a fluke, or a
-pattern? Classifying the **job titles of every customer speaker** (enterprises only — hosts,
-vendors, GSIs, and field roles removed; DBX 607 / SNOW 516 speakers) says it's a real tilt:
+> **The spiciest read of the two agendas: Snowflake Summit is pitched at the VP; Databricks is
+> pitched at the practitioner — just look at who each lets on stage.** Among customer talks,
+> **44% at Snowflake feature a VP-or-above, but only 28% put a hands-on practitioner up there.**
+> At Databricks it flips: **35% feature a practitioner, 33% a VP+.** Snowflake's customer stage
+> runs executives-to-builders **1.5 : 1**; Databricks runs **1.1 : 1** — essentially even.
+
+Novo Nordisk sent architects to Databricks and an AI VP to Snowflake — and it wasn't a fluke.
+Classifying the **job title of every customer speaker** (enterprises only — hosts, vendors, GSIs,
+and field roles removed; DBX 607 / SNOW 516 speakers) confirms the tilt across the whole stage:
 
 | Seniority tier | Databricks | Snowflake |
 |---|---:|---:|
@@ -257,6 +263,10 @@ ecosystem (Iceberg), and through a partner bench that handles BI and data moveme
 spends its stage time making AI *operable* — one governed control plane (Unity Catalog), its own
 analytics and operational-DB surfaces, and evaluation on the main stage. Same destination,
 opposite emphasis. Neither picture is the *whole* company — it's the half each one chose to show.
+
+It even shows in the seats (Part 5): Snowflake's stage is pitched at the **VP who buys the
+outcome**; Databricks' at the **practitioner who builds it**. The story each sells and the
+audience each courts are the same choice, made twice.
 
 And the kicker (Part 3): the two stages disagree about the platform but quietly **agree about the
 layers above it** — open table formats, the semantic/context layer, and agent access. The handful
