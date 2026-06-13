@@ -29,11 +29,6 @@
       "snow_topic": "Data Engineering & Pipelines"
     },
     {
-      "company": "dbt labs",
-      "dbx_topic": "Artificial Intelligence & Agents",
-      "snow_topic": "Data Engineering & Pipelines"
-    },
-    {
       "company": "anthropic",
       "dbx_topic": "Artificial Intelligence & Agents",
       "snow_topic": "(untracked)"
@@ -44,13 +39,28 @@
       "snow_topic": "Data Engineering & Pipelines"
     },
     {
+      "company": "dbt labs",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "Data Engineering & Pipelines"
+    },
+    {
+      "company": "morgan stanley",
+      "dbx_topic": "AI/BI",
+      "snow_topic": "Performance & Cost Optimization"
+    },
+    {
       "company": "capital one",
       "dbx_topic": "Data Sharing & Collaboration",
       "snow_topic": "Architectures & Interoperability"
     },
     {
-      "company": "morgan stanley",
-      "dbx_topic": "AI/BI",
+      "company": "glean",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "Generative AI & Agents"
+    },
+    {
+      "company": "capital one software",
+      "dbx_topic": "Unity Catalog",
       "snow_topic": "Performance & Cost Optimization"
     },
     {
@@ -59,9 +69,9 @@
       "snow_topic": "Migrations & Modernization"
     },
     {
-      "company": "cdw",
-      "dbx_topic": "Governance & Security",
-      "snow_topic": "Architectures & Interoperability"
+      "company": "aimpoint digital",
+      "dbx_topic": "Application Development",
+      "snow_topic": "(untracked)"
     },
     {
       "company": "acxiom",
@@ -69,19 +79,9 @@
       "snow_topic": "Application Development"
     },
     {
-      "company": "capital one software",
-      "dbx_topic": "Unity Catalog",
-      "snow_topic": "Performance & Cost Optimization"
-    },
-    {
-      "company": "glean",
+      "company": "cognizant",
       "dbx_topic": "Artificial Intelligence & Agents",
-      "snow_topic": "Generative AI & Agents"
-    },
-    {
-      "company": "aimpoint digital",
-      "dbx_topic": "Application Development",
-      "snow_topic": "(untracked)"
+      "snow_topic": "BI & Analytics"
     },
     {
       "company": "astronomer",
@@ -89,9 +89,9 @@
       "snow_topic": "Data Engineering & Pipelines"
     },
     {
-      "company": "cognizant",
-      "dbx_topic": "Artificial Intelligence & Agents",
-      "snow_topic": "BI & Analytics"
+      "company": "cdw",
+      "dbx_topic": "Governance & Security",
+      "snow_topic": "Architectures & Interoperability"
     },
     {
       "company": "atlan",
@@ -104,14 +104,9 @@
       "snow_topic": "Data Engineering & Pipelines"
     },
     {
-      "company": "crewai",
-      "dbx_topic": "Artificial Intelligence & Agents",
-      "snow_topic": "AI Agents / Data Agents"
-    },
-    {
-      "company": "ibm",
-      "dbx_topic": "Data Engineering & Streaming",
-      "snow_topic": "Generative AI & Agents"
+      "company": "infosys",
+      "dbx_topic": "Analytics & BI",
+      "snow_topic": "Data Sharing & Marketplace"
     },
     {
       "company": "ntt data",
@@ -119,24 +114,29 @@
       "snow_topic": "Industry Innovation"
     },
     {
-      "company": "hex",
-      "dbx_topic": "Analytics & BI",
-      "snow_topic": "BI & Analytics"
-    },
-    {
-      "company": "slalom",
-      "dbx_topic": "Analytics & BI",
-      "snow_topic": "Migrations & Modernization"
-    },
-    {
       "company": "at&t",
       "dbx_topic": "Analytics & BI",
       "snow_topic": "Generative AI & Agents"
     },
     {
-      "company": "infosys",
-      "dbx_topic": "Analytics & BI",
-      "snow_topic": "Data Sharing & Marketplace"
+      "company": "crewai",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "AI Agents / Data Agents"
+    },
+    {
+      "company": "microsoft",
+      "dbx_topic": "Delta Sharing",
+      "snow_topic": "Architectures & Interoperability"
+    },
+    {
+      "company": "lseg",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "Performance & Cost Optimization"
+    },
+    {
+      "company": "ibm",
+      "dbx_topic": "Data Engineering & Streaming",
+      "snow_topic": "Generative AI & Agents"
     }
   ],
   "shared_customers": [
@@ -383,14 +383,17 @@
       "snow_title": "WTF Is the Enterprise Context Layer? Demystified and Demoed"
     }
   ],
+  "guest_list": {
+    "dbx_distinct": 479,
+    "snow_distinct": 404,
+    "union": 794,
+    "shared": 85,
+    "overlap_pct": 10.7
+  },
   "only_dbx_top": [
     {
       "company": "mastercard",
       "sessions": 7
-    },
-    {
-      "company": "advancing analytics",
-      "sessions": 4
     },
     {
       "company": "pepsico",
@@ -401,11 +404,11 @@
       "sessions": 4
     },
     {
-      "company": "hp",
-      "sessions": 3
+      "company": "advancing analytics",
+      "sessions": 4
     },
     {
-      "company": "superhuman",
+      "company": "thoughtworks",
       "sessions": 3
     },
     {
@@ -413,35 +416,7 @@
       "sessions": 3
     },
     {
-      "company": "rearc",
-      "sessions": 3
-    },
-    {
-      "company": "glean technologies",
-      "sessions": 3
-    },
-    {
-      "company": "adobe",
-      "sessions": 3
-    },
-    {
-      "company": "general motors",
-      "sessions": 3
-    },
-    {
-      "company": "bp",
-      "sessions": 3
-    },
-    {
-      "company": "retool",
-      "sessions": 3
-    },
-    {
-      "company": "cvs health",
-      "sessions": 3
-    },
-    {
-      "company": "atlassian",
+      "company": "unilever",
       "sessions": 3
     },
     {
@@ -449,19 +424,7 @@
       "sessions": 3
     },
     {
-      "company": "sba communications",
-      "sessions": 3
-    },
-    {
-      "company": "unilever",
-      "sessions": 3
-    },
-    {
-      "company": "minio",
-      "sessions": 3
-    },
-    {
-      "company": "thoughtworks",
+      "company": "rearc",
       "sessions": 3
     },
     {
@@ -469,31 +432,55 @@
       "sessions": 3
     },
     {
-      "company": "navy federal credit union",
+      "company": "minio",
+      "sessions": 3
+    },
+    {
+      "company": "atlassian",
+      "sessions": 3
+    },
+    {
+      "company": "hp",
+      "sessions": 3
+    },
+    {
+      "company": "glean technologies",
+      "sessions": 3
+    },
+    {
+      "company": "sba communications",
+      "sessions": 3
+    },
+    {
+      "company": "cvs health",
+      "sessions": 3
+    },
+    {
+      "company": "retool",
+      "sessions": 3
+    },
+    {
+      "company": "bp",
+      "sessions": 3
+    },
+    {
+      "company": "adobe",
+      "sessions": 3
+    },
+    {
+      "company": "superhuman",
+      "sessions": 3
+    },
+    {
+      "company": "general motors",
+      "sessions": 3
+    },
+    {
+      "company": "integral ad science",
       "sessions": 2
     },
     {
-      "company": "zillow",
-      "sessions": 2
-    },
-    {
-      "company": "baker hughes",
-      "sessions": 2
-    },
-    {
-      "company": "7-eleven",
-      "sessions": 2
-    },
-    {
-      "company": "rivian and vw group technology",
-      "sessions": 2
-    },
-    {
-      "company": "replit",
-      "sessions": 2
-    },
-    {
-      "company": "etihad airways",
+      "company": "sap se",
       "sessions": 2
     },
     {
@@ -501,55 +488,71 @@
       "sessions": 2
     },
     {
-      "company": "kpmg llp",
-      "sessions": 2
-    },
-    {
-      "company": "mcafee",
-      "sessions": 2
-    },
-    {
-      "company": "impetus technologies",
-      "sessions": 2
-    },
-    {
-      "company": "lovelytics",
-      "sessions": 2
-    },
-    {
-      "company": "sega europe",
-      "sessions": 2
-    },
-    {
-      "company": "zs associates",
-      "sessions": 2
-    },
-    {
-      "company": "chick-fil-a",
-      "sessions": 2
-    },
-    {
-      "company": "astrazeneca",
-      "sessions": 2
-    },
-    {
       "company": "monte carlo data",
       "sessions": 2
     },
     {
-      "company": "albertsons",
+      "company": "wiz",
       "sessions": 2
     },
     {
-      "company": "scribd",
+      "company": "racetrac",
+      "sessions": 2
+    },
+    {
+      "company": "applied computing",
+      "sessions": 2
+    },
+    {
+      "company": "puppygraph",
+      "sessions": 2
+    },
+    {
+      "company": "liveramp",
+      "sessions": 2
+    },
+    {
+      "company": "google cloud",
+      "sessions": 2
+    },
+    {
+      "company": "kpmg llp",
+      "sessions": 2
+    },
+    {
+      "company": "nab",
+      "sessions": 2
+    },
+    {
+      "company": "rivian",
+      "sessions": 2
+    },
+    {
+      "company": "fox",
+      "sessions": 2
+    },
+    {
+      "company": "etihad airways",
+      "sessions": 2
+    },
+    {
+      "company": "repsol",
+      "sessions": 2
+    },
+    {
+      "company": "epsilon",
+      "sessions": 2
+    },
+    {
+      "company": "nvidia",
+      "sessions": 2
+    },
+    {
+      "company": "llamaindex",
       "sessions": 2
     }
   ],
   "only_snow_top": [
-    {
-      "company": "sigma",
-      "sessions": 6
-    },
     {
       "company": "ltm",
       "sessions": 6
@@ -557,6 +560,14 @@
     {
       "company": "bookingcom",
       "sessions": 6
+    },
+    {
+      "company": "sigma",
+      "sessions": 6
+    },
+    {
+      "company": "sanofi",
+      "sessions": 5
     },
     {
       "company": "accenture australia",
@@ -571,11 +582,7 @@
       "sessions": 5
     },
     {
-      "company": "sanofi",
-      "sessions": 5
-    },
-    {
-      "company": "matillion",
+      "company": "texas capital",
       "sessions": 4
     },
     {
@@ -587,10 +594,6 @@
       "sessions": 4
     },
     {
-      "company": "texas capital",
-      "sessions": 4
-    },
-    {
       "company": "kipiai",
       "sessions": 4
     },
@@ -599,11 +602,23 @@
       "sessions": 4
     },
     {
-      "company": "tui",
+      "company": "matillion",
+      "sessions": 4
+    },
+    {
+      "company": "resolve ai",
       "sessions": 3
     },
     {
-      "company": "roche",
+      "company": "phdata",
+      "sessions": 3
+    },
+    {
+      "company": "fanatics",
+      "sessions": 3
+    },
+    {
+      "company": "under armour",
       "sessions": 3
     },
     {
@@ -615,19 +630,11 @@
       "sessions": 3
     },
     {
-      "company": "blackrock",
-      "sessions": 3
-    },
-    {
-      "company": "under armour",
-      "sessions": 3
-    },
-    {
       "company": "doordash",
       "sessions": 3
     },
     {
-      "company": "zendesk",
+      "company": "blackrock",
       "sessions": 3
     },
     {
@@ -635,55 +642,55 @@
       "sessions": 3
     },
     {
-      "company": "fanatics",
+      "company": "roche",
       "sessions": 3
     },
     {
-      "company": "phdata",
+      "company": "tui",
       "sessions": 3
     },
     {
-      "company": "resolve ai",
+      "company": "zendesk",
       "sessions": 3
     },
     {
-      "company": "infinite services",
+      "company": "whatnot",
       "sessions": 2
     },
     {
-      "company": "super blocks",
+      "company": "hartford",
       "sessions": 2
     },
     {
-      "company": "indeed",
+      "company": "commbank iq",
       "sessions": 2
     },
     {
-      "company": "siemens energy",
+      "company": "cyera",
       "sessions": 2
     },
     {
-      "company": "s&p global market intelligence",
+      "company": "nhs (onelondon)",
       "sessions": 2
     },
     {
-      "company": "ntt docomo",
+      "company": "crowdstrike",
       "sessions": 2
     },
     {
-      "company": "mitsui &",
+      "company": "united rentals",
       "sessions": 2
     },
     {
-      "company": "medtronic",
+      "company": "alation",
       "sessions": 2
     },
     {
-      "company": "human security",
+      "company": "dialpad",
       "sessions": 2
     },
     {
-      "company": "datalab",
+      "company": "tripadvisor",
       "sessions": 2
     },
     {
@@ -691,19 +698,19 @@
       "sessions": 2
     },
     {
-      "company": "coastal",
+      "company": "informatica from salesforce",
       "sessions": 2
     },
     {
-      "company": "wolfspeed",
+      "company": "dataworthyai",
       "sessions": 2
     },
     {
-      "company": "checkr",
+      "company": "indeed",
       "sessions": 2
     },
     {
-      "company": "ibm-hakkoda",
+      "company": "billigence",
       "sessions": 2
     }
   ]

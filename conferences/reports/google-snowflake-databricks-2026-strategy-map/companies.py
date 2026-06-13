@@ -10,6 +10,7 @@ Reproducible. Run after classify.py is importable. Writes companies_data.json.
 """
 import json
 import os
+import re
 import sys
 from collections import Counter, defaultdict
 
@@ -200,6 +201,62 @@ for t in twins:
     print(f"   DBX : {t['dbx_title']}")
     print(f"   SNOW: {t['snow_title']}")
 
+# ---- Guest-list count -------------------------------------------------------
+# How many DISTINCT companies spoke, and how many at both? norm_company() above is
+# light (it keeps regional/legal variants like "EY New Zealand" or "AWS" vs "Amazon
+# Web Services" separate), which over-counts distinct orgs and hides cross-event
+# overlap. canon() collapses those to the parent org so the headcount is honest.
+_LEGAL = set("inc llc corp corporation ltd limited co sa ag plc gmbh llp lp pllc pvt ab se nv oyj kk bv".split())
+_DESC = set("technologies technology software systems system solutions labs lab ai group global "
+            "holdings holding ventures international services service digital media health financial "
+            "bank company".split())
+_ALIAS = {"amazon web": "amazon", "amazon web services": "amazon", "aws": "amazon",
+          "google cloud": "google", "gcp": "google", "alphabet": "google",
+          "ernst and young": "ey", "ernst young": "ey", "meta platforms": "meta", "facebook": "meta",
+          "microsoft azure": "microsoft", "azure": "microsoft",
+          "jp morgan": "jpmorgan", "jpmorganchase": "jpmorgan", "jpmorgan chase": "jpmorgan"}
+
+
+def canon(c):
+    if not c:
+        return ""
+    c = re.sub(r"\(.*?\)", "", c.lower().strip())
+    c = re.sub(r"[^a-z0-9 &/]", " ", c).split("/")[0]
+    base = _ALIAS.get(" ".join(t for t in c.split() if t not in _LEGAL).strip(), None) \
+        or " ".join(t for t in c.split() if t not in _LEGAL).strip()
+    while len(base.split()) > 1 and base.split()[-1] in _DESC:
+        base = _ALIAS.get(" ".join(base.split()[:-1]), " ".join(base.split()[:-1]))
+    return _ALIAS.get(base, base)
+
+
+def _orgs(sessions, host):
+    s = set()
+    for x in sessions:
+        for sp in (x.get("speakers") or []):
+            n = canon(sp.get("company"))
+            if n and n != host:
+                s.add(n)
+    return s
+
+
+def _collapse(names):
+    """Merge 'a b c' into 'a b' when 'a b' also appears (≥2-token prefix = same parent)."""
+    names = set(names)
+    return {(" ".join(n.split()[:2]) if len(n.split()) > 2 and " ".join(n.split()[:2]) in names else n)
+            for n in names}
+
+
+g_dbx = _collapse(_orgs(dbx, "databricks"))
+g_snow = _collapse(_orgs(snow, "snowflake"))
+g_union = _collapse(_orgs(dbx, "databricks") | _orgs(snow, "snowflake"))
+g_shared = g_dbx & g_snow
+g_overlap = round(100.0 * len(g_shared) / len(g_union), 1)
+print("\n" + "=" * 78)
+print("GUEST LIST (org-level canonicalization)")
+print("=" * 78)
+print(f"  distinct companies:  DBX {len(g_dbx)}  |  SNOW {len(g_snow)}  |  union {len(g_union)}")
+print(f"  at both: {len(g_shared)}  ({g_overlap}% of union  ≈ 1 in {round(len(g_union)/len(g_shared))})")
+
 out = {
     "shared_count": len(shared),
     "only_dbx_count": len(only_dbx),
@@ -207,6 +264,8 @@ out = {
     "divergent": [{"company": c, "dbx_topic": d, "snow_topic": s} for c, d, s in divergent],
     "shared_customers": customers_out,
     "twin_talks": twins,
+    "guest_list": {"dbx_distinct": len(g_dbx), "snow_distinct": len(g_snow),
+                   "union": len(g_union), "shared": len(g_shared), "overlap_pct": g_overlap},
     "only_dbx_top": [{"company": c, "sessions": len(dbx_c[c])} for c in only_dbx[:40]],
     "only_snow_top": [{"company": c, "sessions": len(snow_c[c])} for c in only_snow[:40]],
 }

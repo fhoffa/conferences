@@ -133,9 +133,10 @@ So the 12-vs-3 gap is *agenda emphasis*, **not** "incidental bio mentions only."
 
 ## 5. Shared companies appearing in both catalogs (side callout)
 
-**83 companies** field speakers at **both** summits (DBX 515 unique speaker-affiliations,
-SNOW 416). These are the accounts/partners both vendors parade. Top of the overlap by
-combined session presence:
+About **85 companies** field speakers at **both** summits — out of ~790 distinct organizations
+across the two events (after merging regional/legal name variants like "AWS"/"Amazon Web
+Services"; raw un-normalized affiliations number ~515 DBX / ~416 SNOW). These are the
+accounts/partners both vendors parade. Top of the overlap by combined session presence:
 
 | Company | DBX sessions | SNOW sessions |
 |---|---:|---:|

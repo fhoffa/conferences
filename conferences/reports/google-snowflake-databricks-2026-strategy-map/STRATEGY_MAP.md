@@ -83,7 +83,7 @@ for Snowflake.
   Databricks foregrounds raw GPU compute (H100, Photon, serverless GPUs), Snowflake abstracts
   it behind managed Cortex inference (NeMo/NIM/Triton). The gap is emphasis, not absence
   (`AUDITS.md §4`).
-- **Shared companies:** 83 companies speak at both summits — dominated by the model labs
+- **Shared companies:** ~85 companies speak at both summits — dominated by the model labs
   (OpenAI, Anthropic), the GSI bench (Accenture, Deloitte, EY), and the modern-data-stack
   ecosystem (dbt Labs, Fivetran, Atlan) (`AUDITS.md §5`).
 

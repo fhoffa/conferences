@@ -31,8 +31,8 @@ The eight differences, each grounded in the data below. Spicy, not mean: every o
    foregrounds the governed substrate and tooling (Unity Catalog 56%, AI/BI 37% vs 15%, Lakebase,
    evals).
 
-4. **They barely share a guest list.** Of ~848 companies that took a speaking slot, fewer than 10%
-   (just 83) appeared at both. Two nearly separate universes of customers.
+4. **They barely share a guest list.** Of the ~790 distinct companies that took a speaking slot,
+   only about 1 in 9 (~85) appeared at both. Two nearly separate universes of customers.
 
 5. **Snowflake's BI story is a guest list; Databricks' is a product.** Third-party BI vendors take
    16 Snowflake slots to Databricks' 5; the modern-data-stack ecosystem, 23 to 7. Snowflake rents
@@ -217,9 +217,11 @@ room you're in not matter.
 
 ## Part 4 — who's in the room, and who isn't
 
-**The rosters barely overlap.** Of ~**848** distinct companies that took a speaking slot across
-the two events, only **83 (under 10%)** appeared at both. Each conference is mostly its own
-universe of references.
+**The rosters barely overlap.** Of ~**790** distinct companies that took a speaking slot across
+the two events — names normalized to merge regional/legal variants (e.g. "AWS" = "Amazon Web
+Services", "EY New Zealand" = "EY") — only **~85, about 1 in 9,** appeared at both. (The raw,
+un-normalized speaker affiliations number ~850; the variant cleanup is why the count is
+approximate.) Each conference is mostly its own universe of references.
 
 **The partner mix quietly confirms the strategy split:**
 
