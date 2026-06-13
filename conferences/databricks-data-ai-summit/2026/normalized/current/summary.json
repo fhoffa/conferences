@@ -1,8 +1,8 @@
 {
-  "session_count": 714,
-  "sessions_with_speakers": 681,
-  "speaker_count": 1150,
-  "speakers_with_job_title": 1096,
-  "unique_companies": 481,
-  "sessions_with_any_timing": 709
+  "conference": "databricks",
+  "captured_at_utc": "2026-06-13T17:02:24Z",
+  "session_count": 802,
+  "sessions_with_speakers": 791,
+  "speaker_count": 1415,
+  "unique_companies": 541
 }

@@ -48,3 +48,9 @@ The repo is intentionally starting simple:
 - keep conference/year work isolated
 - add shared abstractions only after patterns become real
 - preserve upstream/source provenance where imports happen
+
+## Insights vs private archive
+
+Use this `conferences` project as the durable home for publishable conference insights, derived analyses, normalized public-catalog data, and shareable report artifacts.
+
+Use `/root/conference_backup/` only as a private bulky/source archive for material we should not publish directly, such as PDFs, transcript captures, raw backups, and scratch artifacts.

@@ -3,8 +3,8 @@
 - page: https://reg.snowflake.com/flow/snowflake/summit26/sessions/page/catalog
 - main catalog API: POST https://events.summit.snowflake.com/api/sessions
 - widget config API: POST https://events.summit.snowflake.com/api/widgetConfig
-- observed rfApiProfileId: ghKgUWZvlHrGVucBmFxaVccUkK8g0AuF
-- observed rfWidgetId: Vh7SEIGH0Gsepgj327Z71LzPA2mggVoZ
+- observed rfApiProfileId: w1ayUhizJWzH2aTvqluJtbx8rIZrsCWC
+- observed rfWidgetId: 0tTgnd2GQBOdDulf6xQMe0j9kYFFsCZg
 
 ## Required headers
 - `rfApiProfileId`

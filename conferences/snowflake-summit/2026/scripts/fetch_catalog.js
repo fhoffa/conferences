@@ -124,7 +124,10 @@ function buildSummary(normalized, pages, headers) {
 }
 
 (async () => {
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({
+    headless: true,
+    executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH || undefined,
+  });
   const page = await browser.newPage();
   const requestMatches = [];
 
