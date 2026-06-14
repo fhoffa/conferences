@@ -57,7 +57,7 @@ Concretely, for each topic (agents, governance, semantic layer, open formats, op
 Two non-obvious biases nearly fooled me, and both inflate one side without you noticing:
 
 1. **Don't trust the vendors' own taxonomies.** Each catalog ships topic tags, but they're applied with wildly different breadth (Snowflake auto-tags "AI Agents" onto ~290 sessions; Databricks tags "Unity Catalog" onto hundreds). Mixing those tags into the count inflated whichever vendor had the broader tag — in *both* directions.
-2. **Control for abstract length.** Databricks' session abstracts run ~1.45× longer than Snowflake's (median 991 vs 680 characters). Longer text → more keyword hits → Databricks looks bigger on everything. I cap every abstract at 680 characters before matching, so each session gets equal airtime.
+2. **Allocate multi-topic sessions fractionally.** Databricks' session abstracts run ~1.45× longer than Snowflake's (median 991 vs 680 characters), and longer text touches more topics. The current report uses full descriptions, then divides each session's one unit of agenda credit across every matched topic; capped runs remain as sensitivity checks.
 3. **Beware brand-vs-brand rows.** Two comparisons looked like blowouts but were just one vendor repeating its own product name: "Delta vs Iceberg" and "Unity Catalog vs Horizon." Counted as *concepts* (open table formats; governance) instead of brand names, both are ties.
 
 Net effect: the margins are about **3× smaller** than my first (taxonomy-based) draft, and several "obvious" gaps vanish. That's not a weaker story — it's a truer one. The differences that survive are about *emphasis and audience*, not capability.
@@ -410,8 +410,8 @@ External reviewers should focus on:
 
 ## Publication blockers
 
-The Snowflake-vs-Databricks analysis has been rebuilt with the fair (length-controlled symmetric) method and the mirrored chart now reflects it (`databricks_snowflake_mirrored_bar_chart_data.md`, `chart.svg`). Still open before publishing:
+The Snowflake-vs-Databricks analysis has been rebuilt with the full-text fractional symmetric method and the mirrored chart now reflects it (`databricks_snowflake_mirrored_bar_chart_data.md`, `chart.svg`). Still open before publishing:
 
 - **Weave in the new findings this draft doesn't yet have:** who's actually on stage (Snowflake is a VP/customer conference, Databricks a practitioner one — 44% of Snowflake customer talks feature a VP+ vs 33% at Databricks); the Novo Nordisk "one company, two stages" anecdote; the twin talks / Open Semantic Interchange convergence; and **Snowflake's marquee AI guest changing from NVIDIA to Anthropic** (the normalized Snowflake speaker-company field has 0 NVIDIA breakout affiliations in 2024/2025/2026, but 2024 still has NVIDIA catalog evidence — Bryan Catanzaro in `AI241`, Jensen Huang in keynote `K1`, plus product mentions; in 2026 the marquee AI slot went to Anthropic, while NVIDIA presents 2 sessions at Databricks). See `CONFERENCE_CONTRAST.md`.
-- Reconcile the **Google** numbers (still on the older fractional basis) with the fair method, or scope the post to Snowflake-vs-Databricks and treat Google as a qualitative reference only.
+- Reconcile the **Google** numbers with the full-text fractional method, or scope the post to Snowflake-vs-Databricks and treat Google as a qualitative reference only.
 - Decide whether the three-way "possibility / build / outcome" framing earns its keep with Google in the mix (review request #2).

@@ -111,31 +111,30 @@ You can see it in the topics, in how the same companies are framed, and in who's
 
 ## Part 1 — what each conference puts in the spotlight
 
-Reading the topic mix (share of each catalog, length-controlled symmetric keywords — see
-`AUDITS.md §0`; rows overlap, so they don't sum to 100). **The 680-char chart tilts are modest** —
-zero gaps clear 10pp — and some topic leaders change when the cap is relaxed, so treat these as
-length-controlled agenda-emphasis reads:
+Reading the topic mix (share of each catalog, full-text fractional allocation — see
+`AUDITS.md §0`). **The tilts are modest** — only operational DB clears 5pp — but they're
+consistent:
 
 - **Snowflake leans into the AI app surface and "meaning."** It edges Databricks on the GenAI /
-  agent layer (**46% vs 42%**) and leads the **semantic layer** more clearly — Semantic Views /
-  Cortex Analyst appear on **11%** of sessions vs **5%** for Databricks' Metric Views. Snowflake
-  gave semantics its own Summit domain (Semantic Studio, Cortex Sense). The message: *the value
-  is in making your data legible to agents.*
-- **Databricks owns more of the operational-DB substrate** (**13% vs 5%** — the board's largest
-  gap). Both tell the same "agents need an OLTP database" story (Lakebase vs Snowflake Postgres +
+  agent layer (**27.8% vs 23.7% fractional agenda share**) and leads the **semantic layer** —
+  **4.3% vs 2.3%**. Snowflake gave semantics its own Summit domain (Semantic Studio, Cortex
+  Sense). The message: *the value is in making your data legible to agents.*
+- **Databricks owns more of the operational-DB substrate** (**8.0% vs 2.4%** — the board's
+  largest gap). Both tell the same "agents need an OLTP database" story (Lakebase vs Snowflake Postgres +
   Unistore); Databricks gives it more agenda real estate and its own track.
-- **Governance is a dead tie — but the branding isn't.** Governance *coverage* is even (~27%
-  each). What looks lopsided is the **product name**: "Unity Catalog" appears in ~20% of Databricks
+- **Governance is a Databricks topic lean, but the branding gap is much bigger.** Fractional
+  governance attention is **17.1% vs 14.3%**. What looks more lopsided is the **product name**:
+  "Unity Catalog" appears in ~20% of Databricks
   sessions vs "Horizon" in ~5% of Snowflake's. Unity Catalog is the connective tissue wiring
   Lakebase, Genie, Agent Bricks and Lakeflow together, so it is named in ~20% of Databricks sessions;
   Snowflake's governance rides on Horizon, named far more sparingly. Brand prominence, not a
-  governance gap.
-- **Smaller Databricks leans:** first-party AI/BI dashboards (**10.8% vs 7.1%** — a lean, not the
-  rout the first draft implied) and explicit evals (**6.9% vs 3.9%**, ~1.8×; both ship it —
+  capability gap.
+- **Smaller Databricks leans:** first-party AI/BI dashboards (**5.2% vs 3.4%** — a lean, not the
+  rout the first draft implied) and explicit evals (**4.7% vs 1.8%**; both ship it —
   Snowflake via TruEra/TruLens — only one headlines it).
-- **Genuine ties:** open table formats (**10.5% vs 10.1%** — Databricks on Delta, Snowflake on
-  Iceberg, equal airtime; `AUDITS.md §2`), data pipelines/streaming (**26.6% vs 25.1%**), and
-  warehouse/modernization (**~10% each**). Claim no leader on these.
+- **Near-ties:** open table formats (**5.6% vs 4.6%** — Databricks on Delta, Snowflake on
+  Iceberg; `AUDITS.md §2`), data pipelines/streaming (**15.0% vs 13.6%**), and
+  warehouse/modernization (**5.4% vs 4.7%**). Claim no strong leader on these.
 
 ---
 
@@ -352,6 +351,7 @@ The platform war is loud; the layer above it is already being standardized in pu
   or that Databricks "isn't open." Each is contradicted by the vendor's own product
   (`VENDOR_POSITIONING_SOURCES.md`).
 - A company's absence = no speaker this year, not a non-customer. Don't infer churn or rejection.
-- Near-ties stay ties/leans: pipelines (1.4pp), sharing (2.7pp), and open formats (0.4pp).
+- Near-ties stay ties/leans: pipelines (1.4pp), sharing (1.2pp), open formats (1.0pp), and SQL
+  modernization (0.7pp).
 - Use the 802/537 (2026-06-13) basis; `DIFF_OLD_NEW.md` shows no leader flipped vs the older
   759/550 data, so the contrasts are stable.

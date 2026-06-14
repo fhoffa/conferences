@@ -7,16 +7,15 @@ Reads the pinned 2026-06-13 normalized snapshots:
   - Snowflake Summit 2026: 537 sessions
 
 Classifies every session against the 10 priority "mirrored chart" rows plus the
-side callouts, using each vendor's *native* taxonomy first (high precision) and
-title+abstract keyword backstops second. Emits per-row session counts and agenda
-share for both vendors.
+side callouts. The primary chart uses full title+abstract text and fractional
+topic allocation: if one session matches k rows, each row receives 1/k session
+credit. Binary topic prevalence and capped-text runs are emitted as audits.
 
 Design notes (see NEXT_STEPS_TODO.md "Review/synthesis instructions"):
-  - Rows are independent topic prevalences, NOT a partition: a session can match
-    several rows. Agenda share = matching sessions / total sessions.
-  - Counts are raw session counts. No fractional crediting is applied, so every
-    row is reported as whole sessions (the TODO permits fractional only when a row
-    *explicitly* uses fractional agenda share; none here do).
+  - Primary rows are fractional topic allocations over full title+abstract text.
+    Agenda share = fractional session credit / total sessions.
+  - Binary prevalence is still reported separately: "what share of sessions
+    touch this topic at all?"
   - Named-product prominence is kept distinct from broad conceptual coverage by
     splitting some rows into a "named" signal (taxonomy/product term) and a
     "broad" signal (concept keywords). See ROWS below.
@@ -89,7 +88,7 @@ def snow_code_prefix(s):
 
 
 # ---------------------------------------------------------------------------
-# Row matchers — LENGTH-CONTROLLED SYMMETRIC KEYWORDS.
+# Row matchers — FULL-TEXT FRACTIONAL, SYMMETRIC KEYWORDS.
 #
 # Fairness methodology (see AUDITS §0). Earlier drafts mixed each vendor's native
 # taxonomy (Databricks topic_tags/track, Snowflake attributes) with keywords. Those
@@ -100,15 +99,16 @@ def snow_code_prefix(s):
 # AND Databricks' BI lead). This version removes that bias two ways:
 #   1) the SAME keyword set is applied to BOTH vendors (concept terms + every vendor's
 #      product names), so neither gets taxonomy credit the other lacks;
-#   2) each session's text is capped at CAP chars before matching, because Databricks
-#      abstracts run ~1.45x longer than Snowflake's (median 991 vs 680) and longer text
-#      simply yields more keyword hits — an artifact, not signal.
-# Net effect vs the taxonomy draft: margins shrink ~3x and several rows become ties.
-# The directional thesis survives (Snowflake leads GenAI + semantic; Databricks leads
-# the named control plane + operational DB).
+#   2) the primary chart uses full public title+abstract text, but divides each
+#      session's credit across every row it matches. That preserves real agenda text
+#      while reducing the "long abstracts match more rows" problem.
+# Capped binary and capped fractional runs remain as sensitivity checks.
 # ---------------------------------------------------------------------------
 
-CAP = 680  # ~Snowflake median title+abstract length; applied to both vendors
+FULL_CAP = 10**9
+SNOW_MEDIAN_CAP = 680
+DBX_MEDIAN_CAP = 991
+CAP = FULL_CAP
 
 
 def text_capped(s):
@@ -119,7 +119,7 @@ ROWS = []  # list of dicts: key, label, dbx_label, snow_label, dbx(fn), snow(fn)
 
 
 def row(key, label, terms, dbx_label, snow_label):
-    """Symmetric, length-controlled matcher: same keyword set on both vendors."""
+    """Symmetric matcher: same keyword set on both vendors."""
     matcher = lambda s, t=tuple(terms): kw(text_capped(s), *t)
     ROWS.append(dict(key=key, label=label, dbx=matcher, snow=matcher,
                      dbx_label=dbx_label, snow_label=snow_label))
@@ -260,17 +260,58 @@ def speaker_companies(sessions):
     return c
 
 
-def compute_rows(dbx, snow, cap):
-    """Compute row shares at a specific title+abstract cap."""
+def session_matches(session, side):
+    return [i for i, r in enumerate(ROWS) if r[side](session)]
+
+
+def compute_rows(dbx, snow, cap, scoring="fractional"):
+    """Compute row shares at a specific title+abstract cap.
+
+    scoring="fractional" divides each matched session across all rows it matches.
+    scoring="binary" gives every matched row one full session of prevalence credit.
+    """
     global CAP
     old_cap = CAP
     CAP = cap
     try:
         nd, ns = len(dbx), len(snow)
+        dbx_credit = [0.0] * len(ROWS)
+        snow_credit = [0.0] * len(ROWS)
+        dbx_touched = [0] * len(ROWS)
+        snow_touched = [0] * len(ROWS)
+        dbx_unmatched = 0
+        snow_unmatched = 0
+        dbx_multi = 0
+        snow_multi = 0
+
+        for session in dbx:
+            matches = session_matches(session, "dbx")
+            if not matches:
+                dbx_unmatched += 1
+                continue
+            if len(matches) > 1:
+                dbx_multi += 1
+            weight = 1.0 if scoring == "binary" else 1.0 / len(matches)
+            for i in matches:
+                dbx_touched[i] += 1
+                dbx_credit[i] += weight
+
+        for session in snow:
+            matches = session_matches(session, "snow")
+            if not matches:
+                snow_unmatched += 1
+                continue
+            if len(matches) > 1:
+                snow_multi += 1
+            weight = 1.0 if scoring == "binary" else 1.0 / len(matches)
+            for i in matches:
+                snow_touched[i] += 1
+                snow_credit[i] += weight
+
         rows_out = []
-        for r in ROWS:
-            dc = sum(1 for s in dbx if r["dbx"](s))
-            sc = sum(1 for s in snow if r["snow"](s))
+        for i, r in enumerate(ROWS):
+            dc = dbx_credit[i]
+            sc = snow_credit[i]
             ds = 100.0 * dc / nd
             ss = 100.0 * sc / ns
             rows_out.append({
@@ -278,14 +319,35 @@ def compute_rows(dbx, snow, cap):
                 "label": r["label"],
                 "dbx_label": r["dbx_label"],
                 "snow_label": r["snow_label"],
-                "dbx_sessions": dc,
-                "snow_sessions": sc,
+                "scoring": scoring,
+                "dbx_session_credit": round(dc, 1),
+                "snow_session_credit": round(sc, 1),
+                "dbx_sessions": round(dc, 1) if scoring == "fractional" else int(dc),
+                "snow_sessions": round(sc, 1) if scoring == "fractional" else int(sc),
+                "dbx_touched_sessions": dbx_touched[i],
+                "snow_touched_sessions": snow_touched[i],
                 "dbx_share_pct": round(ds, 1),
                 "snow_share_pct": round(ss, 1),
                 "leader": "Databricks" if ds > ss else ("Snowflake" if ss > ds else "Tie"),
                 "delta_pct_pts": round(abs(ds - ss), 1),
             })
-        return rows_out
+        return {
+            "scoring": scoring,
+            "cap_chars": cap,
+            "rows": rows_out,
+            "matched_sessions": {
+                "databricks": nd - dbx_unmatched,
+                "snowflake": ns - snow_unmatched,
+            },
+            "multi_topic_sessions": {
+                "databricks": dbx_multi,
+                "snowflake": snow_multi,
+            },
+            "unmatched_sessions": {
+                "databricks": dbx_unmatched,
+                "snowflake": snow_unmatched,
+            },
+        }
     finally:
         CAP = old_cap
 
@@ -297,11 +359,16 @@ def main():
     assert nd == 802, f"expected 802 DBX, got {nd}"
     assert ns == 537, f"expected 537 SNOW, got {ns}"
 
-    rows_out = compute_rows(dbx, snow, CAP)
+    primary = compute_rows(dbx, snow, FULL_CAP, scoring="fractional")
+    rows_out = primary["rows"]
+    binary_prevalence = compute_rows(dbx, snow, FULL_CAP, scoring="binary")
     sensitivity = {
-        "cap_680_snowflake_median": rows_out,
-        "cap_991_databricks_median": compute_rows(dbx, snow, 991),
-        "full_text_uncapped": compute_rows(dbx, snow, 10**9),
+        "fractional_full_text": primary,
+        "fractional_cap_991_databricks_median": compute_rows(dbx, snow, DBX_MEDIAN_CAP, scoring="fractional"),
+        "fractional_cap_680_snowflake_median": compute_rows(dbx, snow, SNOW_MEDIAN_CAP, scoring="fractional"),
+        "binary_full_text": binary_prevalence,
+        "binary_cap_991_databricks_median": compute_rows(dbx, snow, DBX_MEDIAN_CAP, scoring="binary"),
+        "binary_cap_680_snowflake_median": compute_rows(dbx, snow, SNOW_MEDIAN_CAP, scoring="binary"),
     }
 
     # Side callouts -- NVIDIA / GPU / accelerated compute
@@ -330,10 +397,17 @@ def main():
             "snowflake": "normalized/snapshots/2026-06-13.sessions.json",
         },
         "method": {
-            "primary_cap_chars": 680,
-            "note": "Primary rows use symmetric keywords capped at Snowflake's median title+abstract length; sensitivity includes Databricks median cap and uncapped full text.",
+            "primary_text": "full title+abstract",
+            "primary_scoring": "fractional topic allocation",
+            "note": "Primary rows use full public title+abstract text. Each session's one unit of agenda credit is divided across every row it matches; binary prevalence and capped-text runs are included as audits.",
         },
         "rows": rows_out,
+        "primary_allocation": {
+            "matched_sessions": primary["matched_sessions"],
+            "multi_topic_sessions": primary["multi_topic_sessions"],
+            "unmatched_sessions": primary["unmatched_sessions"],
+        },
+        "binary_prevalence": binary_prevalence,
         "sensitivity": sensitivity,
         "side_callouts": {
             "nvidia_gpu": {
@@ -360,22 +434,30 @@ def main():
     # Reproducible CSV for the mirrored bar chart
     import csv
     with open(os.path.join(HERE, "databricks_snowflake_mirrored_bar_chart_data.csv"), "w", newline="") as f:
-        w = csv.writer(f)
+        w = csv.writer(f, lineterminator="\n")
         w.writerow(["row_key", "row_label", "dbx_label", "snow_label",
-                    "dbx_sessions", "dbx_share_pct", "snow_sessions", "snow_share_pct",
+                    "dbx_session_credit", "dbx_touched_sessions", "dbx_share_pct",
+                    "snow_session_credit", "snow_touched_sessions", "snow_share_pct",
                     "leader", "delta_pct_pts"])
         for r in rows_out:
             w.writerow([r["key"], r["label"], r["dbx_label"], r["snow_label"],
-                        r["dbx_sessions"], r["dbx_share_pct"], r["snow_sessions"], r["snow_share_pct"],
+                        r["dbx_session_credit"], r["dbx_touched_sessions"], r["dbx_share_pct"],
+                        r["snow_session_credit"], r["snow_touched_sessions"], r["snow_share_pct"],
                         r["leader"], r["delta_pct_pts"]])
 
     # Console summary
     print(f"Denominators: DBX={nd}  SNOW={ns}\n")
-    print(f"{'Row':<42}{'DBX n':>7}{'DBX%':>7}{'SNOW n':>8}{'SNOW%':>7}  {'Leader':<11}{'Δpp':>6}")
-    print("-" * 95)
+    print("Primary scoring: full-text fractional session credit")
+    print(f"Matched tracked rows: DBX={primary['matched_sessions']['databricks']}  "
+          f"SNOW={primary['matched_sessions']['snowflake']}")
+    print(f"Multi-topic sessions: DBX={primary['multi_topic_sessions']['databricks']}  "
+          f"SNOW={primary['multi_topic_sessions']['snowflake']}\n")
+    print(f"{'Row':<42}{'DBX cr':>8}{'DBX%':>7}{'SNOW cr':>9}{'SNOW%':>7}  {'Leader':<11}{'Δpp':>6}")
+    print("-" * 98)
     for r in rows_out:
-        print(f"{r['label']:<42}{r['dbx_sessions']:>7}{r['dbx_share_pct']:>7}"
-              f"{r['snow_sessions']:>8}{r['snow_share_pct']:>7}  {r['leader']:<11}{r['delta_pct_pts']:>6}")
+        print(f"{r['label']:<42}{r['dbx_session_credit']:>8}{r['dbx_share_pct']:>7}"
+              f"{r['snow_session_credit']:>9}{r['snow_share_pct']:>7}  "
+              f"{r['leader']:<11}{r['delta_pct_pts']:>6}")
     print("\nSide callout — NVIDIA/GPU/accelerated compute:")
     print(f"  DBX  {len(dbx_nv)} sessions ({round(100.0*len(dbx_nv)/nd,1)}%)")
     print(f"  SNOW {len(snow_nv)} sessions ({round(100.0*len(snow_nv)/ns,1)}%)")

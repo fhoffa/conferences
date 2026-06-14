@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apples-to-apples diff: run the SAME classifier (classify.ROWS) against the old
+"""Apples-to-apples diff: run the SAME primary classifier against the old
 2026-06-02 snapshots (759/550) and the 2026-06-13 snapshots (802/537), so
 any change in a row's leader/delta reflects DATA drift, not method drift.
 
@@ -22,11 +22,12 @@ OLD = {
 def shares(dbx, snow):
     nd, ns = len(dbx), len(snow)
     out = {}
-    for r in C.compute_rows(dbx, snow, C.CAP):
-        ds = 100.0 * r["dbx_sessions"] / nd
-        ss = 100.0 * r["snow_sessions"] / ns
+    result = C.compute_rows(dbx, snow, C.FULL_CAP, scoring="fractional")
+    for r in result["rows"]:
+        ds = 100.0 * r["dbx_session_credit"] / nd
+        ss = 100.0 * r["snow_session_credit"] / ns
         out[r["key"]] = dict(
-            label=r["label"], dbx_n=r["dbx_sessions"], snow_n=r["snow_sessions"],
+            label=r["label"], dbx_n=r["dbx_session_credit"], snow_n=r["snow_session_credit"],
             dbx_share=round(ds, 1), snow_share=round(ss, 1),
             leader=r["leader"],
             delta=round(ds - ss, 1),  # signed: + => Databricks ahead

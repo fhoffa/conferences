@@ -12,11 +12,12 @@ the catalog actually shows a counter-story.
 
 ---
 
-## 0. Methodology — why the margins are smaller than the first draft
+## 0. Methodology — why the primary chart is now fractional
 
-The mirrored chart uses **length-controlled symmetric keywords**: the same keyword set
-(concept terms + every vendor's product names) is applied to **both** vendors, over each
-session's title+abstract **capped at 680 characters** for the primary chart. Because that cap is a methodological choice, §0a below shows the sensitivity at Databricks' median length (991 chars) and at full text.
+The mirrored chart uses **full-text fractional symmetric keywords**: the same keyword set
+(concept terms + every vendor's product names) is applied to **both** vendors over each session's
+full public title+abstract. Each session receives one unit of agenda credit total. If a session
+matches `k` tracked rows, each row receives `1/k` credit.
 
 This corrects two biases in the earlier taxonomy-based draft:
 1. **Taxonomy breadth.** Mixing each vendor's native tags (Databricks `topic_tags`/`track`,
@@ -25,47 +26,47 @@ This corrects two biases in the earlier taxonomy-based draft:
    and "Unity Catalog" tags are similarly broad. This inflated margins in **both** directions —
    it overstated Snowflake's GenAI (+17→+5) and semantic (+17→+6) leads *and* Databricks' BI
    (+22→+4) lead.
-2. **Abstract length.** Databricks abstracts run ~1.45× longer than Snowflake's (median 991 vs
-   680 chars), so plain keyword counts over-credit Databricks. Capping both at 680 neutralises it.
+2. **Abstract length / multi-topic sessions.** Databricks abstracts run ~1.45× longer than
+   Snowflake's (median 991 vs 680 chars), so binary full-text counts over-credit Databricks by
+   letting one longer abstract count fully in many rows. Fractional allocation preserves the full
+   public description while dividing a session's credit across every row it touches.
 3. **Brand-vs-brand rows.** Two rows compared a Databricks-only product name against a
    Snowflake-only one — Delta vs Iceberg (§2) and Unity Catalog vs Horizon (§1). Counting only the
-   brands made each look lopsided; measured as *concepts* (open formats; governance) both are ties.
+   brands made each look lopsided; measured as *concepts* and fractionally allocated, the gaps are
+   much more modest.
 
-**Net effect at the 680-char cap:** margins shrink ~3× and the two agendas are strikingly close — **no topic gap
-exceeds ~8pp** (the largest is operational DB, +8.3). These are cap-sensitive agenda-emphasis
-findings, not absolute topic-volume facts: Snowflake leads the GenAI app layer only under the
-680-char length-control, while governance/pipelines/BI/evals swing more Databricks-heavy as the
-cap is relaxed. The robust read is modest tilts, not dominance. Governance and open formats are
-ties under the primary fair chart.
+**Net effect in the full-text fractional chart:** the two agendas are still close. The largest
+gap is operational DB substrate (Databricks +5.6pp). Snowflake's main leans are GenAI app layer
+(+4.1pp) and semantic context (+2.1pp). Databricks' main leans are operational DB (+5.6pp),
+evals (+2.9pp), and governance/control plane (+2.8pp). This is agenda emphasis, not shipped
+capability.
 
 *(Speaker/company findings — VP-vs-practitioner, who-heads-talks, twin talks, guest split,
 roster overlap — are unaffected: they key on titles and affiliations, not abstract keywords.)*
 
-### 0a. Cap sensitivity — which claims are stable?
+### 0a. Sensitivity — allocation vs reach
 
-The primary chart caps both catalogs at **680 characters** (Snowflake median title+abstract length).
-That is a fair length-control choice, but some claims are sensitive to it. Re-running the same
-symmetric keyword matcher at **991 characters** (Databricks median) and with **full text** gives:
+Fractional allocation is stable across full text and capped text. Binary prevalence answers a
+different question: "does this session touch the topic at all?" It is useful for reach, but it is
+more sensitive to longer Databricks abstracts.
 
-| Row | 680-char primary | 991-char sensitivity | Full-text sensitivity |
-|---|---|---|---|
-| GenAI app layer | SNOW +4.7 | DBX +0.5 | DBX +1.8 |
-| Semantic context | SNOW +6.4 | SNOW +5.3 | SNOW +5.3 |
-| Sharing / marketplace | SNOW +2.7 | SNOW +1.5 | SNOW +1.4 |
-| Open formats | DBX +0.4 | DBX +3.4 | DBX +4.2 |
-| Governance / control plane | SNOW +0.9 | DBX +7.5 | DBX +8.7 |
-| BI / AI-BI | DBX +3.8 | DBX +6.5 | DBX +6.8 |
-| Operational DB substrate | DBX +8.3 | DBX +10.7 | DBX +10.9 |
-| Evals / red teaming | DBX +2.9 | DBX +6.3 | DBX +6.9 |
-| Pipelines / streaming | DBX +1.4 | DBX +6.8 | DBX +7.8 |
-| SQL modernization | DBX +0.1 | DBX +1.9 | DBX +2.5 |
+| Row | Full text fractional | 991-char fractional | 680-char fractional | Full text binary reach |
+|---|---|---|---|---|
+| GenAI app layer | SNOW +4.1 | SNOW +4.0 | SNOW +3.4 | DBX +1.8 |
+| Semantic context | SNOW +2.1 | SNOW +2.0 | SNOW +2.2 | SNOW +5.3 |
+| Sharing / marketplace | SNOW +1.2 | SNOW +1.2 | SNOW +1.2 | SNOW +1.4 |
+| Open formats | DBX +1.0 | DBX +0.7 | DBX +0.4 | DBX +4.2 |
+| Governance / control plane | DBX +2.8 | DBX +2.6 | DBX +0.6 | DBX +8.7 |
+| BI / AI-BI | DBX +1.8 | DBX +1.8 | DBX +1.7 | DBX +6.8 |
+| Operational DB substrate | DBX +5.6 | DBX +5.6 | DBX +5.2 | DBX +10.9 |
+| Evals / red teaming | DBX +2.9 | DBX +2.8 | DBX +1.7 | DBX +6.9 |
+| Pipelines / streaming | DBX +1.4 | DBX +1.3 | DBX +0.9 | DBX +7.8 |
+| SQL modernization | DBX +0.7 | DBX +0.6 | DBX +0.5 | DBX +2.5 |
 
-**What survives:** semantic context stays Snowflake's clearest topic lead; operational DB stays
-Databricks' clearest lead; sharing stays a small Snowflake lean; BI/evals/pipelines stay
-Databricks leans. **What must be qualified:** GenAI flips from Snowflake +4.7 at the 680-char cap
-to Databricks +0.5/+1.8 when more Databricks abstract text is admitted; governance shifts from a
-680-char near-tie to a Databricks lead under longer text. So write "under the 680-char
-length-controlled method" for cap-dependent claims, not universal truths.
+**Read:** use fractional rows for agenda allocation. Use binary rows for topic reach. The
+important correction is that GenAI remains a Snowflake allocation lean under fractional scoring,
+while binary reach flips narrowly toward Databricks; governance is a Databricks allocation lean,
+not a Snowflake tie.
 
 ---
 
@@ -76,19 +77,20 @@ row counted only the two **product names** — but those are vendor-exclusive ("
 Databricks-only, "Horizon" Snowflake-only), so it measured *which brand gets repeated*, not who
 covers governance. That's the same brand-vs-brand trap as the Iceberg row (§2). Measured fairly:
 
-| Signal (length-controlled) | Databricks | Snowflake |
+| Signal | Databricks | Snowflake |
 |---|---|---|
-| **Governance as a concept** (governance, lineage, access control, RBAC, masking, compliance…) | **26.7%** | **27.6%** → **tie (SNOW +0.9)** |
+| **Governance as fractional agenda allocation** | **137.1 credits (17.1%)** | **76.7 credits (14.3%)** → **DBX +2.8** |
+| **Governance as binary full-text reach** | **294 sessions (36.7%)** | **150 sessions (27.9%)** |
 | Bare "governance" | 21.2% | 21.4% |
 | **Brand: "Unity Catalog" vs "Horizon"** | **19.6%** | **4.7%** |
 
-**Verdict:** governance *coverage* is even under the 680-char chart — both conferences put it on
-~27% of the agenda. What looks like a 4-to-1 Databricks blowout is **brand repetition**:
-Unity Catalog is the Databricks platform *spine* (it wires Lakebase, Genie, Agent Bricks,
-Lakeflow together), so it is named in ~20% of sessions; Snowflake's Horizon is named far more
-sparingly. Report the two things separately: **governance topic = near-tie under the primary
-cap**; **named-catalog brand prominence = Databricks by 4×.** Do not let the second masquerade
-as the first.
+**Verdict:** governance topic attention is a **modest Databricks lean** in the full-text
+fractional chart, and a larger Databricks reach lead in binary full-text prevalence. What must
+stay separate is the 4-to-1 **brand repetition**: Unity Catalog is the Databricks platform *spine*
+(it wires Lakebase, Genie, Agent Bricks, Lakeflow together), so it is named in ~20% of sessions;
+Snowflake's Horizon is named far more sparingly. Report the two things separately: **governance
+topic attention = Databricks lean**; **named-catalog brand prominence = Databricks by 4×.** Do not
+let the second masquerade as the first.
 
 **Capability floor (cited):** **Horizon Catalog** is itself a full control plane —
 cross-cloud RBAC, Trust Center, differential privacy, clean rooms, AI Agent Identity, and
@@ -112,14 +114,15 @@ parquet, polaris, "open table/lakehouse", interoperability):
 
 | Signal | Databricks | Snowflake |
 |---|---|---|
-| **Open lakehouse / formats (row 4, length-controlled)** | **84 (10.5%)** | **54 (10.1%)** → **tie** |
+| **Open lakehouse / formats (fractional agenda allocation)** | **44.7 credits (5.6%)** | **24.6 credits (4.6%)** → **near-tie / DBX +1.0** |
+| **Open lakehouse / formats (binary full-text reach)** | **114 sessions (14.2%)** | **54 sessions (10.1%)** |
 | "Delta Lake" (raw mention rate) | 11.6% | 0.4% |
 | "Iceberg" (raw mention rate) | 4.0% | 8.4% |
 
 **Verdict: it's a tie — both conferences run on open table formats, they just use different
-ones.** Under the fair method (count Delta, control for length) the row is **DBX 10.5% vs SNOW
-10.1%** — dead even. The composition differs: Databricks' open formats are **Delta Lake**
-(11.6% of its agenda), Snowflake's are **Iceberg** (8.4%). Snowflake bet on the
+ones.** Under full-text fractional allocation the row is **DBX 5.6% vs SNOW 4.6%** — effectively
+even. The composition differs: Databricks' open formats are **Delta Lake** (11.6% raw mention
+rate), Snowflake's are **Iceberg** (8.4%). Snowflake bet on the
 **industry-neutral** format; Databricks emphasizes its own (open) Delta and bridges to Iceberg
 via UniForm.
 
@@ -142,7 +145,8 @@ Iceberg and donated Polaris to Apache. **Both are genuinely open** at the table-
 
 | Signal | Databricks | Snowflake |
 |---|---|---|
-| Combined row | 105 (13.1%) | 26 (4.8%) |
+| Combined row (fractional allocation) | 64.0 credits (8.0%) | 12.9 credits (2.4%) |
+| Combined row (binary full-text reach) | 126 sessions (15.7%) | 26 sessions (4.8%) |
 | Lakebase (tag) | 109 | — |
 | Databricks Apps (tag) | 108 | — |
 | Snowflake Postgres (feature) | — | 12 |
@@ -253,25 +257,26 @@ non-user.
 Framed strictly as **absent from current catalog signals**, not absent as a
 customer/partner:
 
-- **Semantic layer (row 2):** Snowflake's **Semantic Views / Cortex Analyst** (11.2%) lead
-  Databricks' **Metric Views** (4.7%) — Snowflake's clearest real lead after the AI app layer.
-  Semantic-context-for-agents is a Snowflake headline and a Databricks footnote *in the catalog*,
-  even though UC Metric Views exist.
+- **Semantic layer (row 2):** Snowflake's **Semantic Views / Cortex Analyst** lead Databricks'
+  **Metric Views** in both fractional allocation (4.3% vs 2.3%) and binary reach (11.2% vs
+  5.9%). Semantic-context-for-agents is a Snowflake headline and a Databricks footnote *in the
+  catalog*, even though UC Metric Views exist.
 - **Named-catalog branding (not governance):** Unity Catalog is named in ~20% of Databricks
-  sessions vs Horizon's ~5% — but governance *coverage* is a tie (~27% each, §1). Brand
-  prominence, not a topic gap.
+  sessions vs Horizon's ~5% — but that is brand prominence, not the same as governance topic
+  attention (§1).
 - **BI/AI-BI (row 6):** Databricks' **AI/BI** (Genie/dashboards) is a *lean*, not a rout —
-  10.8% vs 7.1% once length-controlled (the taxonomy draft's 37% vs 15% was an AI/BI-tag
-  artifact).
+  5.2% vs 3.4% fractionally, while binary full-text reach is 14.5% vs 7.6%. The taxonomy draft's
+  37% vs 15% was an AI/BI-tag artifact.
 - **Evals (row 8):** strict eval/benchmark/red-team/guardrail language is roughly **1.8×**
-  more common on the Databricks agenda (6.9% vs 3.9%) — see audit 7.
+  more common in Databricks fractional agenda attention (4.7% vs 1.8%) — see audit 7.
 
 ---
 
 ## 7. Evals — strict vs broad (row 8)
 
 The row counts **only** strict signals: `eval / evals / evaluation / benchmark / red team /
-LLM-as-judge / guardrail` (length-controlled). Result: DBX 55 (6.9%), SNOW 21 (3.9%).
+LLM-as-judge / guardrail`. Result: DBX 37.8 fractional credits (4.7%), SNOW 9.8 credits (1.8%).
+Binary full-text reach is DBX 90 sessions (11.2%), SNOW 23 sessions (4.3%).
 
 **Fairness guard:** do **not** conflate this with broad "trust / quality / responsible AI"
 language, which is common on both sides (Snowflake's Governance/Compliance/Observability
@@ -284,6 +289,5 @@ acquired **TruEra/TruLens** (May 2024) and offers **AI Observability in Snowflak
 with LLM-as-a-judge, relevance, groundedness, and harmfulness metrics
 ([TruEra acquisition](https://www.snowflake.com/en/blog/snowflake-acquires-truera-to-bring-llm-ml-observability-to-data-cloud/),
 [Cortex AI Observability docs](https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability)).
-Databricks builds automated evaluation into **Agent Bricks** plus MLflow. So the 6.9-vs-3.9
-gap is *how much each chose to put on the agenda under the 680-char chart*, **not** "Snowflake
-has no evals."
+Databricks builds automated evaluation into **Agent Bricks** plus MLflow. So the 4.7-vs-1.8
+fractional gap is *how much each chose to put on the agenda*, **not** "Snowflake has no evals."

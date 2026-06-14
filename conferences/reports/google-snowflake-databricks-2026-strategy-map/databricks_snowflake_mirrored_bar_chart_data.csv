@@ -1,11 +1,11 @@
-row_key,row_label,dbx_label,snow_label,dbx_sessions,dbx_share_pct,snow_sessions,snow_share_pct,leader,delta_pct_pts
-genai_app_layer,Cortex / GenAI app layer,Mosaic AI / Agent Bricks / Genie,Cortex agents + CoWork,334,41.6,249,46.4,Snowflake,4.7
-semantic_context,Semantic context for agents,Metric Views,Semantic Views / Cortex Analyst,38,4.7,60,11.2,Snowflake,6.4
-sharing_marketplace,Sharing / marketplace / clean rooms,Delta Sharing + Marketplace,Secure Sharing + Marketplace + Clean Rooms,31,3.9,35,6.5,Snowflake,2.7
-open_lakehouse,Open lakehouse / table formats,Delta Lake + UniForm (+ Iceberg),Iceberg + Polaris,84,10.5,54,10.1,Databricks,0.4
-governance_control_plane,Governance / control plane,Governance / lineage / access,Governance / lineage / access,214,26.7,148,27.6,Snowflake,0.9
-bi_analytics,BI dashboards / metrics / AI-BI,AI/BI dashboards,BI & Analytics / Snowsight,87,10.8,38,7.1,Databricks,3.8
-app_operational_db,App / operational database substrate,Lakebase / app database substrate,Snowflake Postgres + Unistore / app-data bridge,105,13.1,26,4.8,Databricks,8.3
-evals_strict,Evals / red teaming / AI quality (strict),eval / benchmark / red-team,eval / benchmark / red-team,55,6.9,21,3.9,Databricks,2.9
-pipelines_streaming,Lakeflow / Spark / streaming pipelines,Lakeflow / Spark / streaming,Snowpipe + Openflow + Snowpark + dbt,213,26.6,135,25.1,Databricks,1.4
-warehouse_modernization,SQL warehouse / lakehouse modernization,Databricks SQL / Photon,Gen2 warehouses + migrations,80,10.0,53,9.9,Databricks,0.1
+row_key,row_label,dbx_label,snow_label,dbx_session_credit,dbx_touched_sessions,dbx_share_pct,snow_session_credit,snow_touched_sessions,snow_share_pct,leader,delta_pct_pts
+genai_app_layer,Cortex / GenAI app layer,Mosaic AI / Agent Bricks / Genie,Cortex agents + CoWork,190.1,394,23.7,149.1,254,27.8,Snowflake,4.1
+semantic_context,Semantic context for agents,Metric Views,Semantic Views / Cortex Analyst,18.3,47,2.3,23.3,60,4.3,Snowflake,2.1
+sharing_marketplace,Sharing / marketplace / clean rooms,Delta Sharing + Marketplace,Secure Sharing + Marketplace + Clean Rooms,18.8,44,2.4,19.0,37,3.5,Snowflake,1.2
+open_lakehouse,Open lakehouse / table formats,Delta Lake + UniForm (+ Iceberg),Iceberg + Polaris,44.7,114,5.6,24.6,54,4.6,Databricks,1.0
+governance_control_plane,Governance / control plane,Governance / lineage / access,Governance / lineage / access,137.1,294,17.1,76.7,150,14.3,Databricks,2.8
+bi_analytics,BI dashboards / metrics / AI-BI,AI/BI dashboards,BI & Analytics / Snowsight,42.0,116,5.2,18.4,41,3.4,Databricks,1.8
+app_operational_db,App / operational database substrate,Lakebase / app database substrate,Snowflake Postgres + Unistore / app-data bridge,64.0,126,8.0,12.9,26,2.4,Databricks,5.6
+evals_strict,Evals / red teaming / AI quality (strict),eval / benchmark / red-team,eval / benchmark / red-team,37.8,90,4.7,9.8,23,1.8,Databricks,2.9
+pipelines_streaming,Lakeflow / Spark / streaming pipelines,Lakeflow / Spark / streaming,Snowpipe + Openflow + Snowpark + dbt,120.1,267,15.0,73.1,137,13.6,Databricks,1.4
+warehouse_modernization,SQL warehouse / lakehouse modernization,Databricks SQL / Photon,Gen2 warehouses + migrations,43.1,99,5.4,25.0,53,4.7,Databricks,0.7

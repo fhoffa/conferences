@@ -38,7 +38,8 @@ forward-looking agenda and Snowflake's as a settled one.
   with Lakehouse context, identity-first UC governance, and automated evaluation; GA Document
   Intelligence + Custom Agents. ([letsdatascience](https://letsdatascience.com/news/databricks-launches-agent-bricks-enterprise-agent-platform-6d7b19ad))
 - **Fair read:** both lead with an agentic-enterprise thesis. The agenda gap is slim under the
-  fair method (SNOW 46.4% vs DBX 41.6%, length-controlled — +4.7) — emphasis, not capability.
+  primary full-text fractional method (SNOW 27.8% vs DBX 23.7%, +4.1pp) — emphasis, not
+  capability.
 
 ### 2. Semantic context for agents — *Snowflake leads, and confirms it*
 - **Snowflake** made **context & semantics a named domain**: **Semantic Studio**, **Cortex
@@ -46,7 +47,8 @@ forward-looking agenda and Snowflake's as a settled one.
   (synonyms, sample values, verified queries) for "AI-powered BI." ([native semantic views blog](https://www.snowflake.com/en/blog/engineering/native-semantic-views-ai-bi/))
 - **Databricks** has the analogous capability in **Unity Catalog Metric Views** — real, but a
   much smaller agenda presence (18 sessions say "metric view").
-- **Fair read:** Snowflake's row-2 lead (21.0% vs 4.2%) matches its own positioning — semantics
+- **Fair read:** Snowflake's row-2 lead (4.3% vs 2.3% fractionally; 11.2% vs 5.9% binary reach)
+  matches its own positioning — semantics
   is a strategic pillar for Snowflake, a feature for Databricks. Capability exists on both sides.
 
 ### 3. Sharing / marketplace / clean rooms
@@ -57,8 +59,8 @@ forward-looking agenda and Snowflake's as a settled one.
 
 ### 4. Open table formats — *count Delta, not just Iceberg*
 - **Delta Lake is open** (Linux Foundation / Apache 2.0), so a fair "open formats" row counts it
-  alongside Iceberg. Doing so (length-controlled symmetric) gives **Databricks 10.5% vs Snowflake
-  10.1% — a tie.** The composition differs: Databricks' open formats are **Delta Lake** (11.6%
+  alongside Iceberg. Doing so gives **Databricks 5.6% vs Snowflake 4.6%** under fractional
+  allocation — effectively a tie. The composition differs: Databricks' open formats are **Delta Lake** (11.6%
   raw mention rate vs 0.4%), Snowflake's are **Iceberg** (8.4% vs 4.0%). Equal airtime, different
   format.
 - **Snowflake** bet on the **industry-neutral** format: **Apache Iceberg v3**, **Apache Polaris /
@@ -82,9 +84,10 @@ forward-looking agenda and Snowflake's as a settled one.
   [press release](https://www.snowflake.com/en/news/press-releases/snowflake-advances-trusted-ai-with-snowflake-horizon-catalog-centralizing-governance-context-and-security-across-the-enterprise/))
 - **Databricks Unity Catalog** is the platform spine connecting Lakebase, Genie, Agent Bricks,
   Lakeflow, Lakehouse — which is *why* it's named in ~20% of sessions vs Horizon's ~5%. **But that's
-  brand prominence, not governance volume:** governance *coverage* is a tie (~27% each, row 5).
-- **Fair read:** the 43pp gap is **named-brand prominence**, not a governance-capability gap.
-  Broad governance is strong on both sides (Snowflake "Governance" topic = 167 sessions).
+  brand prominence, not the same as governance topic attention:** the primary row gives Databricks
+  a modest fractional lean (17.1% vs 14.3%).
+- **Fair read:** the named-brand gap is **brand prominence**, not a governance-capability gap.
+  Broad governance is strong on both sides.
 
 ### 6. BI dashboards / AI-BI — *Databricks leads by design choice, not Snowflake weakness*
 - **Databricks** ships first-party **AI/BI** (Dashboards + Genie) as a product.
@@ -94,7 +97,7 @@ forward-looking agenda and Snowflake's as a settled one.
   investment goes into the *semantic layer* (row 2), not a dashboard product.
   ([Snowsight guide](https://coefficient.io/snowflake/what-is-snowsight),
   [Snowflake+Power BI guide](https://www.snowflake.com/en/developers/guides/end-to-end-analytics-with-snowflake-and-power-bi/))
-- **Fair read:** the 10.8% vs 7.1% gap (length-controlled) reflects a **strategic split** — Databricks owns the
+- **Fair read:** the 5.2% vs 3.4% fractional gap reflects a **strategic split** — Databricks owns the
   dashboard surface; Snowflake owns the semantic layer and partners for dashboards. Neither
   "lacks BI."
 
@@ -119,18 +122,18 @@ forward-looking agenda and Snowflake's as a settled one.
   Snowflake Cortex** — LLM-as-a-judge with relevance, groundedness, harmfulness metrics.
   ([TruEra acquisition](https://www.snowflake.com/en/blog/snowflake-acquires-truera-to-bring-llm-ml-observability-to-data-cloud/),
   [AI Observability docs](https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability))
-- **Fair read:** the 6.9% vs 3.9% gap (length-controlled) is **agenda emphasis**. Databricks talks eval mechanics
+- **Fair read:** the 4.7% vs 1.8% fractional gap is **agenda emphasis**. Databricks talks eval mechanics
   more; both vendors ship productized evaluation. Do not claim Snowflake "has no evals."
 
 ### 9. Lakeflow / Spark / streaming pipelines — near tie
 - **Databricks**: Lakeflow (Connect, Declarative Pipelines, Jobs), Spark, Structured Streaming.
 - **Snowflake**: Openflow (ex-Datavolo), Snowpipe Streaming, Dynamic Tables, Snowpark, dbt.
-- 1.3pp — dead heat. Both are deep here; claim no leader.
+- 1.4pp fractional — near-tie. Both are deep here; claim no strong leader.
 
 ### 10. SQL warehouse / lakehouse modernization
 - **Databricks**: Databricks SQL + Photon (with planned native NVIDIA acceleration).
 - **Snowflake**: virtual warehouses, **Gen2 Warehouses**, **Adaptive Compute**, **Optima**.
-- Modest 6pp Databricks edge; both are core-competent.
+- 0.7pp fractional edge; both are core-competent.
 
 ---
 

@@ -47,11 +47,12 @@ parts.append(
     f'<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" role="img" '
     f'aria-labelledby="ttl desc">'
 )
-parts.append('<title id="ttl">Snowflake vs Databricks 2026 — agenda share by strategy row</title>')
+parts.append('<title id="ttl">Snowflake vs Databricks 2026 — fractional agenda share by strategy row</title>')
 parts.append(
     '<desc id="desc">Mirrored bar chart. Snowflake share in blue extends left, '
     'Databricks share in red extends right, from a center column showing the leader '
-    'and delta in percentage points for each of ten strategy rows.</desc>'
+    'and delta in percentage points for each of ten strategy rows. Each session is '
+    'fractionally allocated across every row it matches.</desc>'
 )
 
 # Header
@@ -60,7 +61,7 @@ parts.append(f'<text x="{(CX0+CX1)/2}" y="34" text-anchor="middle" class="t" fon
 parts.append(f'<text x="{CX1+8}" y="34" text-anchor="start" class="th" font-size="15" fill="{RED}">Databricks</text>')
 parts.append(f'<text x="{CX0-8}" y="52" text-anchor="end" class="t" font-size="11" fill="var(--color-text-tertiary)">{ns} sessions</text>')
 parts.append(f'<text x="{CX1+8}" y="52" text-anchor="start" class="t" font-size="11" fill="var(--color-text-tertiary)">{nd} sessions</text>')
-parts.append(f'<text x="{W/2}" y="74" text-anchor="middle" class="t" font-size="11" fill="var(--color-text-secondary)">agenda share (% of each catalog) · captured {data["captured"]}</text>')
+parts.append(f'<text x="{W/2}" y="74" text-anchor="middle" class="t" font-size="11" fill="var(--color-text-secondary)">fractional agenda share (% of each catalog) · captured {data["captured"]}</text>')
 
 # Center divider
 parts.append(f'<line x1="{(CX0+CX1)/2}" y1="84" x2="{(CX0+CX1)/2}" y2="{H-30}" stroke="var(--color-border-tertiary)" stroke-width="1"/>')

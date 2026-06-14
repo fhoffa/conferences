@@ -24,62 +24,64 @@ data are stated here.
 
 ## The one-line story
 
-Both vendors now run the *same* play — an AI/agent layer on top of a governed lakehouse — and
-under the primary fair method (symmetric keywords capped at 680 chars; `AUDITS.md §0`) **the two
-agendas are strikingly close: no topic gap exceeds ~8pp.** These are cap-sensitive agenda-emphasis
-reads, so phrase the leaders as "under the 680-char chart." Snowflake's 680-char leads are the
-**AI app surface** (+4.7) and the **meaning layer** (semantic, +6.4); Databricks' is the
-**operational-DB substrate** (Lakebase, +8.3, the board's biggest), with narrower edges on BI and
-evals. Notably, **governance is a near-tie under the primary cap** (~27% each) — Databricks
-just *names* Unity Catalog 4× more than Snowflake names Horizon, which is brand prominence, not
-coverage.
+Both vendors now run the *same* play — an AI/agent layer on top of a governed lakehouse — and the
+full-text fractional agenda view says the contrast is real but not a blowout. Snowflake leans
+toward the **AI app surface** (+4.1pp) and **semantic context** (+2.1pp). Databricks leans toward
+the **operational-DB substrate** (Lakebase, +5.6pp, the board's biggest), with smaller edges in
+evals (+2.9pp) and governance/control plane (+2.8pp). Binary topic reach is more Databricks-heavy,
+but the fractional chart is the better read of agenda attention because each session gets one
+unit of credit split across all rows it touches.
 
 ---
 
 ## Where Snowflake's agenda leans in
 
-- **Semantic context for agents (11.2% vs 4.7%, +6.4).** Snowflake's clearest real lead.
+- **GenAI / agent app layer (27.8% vs 23.7%, +4.1pp fractional agenda credit).** Snowflake puts
+  slightly more of its tracked agenda attention into the AI app surface. Binary full-text
+  prevalence flips narrowly toward Databricks, so the honest wording is a Snowflake
+  *allocation* lean, not a universal GenAI lead.
+- **Semantic context for agents (4.3% vs 2.3%, +2.1pp fractional agenda credit).** Snowflake's
+  meaning-layer lean is smaller under fractional allocation than under binary prevalence, but it
+  survives every sensitivity check.
   **Semantic Views / Cortex Analyst** are a Snowflake headline (its own Summit domain); Databricks'
   Metric Views language is a footnote. If agents-need-a-semantic-layer is the thesis, Snowflake is
-  selling it harder *on the agenda* — though the gap is ~6pp, not the ~17pp the taxonomy draft
+  selling it harder *on the agenda* — though the gap is modest, not the ~17pp the taxonomy draft
   showed.
-- **GenAI / agent app layer (46.4% vs 41.6%, +4.7 under the 680-char chart).** Snowflake edges it under the primary cap — but both conferences
-  are heavily agent-focused, so this is a slim *prominence* lean, not the rout (69% vs 52%) the
-  taxonomy draft implied. The earlier gap was a Snowflake-covered-topic artifact.
-- **Sharing / marketplace / clean rooms (6.5% vs 3.9%, +2.7) — a lean, not a lead.**
+- **Sharing / marketplace / clean rooms (3.5% vs 2.4%, +1.2pp) — a small lean, not a lead.**
 
 ## Where Databricks' agenda leans in
 
-- **App / operational DB substrate (13.1% vs 4.8%, +8.3) — the board's largest gap.** Databricks
+- **App / operational DB substrate (8.0% vs 2.4%, +5.6pp) — the board's largest gap.** Databricks
   leads on **branding and concentration** — Lakebase gets its own track plus a heavy Databricks
   Apps push. Snowflake is **not absent**: Native Apps + Streamlit + Snowflake Postgres carry a
   real app-on-data story (`AUDITS.md §3`).
-- **BI / AI-BI (10.8% vs 7.1%, +3.8) — a lean.** First-party AI/BI (Genie + dashboards) beats
-  Snowflake's dashboard presence, but by ~4pp, not the 22pp the taxonomy draft showed (AI/BI-tag
+- **Evals / red teaming (4.7% vs 1.8%, +2.9pp) — a narrow but real mechanics lean.** Both ship it
+  (Snowflake via TruEra/TruLens); Databricks foregrounds it more (`AUDITS.md §7`).
+- **Governance / control plane (17.1% vs 14.3%, +2.8pp).** Fractional allocation gives Databricks
+  a modest topic-attention lean, while the eye-catching "Unity Catalog vs Horizon" gap (20% vs
+  5%) remains **brand naming**, not governance absence at Snowflake (`AUDITS.md §1`).
+- **BI / AI-BI (5.2% vs 3.4%, +1.8pp) — a small lean.** First-party AI/BI (Genie + dashboards)
+  beats Snowflake's dashboard presence, but by far less than the 22pp taxonomy draft showed (AI/BI-tag
   artifact). Snowflake cedes dashboards to Streamlit/partners by design.
-- **Evals / red teaming (6.9% vs 3.9%, ~1.8×) — narrow.** Both ship it (Snowflake via
-  TruEra/TruLens); only Databricks foregrounds the mechanics (`AUDITS.md §7`).
 
 ## Where it's effectively a tie
 
-- **Governance / control plane (26.7% vs 27.6%, +0.9 Snowflake).** Governance *coverage* is even.
-  The eye-catching "Unity Catalog vs Horizon" gap (20% vs 5%) is **brand naming**, not governance
-  volume — Unity Catalog is the Databricks platform spine, named far more than Horizon
-  (`AUDITS.md §1`).
-- **Open lakehouse / table formats (10.5% vs 10.1%).** Equal airtime — Databricks on Delta,
+- **Open lakehouse / table formats (5.6% vs 4.6%, +1.0pp Databricks).** Effectively equal airtime
+  — Databricks on Delta,
   Snowflake on Iceberg (`AUDITS.md §2`).
-- **Pipelines / streaming (26.6% vs 25.1%).** Lakeflow/Spark vs Snowpipe/Openflow/Snowpark/dbt.
-- **SQL warehouse / modernization (~10% each, +0.1).** Both deep; dead heat.
+- **Pipelines / streaming (15.0% vs 13.6%, +1.4pp Databricks).** Lakeflow/Spark vs
+  Snowpipe/Openflow/Snowpark/dbt.
+- **SQL warehouse / modernization (5.4% vs 4.7%, +0.7pp Databricks).** Both deep; dead heat.
 
 ## Side callouts
 
-- **Snowflake's marquee AI guest changed from NVIDIA to Anthropic.** NVIDIA has had **0** breakout
-  sessions in Snowflake's catalog in 2024, 2025 *and* 2026 — its one Snowflake moment was the 2024
-  *keynote* fireside (Jensen Huang). In 2026 that slot went to **Anthropic** instead, while NVIDIA
-  presents 2 working sessions at Databricks. **Both still have real NVIDIA partnerships** (H100 +
-  Photon at Databricks; NeMo/NIM in Cortex at Snowflake) — so this is about *keynote billing*, not
-  the partnership: Snowflake's headline AI guest moved from the chip vendor to the model lab
-  (`AUDITS.md §4`).
+- **Snowflake's marquee AI guest changed from NVIDIA to Anthropic.** The normalized Snowflake
+  speaker-company field shows 0 NVIDIA breakout affiliations in 2024-2026, but the 2024 catalog
+  still contains NVIDIA evidence (Bryan Catanzaro in `AI241`, Jensen Huang in keynote `K1`, plus
+  BioNeMo / NeMo Retriever / accelerated-infrastructure mentions). So the safe read is narrower:
+  in 2026, NVIDIA disappears from Snowflake breakout speaker/company signals while Anthropic gets
+  the marquee AI slot — and NVIDIA presents working sessions at Databricks. Both still have real
+  NVIDIA partnerships (`AUDITS.md §4`).
 - **Shared companies:** ~85 companies speak at both summits — dominated by the model labs
   (OpenAI, Anthropic), the GSI bench (Accenture, Deloitte, EY), and the modern-data-stack
   ecosystem (dbt Labs, Fivetran, Atlan) (`AUDITS.md §5`).
@@ -98,26 +100,25 @@ already ran (June 1–4) so its agenda is final and its ~26 announcements are pu
 agenda is forward-looking and not all announcements have dropped. Both are published agendas,
 so the comparison holds — but read Databricks' as a forward agenda and Snowflake's as settled.
 
-**What a "row" measures.** Each of the 10 rows is a binary topic membership test applied to
-every session. **Agenda share = matching sessions ÷ that vendor's total sessions.** Rows are
-**independent overlapping prevalences, not a partition** — a session can match several rows
-(e.g., a Cortex-agent-over-Iceberg talk counts in rows 1 and 4). Columns therefore do **not**
-sum to 100%.
+**What a "row" measures.** Each of the 10 rows is a topic matcher applied to the full public
+title+abstract. A session can match several rows. For the primary chart, each session receives
+one unit of agenda credit total; if it matches `k` tracked rows, each row receives `1/k` credit.
+**Agenda share = fractional session credit ÷ that vendor's total sessions.** Unmatched sessions
+stay outside the 10 tracked rows rather than being forced into a topic bucket.
 
-**Raw vs fractional.** All rows are reported as **whole session counts**. No fractional
-session crediting is applied anywhere in this build, so there are no "fractional session
-credit" rows to label. (The TODO permits fractional only when a row *explicitly* uses
-fractional agenda share; none here do.)
+**Binary prevalence vs fractional allocation.** `chart_data.json` keeps binary prevalence as an
+audit: "what share of sessions touch this topic at all?" Binary full-text prevalence is more
+Databricks-heavy because Databricks abstracts touch more rows per session. Fractional allocation
+answers the better primary question here: "how much of the agenda's tracked topic attention goes
+to this row?"
 
-**Classification method — length-controlled symmetric keywords (`AUDITS.md §0`).** The **same**
-keyword set (concept terms + every vendor's product names) is applied to **both** vendors, over
-each session's title+abstract **capped at 680 characters for the primary chart**. Sensitivity is
-reported at the Databricks median cap (991 chars) and at full text. This replaces an earlier draft that
-mixed each vendor's native taxonomy (Databricks `topic_tags`/`track`, Snowflake `attributes`)
-with keywords — those taxonomies differ in breadth and silently inflated whichever side had the
-broader tag, in both directions. The cap neutralises Databricks' ~1.45× longer abstracts (median
-991 vs 680 chars), which otherwise over-credit it on raw keyword counts. Net effect: margins are
-~3× smaller than the taxonomy draft; the 680-char directional thesis is useful, but cap-sensitive.
+**Classification method — full-text fractional symmetric keywords (`AUDITS.md §0`).** The
+**same** keyword set (concept terms + every vendor's product names) is applied to **both**
+vendors over full title+abstract text. This replaces an earlier draft that mixed each vendor's
+native taxonomy (Databricks `topic_tags`/`track`, Snowflake `attributes`) with keywords — those
+taxonomies differ in breadth and silently inflated whichever side had the broader tag, in both
+directions. Capped 680-char and 991-char versions remain as sensitivity checks, but they are no
+longer the primary chart.
 
 This is reproducible: `python3 classify.py` regenerates `chart_data.json` and the CSV;
 `python3 gen_chart.py` regenerates `chart.svg`.

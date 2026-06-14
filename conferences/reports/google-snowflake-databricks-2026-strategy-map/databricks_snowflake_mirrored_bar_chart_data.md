@@ -4,63 +4,60 @@
 **Denominators:** Databricks **802** sessions · Snowflake **537** sessions
 **Reproduce:** `python3 classify.py` → writes `chart_data.json` + this CSV (`databricks_snowflake_mirrored_bar_chart_data.csv`)
 
-**Method (length-controlled symmetric keywords).** Each row applies the **same** keyword set
-(concept terms + every vendor's product names) to **both** vendors, over each session's
-title+abstract **capped at 680 characters** (Databricks abstracts run ~1.45× longer, which
-otherwise inflates its keyword hits). This replaces an earlier taxonomy-based method that
-silently inflated margins in both directions — see `AUDITS.md §0`. Agenda share = matching
-sessions ÷ that vendor's total. Rows overlap, so columns do **not** sum to 100%.
+**Primary method: full-text fractional agenda allocation.** Each row applies the **same**
+keyword set (concept terms + every vendor's product names) to both vendors over the full public
+title+abstract. A session receives one unit of agenda credit total; if it matches `k` tracked rows,
+each row receives `1/k` credit. This preserves the full catalog descriptions while reducing the
+long-abstract effect where one session touches many rows. Binary prevalence and capped-text runs
+are kept in `chart_data.json` as audits.
 
-| # | Row | Databricks signal | DBX sessions | DBX share | Snowflake signal | SNOW sessions | SNOW share | Leader | Δ (pp) |
-|---|-----|-------------------|-------------:|----------:|------------------|-------------:|-----------:|--------|-------:|
-| 1 | Cortex / GenAI app layer | Mosaic AI / Agent Bricks / Genie | 334 | 41.6% | Cortex agents + CoWork | 249 | 46.4% | **Snowflake** | 4.7 |
-| 2 | Semantic context for agents | Metric Views | 38 | 4.7% | Semantic Views / Cortex Analyst | 60 | 11.2% | **Snowflake** | 6.4 |
-| 3 | Sharing / marketplace / clean rooms | Delta Sharing + Marketplace | 31 | 3.9% | Secure Sharing + Marketplace + Clean Rooms | 35 | 6.5% | Snowflake | 2.7 |
-| 4 | Open lakehouse / table formats | Delta Lake + UniForm (+ Iceberg) | 84 | 10.5% | Iceberg + Polaris | 54 | 10.1% | tie | 0.4 |
-| 5 | Governance / control plane | Governance / lineage / access | 214 | 26.7% | Governance / lineage / access | 148 | 27.6% | tie | 0.9 |
-| 6 | BI dashboards / metrics / AI-BI | AI/BI dashboards | 87 | 10.8% | BI & Analytics / Snowsight | 38 | 7.1% | Databricks | 3.8 |
-| 7 | App / operational database substrate | Lakebase / app database substrate | 105 | 13.1% | Snowflake Postgres + Unistore / app-data bridge | 26 | 4.8% | **Databricks** | 8.3 |
-| 8 | Evals / red teaming / AI quality (strict) | eval / benchmark / red-team | 55 | 6.9% | eval / benchmark / red-team | 21 | 3.9% | Databricks | 2.9 |
-| 9 | Lakeflow / Spark / streaming pipelines | Lakeflow / Spark / streaming | 213 | 26.6% | Snowpipe + Openflow + Snowpark + dbt | 135 | 25.1% | tie | 1.4 |
-| 10 | SQL warehouse / lakehouse modernization | Databricks SQL / Photon | 80 | 10.0% | Gen2 warehouses + migrations | 53 | 9.9% | tie | 0.1 |
+Matched tracked rows: Databricks **716 / 802** sessions; Snowflake **432 / 537** sessions.
+Multi-topic sessions: Databricks **509**; Snowflake **265**.
 
-## Reading the split
+| # | Row | Databricks signal | DBX credit | DBX touched | DBX share | Snowflake signal | SNOW credit | SNOW touched | SNOW share | Leader | Δ (pp) |
+|---|-----|-------------------|-----------:|------------:|----------:|------------------|------------:|-------------:|-----------:|--------|-------:|
+| 1 | Cortex / GenAI app layer | Mosaic AI / Agent Bricks / Genie | 190.1 | 394 | 23.7% | Cortex agents + CoWork | 149.1 | 254 | 27.8% | **Snowflake** | 4.1 |
+| 2 | Semantic context for agents | Metric Views | 18.3 | 47 | 2.3% | Semantic Views / Cortex Analyst | 23.3 | 60 | 4.3% | Snowflake | 2.1 |
+| 3 | Sharing / marketplace / clean rooms | Delta Sharing + Marketplace | 18.8 | 44 | 2.4% | Secure Sharing + Marketplace + Clean Rooms | 19.0 | 37 | 3.5% | tie / lean SNOW | 1.2 |
+| 4 | Open lakehouse / table formats | Delta Lake + UniForm (+ Iceberg) | 44.7 | 114 | 5.6% | Iceberg + Polaris | 24.6 | 54 | 4.6% | tie / lean DBX | 1.0 |
+| 5 | Governance / control plane | Governance / lineage / access | 137.1 | 294 | 17.1% | Governance / lineage / access | 76.7 | 150 | 14.3% | Databricks | 2.8 |
+| 6 | BI dashboards / metrics / AI-BI | AI/BI dashboards | 42.0 | 116 | 5.2% | BI & Analytics / Snowsight | 18.4 | 41 | 3.4% | Databricks | 1.8 |
+| 7 | App / operational database substrate | Lakebase / app database substrate | 64.0 | 126 | 8.0% | Snowflake Postgres + Unistore / app-data bridge | 12.9 | 26 | 2.4% | **Databricks** | 5.6 |
+| 8 | Evals / red teaming / AI quality (strict) | eval / benchmark / red-team | 37.8 | 90 | 4.7% | eval / benchmark / red-team | 9.8 | 23 | 1.8% | Databricks | 2.9 |
+| 9 | Lakeflow / Spark / streaming pipelines | Lakeflow / Spark / streaming | 120.1 | 267 | 15.0% | Snowpipe + Openflow + Snowpark + dbt | 73.1 | 137 | 13.6% | tie / lean DBX | 1.4 |
+| 10 | SQL warehouse / lakehouse modernization | Databricks SQL / Photon | 43.1 | 99 | 5.4% | Gen2 warehouses + migrations | 25.0 | 53 | 4.7% | tie | 0.7 |
 
-- **No decisive gaps under the 680-char chart.** The agendas are remarkably close — **no topic gap
-  exceeds ~8pp.** The biggest is the **operational-DB substrate** (+8.3, Databricks). These are
-  cap-sensitive topic-emphasis reads; see sensitivity below.
-- **Snowflake's 680-char leads** are the **AI app layer** (+4.7 under the primary cap) and the
-  **semantic layer** (+6.4). Semantic is stable across caps; GenAI should be phrased as
-  cap-dependent because it flips to a small Databricks lean when the cap is relaxed.
-- **Databricks' real leads** are the **operational-DB substrate** (+8.3); plus narrower edges on
-  BI (+3.8) and evals (+2.9) — the "governed system" half (selling the build).
-- **Genuine ties (<2pp):** governance/control plane (0.9), open lakehouse/formats (0.4), pipelines
-  (1.4), warehouse (0.1). Claim no leader.
-- **Leans (2–4pp), not wins:** sharing/marketplace (SNOW +2.7), BI (DBX +3.8), evals (DBX +2.9).
-- **Brand-name caveat (row 5):** governance *coverage* is a tie, but Databricks **names** its
-  catalog far more — "Unity Catalog" appears in 19.6% of its sessions vs "Horizon" in 4.7% of
-  Snowflake's. That's brand prominence, not governance volume (`AUDITS.md §1`).
+## Reading The Split
 
-Margins here are ~3× smaller than the earlier taxonomy-based draft, which overstated both
-vendors' leads. The directional thesis survives; the dominance did not. See `AUDITS.md §0` for
-the methodology change and §1–2 for the rows it most affected.
+- **No blowouts.** Full-text fractional allocation produces one clear row-level gap:
+  operational DB substrate (Databricks +5.6pp). Everything else is a lean or near-tie.
+- **Snowflake's primary leans** are the **AI app layer** (+4.1pp) and **semantic context**
+  (+2.1pp). GenAI stays Snowflake-positive under fractional caps, even though binary full-text
+  prevalence flips slightly toward Databricks.
+- **Databricks' primary leans** are **operational DB** (+5.6pp), **evals** (+2.9pp), and
+  **governance/control plane** (+2.8pp), with smaller leans in BI, pipelines, open formats, and
+  warehouse modernization.
+- **Binary prevalence is a different question:** it asks whether a session touches a topic at all.
+  On full text, binary prevalence is much more Databricks-heavy because Databricks abstracts touch
+  more rows per session. That is useful as reach/audit data, not the primary agenda-allocation
+  chart.
 
-## Cap sensitivity
+## Sensitivity
 
-Same symmetric keyword matcher, changing only the title+abstract cap:
+Fractional allocation is stable across full text, Databricks-median cap, and Snowflake-median cap:
 
-| Row | 680-char primary | 991-char sensitivity | Full-text sensitivity |
-|---|---|---|---|
-| GenAI app layer | SNOW +4.7 | DBX +0.5 | DBX +1.8 |
-| Semantic context | SNOW +6.4 | SNOW +5.3 | SNOW +5.3 |
-| Sharing / marketplace | SNOW +2.7 | SNOW +1.5 | SNOW +1.4 |
-| Open formats | DBX +0.4 | DBX +3.4 | DBX +4.2 |
-| Governance / control plane | SNOW +0.9 | DBX +7.5 | DBX +8.7 |
-| BI / AI-BI | DBX +3.8 | DBX +6.5 | DBX +6.8 |
-| Operational DB substrate | DBX +8.3 | DBX +10.7 | DBX +10.9 |
-| Evals / red teaming | DBX +2.9 | DBX +6.3 | DBX +6.9 |
-| Pipelines / streaming | DBX +1.4 | DBX +6.8 | DBX +7.8 |
-| SQL modernization | DBX +0.1 | DBX +1.9 | DBX +2.5 |
+| Row | Full text fractional | 991-char fractional | 680-char fractional | Full text binary |
+|---|---|---|---|---|
+| GenAI app layer | SNOW +4.1 | SNOW +4.0 | SNOW +3.4 | DBX +1.8 |
+| Semantic context | SNOW +2.1 | SNOW +2.0 | SNOW +2.2 | SNOW +5.3 |
+| Sharing / marketplace | SNOW +1.2 | SNOW +1.2 | SNOW +1.2 | SNOW +1.4 |
+| Open formats | DBX +1.0 | DBX +0.7 | DBX +0.4 | DBX +4.2 |
+| Governance / control plane | DBX +2.8 | DBX +2.6 | DBX +0.6 | DBX +8.7 |
+| BI / AI-BI | DBX +1.8 | DBX +1.8 | DBX +1.7 | DBX +6.8 |
+| Operational DB substrate | DBX +5.6 | DBX +5.6 | DBX +5.2 | DBX +10.9 |
+| Evals / red teaming | DBX +2.9 | DBX +2.8 | DBX +1.7 | DBX +6.9 |
+| Pipelines / streaming | DBX +1.4 | DBX +1.3 | DBX +0.9 | DBX +7.8 |
+| SQL modernization | DBX +0.7 | DBX +0.6 | DBX +0.5 | DBX +2.5 |
 
-Use the primary chart for the fair length-controlled visualization, but qualify cap-dependent
-claims (especially GenAI and governance) as "under the 680-char method."
+Use the primary chart for agenda allocation. Use binary prevalence to say “topic reach,” not
+“share of agenda attention.”
