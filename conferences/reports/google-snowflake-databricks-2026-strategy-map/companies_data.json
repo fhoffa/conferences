@@ -1,0 +1,717 @@
+{
+  "shared_count": 83,
+  "only_dbx_count": 432,
+  "only_snow_count": 333,
+  "divergent": [
+    {
+      "company": "openai",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "Generative AI & Agents"
+    },
+    {
+      "company": "accenture",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "(untracked)"
+    },
+    {
+      "company": "salesforce",
+      "dbx_topic": "Governance & Security",
+      "snow_topic": "Generative AI & Agents"
+    },
+    {
+      "company": "deloitte",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "Industry Innovation"
+    },
+    {
+      "company": "workday",
+      "dbx_topic": "Application Development",
+      "snow_topic": "Data Engineering & Pipelines"
+    },
+    {
+      "company": "anthropic",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "(untracked)"
+    },
+    {
+      "company": "dbt labs",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "Data Engineering & Pipelines"
+    },
+    {
+      "company": "domo",
+      "dbx_topic": "Application Development",
+      "snow_topic": "Data Engineering & Pipelines"
+    },
+    {
+      "company": "capital one",
+      "dbx_topic": "Data Sharing & Collaboration",
+      "snow_topic": "Architectures & Interoperability"
+    },
+    {
+      "company": "morgan stanley",
+      "dbx_topic": "AI/BI",
+      "snow_topic": "Performance & Cost Optimization"
+    },
+    {
+      "company": "acxiom",
+      "dbx_topic": "Data Sharing & Collaboration",
+      "snow_topic": "Application Development"
+    },
+    {
+      "company": "aimpoint digital",
+      "dbx_topic": "Application Development",
+      "snow_topic": "(untracked)"
+    },
+    {
+      "company": "astronomer",
+      "dbx_topic": "Data Engineering & Streaming",
+      "snow_topic": "Data Engineering & Pipelines"
+    },
+    {
+      "company": "atlan",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "Generative AI & Agents"
+    },
+    {
+      "company": "capital one software",
+      "dbx_topic": "Unity Catalog",
+      "snow_topic": "Performance & Cost Optimization"
+    },
+    {
+      "company": "cdw",
+      "dbx_topic": "Governance & Security",
+      "snow_topic": "Architectures & Interoperability"
+    },
+    {
+      "company": "cognizant",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "BI & Analytics"
+    },
+    {
+      "company": "fivetran",
+      "dbx_topic": "AI/BI",
+      "snow_topic": "Data Engineering & Pipelines"
+    },
+    {
+      "company": "glean",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "Generative AI & Agents"
+    },
+    {
+      "company": "quest software",
+      "dbx_topic": "Data Sharing & Collaboration",
+      "snow_topic": "Migrations & Modernization"
+    },
+    {
+      "company": "at&t",
+      "dbx_topic": "Analytics & BI",
+      "snow_topic": "Generative AI & Agents"
+    },
+    {
+      "company": "crewai",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "AI Agents / Data Agents"
+    },
+    {
+      "company": "hex",
+      "dbx_topic": "Analytics & BI",
+      "snow_topic": "BI & Analytics"
+    },
+    {
+      "company": "ibm",
+      "dbx_topic": "Data Engineering & Streaming",
+      "snow_topic": "Generative AI & Agents"
+    },
+    {
+      "company": "infosys",
+      "dbx_topic": "Analytics & BI",
+      "snow_topic": "Data Sharing & Marketplace"
+    },
+    {
+      "company": "lseg",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "snow_topic": "Performance & Cost Optimization"
+    },
+    {
+      "company": "microsoft",
+      "dbx_topic": "Delta Sharing",
+      "snow_topic": "Architectures & Interoperability"
+    }
+  ],
+  "shared_customers": [
+    {
+      "company": "morgan stanley",
+      "dbx_topic": "AI/BI",
+      "dbx_sessions": 1,
+      "dbx_title": "Financial Services Industry Forum",
+      "snow_topic": "Performance & Cost Optimization",
+      "snow_sessions": 5,
+      "snow_title": "Preventing the Snowball Effect: Morgan Stanley\u2019s 10 Principles for Scale FinOps"
+    },
+    {
+      "company": "capital one",
+      "dbx_topic": "Data Sharing & Collaboration",
+      "dbx_sessions": 1,
+      "dbx_title": "Sponsored by: Capital One | Secure Data Collaboration: A Modern Enterprise Enclave Architecture",
+      "snow_topic": "Architectures & Interoperability",
+      "snow_sessions": 5,
+      "snow_title": "How Capital One Architected for Interoperability in a Multi-Catalog/Table Setup"
+    },
+    {
+      "company": "goldman sachs",
+      "dbx_topic": "Governance & Security",
+      "dbx_sessions": 1,
+      "dbx_title": "Goldman Sach's Fully-Interoperable Lakehouse With Iceberg",
+      "snow_topic": "Data Sharing & Marketplace",
+      "snow_sessions": 1,
+      "snow_title": "Goldman Sachs Open Lakehouse: Snowflake and Beyond, Governed by Design"
+    },
+    {
+      "company": "barclays",
+      "dbx_topic": "Data Warehousing",
+      "dbx_sessions": 1,
+      "dbx_title": "Modernization Without Illusions: Migrating a Barclays Business-Critical Equities Data Warehouse to Databricks",
+      "snow_topic": "BI & Analytics",
+      "snow_sessions": 2,
+      "snow_title": "Building an Enterprisewide Observability Foundation at Barclays"
+    },
+    {
+      "company": "northern trust",
+      "dbx_topic": "Data Engineering & Streaming",
+      "dbx_sessions": 1,
+      "dbx_title": "Modernizing Investment Analytics Through Data Driven Architecture",
+      "snow_topic": "Performance & Cost Optimization",
+      "snow_sessions": 2,
+      "snow_title": "Industry Use Cases: Data Modeling for Enterprise Scale and AI Readiness"
+    },
+    {
+      "company": "nasdaq",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "dbx_sessions": 2,
+      "dbx_title": "Sponsored By: Monte Carlo | Building the Foundation for Trusted AI in Regulated Industries",
+      "snow_topic": "Industry Innovation",
+      "snow_sessions": 1,
+      "snow_title": "AI in Action: Real-World FSI Production Showcases"
+    },
+    {
+      "company": "coinbase",
+      "dbx_topic": "Data Engineering & Streaming",
+      "dbx_sessions": 1,
+      "dbx_title": "Right Features, Right Time: Modernizing Real-Time Fraud Feature Serving on Databricks",
+      "snow_topic": "BI & Analytics",
+      "snow_sessions": 1,
+      "snow_title": "Batch to Breakthrough: How Coinbase Built Growth Marketing on Snowflake for C360"
+    },
+    {
+      "company": "block",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "dbx_sessions": 2,
+      "dbx_title": "Building Query Expert MCP: Using RAG to Build an Analytics Agent That Goes Beyond Text-to-SQL",
+      "snow_topic": "Generative AI & Agents",
+      "snow_sessions": 1,
+      "snow_title": "Building the Block Data MCP: A Blueprint for Gen AI Insights and Analytics"
+    },
+    {
+      "company": "gsk",
+      "dbx_topic": "Analytics & BI",
+      "dbx_sessions": 2,
+      "dbx_title": "Scaling Databricks Genie 10x at GSK Global Supply Chain: Building a Production AI/BI Factory",
+      "snow_topic": "Industry Innovation",
+      "snow_sessions": 1,
+      "snow_title": "Driving Innovation via Digital Supply Networks in a Clinical Supply Chain"
+    },
+    {
+      "company": "novo nordisk",
+      "dbx_topic": "Analytics & BI",
+      "dbx_sessions": 2,
+      "dbx_title": "Empowering Non-Technical Users in Pharma With Dashboards and Chatbots Working Together in Databricks",
+      "snow_topic": "Governance & Security",
+      "snow_sessions": 1,
+      "snow_title": "Move Beyond Prototypes to High-Velocity AI Products Using Snowflake CoWork"
+    },
+    {
+      "company": "johnson & johnson",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "dbx_sessions": 1,
+      "dbx_title": "From Molecule to Market: How Life Sciences Companies are Compressing the Data-to-Decision Curve with Databricks",
+      "snow_topic": "Data Sharing & Marketplace",
+      "snow_sessions": 1,
+      "snow_title": "Building Open Source Native Apps: Johnson & Johnson's Drug Discovery Solution"
+    },
+    {
+      "company": "centene",
+      "dbx_topic": "Analytics & BI",
+      "dbx_sessions": 1,
+      "dbx_title": "Centene: The Gifts of the MAGI: Delivering Secure, Repeatable, and Explainable AI",
+      "snow_topic": "BI & Analytics",
+      "snow_sessions": 1,
+      "snow_title": "Snowflake-Hosted AI-Accelerated Analytics Catalog"
+    },
+    {
+      "company": "walt disney company",
+      "dbx_topic": "Data Engineering & Streaming",
+      "dbx_sessions": 1,
+      "dbx_title": "Beyond Medallion: Architecting Disney\u2019s DATOS for Complex, Real-Time Data Streams With Databricks",
+      "snow_topic": "Application Development",
+      "snow_sessions": 1,
+      "snow_title": "Audience Flow Intelligence"
+    },
+    {
+      "company": "nbcuniversal",
+      "dbx_topic": "Artificial Intelligence & Agents",
+      "dbx_sessions": 2,
+      "dbx_title": "Emotional Congruence at Scale: Using Databricks AI to Align Ads and Content",
+      "snow_topic": "BI & Analytics",
+      "snow_sessions": 1,
+      "snow_title": "Unlocking Value with Synthetic Data: Privacy Preserving at Scale"
+    },
+    {
+      "company": "warner music group",
+      "dbx_topic": "Lakebase",
+      "dbx_sessions": 1,
+      "dbx_title": "Enabling a Low-Latency Data Mesh at Warner Music Group Using Lakebase, Iceberg and Unity Catalog",
+      "snow_topic": "Industry Innovation",
+      "snow_sessions": 1,
+      "snow_title": "The Future of Media: Composable Solutions for People and Agents"
+    },
+    {
+      "company": "directv",
+      "dbx_topic": "Analytics & BI",
+      "dbx_sessions": 1,
+      "dbx_title": "Telecommunications Industry Forum",
+      "snow_topic": "Industry Innovation",
+      "snow_sessions": 1,
+      "snow_title": "The Future of Media: Composable Solutions for People and Agents"
+    },
+    {
+      "company": "comcast",
+      "dbx_topic": "Analytics & BI",
+      "dbx_sessions": 1,
+      "dbx_title": "From Bottlenecks to Breakthroughs: Empowering Comcast SLT with Self-Service Analytics",
+      "snow_topic": "BI & Analytics",
+      "snow_sessions": 1,
+      "snow_title": "DaaS on Snowflake: Designing for Scale, Governance and Decision Intelligence"
+    },
+    {
+      "company": "at&t",
+      "dbx_topic": "Analytics & BI",
+      "dbx_sessions": 1,
+      "dbx_title": "Telecommunications Industry Forum",
+      "snow_topic": "Generative AI & Agents",
+      "snow_sessions": 3,
+      "snow_title": "Driving Advanced Supply Chain AI Use Cases with Snowflake at AT&T"
+    },
+    {
+      "company": "nokia",
+      "dbx_topic": "(untracked)",
+      "dbx_sessions": 1,
+      "dbx_title": "Customer Successes by Industry: Telco and Manufacturing",
+      "snow_topic": "Data Sharing & Marketplace",
+      "snow_sessions": 1,
+      "snow_title": "How Nokia Turns Telecom Data into Shareable Analytical Products on Snowflake"
+    },
+    {
+      "company": "siemens",
+      "dbx_topic": "(untracked)",
+      "dbx_sessions": 1,
+      "dbx_title": "Siemens, FFT & Databricks: Operationalizing Industrial AI from edge to cloud",
+      "snow_topic": "Migrations & Modernization",
+      "snow_sessions": 2,
+      "snow_title": "Siemens: Scaling Enterprise Data Sharing with Snowflake"
+    },
+    {
+      "company": "cummins",
+      "dbx_topic": "Analytics & BI",
+      "dbx_sessions": 1,
+      "dbx_title": "Precision and Progress: An Industry Manufacturing Executive Session",
+      "snow_topic": "Generative AI & Agents",
+      "snow_sessions": 1,
+      "snow_title": "Cummins Supply Chain Modernization and Chatbots"
+    },
+    {
+      "company": "8451",
+      "dbx_topic": "Data Engineering & Streaming",
+      "dbx_sessions": 1,
+      "dbx_title": "From Legacy Bottlenecks to High-Performance Platforms\u2014Databricks Makes It Possible",
+      "snow_topic": "Performance & Cost Optimization",
+      "snow_sessions": 1,
+      "snow_title": "Agent Monday: Automated, Personalized Shopper Insights at Scale"
+    }
+  ],
+  "twin_talks": [
+    {
+      "company": "capital one software",
+      "jaccard": 0.88,
+      "dbx_title": "Sponsored by: Capital One Software | Utilizing Context and AI for Cost Optimization & Security",
+      "snow_title": "Capital One Software: Using Context and AI for Cost Optimization and Security"
+    },
+    {
+      "company": "astronomer",
+      "jaccard": 0.86,
+      "dbx_title": "Sponsored by: Astronomer | Your AI Strategy Has a Context Problem. Orchestration Solves It.",
+      "snow_title": "Your AI Strategy Has a Context Problem. Orchestration Solves It."
+    },
+    {
+      "company": "servicenow",
+      "jaccard": 0.83,
+      "dbx_title": "Sponsored by: ServiceNow | The Patchwork Enterprise is Holding Your AI Agents Back",
+      "snow_title": "The Patchwork Enterprise Is Holding Your AI Agents Back"
+    },
+    {
+      "company": "salesforce",
+      "jaccard": 0.71,
+      "dbx_title": "Sponsored by: Salesforce | Tableau & Databricks: Demystifying the Open Semantic Interchange (OSI)",
+      "snow_title": "Tableau and Snowflake: Demystifying the Open Semantic Interchange"
+    },
+    {
+      "company": "cdw",
+      "jaccard": 0.62,
+      "dbx_title": "Sponsored by: Capital One Software |Trust at AI Speed: Governance and Security for the Enterprise  ",
+      "snow_title": "Trust at AI Speed: Governance and Security for the Enterprise"
+    },
+    {
+      "company": "ibm",
+      "jaccard": 0.57,
+      "dbx_title": "Sponsored by: IBM | Extend your Databricks Architecture with Real-time Context",
+      "snow_title": "Delivering Real-time Context for AI with IBM and Snowflake"
+    },
+    {
+      "company": "atlan",
+      "jaccard": 0.56,
+      "dbx_title": "Sponsored by: Atlan | The Enterprise Context Layer: Why Agents Fail \u2014 and the Fix \u2014 Demystified and Demoed",
+      "snow_title": "WTF Is the Enterprise Context Layer? Demystified and Demoed"
+    }
+  ],
+  "guest_list": {
+    "dbx_distinct": 479,
+    "snow_distinct": 404,
+    "union": 794,
+    "shared": 85,
+    "overlap_pct": 10.7
+  },
+  "only_dbx_top": [
+    {
+      "company": "mastercard",
+      "sessions": 7
+    },
+    {
+      "company": "adidas",
+      "sessions": 4
+    },
+    {
+      "company": "advancing analytics",
+      "sessions": 4
+    },
+    {
+      "company": "pepsico",
+      "sessions": 4
+    },
+    {
+      "company": "adobe",
+      "sessions": 3
+    },
+    {
+      "company": "atlassian",
+      "sessions": 3
+    },
+    {
+      "company": "bp",
+      "sessions": 3
+    },
+    {
+      "company": "cvs health",
+      "sessions": 3
+    },
+    {
+      "company": "general motors",
+      "sessions": 3
+    },
+    {
+      "company": "glean technologies",
+      "sessions": 3
+    },
+    {
+      "company": "hp",
+      "sessions": 3
+    },
+    {
+      "company": "minio",
+      "sessions": 3
+    },
+    {
+      "company": "nubank",
+      "sessions": 3
+    },
+    {
+      "company": "rearc",
+      "sessions": 3
+    },
+    {
+      "company": "retool",
+      "sessions": 3
+    },
+    {
+      "company": "sba communications",
+      "sessions": 3
+    },
+    {
+      "company": "superhuman",
+      "sessions": 3
+    },
+    {
+      "company": "thoughtworks",
+      "sessions": 3
+    },
+    {
+      "company": "tk elevator",
+      "sessions": 3
+    },
+    {
+      "company": "unilever",
+      "sessions": 3
+    },
+    {
+      "company": "west monroe",
+      "sessions": 3
+    },
+    {
+      "company": "7-eleven",
+      "sessions": 2
+    },
+    {
+      "company": "albertsons",
+      "sessions": 2
+    },
+    {
+      "company": "alinta energy",
+      "sessions": 2
+    },
+    {
+      "company": "applied computing",
+      "sessions": 2
+    },
+    {
+      "company": "astrazeneca",
+      "sessions": 2
+    },
+    {
+      "company": "baker hughes",
+      "sessions": 2
+    },
+    {
+      "company": "celonis",
+      "sessions": 2
+    },
+    {
+      "company": "chevron",
+      "sessions": 2
+    },
+    {
+      "company": "chick-fil-a",
+      "sessions": 2
+    },
+    {
+      "company": "confluent",
+      "sessions": 2
+    },
+    {
+      "company": "databricks india private",
+      "sessions": 2
+    },
+    {
+      "company": "dish network",
+      "sessions": 2
+    },
+    {
+      "company": "epsilon",
+      "sessions": 2
+    },
+    {
+      "company": "etihad airways",
+      "sessions": 2
+    },
+    {
+      "company": "fanduel",
+      "sessions": 2
+    },
+    {
+      "company": "fox",
+      "sessions": 2
+    },
+    {
+      "company": "gci",
+      "sessions": 2
+    },
+    {
+      "company": "google cloud",
+      "sessions": 2
+    },
+    {
+      "company": "hertz",
+      "sessions": 2
+    }
+  ],
+  "only_snow_top": [
+    {
+      "company": "bookingcom",
+      "sessions": 6
+    },
+    {
+      "company": "ltm",
+      "sessions": 6
+    },
+    {
+      "company": "sigma",
+      "sessions": 6
+    },
+    {
+      "company": "accenture australia",
+      "sessions": 5
+    },
+    {
+      "company": "canva",
+      "sessions": 5
+    },
+    {
+      "company": "sanofi",
+      "sessions": 5
+    },
+    {
+      "company": "schroders",
+      "sessions": 5
+    },
+    {
+      "company": "aws",
+      "sessions": 4
+    },
+    {
+      "company": "kipiai",
+      "sessions": 4
+    },
+    {
+      "company": "matillion",
+      "sessions": 4
+    },
+    {
+      "company": "texas capital",
+      "sessions": 4
+    },
+    {
+      "company": "toyota motor europe",
+      "sessions": 4
+    },
+    {
+      "company": "whoop",
+      "sessions": 4
+    },
+    {
+      "company": "archetype consulting",
+      "sessions": 3
+    },
+    {
+      "company": "blackrock",
+      "sessions": 3
+    },
+    {
+      "company": "doordash",
+      "sessions": 3
+    },
+    {
+      "company": "ey newzealand",
+      "sessions": 3
+    },
+    {
+      "company": "fanatics",
+      "sessions": 3
+    },
+    {
+      "company": "phdata",
+      "sessions": 3
+    },
+    {
+      "company": "resolve ai",
+      "sessions": 3
+    },
+    {
+      "company": "roche",
+      "sessions": 3
+    },
+    {
+      "company": "truist",
+      "sessions": 3
+    },
+    {
+      "company": "tui",
+      "sessions": 3
+    },
+    {
+      "company": "under armour",
+      "sessions": 3
+    },
+    {
+      "company": "zendesk",
+      "sessions": 3
+    },
+    {
+      "company": "airbyte",
+      "sessions": 2
+    },
+    {
+      "company": "alation",
+      "sessions": 2
+    },
+    {
+      "company": "ally financial",
+      "sessions": 2
+    },
+    {
+      "company": "ataccama",
+      "sessions": 2
+    },
+    {
+      "company": "billigence",
+      "sessions": 2
+    },
+    {
+      "company": "blitzscaling ventures",
+      "sessions": 2
+    },
+    {
+      "company": "capita",
+      "sessions": 2
+    },
+    {
+      "company": "cargurus",
+      "sessions": 2
+    },
+    {
+      "company": "chalk",
+      "sessions": 2
+    },
+    {
+      "company": "checkr",
+      "sessions": 2
+    },
+    {
+      "company": "chewy",
+      "sessions": 2
+    },
+    {
+      "company": "coalesce",
+      "sessions": 2
+    },
+    {
+      "company": "coastal",
+      "sessions": 2
+    },
+    {
+      "company": "commbank iq",
+      "sessions": 2
+    },
+    {
+      "company": "crowdstrike",
+      "sessions": 2
+    }
+  ]
+}

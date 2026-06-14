@@ -1,0 +1,38 @@
+<svg viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+<title id="t">Who customers send on stage — seniority mix, Databricks vs Snowflake 2026</title>
+<desc id="d">Grouped bars showing the share of enterprise customer speakers by seniority tier at each summit. C-suite: Snowflake 20.0%, Databricks 17.8%. VP: Snowflake 13.6%, Databricks 10.9%. Director or Head: Snowflake 28.7%, Databricks 27.8%. Manager: Snowflake 11.0%, Databricks 10.7%. Senior IC: Snowflake 10.5%, Databricks 11.9%. IC or practitioner: Snowflake 11.4%, Databricks 14.3%. Builder-to-buyer ratio: Snowflake 0.65, Databricks 0.91.</desc>
+<text x="24" y="28" font-size="15" font-weight="500" fill="var(--color-text-primary)">Who customers send on stage</text>
+<text x="24" y="47" font-size="12" fill="var(--color-text-secondary)">share of enterprise speakers, by seniority (hosts, vendors &amp; GSIs removed)</text>
+<rect x="486" y="19" width="11" height="11" rx="2" fill="#185FA5"/>
+<text x="502" y="29" font-size="12" fill="#185FA5">Snowflake</text>
+<rect x="582" y="19" width="11" height="11" rx="2" fill="#A32D2D"/>
+<text x="598" y="29" font-size="12" fill="#A32D2D">Databricks</text>
+<line x1="230" y1="66" x2="230" y2="300" stroke="var(--color-border-tertiary)" stroke-width="1"/>
+
+<text x="24" y="89" font-size="12.5" fill="var(--color-text-primary)">C-suite</text>
+<rect x="230" y="72" width="247" height="13" rx="2" fill="#185FA5"/><text x="482" y="82" font-size="10.5" fill="#185FA5">20.0%</text>
+<rect x="230" y="87" width="219" height="13" rx="2" fill="#A32D2D"/><text x="454" y="97" font-size="10.5" fill="#A32D2D">17.8%</text>
+
+<text x="24" y="129" font-size="12.5" fill="var(--color-text-primary)">VP</text>
+<rect x="230" y="112" width="168" height="13" rx="2" fill="#185FA5"/><text x="403" y="122" font-size="10.5" fill="#185FA5">13.6%</text>
+<rect x="230" y="127" width="134" height="13" rx="2" fill="#A32D2D"/><text x="369" y="137" font-size="10.5" fill="#A32D2D">10.9%</text>
+
+<text x="24" y="169" font-size="12.5" fill="var(--color-text-primary)">Director / Head</text>
+<rect x="230" y="152" width="354" height="13" rx="2" fill="#185FA5"/><text x="589" y="162" font-size="10.5" fill="#185FA5">28.7%</text>
+<rect x="230" y="167" width="343" height="13" rx="2" fill="#A32D2D"/><text x="578" y="177" font-size="10.5" fill="#A32D2D">27.8%</text>
+
+<text x="24" y="209" font-size="12.5" fill="var(--color-text-primary)">Manager</text>
+<rect x="230" y="192" width="136" height="13" rx="2" fill="#185FA5"/><text x="371" y="202" font-size="10.5" fill="#185FA5">11.0%</text>
+<rect x="230" y="207" width="132" height="13" rx="2" fill="#A32D2D"/><text x="367" y="217" font-size="10.5" fill="#A32D2D">10.7%</text>
+
+<text x="24" y="249" font-size="12.5" fill="var(--color-text-primary)">Senior IC</text>
+<rect x="230" y="232" width="129" height="13" rx="2" fill="#185FA5"/><text x="364" y="242" font-size="10.5" fill="#185FA5">10.5%</text>
+<rect x="230" y="247" width="147" height="13" rx="2" fill="#A32D2D"/><text x="382" y="257" font-size="10.5" fill="#A32D2D">11.9%</text>
+
+<text x="24" y="289" font-size="12.5" fill="var(--color-text-primary)">IC / practitioner</text>
+<rect x="230" y="272" width="141" height="13" rx="2" fill="#185FA5"/><text x="376" y="282" font-size="10.5" fill="#185FA5">11.4%</text>
+<rect x="230" y="287" width="176" height="13" rx="2" fill="#A32D2D"/><text x="411" y="297" font-size="10.5" fill="#A32D2D">14.3%</text>
+
+<line x1="24" y1="316" x2="676" y2="316" stroke="var(--color-border-tertiary)" stroke-width="1"/>
+<text x="24" y="338" font-size="12.5" fill="var(--color-text-secondary)">Builders per buyer (practitioners ÷ executives): <tspan font-weight="500" fill="#185FA5">Snowflake 0.65</tspan> · <tspan font-weight="500" fill="#A32D2D">Databricks 0.91</tspan></text>
+</svg>

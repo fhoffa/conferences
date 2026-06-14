@@ -133,10 +133,10 @@ The old mirrored-bar CSV/MD is not included because the raw 759/550 snapshots ar
 
 ## Data work required before publication
 
-Recompute from current `normalized/current/sessions.json` files:
+Recompute from dated 2026-06-13 snapshot files:
 
-- `conferences/databricks-data-ai-summit/2026/normalized/current/sessions.json`
-- `conferences/snowflake-summit/2026/normalized/current/sessions.json`
+- `conferences/databricks-data-ai-summit/2026/normalized/snapshots/2026-06-13.sessions.json`
+- `conferences/snowflake-summit/2026/normalized/snapshots/2026-06-13.sessions.json`
 - Google source catalog used by the original strategy map, if Google remains in the post.
 
 Rows to recompute:

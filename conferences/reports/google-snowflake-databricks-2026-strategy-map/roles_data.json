@@ -1,0 +1,316 @@
+{
+  "dbx_total": 607,
+  "snow_total": 516,
+  "seniority": {
+    "C-suite": {
+      "dbx_pct": 17.8,
+      "snow_pct": 20.0,
+      "dbx_n": 108,
+      "snow_n": 103
+    },
+    "VP": {
+      "dbx_pct": 10.9,
+      "snow_pct": 13.6,
+      "dbx_n": 66,
+      "snow_n": 70
+    },
+    "Director / Head": {
+      "dbx_pct": 27.8,
+      "snow_pct": 28.7,
+      "dbx_n": 169,
+      "snow_n": 148
+    },
+    "Manager": {
+      "dbx_pct": 10.7,
+      "snow_pct": 11.0,
+      "dbx_n": 65,
+      "snow_n": 57
+    },
+    "Senior IC": {
+      "dbx_pct": 11.9,
+      "snow_pct": 10.5,
+      "dbx_n": 72,
+      "snow_n": 54
+    },
+    "IC / practitioner": {
+      "dbx_pct": 14.3,
+      "snow_pct": 11.4,
+      "dbx_n": 87,
+      "snow_n": 59
+    },
+    "Other": {
+      "dbx_pct": 6.6,
+      "snow_pct": 4.8,
+      "dbx_n": 40,
+      "snow_n": 25
+    }
+  },
+  "builder_buyer": {
+    "dbx": {
+      "builders": 159,
+      "buyers": 174,
+      "ratio": 0.91
+    },
+    "snow": {
+      "builders": 113,
+      "buyers": 173,
+      "ratio": 0.65
+    }
+  },
+  "talk_level": {
+    "dbx": {
+      "talks": 409,
+      "with_vp_plus_pct": 33.3,
+      "with_practitioner_pct": 34.7
+    },
+    "snow": {
+      "talks": 321,
+      "with_vp_plus_pct": 43.6,
+      "with_practitioner_pct": 27.7
+    }
+  },
+  "exec_titles_dbx": [
+    {
+      "title": "CEO",
+      "n": 13
+    },
+    {
+      "title": "CTO",
+      "n": 9
+    },
+    {
+      "title": "Chief Data & AI Officer",
+      "n": 5
+    },
+    {
+      "title": "CEO & Co-Founder",
+      "n": 4
+    },
+    {
+      "title": "Vice President",
+      "n": 4
+    },
+    {
+      "title": "Chief Product Officer",
+      "n": 4
+    },
+    {
+      "title": "Chief Data Officer",
+      "n": 3
+    },
+    {
+      "title": "VP of Digital, Data & AI Foundation",
+      "n": 3
+    },
+    {
+      "title": "Chief Architect",
+      "n": 3
+    },
+    {
+      "title": "Co-Founder & CEO",
+      "n": 3
+    },
+    {
+      "title": "Co-Founder & CTO",
+      "n": 2
+    },
+    {
+      "title": "Chief Information Officer",
+      "n": 2
+    },
+    {
+      "title": "CDO",
+      "n": 2
+    },
+    {
+      "title": "Chief Data & Analytics Officer",
+      "n": 2
+    },
+    {
+      "title": "VP of Data + AI Architecture",
+      "n": 2
+    },
+    {
+      "title": "Founder",
+      "n": 2
+    },
+    {
+      "title": "VP of Product Marketing",
+      "n": 2
+    },
+    {
+      "title": "Chief Digital Officer (CDO)",
+      "n": 2
+    },
+    {
+      "title": "CDO & Platform Head",
+      "n": 2
+    },
+    {
+      "title": "Sr. Lead Tech Product Owner - MarTech",
+      "n": 2
+    },
+    {
+      "title": "Chief AI Officer",
+      "n": 2
+    },
+    {
+      "title": "EVP, CTIO",
+      "n": 2
+    },
+    {
+      "title": "VP, Distinguished Engineer",
+      "n": 1
+    },
+    {
+      "title": "Co-Founder and CEO",
+      "n": 1
+    },
+    {
+      "title": "AVP, Data and Analytics Engineering",
+      "n": 1
+    },
+    {
+      "title": "Product Owner AI Solutions",
+      "n": 1
+    },
+    {
+      "title": "VP, Technology",
+      "n": 1
+    },
+    {
+      "title": "Cofounder and CEO",
+      "n": 1
+    },
+    {
+      "title": "CFO",
+      "n": 1
+    },
+    {
+      "title": "CIO & Associate Partner",
+      "n": 1
+    }
+  ],
+  "exec_titles_snow": [
+    {
+      "title": "CTO",
+      "n": 9
+    },
+    {
+      "title": "CEO",
+      "n": 4
+    },
+    {
+      "title": "Chief Data Officer",
+      "n": 4
+    },
+    {
+      "title": "VP of Data",
+      "n": 3
+    },
+    {
+      "title": "Co-Founder & CEO",
+      "n": 3
+    },
+    {
+      "title": "Chief Innovation Officer",
+      "n": 3
+    },
+    {
+      "title": "Chief Executive Officer",
+      "n": 3
+    },
+    {
+      "title": "CEO & Co-founder",
+      "n": 3
+    },
+    {
+      "title": "AI Product Owner",
+      "n": 2
+    },
+    {
+      "title": "Chief Product Officer",
+      "n": 2
+    },
+    {
+      "title": "Chief Technology Officer",
+      "n": 2
+    },
+    {
+      "title": "SVP - Digital Strategy & Operations",
+      "n": 2
+    },
+    {
+      "title": "VP Data",
+      "n": 2
+    },
+    {
+      "title": "CTO & Co-Founder",
+      "n": 2
+    },
+    {
+      "title": "VP of AI and Head of Product",
+      "n": 2
+    },
+    {
+      "title": "Vice President, AI and Data Innovation",
+      "n": 2
+    },
+    {
+      "title": "Data & AI Engg, Platform Technical Owner",
+      "n": 2
+    },
+    {
+      "title": "Chief Information Officer",
+      "n": 2
+    },
+    {
+      "title": "Head of Enterprise Data Solutions CDO",
+      "n": 2
+    },
+    {
+      "title": "Chief Executive Officer, CommBank iQ",
+      "n": 2
+    },
+    {
+      "title": "Chief AI and Product Officer",
+      "n": 2
+    },
+    {
+      "title": "VP, Analytics",
+      "n": 2
+    },
+    {
+      "title": "Chief Data Officer - Wholesale Banking",
+      "n": 2
+    },
+    {
+      "title": "Chief Data and Analytics Officer",
+      "n": 2
+    },
+    {
+      "title": "Vice President,Data, Analytics and Governance",
+      "n": 2
+    },
+    {
+      "title": "SVP Engineering",
+      "n": 2
+    },
+    {
+      "title": "Managing Vice President",
+      "n": 2
+    },
+    {
+      "title": "VP of Data Engineering & AI",
+      "n": 1
+    },
+    {
+      "title": "Co-founder",
+      "n": 1
+    },
+    {
+      "title": "VP, Analytics and Data Science",
+      "n": 1
+    }
+  ]
+}

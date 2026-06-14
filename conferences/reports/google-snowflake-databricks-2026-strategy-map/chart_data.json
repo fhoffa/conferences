@@ -1,0 +1,1974 @@
+{
+  "denominators": {
+    "databricks": 802,
+    "snowflake": 537
+  },
+  "captured": "2026-06-13",
+  "source_snapshots": {
+    "databricks": "normalized/snapshots/2026-06-13.sessions.json",
+    "snowflake": "normalized/snapshots/2026-06-13.sessions.json"
+  },
+  "method": {
+    "primary_text": "full title+abstract",
+    "primary_scoring": "fractional topic allocation",
+    "note": "Primary rows use full public title+abstract text. Each session's one unit of agenda credit is divided across every row it matches; binary prevalence and capped-text runs are included as audits."
+  },
+  "rows": [
+    {
+      "key": "genai_app_layer",
+      "label": "Cortex / GenAI app layer",
+      "dbx_label": "Mosaic AI / Agent Bricks / Genie",
+      "snow_label": "Cortex agents + CoWork",
+      "scoring": "fractional",
+      "dbx_session_credit": 190.1,
+      "snow_session_credit": 149.1,
+      "dbx_sessions": 190.1,
+      "snow_sessions": 149.1,
+      "dbx_touched_sessions": 394,
+      "snow_touched_sessions": 254,
+      "dbx_share_pct": 23.7,
+      "snow_share_pct": 27.8,
+      "leader": "Snowflake",
+      "delta_pct_pts": 4.1
+    },
+    {
+      "key": "semantic_context",
+      "label": "Semantic context for agents",
+      "dbx_label": "Metric Views",
+      "snow_label": "Semantic Views / Cortex Analyst",
+      "scoring": "fractional",
+      "dbx_session_credit": 18.3,
+      "snow_session_credit": 23.3,
+      "dbx_sessions": 18.3,
+      "snow_sessions": 23.3,
+      "dbx_touched_sessions": 47,
+      "snow_touched_sessions": 60,
+      "dbx_share_pct": 2.3,
+      "snow_share_pct": 4.3,
+      "leader": "Snowflake",
+      "delta_pct_pts": 2.1
+    },
+    {
+      "key": "sharing_marketplace",
+      "label": "Sharing / marketplace / clean rooms",
+      "dbx_label": "Delta Sharing + Marketplace",
+      "snow_label": "Secure Sharing + Marketplace + Clean Rooms",
+      "scoring": "fractional",
+      "dbx_session_credit": 18.8,
+      "snow_session_credit": 19.0,
+      "dbx_sessions": 18.8,
+      "snow_sessions": 19.0,
+      "dbx_touched_sessions": 44,
+      "snow_touched_sessions": 37,
+      "dbx_share_pct": 2.4,
+      "snow_share_pct": 3.5,
+      "leader": "Snowflake",
+      "delta_pct_pts": 1.2
+    },
+    {
+      "key": "open_lakehouse",
+      "label": "Open lakehouse / table formats",
+      "dbx_label": "Delta Lake + UniForm (+ Iceberg)",
+      "snow_label": "Iceberg + Polaris",
+      "scoring": "fractional",
+      "dbx_session_credit": 44.7,
+      "snow_session_credit": 24.6,
+      "dbx_sessions": 44.7,
+      "snow_sessions": 24.6,
+      "dbx_touched_sessions": 114,
+      "snow_touched_sessions": 54,
+      "dbx_share_pct": 5.6,
+      "snow_share_pct": 4.6,
+      "leader": "Databricks",
+      "delta_pct_pts": 1.0
+    },
+    {
+      "key": "governance_control_plane",
+      "label": "Governance / control plane",
+      "dbx_label": "Governance / lineage / access",
+      "snow_label": "Governance / lineage / access",
+      "scoring": "fractional",
+      "dbx_session_credit": 137.1,
+      "snow_session_credit": 76.7,
+      "dbx_sessions": 137.1,
+      "snow_sessions": 76.7,
+      "dbx_touched_sessions": 294,
+      "snow_touched_sessions": 150,
+      "dbx_share_pct": 17.1,
+      "snow_share_pct": 14.3,
+      "leader": "Databricks",
+      "delta_pct_pts": 2.8
+    },
+    {
+      "key": "bi_analytics",
+      "label": "BI dashboards / metrics / AI-BI",
+      "dbx_label": "AI/BI dashboards",
+      "snow_label": "BI & Analytics / Snowsight",
+      "scoring": "fractional",
+      "dbx_session_credit": 42.0,
+      "snow_session_credit": 18.4,
+      "dbx_sessions": 42.0,
+      "snow_sessions": 18.4,
+      "dbx_touched_sessions": 116,
+      "snow_touched_sessions": 41,
+      "dbx_share_pct": 5.2,
+      "snow_share_pct": 3.4,
+      "leader": "Databricks",
+      "delta_pct_pts": 1.8
+    },
+    {
+      "key": "app_operational_db",
+      "label": "App / operational database substrate",
+      "dbx_label": "Lakebase / app database substrate",
+      "snow_label": "Snowflake Postgres + Unistore / app-data bridge",
+      "scoring": "fractional",
+      "dbx_session_credit": 64.0,
+      "snow_session_credit": 12.9,
+      "dbx_sessions": 64.0,
+      "snow_sessions": 12.9,
+      "dbx_touched_sessions": 126,
+      "snow_touched_sessions": 26,
+      "dbx_share_pct": 8.0,
+      "snow_share_pct": 2.4,
+      "leader": "Databricks",
+      "delta_pct_pts": 5.6
+    },
+    {
+      "key": "evals_strict",
+      "label": "Evals / red teaming / AI quality (strict)",
+      "dbx_label": "eval / benchmark / red-team",
+      "snow_label": "eval / benchmark / red-team",
+      "scoring": "fractional",
+      "dbx_session_credit": 37.8,
+      "snow_session_credit": 9.8,
+      "dbx_sessions": 37.8,
+      "snow_sessions": 9.8,
+      "dbx_touched_sessions": 90,
+      "snow_touched_sessions": 23,
+      "dbx_share_pct": 4.7,
+      "snow_share_pct": 1.8,
+      "leader": "Databricks",
+      "delta_pct_pts": 2.9
+    },
+    {
+      "key": "pipelines_streaming",
+      "label": "Lakeflow / Spark / streaming pipelines",
+      "dbx_label": "Lakeflow / Spark / streaming",
+      "snow_label": "Snowpipe + Openflow + Snowpark + dbt",
+      "scoring": "fractional",
+      "dbx_session_credit": 120.1,
+      "snow_session_credit": 73.1,
+      "dbx_sessions": 120.1,
+      "snow_sessions": 73.1,
+      "dbx_touched_sessions": 267,
+      "snow_touched_sessions": 137,
+      "dbx_share_pct": 15.0,
+      "snow_share_pct": 13.6,
+      "leader": "Databricks",
+      "delta_pct_pts": 1.4
+    },
+    {
+      "key": "warehouse_modernization",
+      "label": "SQL warehouse / lakehouse modernization",
+      "dbx_label": "Databricks SQL / Photon",
+      "snow_label": "Gen2 warehouses + migrations",
+      "scoring": "fractional",
+      "dbx_session_credit": 43.1,
+      "snow_session_credit": 25.0,
+      "dbx_sessions": 43.1,
+      "snow_sessions": 25.0,
+      "dbx_touched_sessions": 99,
+      "snow_touched_sessions": 53,
+      "dbx_share_pct": 5.4,
+      "snow_share_pct": 4.7,
+      "leader": "Databricks",
+      "delta_pct_pts": 0.7
+    }
+  ],
+  "primary_allocation": {
+    "matched_sessions": {
+      "databricks": 716,
+      "snowflake": 432
+    },
+    "multi_topic_sessions": {
+      "databricks": 509,
+      "snowflake": 265
+    },
+    "unmatched_sessions": {
+      "databricks": 86,
+      "snowflake": 105
+    }
+  },
+  "binary_prevalence": {
+    "scoring": "binary",
+    "cap_chars": 1000000000,
+    "rows": [
+      {
+        "key": "genai_app_layer",
+        "label": "Cortex / GenAI app layer",
+        "dbx_label": "Mosaic AI / Agent Bricks / Genie",
+        "snow_label": "Cortex agents + CoWork",
+        "scoring": "binary",
+        "dbx_session_credit": 394.0,
+        "snow_session_credit": 254.0,
+        "dbx_sessions": 394,
+        "snow_sessions": 254,
+        "dbx_touched_sessions": 394,
+        "snow_touched_sessions": 254,
+        "dbx_share_pct": 49.1,
+        "snow_share_pct": 47.3,
+        "leader": "Databricks",
+        "delta_pct_pts": 1.8
+      },
+      {
+        "key": "semantic_context",
+        "label": "Semantic context for agents",
+        "dbx_label": "Metric Views",
+        "snow_label": "Semantic Views / Cortex Analyst",
+        "scoring": "binary",
+        "dbx_session_credit": 47.0,
+        "snow_session_credit": 60.0,
+        "dbx_sessions": 47,
+        "snow_sessions": 60,
+        "dbx_touched_sessions": 47,
+        "snow_touched_sessions": 60,
+        "dbx_share_pct": 5.9,
+        "snow_share_pct": 11.2,
+        "leader": "Snowflake",
+        "delta_pct_pts": 5.3
+      },
+      {
+        "key": "sharing_marketplace",
+        "label": "Sharing / marketplace / clean rooms",
+        "dbx_label": "Delta Sharing + Marketplace",
+        "snow_label": "Secure Sharing + Marketplace + Clean Rooms",
+        "scoring": "binary",
+        "dbx_session_credit": 44.0,
+        "snow_session_credit": 37.0,
+        "dbx_sessions": 44,
+        "snow_sessions": 37,
+        "dbx_touched_sessions": 44,
+        "snow_touched_sessions": 37,
+        "dbx_share_pct": 5.5,
+        "snow_share_pct": 6.9,
+        "leader": "Snowflake",
+        "delta_pct_pts": 1.4
+      },
+      {
+        "key": "open_lakehouse",
+        "label": "Open lakehouse / table formats",
+        "dbx_label": "Delta Lake + UniForm (+ Iceberg)",
+        "snow_label": "Iceberg + Polaris",
+        "scoring": "binary",
+        "dbx_session_credit": 114.0,
+        "snow_session_credit": 54.0,
+        "dbx_sessions": 114,
+        "snow_sessions": 54,
+        "dbx_touched_sessions": 114,
+        "snow_touched_sessions": 54,
+        "dbx_share_pct": 14.2,
+        "snow_share_pct": 10.1,
+        "leader": "Databricks",
+        "delta_pct_pts": 4.2
+      },
+      {
+        "key": "governance_control_plane",
+        "label": "Governance / control plane",
+        "dbx_label": "Governance / lineage / access",
+        "snow_label": "Governance / lineage / access",
+        "scoring": "binary",
+        "dbx_session_credit": 294.0,
+        "snow_session_credit": 150.0,
+        "dbx_sessions": 294,
+        "snow_sessions": 150,
+        "dbx_touched_sessions": 294,
+        "snow_touched_sessions": 150,
+        "dbx_share_pct": 36.7,
+        "snow_share_pct": 27.9,
+        "leader": "Databricks",
+        "delta_pct_pts": 8.7
+      },
+      {
+        "key": "bi_analytics",
+        "label": "BI dashboards / metrics / AI-BI",
+        "dbx_label": "AI/BI dashboards",
+        "snow_label": "BI & Analytics / Snowsight",
+        "scoring": "binary",
+        "dbx_session_credit": 116.0,
+        "snow_session_credit": 41.0,
+        "dbx_sessions": 116,
+        "snow_sessions": 41,
+        "dbx_touched_sessions": 116,
+        "snow_touched_sessions": 41,
+        "dbx_share_pct": 14.5,
+        "snow_share_pct": 7.6,
+        "leader": "Databricks",
+        "delta_pct_pts": 6.8
+      },
+      {
+        "key": "app_operational_db",
+        "label": "App / operational database substrate",
+        "dbx_label": "Lakebase / app database substrate",
+        "snow_label": "Snowflake Postgres + Unistore / app-data bridge",
+        "scoring": "binary",
+        "dbx_session_credit": 126.0,
+        "snow_session_credit": 26.0,
+        "dbx_sessions": 126,
+        "snow_sessions": 26,
+        "dbx_touched_sessions": 126,
+        "snow_touched_sessions": 26,
+        "dbx_share_pct": 15.7,
+        "snow_share_pct": 4.8,
+        "leader": "Databricks",
+        "delta_pct_pts": 10.9
+      },
+      {
+        "key": "evals_strict",
+        "label": "Evals / red teaming / AI quality (strict)",
+        "dbx_label": "eval / benchmark / red-team",
+        "snow_label": "eval / benchmark / red-team",
+        "scoring": "binary",
+        "dbx_session_credit": 90.0,
+        "snow_session_credit": 23.0,
+        "dbx_sessions": 90,
+        "snow_sessions": 23,
+        "dbx_touched_sessions": 90,
+        "snow_touched_sessions": 23,
+        "dbx_share_pct": 11.2,
+        "snow_share_pct": 4.3,
+        "leader": "Databricks",
+        "delta_pct_pts": 6.9
+      },
+      {
+        "key": "pipelines_streaming",
+        "label": "Lakeflow / Spark / streaming pipelines",
+        "dbx_label": "Lakeflow / Spark / streaming",
+        "snow_label": "Snowpipe + Openflow + Snowpark + dbt",
+        "scoring": "binary",
+        "dbx_session_credit": 267.0,
+        "snow_session_credit": 137.0,
+        "dbx_sessions": 267,
+        "snow_sessions": 137,
+        "dbx_touched_sessions": 267,
+        "snow_touched_sessions": 137,
+        "dbx_share_pct": 33.3,
+        "snow_share_pct": 25.5,
+        "leader": "Databricks",
+        "delta_pct_pts": 7.8
+      },
+      {
+        "key": "warehouse_modernization",
+        "label": "SQL warehouse / lakehouse modernization",
+        "dbx_label": "Databricks SQL / Photon",
+        "snow_label": "Gen2 warehouses + migrations",
+        "scoring": "binary",
+        "dbx_session_credit": 99.0,
+        "snow_session_credit": 53.0,
+        "dbx_sessions": 99,
+        "snow_sessions": 53,
+        "dbx_touched_sessions": 99,
+        "snow_touched_sessions": 53,
+        "dbx_share_pct": 12.3,
+        "snow_share_pct": 9.9,
+        "leader": "Databricks",
+        "delta_pct_pts": 2.5
+      }
+    ],
+    "matched_sessions": {
+      "databricks": 716,
+      "snowflake": 432
+    },
+    "multi_topic_sessions": {
+      "databricks": 509,
+      "snowflake": 265
+    },
+    "unmatched_sessions": {
+      "databricks": 86,
+      "snowflake": 105
+    }
+  },
+  "sensitivity": {
+    "fractional_full_text": {
+      "scoring": "fractional",
+      "cap_chars": 1000000000,
+      "rows": [
+        {
+          "key": "genai_app_layer",
+          "label": "Cortex / GenAI app layer",
+          "dbx_label": "Mosaic AI / Agent Bricks / Genie",
+          "snow_label": "Cortex agents + CoWork",
+          "scoring": "fractional",
+          "dbx_session_credit": 190.1,
+          "snow_session_credit": 149.1,
+          "dbx_sessions": 190.1,
+          "snow_sessions": 149.1,
+          "dbx_touched_sessions": 394,
+          "snow_touched_sessions": 254,
+          "dbx_share_pct": 23.7,
+          "snow_share_pct": 27.8,
+          "leader": "Snowflake",
+          "delta_pct_pts": 4.1
+        },
+        {
+          "key": "semantic_context",
+          "label": "Semantic context for agents",
+          "dbx_label": "Metric Views",
+          "snow_label": "Semantic Views / Cortex Analyst",
+          "scoring": "fractional",
+          "dbx_session_credit": 18.3,
+          "snow_session_credit": 23.3,
+          "dbx_sessions": 18.3,
+          "snow_sessions": 23.3,
+          "dbx_touched_sessions": 47,
+          "snow_touched_sessions": 60,
+          "dbx_share_pct": 2.3,
+          "snow_share_pct": 4.3,
+          "leader": "Snowflake",
+          "delta_pct_pts": 2.1
+        },
+        {
+          "key": "sharing_marketplace",
+          "label": "Sharing / marketplace / clean rooms",
+          "dbx_label": "Delta Sharing + Marketplace",
+          "snow_label": "Secure Sharing + Marketplace + Clean Rooms",
+          "scoring": "fractional",
+          "dbx_session_credit": 18.8,
+          "snow_session_credit": 19.0,
+          "dbx_sessions": 18.8,
+          "snow_sessions": 19.0,
+          "dbx_touched_sessions": 44,
+          "snow_touched_sessions": 37,
+          "dbx_share_pct": 2.4,
+          "snow_share_pct": 3.5,
+          "leader": "Snowflake",
+          "delta_pct_pts": 1.2
+        },
+        {
+          "key": "open_lakehouse",
+          "label": "Open lakehouse / table formats",
+          "dbx_label": "Delta Lake + UniForm (+ Iceberg)",
+          "snow_label": "Iceberg + Polaris",
+          "scoring": "fractional",
+          "dbx_session_credit": 44.7,
+          "snow_session_credit": 24.6,
+          "dbx_sessions": 44.7,
+          "snow_sessions": 24.6,
+          "dbx_touched_sessions": 114,
+          "snow_touched_sessions": 54,
+          "dbx_share_pct": 5.6,
+          "snow_share_pct": 4.6,
+          "leader": "Databricks",
+          "delta_pct_pts": 1.0
+        },
+        {
+          "key": "governance_control_plane",
+          "label": "Governance / control plane",
+          "dbx_label": "Governance / lineage / access",
+          "snow_label": "Governance / lineage / access",
+          "scoring": "fractional",
+          "dbx_session_credit": 137.1,
+          "snow_session_credit": 76.7,
+          "dbx_sessions": 137.1,
+          "snow_sessions": 76.7,
+          "dbx_touched_sessions": 294,
+          "snow_touched_sessions": 150,
+          "dbx_share_pct": 17.1,
+          "snow_share_pct": 14.3,
+          "leader": "Databricks",
+          "delta_pct_pts": 2.8
+        },
+        {
+          "key": "bi_analytics",
+          "label": "BI dashboards / metrics / AI-BI",
+          "dbx_label": "AI/BI dashboards",
+          "snow_label": "BI & Analytics / Snowsight",
+          "scoring": "fractional",
+          "dbx_session_credit": 42.0,
+          "snow_session_credit": 18.4,
+          "dbx_sessions": 42.0,
+          "snow_sessions": 18.4,
+          "dbx_touched_sessions": 116,
+          "snow_touched_sessions": 41,
+          "dbx_share_pct": 5.2,
+          "snow_share_pct": 3.4,
+          "leader": "Databricks",
+          "delta_pct_pts": 1.8
+        },
+        {
+          "key": "app_operational_db",
+          "label": "App / operational database substrate",
+          "dbx_label": "Lakebase / app database substrate",
+          "snow_label": "Snowflake Postgres + Unistore / app-data bridge",
+          "scoring": "fractional",
+          "dbx_session_credit": 64.0,
+          "snow_session_credit": 12.9,
+          "dbx_sessions": 64.0,
+          "snow_sessions": 12.9,
+          "dbx_touched_sessions": 126,
+          "snow_touched_sessions": 26,
+          "dbx_share_pct": 8.0,
+          "snow_share_pct": 2.4,
+          "leader": "Databricks",
+          "delta_pct_pts": 5.6
+        },
+        {
+          "key": "evals_strict",
+          "label": "Evals / red teaming / AI quality (strict)",
+          "dbx_label": "eval / benchmark / red-team",
+          "snow_label": "eval / benchmark / red-team",
+          "scoring": "fractional",
+          "dbx_session_credit": 37.8,
+          "snow_session_credit": 9.8,
+          "dbx_sessions": 37.8,
+          "snow_sessions": 9.8,
+          "dbx_touched_sessions": 90,
+          "snow_touched_sessions": 23,
+          "dbx_share_pct": 4.7,
+          "snow_share_pct": 1.8,
+          "leader": "Databricks",
+          "delta_pct_pts": 2.9
+        },
+        {
+          "key": "pipelines_streaming",
+          "label": "Lakeflow / Spark / streaming pipelines",
+          "dbx_label": "Lakeflow / Spark / streaming",
+          "snow_label": "Snowpipe + Openflow + Snowpark + dbt",
+          "scoring": "fractional",
+          "dbx_session_credit": 120.1,
+          "snow_session_credit": 73.1,
+          "dbx_sessions": 120.1,
+          "snow_sessions": 73.1,
+          "dbx_touched_sessions": 267,
+          "snow_touched_sessions": 137,
+          "dbx_share_pct": 15.0,
+          "snow_share_pct": 13.6,
+          "leader": "Databricks",
+          "delta_pct_pts": 1.4
+        },
+        {
+          "key": "warehouse_modernization",
+          "label": "SQL warehouse / lakehouse modernization",
+          "dbx_label": "Databricks SQL / Photon",
+          "snow_label": "Gen2 warehouses + migrations",
+          "scoring": "fractional",
+          "dbx_session_credit": 43.1,
+          "snow_session_credit": 25.0,
+          "dbx_sessions": 43.1,
+          "snow_sessions": 25.0,
+          "dbx_touched_sessions": 99,
+          "snow_touched_sessions": 53,
+          "dbx_share_pct": 5.4,
+          "snow_share_pct": 4.7,
+          "leader": "Databricks",
+          "delta_pct_pts": 0.7
+        }
+      ],
+      "matched_sessions": {
+        "databricks": 716,
+        "snowflake": 432
+      },
+      "multi_topic_sessions": {
+        "databricks": 509,
+        "snowflake": 265
+      },
+      "unmatched_sessions": {
+        "databricks": 86,
+        "snowflake": 105
+      }
+    },
+    "fractional_cap_991_databricks_median": {
+      "scoring": "fractional",
+      "cap_chars": 991,
+      "rows": [
+        {
+          "key": "genai_app_layer",
+          "label": "Cortex / GenAI app layer",
+          "dbx_label": "Mosaic AI / Agent Bricks / Genie",
+          "snow_label": "Cortex agents + CoWork",
+          "scoring": "fractional",
+          "dbx_session_credit": 190.6,
+          "snow_session_credit": 149.1,
+          "dbx_sessions": 190.6,
+          "snow_sessions": 149.1,
+          "dbx_touched_sessions": 383,
+          "snow_touched_sessions": 254,
+          "dbx_share_pct": 23.8,
+          "snow_share_pct": 27.8,
+          "leader": "Snowflake",
+          "delta_pct_pts": 4.0
+        },
+        {
+          "key": "semantic_context",
+          "label": "Semantic context for agents",
+          "dbx_label": "Metric Views",
+          "snow_label": "Semantic Views / Cortex Analyst",
+          "scoring": "fractional",
+          "dbx_session_credit": 18.8,
+          "snow_session_credit": 23.3,
+          "dbx_sessions": 18.8,
+          "snow_sessions": 23.3,
+          "dbx_touched_sessions": 47,
+          "snow_touched_sessions": 60,
+          "dbx_share_pct": 2.3,
+          "snow_share_pct": 4.3,
+          "leader": "Snowflake",
+          "delta_pct_pts": 2.0
+        },
+        {
+          "key": "sharing_marketplace",
+          "label": "Sharing / marketplace / clean rooms",
+          "dbx_label": "Delta Sharing + Marketplace",
+          "snow_label": "Secure Sharing + Marketplace + Clean Rooms",
+          "scoring": "fractional",
+          "dbx_session_credit": 18.5,
+          "snow_session_credit": 19.0,
+          "dbx_sessions": 18.5,
+          "snow_sessions": 19.0,
+          "dbx_touched_sessions": 43,
+          "snow_touched_sessions": 37,
+          "dbx_share_pct": 2.3,
+          "snow_share_pct": 3.5,
+          "leader": "Snowflake",
+          "delta_pct_pts": 1.2
+        },
+        {
+          "key": "open_lakehouse",
+          "label": "Open lakehouse / table formats",
+          "dbx_label": "Delta Lake + UniForm (+ Iceberg)",
+          "snow_label": "Iceberg + Polaris",
+          "scoring": "fractional",
+          "dbx_session_credit": 42.3,
+          "snow_session_credit": 24.6,
+          "dbx_sessions": 42.3,
+          "snow_sessions": 24.6,
+          "dbx_touched_sessions": 108,
+          "snow_touched_sessions": 54,
+          "dbx_share_pct": 5.3,
+          "snow_share_pct": 4.6,
+          "leader": "Databricks",
+          "delta_pct_pts": 0.7
+        },
+        {
+          "key": "governance_control_plane",
+          "label": "Governance / control plane",
+          "dbx_label": "Governance / lineage / access",
+          "snow_label": "Governance / lineage / access",
+          "scoring": "fractional",
+          "dbx_session_credit": 135.7,
+          "snow_session_credit": 76.7,
+          "dbx_sessions": 135.7,
+          "snow_sessions": 76.7,
+          "dbx_touched_sessions": 284,
+          "snow_touched_sessions": 150,
+          "dbx_share_pct": 16.9,
+          "snow_share_pct": 14.3,
+          "leader": "Databricks",
+          "delta_pct_pts": 2.6
+        },
+        {
+          "key": "bi_analytics",
+          "label": "BI dashboards / metrics / AI-BI",
+          "dbx_label": "AI/BI dashboards",
+          "snow_label": "BI & Analytics / Snowsight",
+          "scoring": "fractional",
+          "dbx_session_credit": 42.3,
+          "snow_session_credit": 18.4,
+          "dbx_sessions": 42.3,
+          "snow_sessions": 18.4,
+          "dbx_touched_sessions": 113,
+          "snow_touched_sessions": 41,
+          "dbx_share_pct": 5.3,
+          "snow_share_pct": 3.4,
+          "leader": "Databricks",
+          "delta_pct_pts": 1.8
+        },
+        {
+          "key": "app_operational_db",
+          "label": "App / operational database substrate",
+          "dbx_label": "Lakebase / app database substrate",
+          "snow_label": "Snowflake Postgres + Unistore / app-data bridge",
+          "scoring": "fractional",
+          "dbx_session_credit": 64.4,
+          "snow_session_credit": 12.9,
+          "dbx_sessions": 64.4,
+          "snow_sessions": 12.9,
+          "dbx_touched_sessions": 125,
+          "snow_touched_sessions": 26,
+          "dbx_share_pct": 8.0,
+          "snow_share_pct": 2.4,
+          "leader": "Databricks",
+          "delta_pct_pts": 5.6
+        },
+        {
+          "key": "evals_strict",
+          "label": "Evals / red teaming / AI quality (strict)",
+          "dbx_label": "eval / benchmark / red-team",
+          "snow_label": "eval / benchmark / red-team",
+          "scoring": "fractional",
+          "dbx_session_credit": 36.9,
+          "snow_session_credit": 9.8,
+          "dbx_sessions": 36.9,
+          "snow_sessions": 9.8,
+          "dbx_touched_sessions": 85,
+          "snow_touched_sessions": 23,
+          "dbx_share_pct": 4.6,
+          "snow_share_pct": 1.8,
+          "leader": "Databricks",
+          "delta_pct_pts": 2.8
+        },
+        {
+          "key": "pipelines_streaming",
+          "label": "Lakeflow / Spark / streaming pipelines",
+          "dbx_label": "Lakeflow / Spark / streaming",
+          "snow_label": "Snowpipe + Openflow + Snowpark + dbt",
+          "scoring": "fractional",
+          "dbx_session_credit": 119.3,
+          "snow_session_credit": 73.1,
+          "dbx_sessions": 119.3,
+          "snow_sessions": 73.1,
+          "dbx_touched_sessions": 259,
+          "snow_touched_sessions": 137,
+          "dbx_share_pct": 14.9,
+          "snow_share_pct": 13.6,
+          "leader": "Databricks",
+          "delta_pct_pts": 1.3
+        },
+        {
+          "key": "warehouse_modernization",
+          "label": "SQL warehouse / lakehouse modernization",
+          "dbx_label": "Databricks SQL / Photon",
+          "snow_label": "Gen2 warehouses + migrations",
+          "scoring": "fractional",
+          "dbx_session_credit": 42.2,
+          "snow_session_credit": 25.0,
+          "dbx_sessions": 42.2,
+          "snow_sessions": 25.0,
+          "dbx_touched_sessions": 94,
+          "snow_touched_sessions": 53,
+          "dbx_share_pct": 5.3,
+          "snow_share_pct": 4.7,
+          "leader": "Databricks",
+          "delta_pct_pts": 0.6
+        }
+      ],
+      "matched_sessions": {
+        "databricks": 711,
+        "snowflake": 432
+      },
+      "multi_topic_sessions": {
+        "databricks": 496,
+        "snowflake": 265
+      },
+      "unmatched_sessions": {
+        "databricks": 91,
+        "snowflake": 105
+      }
+    },
+    "fractional_cap_680_snowflake_median": {
+      "scoring": "fractional",
+      "cap_chars": 680,
+      "rows": [
+        {
+          "key": "genai_app_layer",
+          "label": "Cortex / GenAI app layer",
+          "dbx_label": "Mosaic AI / Agent Bricks / Genie",
+          "snow_label": "Cortex agents + CoWork",
+          "scoring": "fractional",
+          "dbx_session_credit": 191.3,
+          "snow_session_credit": 146.2,
+          "dbx_sessions": 191.3,
+          "snow_sessions": 146.2,
+          "dbx_touched_sessions": 334,
+          "snow_touched_sessions": 249,
+          "dbx_share_pct": 23.9,
+          "snow_share_pct": 27.2,
+          "leader": "Snowflake",
+          "delta_pct_pts": 3.4
+        },
+        {
+          "key": "semantic_context",
+          "label": "Semantic context for agents",
+          "dbx_label": "Metric Views",
+          "snow_label": "Semantic Views / Cortex Analyst",
+          "scoring": "fractional",
+          "dbx_session_credit": 17.8,
+          "snow_session_credit": 23.5,
+          "dbx_sessions": 17.8,
+          "snow_sessions": 23.5,
+          "dbx_touched_sessions": 38,
+          "snow_touched_sessions": 60,
+          "dbx_share_pct": 2.2,
+          "snow_share_pct": 4.4,
+          "leader": "Snowflake",
+          "delta_pct_pts": 2.2
+        },
+        {
+          "key": "sharing_marketplace",
+          "label": "Sharing / marketplace / clean rooms",
+          "dbx_label": "Delta Sharing + Marketplace",
+          "snow_label": "Secure Sharing + Marketplace + Clean Rooms",
+          "scoring": "fractional",
+          "dbx_session_credit": 17.6,
+          "snow_session_credit": 18.0,
+          "dbx_sessions": 17.6,
+          "snow_sessions": 18.0,
+          "dbx_touched_sessions": 31,
+          "snow_touched_sessions": 35,
+          "dbx_share_pct": 2.2,
+          "snow_share_pct": 3.4,
+          "leader": "Snowflake",
+          "delta_pct_pts": 1.2
+        },
+        {
+          "key": "open_lakehouse",
+          "label": "Open lakehouse / table formats",
+          "dbx_label": "Delta Lake + UniForm (+ Iceberg)",
+          "snow_label": "Iceberg + Polaris",
+          "scoring": "fractional",
+          "dbx_session_credit": 40.5,
+          "snow_session_credit": 24.7,
+          "dbx_sessions": 40.5,
+          "snow_sessions": 24.7,
+          "dbx_touched_sessions": 84,
+          "snow_touched_sessions": 54,
+          "dbx_share_pct": 5.0,
+          "snow_share_pct": 4.6,
+          "leader": "Databricks",
+          "delta_pct_pts": 0.4
+        },
+        {
+          "key": "governance_control_plane",
+          "label": "Governance / control plane",
+          "dbx_label": "Governance / lineage / access",
+          "snow_label": "Governance / lineage / access",
+          "scoring": "fractional",
+          "dbx_session_credit": 120.6,
+          "snow_session_credit": 77.5,
+          "dbx_sessions": 120.6,
+          "snow_sessions": 77.5,
+          "dbx_touched_sessions": 214,
+          "snow_touched_sessions": 148,
+          "dbx_share_pct": 15.0,
+          "snow_share_pct": 14.4,
+          "leader": "Databricks",
+          "delta_pct_pts": 0.6
+        },
+        {
+          "key": "bi_analytics",
+          "label": "BI dashboards / metrics / AI-BI",
+          "dbx_label": "AI/BI dashboards",
+          "snow_label": "BI & Analytics / Snowsight",
+          "scoring": "fractional",
+          "dbx_session_credit": 40.1,
+          "snow_session_credit": 17.6,
+          "dbx_sessions": 40.1,
+          "snow_sessions": 17.6,
+          "dbx_touched_sessions": 87,
+          "snow_touched_sessions": 38,
+          "dbx_share_pct": 5.0,
+          "snow_share_pct": 3.3,
+          "leader": "Databricks",
+          "delta_pct_pts": 1.7
+        },
+        {
+          "key": "app_operational_db",
+          "label": "App / operational database substrate",
+          "dbx_label": "Lakebase / app database substrate",
+          "snow_label": "Snowflake Postgres + Unistore / app-data bridge",
+          "scoring": "fractional",
+          "dbx_session_credit": 62.2,
+          "snow_session_credit": 13.4,
+          "dbx_sessions": 62.2,
+          "snow_sessions": 13.4,
+          "dbx_touched_sessions": 105,
+          "snow_touched_sessions": 26,
+          "dbx_share_pct": 7.8,
+          "snow_share_pct": 2.5,
+          "leader": "Databricks",
+          "delta_pct_pts": 5.2
+        },
+        {
+          "key": "evals_strict",
+          "label": "Evals / red teaming / AI quality (strict)",
+          "dbx_label": "eval / benchmark / red-team",
+          "snow_label": "eval / benchmark / red-team",
+          "scoring": "fractional",
+          "dbx_session_credit": 27.6,
+          "snow_session_credit": 9.2,
+          "dbx_sessions": 27.6,
+          "snow_sessions": 9.2,
+          "dbx_touched_sessions": 55,
+          "snow_touched_sessions": 21,
+          "dbx_share_pct": 3.4,
+          "snow_share_pct": 1.7,
+          "leader": "Databricks",
+          "delta_pct_pts": 1.7
+        },
+        {
+          "key": "pipelines_streaming",
+          "label": "Lakeflow / Spark / streaming pipelines",
+          "dbx_label": "Lakeflow / Spark / streaming",
+          "snow_label": "Snowpipe + Openflow + Snowpark + dbt",
+          "scoring": "fractional",
+          "dbx_session_credit": 116.8,
+          "snow_session_credit": 73.2,
+          "dbx_sessions": 116.8,
+          "snow_sessions": 73.2,
+          "dbx_touched_sessions": 213,
+          "snow_touched_sessions": 135,
+          "dbx_share_pct": 14.6,
+          "snow_share_pct": 13.6,
+          "leader": "Databricks",
+          "delta_pct_pts": 0.9
+        },
+        {
+          "key": "warehouse_modernization",
+          "label": "SQL warehouse / lakehouse modernization",
+          "dbx_label": "Databricks SQL / Photon",
+          "snow_label": "Gen2 warehouses + migrations",
+          "scoring": "fractional",
+          "dbx_session_credit": 43.6,
+          "snow_session_credit": 26.5,
+          "dbx_sessions": 43.6,
+          "snow_sessions": 26.5,
+          "dbx_touched_sessions": 80,
+          "snow_touched_sessions": 53,
+          "dbx_share_pct": 5.4,
+          "snow_share_pct": 4.9,
+          "leader": "Databricks",
+          "delta_pct_pts": 0.5
+        }
+      ],
+      "matched_sessions": {
+        "databricks": 678,
+        "snowflake": 430
+      },
+      "multi_topic_sessions": {
+        "databricks": 395,
+        "snowflake": 259
+      },
+      "unmatched_sessions": {
+        "databricks": 124,
+        "snowflake": 107
+      }
+    },
+    "binary_full_text": {
+      "scoring": "binary",
+      "cap_chars": 1000000000,
+      "rows": [
+        {
+          "key": "genai_app_layer",
+          "label": "Cortex / GenAI app layer",
+          "dbx_label": "Mosaic AI / Agent Bricks / Genie",
+          "snow_label": "Cortex agents + CoWork",
+          "scoring": "binary",
+          "dbx_session_credit": 394.0,
+          "snow_session_credit": 254.0,
+          "dbx_sessions": 394,
+          "snow_sessions": 254,
+          "dbx_touched_sessions": 394,
+          "snow_touched_sessions": 254,
+          "dbx_share_pct": 49.1,
+          "snow_share_pct": 47.3,
+          "leader": "Databricks",
+          "delta_pct_pts": 1.8
+        },
+        {
+          "key": "semantic_context",
+          "label": "Semantic context for agents",
+          "dbx_label": "Metric Views",
+          "snow_label": "Semantic Views / Cortex Analyst",
+          "scoring": "binary",
+          "dbx_session_credit": 47.0,
+          "snow_session_credit": 60.0,
+          "dbx_sessions": 47,
+          "snow_sessions": 60,
+          "dbx_touched_sessions": 47,
+          "snow_touched_sessions": 60,
+          "dbx_share_pct": 5.9,
+          "snow_share_pct": 11.2,
+          "leader": "Snowflake",
+          "delta_pct_pts": 5.3
+        },
+        {
+          "key": "sharing_marketplace",
+          "label": "Sharing / marketplace / clean rooms",
+          "dbx_label": "Delta Sharing + Marketplace",
+          "snow_label": "Secure Sharing + Marketplace + Clean Rooms",
+          "scoring": "binary",
+          "dbx_session_credit": 44.0,
+          "snow_session_credit": 37.0,
+          "dbx_sessions": 44,
+          "snow_sessions": 37,
+          "dbx_touched_sessions": 44,
+          "snow_touched_sessions": 37,
+          "dbx_share_pct": 5.5,
+          "snow_share_pct": 6.9,
+          "leader": "Snowflake",
+          "delta_pct_pts": 1.4
+        },
+        {
+          "key": "open_lakehouse",
+          "label": "Open lakehouse / table formats",
+          "dbx_label": "Delta Lake + UniForm (+ Iceberg)",
+          "snow_label": "Iceberg + Polaris",
+          "scoring": "binary",
+          "dbx_session_credit": 114.0,
+          "snow_session_credit": 54.0,
+          "dbx_sessions": 114,
+          "snow_sessions": 54,
+          "dbx_touched_sessions": 114,
+          "snow_touched_sessions": 54,
+          "dbx_share_pct": 14.2,
+          "snow_share_pct": 10.1,
+          "leader": "Databricks",
+          "delta_pct_pts": 4.2
+        },
+        {
+          "key": "governance_control_plane",
+          "label": "Governance / control plane",
+          "dbx_label": "Governance / lineage / access",
+          "snow_label": "Governance / lineage / access",
+          "scoring": "binary",
+          "dbx_session_credit": 294.0,
+          "snow_session_credit": 150.0,
+          "dbx_sessions": 294,
+          "snow_sessions": 150,
+          "dbx_touched_sessions": 294,
+          "snow_touched_sessions": 150,
+          "dbx_share_pct": 36.7,
+          "snow_share_pct": 27.9,
+          "leader": "Databricks",
+          "delta_pct_pts": 8.7
+        },
+        {
+          "key": "bi_analytics",
+          "label": "BI dashboards / metrics / AI-BI",
+          "dbx_label": "AI/BI dashboards",
+          "snow_label": "BI & Analytics / Snowsight",
+          "scoring": "binary",
+          "dbx_session_credit": 116.0,
+          "snow_session_credit": 41.0,
+          "dbx_sessions": 116,
+          "snow_sessions": 41,
+          "dbx_touched_sessions": 116,
+          "snow_touched_sessions": 41,
+          "dbx_share_pct": 14.5,
+          "snow_share_pct": 7.6,
+          "leader": "Databricks",
+          "delta_pct_pts": 6.8
+        },
+        {
+          "key": "app_operational_db",
+          "label": "App / operational database substrate",
+          "dbx_label": "Lakebase / app database substrate",
+          "snow_label": "Snowflake Postgres + Unistore / app-data bridge",
+          "scoring": "binary",
+          "dbx_session_credit": 126.0,
+          "snow_session_credit": 26.0,
+          "dbx_sessions": 126,
+          "snow_sessions": 26,
+          "dbx_touched_sessions": 126,
+          "snow_touched_sessions": 26,
+          "dbx_share_pct": 15.7,
+          "snow_share_pct": 4.8,
+          "leader": "Databricks",
+          "delta_pct_pts": 10.9
+        },
+        {
+          "key": "evals_strict",
+          "label": "Evals / red teaming / AI quality (strict)",
+          "dbx_label": "eval / benchmark / red-team",
+          "snow_label": "eval / benchmark / red-team",
+          "scoring": "binary",
+          "dbx_session_credit": 90.0,
+          "snow_session_credit": 23.0,
+          "dbx_sessions": 90,
+          "snow_sessions": 23,
+          "dbx_touched_sessions": 90,
+          "snow_touched_sessions": 23,
+          "dbx_share_pct": 11.2,
+          "snow_share_pct": 4.3,
+          "leader": "Databricks",
+          "delta_pct_pts": 6.9
+        },
+        {
+          "key": "pipelines_streaming",
+          "label": "Lakeflow / Spark / streaming pipelines",
+          "dbx_label": "Lakeflow / Spark / streaming",
+          "snow_label": "Snowpipe + Openflow + Snowpark + dbt",
+          "scoring": "binary",
+          "dbx_session_credit": 267.0,
+          "snow_session_credit": 137.0,
+          "dbx_sessions": 267,
+          "snow_sessions": 137,
+          "dbx_touched_sessions": 267,
+          "snow_touched_sessions": 137,
+          "dbx_share_pct": 33.3,
+          "snow_share_pct": 25.5,
+          "leader": "Databricks",
+          "delta_pct_pts": 7.8
+        },
+        {
+          "key": "warehouse_modernization",
+          "label": "SQL warehouse / lakehouse modernization",
+          "dbx_label": "Databricks SQL / Photon",
+          "snow_label": "Gen2 warehouses + migrations",
+          "scoring": "binary",
+          "dbx_session_credit": 99.0,
+          "snow_session_credit": 53.0,
+          "dbx_sessions": 99,
+          "snow_sessions": 53,
+          "dbx_touched_sessions": 99,
+          "snow_touched_sessions": 53,
+          "dbx_share_pct": 12.3,
+          "snow_share_pct": 9.9,
+          "leader": "Databricks",
+          "delta_pct_pts": 2.5
+        }
+      ],
+      "matched_sessions": {
+        "databricks": 716,
+        "snowflake": 432
+      },
+      "multi_topic_sessions": {
+        "databricks": 509,
+        "snowflake": 265
+      },
+      "unmatched_sessions": {
+        "databricks": 86,
+        "snowflake": 105
+      }
+    },
+    "binary_cap_991_databricks_median": {
+      "scoring": "binary",
+      "cap_chars": 991,
+      "rows": [
+        {
+          "key": "genai_app_layer",
+          "label": "Cortex / GenAI app layer",
+          "dbx_label": "Mosaic AI / Agent Bricks / Genie",
+          "snow_label": "Cortex agents + CoWork",
+          "scoring": "binary",
+          "dbx_session_credit": 383.0,
+          "snow_session_credit": 254.0,
+          "dbx_sessions": 383,
+          "snow_sessions": 254,
+          "dbx_touched_sessions": 383,
+          "snow_touched_sessions": 254,
+          "dbx_share_pct": 47.8,
+          "snow_share_pct": 47.3,
+          "leader": "Databricks",
+          "delta_pct_pts": 0.5
+        },
+        {
+          "key": "semantic_context",
+          "label": "Semantic context for agents",
+          "dbx_label": "Metric Views",
+          "snow_label": "Semantic Views / Cortex Analyst",
+          "scoring": "binary",
+          "dbx_session_credit": 47.0,
+          "snow_session_credit": 60.0,
+          "dbx_sessions": 47,
+          "snow_sessions": 60,
+          "dbx_touched_sessions": 47,
+          "snow_touched_sessions": 60,
+          "dbx_share_pct": 5.9,
+          "snow_share_pct": 11.2,
+          "leader": "Snowflake",
+          "delta_pct_pts": 5.3
+        },
+        {
+          "key": "sharing_marketplace",
+          "label": "Sharing / marketplace / clean rooms",
+          "dbx_label": "Delta Sharing + Marketplace",
+          "snow_label": "Secure Sharing + Marketplace + Clean Rooms",
+          "scoring": "binary",
+          "dbx_session_credit": 43.0,
+          "snow_session_credit": 37.0,
+          "dbx_sessions": 43,
+          "snow_sessions": 37,
+          "dbx_touched_sessions": 43,
+          "snow_touched_sessions": 37,
+          "dbx_share_pct": 5.4,
+          "snow_share_pct": 6.9,
+          "leader": "Snowflake",
+          "delta_pct_pts": 1.5
+        },
+        {
+          "key": "open_lakehouse",
+          "label": "Open lakehouse / table formats",
+          "dbx_label": "Delta Lake + UniForm (+ Iceberg)",
+          "snow_label": "Iceberg + Polaris",
+          "scoring": "binary",
+          "dbx_session_credit": 108.0,
+          "snow_session_credit": 54.0,
+          "dbx_sessions": 108,
+          "snow_sessions": 54,
+          "dbx_touched_sessions": 108,
+          "snow_touched_sessions": 54,
+          "dbx_share_pct": 13.5,
+          "snow_share_pct": 10.1,
+          "leader": "Databricks",
+          "delta_pct_pts": 3.4
+        },
+        {
+          "key": "governance_control_plane",
+          "label": "Governance / control plane",
+          "dbx_label": "Governance / lineage / access",
+          "snow_label": "Governance / lineage / access",
+          "scoring": "binary",
+          "dbx_session_credit": 284.0,
+          "snow_session_credit": 150.0,
+          "dbx_sessions": 284,
+          "snow_sessions": 150,
+          "dbx_touched_sessions": 284,
+          "snow_touched_sessions": 150,
+          "dbx_share_pct": 35.4,
+          "snow_share_pct": 27.9,
+          "leader": "Databricks",
+          "delta_pct_pts": 7.5
+        },
+        {
+          "key": "bi_analytics",
+          "label": "BI dashboards / metrics / AI-BI",
+          "dbx_label": "AI/BI dashboards",
+          "snow_label": "BI & Analytics / Snowsight",
+          "scoring": "binary",
+          "dbx_session_credit": 113.0,
+          "snow_session_credit": 41.0,
+          "dbx_sessions": 113,
+          "snow_sessions": 41,
+          "dbx_touched_sessions": 113,
+          "snow_touched_sessions": 41,
+          "dbx_share_pct": 14.1,
+          "snow_share_pct": 7.6,
+          "leader": "Databricks",
+          "delta_pct_pts": 6.5
+        },
+        {
+          "key": "app_operational_db",
+          "label": "App / operational database substrate",
+          "dbx_label": "Lakebase / app database substrate",
+          "snow_label": "Snowflake Postgres + Unistore / app-data bridge",
+          "scoring": "binary",
+          "dbx_session_credit": 125.0,
+          "snow_session_credit": 26.0,
+          "dbx_sessions": 125,
+          "snow_sessions": 26,
+          "dbx_touched_sessions": 125,
+          "snow_touched_sessions": 26,
+          "dbx_share_pct": 15.6,
+          "snow_share_pct": 4.8,
+          "leader": "Databricks",
+          "delta_pct_pts": 10.7
+        },
+        {
+          "key": "evals_strict",
+          "label": "Evals / red teaming / AI quality (strict)",
+          "dbx_label": "eval / benchmark / red-team",
+          "snow_label": "eval / benchmark / red-team",
+          "scoring": "binary",
+          "dbx_session_credit": 85.0,
+          "snow_session_credit": 23.0,
+          "dbx_sessions": 85,
+          "snow_sessions": 23,
+          "dbx_touched_sessions": 85,
+          "snow_touched_sessions": 23,
+          "dbx_share_pct": 10.6,
+          "snow_share_pct": 4.3,
+          "leader": "Databricks",
+          "delta_pct_pts": 6.3
+        },
+        {
+          "key": "pipelines_streaming",
+          "label": "Lakeflow / Spark / streaming pipelines",
+          "dbx_label": "Lakeflow / Spark / streaming",
+          "snow_label": "Snowpipe + Openflow + Snowpark + dbt",
+          "scoring": "binary",
+          "dbx_session_credit": 259.0,
+          "snow_session_credit": 137.0,
+          "dbx_sessions": 259,
+          "snow_sessions": 137,
+          "dbx_touched_sessions": 259,
+          "snow_touched_sessions": 137,
+          "dbx_share_pct": 32.3,
+          "snow_share_pct": 25.5,
+          "leader": "Databricks",
+          "delta_pct_pts": 6.8
+        },
+        {
+          "key": "warehouse_modernization",
+          "label": "SQL warehouse / lakehouse modernization",
+          "dbx_label": "Databricks SQL / Photon",
+          "snow_label": "Gen2 warehouses + migrations",
+          "scoring": "binary",
+          "dbx_session_credit": 94.0,
+          "snow_session_credit": 53.0,
+          "dbx_sessions": 94,
+          "snow_sessions": 53,
+          "dbx_touched_sessions": 94,
+          "snow_touched_sessions": 53,
+          "dbx_share_pct": 11.7,
+          "snow_share_pct": 9.9,
+          "leader": "Databricks",
+          "delta_pct_pts": 1.9
+        }
+      ],
+      "matched_sessions": {
+        "databricks": 711,
+        "snowflake": 432
+      },
+      "multi_topic_sessions": {
+        "databricks": 496,
+        "snowflake": 265
+      },
+      "unmatched_sessions": {
+        "databricks": 91,
+        "snowflake": 105
+      }
+    },
+    "binary_cap_680_snowflake_median": {
+      "scoring": "binary",
+      "cap_chars": 680,
+      "rows": [
+        {
+          "key": "genai_app_layer",
+          "label": "Cortex / GenAI app layer",
+          "dbx_label": "Mosaic AI / Agent Bricks / Genie",
+          "snow_label": "Cortex agents + CoWork",
+          "scoring": "binary",
+          "dbx_session_credit": 334.0,
+          "snow_session_credit": 249.0,
+          "dbx_sessions": 334,
+          "snow_sessions": 249,
+          "dbx_touched_sessions": 334,
+          "snow_touched_sessions": 249,
+          "dbx_share_pct": 41.6,
+          "snow_share_pct": 46.4,
+          "leader": "Snowflake",
+          "delta_pct_pts": 4.7
+        },
+        {
+          "key": "semantic_context",
+          "label": "Semantic context for agents",
+          "dbx_label": "Metric Views",
+          "snow_label": "Semantic Views / Cortex Analyst",
+          "scoring": "binary",
+          "dbx_session_credit": 38.0,
+          "snow_session_credit": 60.0,
+          "dbx_sessions": 38,
+          "snow_sessions": 60,
+          "dbx_touched_sessions": 38,
+          "snow_touched_sessions": 60,
+          "dbx_share_pct": 4.7,
+          "snow_share_pct": 11.2,
+          "leader": "Snowflake",
+          "delta_pct_pts": 6.4
+        },
+        {
+          "key": "sharing_marketplace",
+          "label": "Sharing / marketplace / clean rooms",
+          "dbx_label": "Delta Sharing + Marketplace",
+          "snow_label": "Secure Sharing + Marketplace + Clean Rooms",
+          "scoring": "binary",
+          "dbx_session_credit": 31.0,
+          "snow_session_credit": 35.0,
+          "dbx_sessions": 31,
+          "snow_sessions": 35,
+          "dbx_touched_sessions": 31,
+          "snow_touched_sessions": 35,
+          "dbx_share_pct": 3.9,
+          "snow_share_pct": 6.5,
+          "leader": "Snowflake",
+          "delta_pct_pts": 2.7
+        },
+        {
+          "key": "open_lakehouse",
+          "label": "Open lakehouse / table formats",
+          "dbx_label": "Delta Lake + UniForm (+ Iceberg)",
+          "snow_label": "Iceberg + Polaris",
+          "scoring": "binary",
+          "dbx_session_credit": 84.0,
+          "snow_session_credit": 54.0,
+          "dbx_sessions": 84,
+          "snow_sessions": 54,
+          "dbx_touched_sessions": 84,
+          "snow_touched_sessions": 54,
+          "dbx_share_pct": 10.5,
+          "snow_share_pct": 10.1,
+          "leader": "Databricks",
+          "delta_pct_pts": 0.4
+        },
+        {
+          "key": "governance_control_plane",
+          "label": "Governance / control plane",
+          "dbx_label": "Governance / lineage / access",
+          "snow_label": "Governance / lineage / access",
+          "scoring": "binary",
+          "dbx_session_credit": 214.0,
+          "snow_session_credit": 148.0,
+          "dbx_sessions": 214,
+          "snow_sessions": 148,
+          "dbx_touched_sessions": 214,
+          "snow_touched_sessions": 148,
+          "dbx_share_pct": 26.7,
+          "snow_share_pct": 27.6,
+          "leader": "Snowflake",
+          "delta_pct_pts": 0.9
+        },
+        {
+          "key": "bi_analytics",
+          "label": "BI dashboards / metrics / AI-BI",
+          "dbx_label": "AI/BI dashboards",
+          "snow_label": "BI & Analytics / Snowsight",
+          "scoring": "binary",
+          "dbx_session_credit": 87.0,
+          "snow_session_credit": 38.0,
+          "dbx_sessions": 87,
+          "snow_sessions": 38,
+          "dbx_touched_sessions": 87,
+          "snow_touched_sessions": 38,
+          "dbx_share_pct": 10.8,
+          "snow_share_pct": 7.1,
+          "leader": "Databricks",
+          "delta_pct_pts": 3.8
+        },
+        {
+          "key": "app_operational_db",
+          "label": "App / operational database substrate",
+          "dbx_label": "Lakebase / app database substrate",
+          "snow_label": "Snowflake Postgres + Unistore / app-data bridge",
+          "scoring": "binary",
+          "dbx_session_credit": 105.0,
+          "snow_session_credit": 26.0,
+          "dbx_sessions": 105,
+          "snow_sessions": 26,
+          "dbx_touched_sessions": 105,
+          "snow_touched_sessions": 26,
+          "dbx_share_pct": 13.1,
+          "snow_share_pct": 4.8,
+          "leader": "Databricks",
+          "delta_pct_pts": 8.3
+        },
+        {
+          "key": "evals_strict",
+          "label": "Evals / red teaming / AI quality (strict)",
+          "dbx_label": "eval / benchmark / red-team",
+          "snow_label": "eval / benchmark / red-team",
+          "scoring": "binary",
+          "dbx_session_credit": 55.0,
+          "snow_session_credit": 21.0,
+          "dbx_sessions": 55,
+          "snow_sessions": 21,
+          "dbx_touched_sessions": 55,
+          "snow_touched_sessions": 21,
+          "dbx_share_pct": 6.9,
+          "snow_share_pct": 3.9,
+          "leader": "Databricks",
+          "delta_pct_pts": 2.9
+        },
+        {
+          "key": "pipelines_streaming",
+          "label": "Lakeflow / Spark / streaming pipelines",
+          "dbx_label": "Lakeflow / Spark / streaming",
+          "snow_label": "Snowpipe + Openflow + Snowpark + dbt",
+          "scoring": "binary",
+          "dbx_session_credit": 213.0,
+          "snow_session_credit": 135.0,
+          "dbx_sessions": 213,
+          "snow_sessions": 135,
+          "dbx_touched_sessions": 213,
+          "snow_touched_sessions": 135,
+          "dbx_share_pct": 26.6,
+          "snow_share_pct": 25.1,
+          "leader": "Databricks",
+          "delta_pct_pts": 1.4
+        },
+        {
+          "key": "warehouse_modernization",
+          "label": "SQL warehouse / lakehouse modernization",
+          "dbx_label": "Databricks SQL / Photon",
+          "snow_label": "Gen2 warehouses + migrations",
+          "scoring": "binary",
+          "dbx_session_credit": 80.0,
+          "snow_session_credit": 53.0,
+          "dbx_sessions": 80,
+          "snow_sessions": 53,
+          "dbx_touched_sessions": 80,
+          "snow_touched_sessions": 53,
+          "dbx_share_pct": 10.0,
+          "snow_share_pct": 9.9,
+          "leader": "Databricks",
+          "delta_pct_pts": 0.1
+        }
+      ],
+      "matched_sessions": {
+        "databricks": 678,
+        "snowflake": 430
+      },
+      "multi_topic_sessions": {
+        "databricks": 395,
+        "snowflake": 259
+      },
+      "unmatched_sessions": {
+        "databricks": 124,
+        "snowflake": 107
+      }
+    }
+  },
+  "side_callouts": {
+    "nvidia_gpu": {
+      "databricks_sessions": 12,
+      "snowflake_sessions": 3,
+      "databricks_share_pct": 1.5,
+      "snowflake_share_pct": 0.6,
+      "databricks_titles": [
+        "AI Can\u2019t Wait: How to Overcome GPU Scarcity and Keep Workloads Running",
+        "Coding with AI Agents to Supercharge Your Spark UDFs with GPU-Acceleration",
+        "From Training to Production: MLOps for Deep Learning on Databricks",
+        "GPU-Accelerated Operations Research: Production-Grade Optimization with NVIDIA cuOpt on Databricks",
+        "High-Throughput, Low-Latency: The Databricks Playbook for Production Model Serving",
+        "Managing Data at Exabyte Scale for AI Model Training",
+        "Mission-Critical Inference: Powering High-Scale AI in Production ",
+        "Scaling Custom LLMs with vLLM and Databricks Model Serving: Fast, Flexible, and Production-Ready",
+        "Sponsored by: AMD | Run Databricks More Efficiently on AMD CPUs Lessons from AMD\u2019s GPU Telemetry Team",
+        "Three Steps to Red Team Your LLMs on Databricks (Using Tools You Didn't Know You Had)",
+        "Train and Fine-Tune AI Models Without Managing GPUs",
+        "Unlocking Video Data at Scale: VLM Batch Inference with Ray on Databricks"
+      ],
+      "snowflake_titles": [
+        "Agentic ML in Action: Train, Deploy and Monitor Models with Snowflake CoCo",
+        "Real-Time Lead Prioritization with Snowflake Model Serving Boosts Podium Sales",
+        "Building an End-to-End AI Application on Snowflake: From Data to Intelligence"
+      ]
+    },
+    "shared_companies": {
+      "dbx_unique": 515,
+      "snow_unique": 416,
+      "shared_count": 83,
+      "shared": [
+        {
+          "company": "openai",
+          "dbx_sessions": 6,
+          "snow_sessions": 9
+        },
+        {
+          "company": "accenture",
+          "dbx_sessions": 4,
+          "snow_sessions": 10
+        },
+        {
+          "company": "salesforce",
+          "dbx_sessions": 4,
+          "snow_sessions": 7
+        },
+        {
+          "company": "deloitte",
+          "dbx_sessions": 6,
+          "snow_sessions": 4
+        },
+        {
+          "company": "ey",
+          "dbx_sessions": 2,
+          "snow_sessions": 6
+        },
+        {
+          "company": "workday",
+          "dbx_sessions": 5,
+          "snow_sessions": 3
+        },
+        {
+          "company": "anthropic",
+          "dbx_sessions": 5,
+          "snow_sessions": 2
+        },
+        {
+          "company": "dbt labs",
+          "dbx_sessions": 2,
+          "snow_sessions": 5
+        },
+        {
+          "company": "domo",
+          "dbx_sessions": 3,
+          "snow_sessions": 4
+        },
+        {
+          "company": "capital one",
+          "dbx_sessions": 1,
+          "snow_sessions": 5
+        },
+        {
+          "company": "morgan stanley",
+          "dbx_sessions": 1,
+          "snow_sessions": 5
+        },
+        {
+          "company": "acxiom",
+          "dbx_sessions": 4,
+          "snow_sessions": 1
+        },
+        {
+          "company": "aimpoint digital",
+          "dbx_sessions": 1,
+          "snow_sessions": 4
+        },
+        {
+          "company": "astronomer",
+          "dbx_sessions": 2,
+          "snow_sessions": 3
+        },
+        {
+          "company": "atlan",
+          "dbx_sessions": 1,
+          "snow_sessions": 4
+        },
+        {
+          "company": "capital one software",
+          "dbx_sessions": 1,
+          "snow_sessions": 4
+        },
+        {
+          "company": "cdw",
+          "dbx_sessions": 2,
+          "snow_sessions": 3
+        },
+        {
+          "company": "cognizant",
+          "dbx_sessions": 2,
+          "snow_sessions": 3
+        },
+        {
+          "company": "fivetran",
+          "dbx_sessions": 1,
+          "snow_sessions": 4
+        },
+        {
+          "company": "glean",
+          "dbx_sessions": 2,
+          "snow_sessions": 3
+        },
+        {
+          "company": "quest software",
+          "dbx_sessions": 4,
+          "snow_sessions": 1
+        },
+        {
+          "company": "at&t",
+          "dbx_sessions": 1,
+          "snow_sessions": 3
+        },
+        {
+          "company": "crewai",
+          "dbx_sessions": 2,
+          "snow_sessions": 2
+        },
+        {
+          "company": "hex",
+          "dbx_sessions": 1,
+          "snow_sessions": 3
+        },
+        {
+          "company": "ibm",
+          "dbx_sessions": 3,
+          "snow_sessions": 1
+        },
+        {
+          "company": "infosys",
+          "dbx_sessions": 1,
+          "snow_sessions": 3
+        },
+        {
+          "company": "lseg",
+          "dbx_sessions": 3,
+          "snow_sessions": 1
+        },
+        {
+          "company": "microsoft",
+          "dbx_sessions": 1,
+          "snow_sessions": 3
+        },
+        {
+          "company": "ntt data",
+          "dbx_sessions": 2,
+          "snow_sessions": 2
+        },
+        {
+          "company": "slalom",
+          "dbx_sessions": 3,
+          "snow_sessions": 1
+        },
+        {
+          "company": "amperity",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "barclays",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "block",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "boomi",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "capgemini",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "datadog",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "dataiku",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "google",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "gsk",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "lancedb",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "nasdaq",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "nbcuniversal",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "neo4j",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "northern trust",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "novo nordisk",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "omni",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "qlik",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "s&p global",
+          "dbx_sessions": 2,
+          "snow_sessions": 1
+        },
+        {
+          "company": "sap",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "siemens",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "thoughtspot",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "trade desk",
+          "dbx_sessions": 1,
+          "snow_sessions": 2
+        },
+        {
+          "company": "8451",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "acceldata",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "centene",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "coinbase",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "collibra",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "comcast",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "cummins",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "deloitte consulting llp",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "directv",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "draftkings",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "genpact",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "goldman sachs",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "immuta",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "informatica",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "intel",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "johnson & johnson",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "keebo",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "nea",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "nokia",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "onetrust",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "precisely",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "prophecy",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "reducto",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "salesforcecom",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "servicenow",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "sigma computing",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "snowplow",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "tealium",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "walt disney company",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "warner music group",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        },
+        {
+          "company": "zscaler",
+          "dbx_sessions": 1,
+          "snow_sessions": 1
+        }
+      ]
+    },
+    "named_catalog_brand": {
+      "note": "Brand-name prominence, NOT governance coverage (which is a tie \u2014 see row 5).",
+      "unity_catalog_dbx_pct": 26.7,
+      "horizon_snow_pct": 4.7
+    }
+  }
+}
