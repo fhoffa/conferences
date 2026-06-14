@@ -15,7 +15,7 @@ cited in `VENDOR_POSITIONING_SOURCES.md`.*
 
 ## Spicy takes — how the two conferences differ
 
-The eight differences, each grounded in the data below. Spicy, not mean: every one is about
+The nine differences, each grounded in the data below. Spicy, not mean: every one is about
 *emphasis and audience*, not a vendor's competence.
 
 1. **Snowflake Summit is a VP conference; Databricks is a practitioner conference.** 44% of

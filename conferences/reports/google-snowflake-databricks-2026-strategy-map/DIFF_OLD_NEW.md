@@ -1,8 +1,8 @@
 # Old-vs-new diff — does the refresh change any claim?
 
 **Method:** the *same* classifier (`classify.ROWS`, length-controlled symmetric keywords) run
-against both the old **2026-06-02** snapshots (DBX 759 / SNOW 550) and the current **2026-06-13**
-catalogs (DBX 802 / SNOW 537). Because the method is held constant, any movement reflects **data
+against both the old **2026-06-02** snapshots (DBX 759 / SNOW 550) and the **2026-06-13**
+snapshots (DBX 802 / SNOW 537). Because the method is held constant, any movement reflects **data
 drift**, not classifier drift. Reproduce: `python3 diff_old_new.py`.
 
 Δ is signed in **percentage points, Databricks − Snowflake** (positive = Databricks ahead).

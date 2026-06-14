@@ -17,7 +17,7 @@ Latest normalized counts:
   - Added: 2
   - Removed: 15
 
-Current normalized files:
+Mutable normalized aliases:
 
 - `conferences/databricks-data-ai-summit/2026/normalized/sessions.json`
 - `conferences/databricks-data-ai-summit/2026/normalized/summary.json`
@@ -122,11 +122,13 @@ Specific fairness checks:
 - **Unity Catalog vs Horizon:** compare named catalog/control-plane prominence, not broad governance. Broad governance is strong on both sides.
 - **Iceberg / open-lakehouse:** keep separate from governance/control-plane. Iceberg is a table/interoperability layer; Horizon is the closer Snowflake counterpart to Unity Catalog.
 - **Evals:** distinguish strict eval/benchmark/red-team from broader trust/quality language.
-- **NVIDIA:** verify whether Snowflake still has only incidental bio mentions and whether Databricks still has meaningful NVIDIA/GPU session presence.
+- **NVIDIA:** use the precise audit wording from `AUDITS.md §4`: Snowflake's normalized
+  speaker-company field shows 0 NVIDIA-affiliated breakout speakers, but the 2024 catalog still
+  includes NVIDIA people/product mentions.
 
 ## Implementation tasks
 
-1. Re-run the topic classifiers against `normalized/current/sessions.json` for both conferences.
+1. Re-run the topic classifiers against `normalized/snapshots/2026-06-13.sessions.json` for both conferences.
 2. Write updated mirrored-chart data with the new **802 / 537** denominators.
 3. Diff old vs new chart rows and flag any claim whose leader/delta changes materially.
 4. Rebuild the visualization using the mirrored bar design:

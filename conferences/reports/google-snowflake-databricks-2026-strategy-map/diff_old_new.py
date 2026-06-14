@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Apples-to-apples diff: run the SAME classifier (classify.ROWS) against the old
-2026-06-02 snapshots (759/550) and the current 2026-06-13 catalogs (802/537), so
+2026-06-02 snapshots (759/550) and the 2026-06-13 snapshots (802/537), so
 any change in a row's leader/delta reflects DATA drift, not method drift.
 
 Flags rows whose leader flipped or whose delta moved materially (>= 5 pp).
@@ -22,14 +22,13 @@ OLD = {
 def shares(dbx, snow):
     nd, ns = len(dbx), len(snow)
     out = {}
-    for r in C.ROWS:
-        dc = sum(1 for s in dbx if r["dbx"](s))
-        sc = sum(1 for s in snow if r["snow"](s))
-        ds, ss = 100.0 * dc / nd, 100.0 * sc / ns
+    for r in C.compute_rows(dbx, snow, C.CAP):
+        ds = 100.0 * r["dbx_sessions"] / nd
+        ss = 100.0 * r["snow_sessions"] / ns
         out[r["key"]] = dict(
-            label=r["label"], dbx_n=dc, snow_n=sc,
+            label=r["label"], dbx_n=r["dbx_sessions"], snow_n=r["snow_sessions"],
             dbx_share=round(ds, 1), snow_share=round(ss, 1),
-            leader=("Databricks" if ds > ss else "Snowflake" if ss > ds else "Tie"),
+            leader=r["leader"],
             delta=round(ds - ss, 1),  # signed: + => Databricks ahead
         )
     return out, nd, ns
