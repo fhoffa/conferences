@@ -52,7 +52,7 @@ forward-looking agenda and Snowflake's as a settled one.
 ### 3. Sharing / marketplace / clean rooms
 - Both ship the full stack: Snowflake **Secure Data Sharing + Marketplace + Data Clean Rooms**
   ([Horizon governance](https://www.snowflake.com/en/product/features/horizon/)); Databricks
-  **Delta Sharing (open protocol) + Marketplace + Clean Rooms**. Near-tie (4.3pp) — call it a
+  **Delta Sharing (open protocol) + Marketplace + Clean Rooms**. Near-tie (2.7pp) — call it a
   lean, not a win.
 
 ### 4. Open table formats — *count Delta, not just Iceberg*
@@ -141,11 +141,12 @@ forward-looking agenda and Snowflake's as a settled one.
   [AI Runtime serverless GPUs](https://www.databricks.com/blog/introducing-ai-runtime-scalable-serverless-nvidia-gpus-databricks-training-and-finetuning))
 - **Snowflake + NVIDIA**: NeMo Retriever, Triton, and **NIM microservices** inside Cortex via
   Snowpark Container Services; Arctic LLM optimized with TensorRT-LLM. ([Snowflake+NVIDIA PR](https://www.snowflake.com/en/news/press-releases/snowflake-and-nvidia-power-customized-ai-applications-for-customers-and-partners/))
-- **Keynote-billing shift:** NVIDIA has had **0 breakout sessions at Snowflake in 2024, 2025, and
-  2026** (verified in the catalogs). Its one Snowflake moment was the 2024 *keynote* fireside with
-  Jensen Huang ([NVIDIA blog](https://blogs.nvidia.com/blog/snowflake-summit-2024/)); in 2026 that
-  marquee AI-fireside slot went to **Anthropic**, while NVIDIA presents 2 working sessions at
-  Databricks. The partnership persists in product on both sides — what moved is the *keynote guest*.
+- **Keynote-billing shift:** the normalized Snowflake speaker-company field has **0 NVIDIA breakout affiliations in 2024, 2025, and
+  2026**, but that is not the same as zero NVIDIA evidence: the 2024 catalog includes Bryan
+  Catanzaro in `AI241`, Jensen Huang in keynote `K1`, and BioNeMo / NeMo Retriever /
+  accelerated-infrastructure mentions. In 2026 the marquee AI slot went to **Anthropic**, while
+  NVIDIA presents 2 working sessions at Databricks. The partnership persists in product on both
+  sides — what moved is the *headline AI guest*.
 - **Fair read:** Databricks foregrounds **raw accelerated compute** (training, Photon); Snowflake
   abstracts the GPU behind **managed Cortex inference**, and now leads its AI keynote with a model
   lab rather than the chip vendor. The catalog gap (12 vs 3 sessions; 2 vs 0 NVIDIA speakers) is

@@ -1,6 +1,6 @@
 # Mirrored-bar chart data — Snowflake vs Databricks 2026
 
-**Source catalogs (fresh):** `normalized/current/sessions.json`, captured **2026-06-13**
+**Source catalogs:** pinned `normalized/snapshots/2026-06-13.sessions.json`, captured **2026-06-13**
 **Denominators:** Databricks **802** sessions · Snowflake **537** sessions
 **Reproduce:** `python3 classify.py` → writes `chart_data.json` + this CSV (`databricks_snowflake_mirrored_bar_chart_data.csv`)
 
@@ -26,10 +26,12 @@ sessions ÷ that vendor's total. Rows overlap, so columns do **not** sum to 100%
 
 ## Reading the split
 
-- **No decisive gaps.** The agendas are remarkably close — **no topic gap exceeds ~8pp.** The
-  biggest is the **operational-DB substrate** (+8.3, Databricks).
-- **Snowflake's real leads** are the **AI app layer** (+4.7) and the **semantic layer** (+6.4) —
-  modest but consistent; the "AI surface + meaning" half (selling the outcome).
+- **No decisive gaps under the 680-char chart.** The agendas are remarkably close — **no topic gap
+  exceeds ~8pp.** The biggest is the **operational-DB substrate** (+8.3, Databricks). These are
+  cap-sensitive topic-emphasis reads; see sensitivity below.
+- **Snowflake's 680-char leads** are the **AI app layer** (+4.7 under the primary cap) and the
+  **semantic layer** (+6.4). Semantic is stable across caps; GenAI should be phrased as
+  cap-dependent because it flips to a small Databricks lean when the cap is relaxed.
 - **Databricks' real leads** are the **operational-DB substrate** (+8.3); plus narrower edges on
   BI (+3.8) and evals (+2.9) — the "governed system" half (selling the build).
 - **Genuine ties (<2pp):** governance/control plane (0.9), open lakehouse/formats (0.4), pipelines
@@ -42,3 +44,23 @@ sessions ÷ that vendor's total. Rows overlap, so columns do **not** sum to 100%
 Margins here are ~3× smaller than the earlier taxonomy-based draft, which overstated both
 vendors' leads. The directional thesis survives; the dominance did not. See `AUDITS.md §0` for
 the methodology change and §1–2 for the rows it most affected.
+
+## Cap sensitivity
+
+Same symmetric keyword matcher, changing only the title+abstract cap:
+
+| Row | 680-char primary | 991-char sensitivity | Full-text sensitivity |
+|---|---|---|---|
+| GenAI app layer | SNOW +4.7 | DBX +0.5 | DBX +1.8 |
+| Semantic context | SNOW +6.4 | SNOW +5.3 | SNOW +5.3 |
+| Sharing / marketplace | SNOW +2.7 | SNOW +1.5 | SNOW +1.4 |
+| Open formats | DBX +0.4 | DBX +3.4 | DBX +4.2 |
+| Governance / control plane | SNOW +0.9 | DBX +7.5 | DBX +8.7 |
+| BI / AI-BI | DBX +3.8 | DBX +6.5 | DBX +6.8 |
+| Operational DB substrate | DBX +8.3 | DBX +10.7 | DBX +10.9 |
+| Evals / red teaming | DBX +2.9 | DBX +6.3 | DBX +6.9 |
+| Pipelines / streaming | DBX +1.4 | DBX +6.8 | DBX +7.8 |
+| SQL modernization | DBX +0.1 | DBX +1.9 | DBX +2.5 |
+
+Use the primary chart for the fair length-controlled visualization, but qualify cap-dependent
+claims (especially GenAI and governance) as "under the 680-char method."

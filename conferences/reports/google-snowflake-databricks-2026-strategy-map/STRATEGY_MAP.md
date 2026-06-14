@@ -17,7 +17,7 @@ data are stated here.
 > `VENDOR_POSITIONING_SOURCES.md` cites each vendor's own product pages so no row is misread
 > as absence. The corrections that matter most: **NVIDIA** (Snowflake has a real Cortex+NVIDIA
 > partnership), **open table formats** (count Delta Lake — it's open-source too — and Databricks
-> actually leads; Snowflake only leads the *Iceberg* word), **BI** (Snowflake cedes dashboards to
+> is effectively tied; Snowflake only leads the *Iceberg* word), **BI** (Snowflake cedes dashboards to
 > Streamlit/partners *by design*), and **evals** (Snowflake ships TruEra/TruLens AI Observability).
 
 ---
@@ -25,11 +25,12 @@ data are stated here.
 ## The one-line story
 
 Both vendors now run the *same* play — an AI/agent layer on top of a governed lakehouse — and
-under the fair method (length-controlled symmetric keywords; `AUDITS.md §0`) **the two agendas
-are strikingly close: no topic gap exceeds ~8pp.** They foreground different halves: Snowflake's
-real leads are the **AI app surface** (+4.7) and the **meaning layer** (semantic, +6.4);
-Databricks' is the **operational-DB substrate** (Lakebase, +8.3, the board's biggest), with
-narrower edges on BI and evals. Notably, **governance is a dead tie** (~27% each) — Databricks
+under the primary fair method (symmetric keywords capped at 680 chars; `AUDITS.md §0`) **the two
+agendas are strikingly close: no topic gap exceeds ~8pp.** These are cap-sensitive agenda-emphasis
+reads, so phrase the leaders as "under the 680-char chart." Snowflake's 680-char leads are the
+**AI app surface** (+4.7) and the **meaning layer** (semantic, +6.4); Databricks' is the
+**operational-DB substrate** (Lakebase, +8.3, the board's biggest), with narrower edges on BI and
+evals. Notably, **governance is a near-tie under the primary cap** (~27% each) — Databricks
 just *names* Unity Catalog 4× more than Snowflake names Horizon, which is brand prominence, not
 coverage.
 
@@ -42,7 +43,7 @@ coverage.
   Metric Views language is a footnote. If agents-need-a-semantic-layer is the thesis, Snowflake is
   selling it harder *on the agenda* — though the gap is ~6pp, not the ~17pp the taxonomy draft
   showed.
-- **GenAI / agent app layer (46.4% vs 41.6%, +4.7).** Snowflake edges it — but both conferences
+- **GenAI / agent app layer (46.4% vs 41.6%, +4.7 under the 680-char chart).** Snowflake edges it under the primary cap — but both conferences
   are heavily agent-focused, so this is a slim *prominence* lean, not the rout (69% vs 52%) the
   taxonomy draft implied. The earlier gap was a Snowflake-covered-topic artifact.
 - **Sharing / marketplace / clean rooms (6.5% vs 3.9%, +2.7) — a lean, not a lead.**
@@ -87,8 +88,8 @@ coverage.
 
 ## Appendix — methodology
 
-**Denominators.** Databricks 802, Snowflake 537 — the `session_count` from each catalog's
-`normalized/current/summary.json`, captured 2026-06-13. These replace the prior draft's
+**Denominators.** Databricks 802, Snowflake 537 — loaded from the pinned
+`normalized/snapshots/2026-06-13.sessions.json` files. These replace the prior draft's
 759 / 550.
 
 **Timing asymmetry.** The catalogs are at different lifecycle stages: **Snowflake Summit 2026**
@@ -110,12 +111,13 @@ fractional agenda share; none here do.)
 
 **Classification method — length-controlled symmetric keywords (`AUDITS.md §0`).** The **same**
 keyword set (concept terms + every vendor's product names) is applied to **both** vendors, over
-each session's title+abstract **capped at 680 characters**. This replaces an earlier draft that
+each session's title+abstract **capped at 680 characters for the primary chart**. Sensitivity is
+reported at the Databricks median cap (991 chars) and at full text. This replaces an earlier draft that
 mixed each vendor's native taxonomy (Databricks `topic_tags`/`track`, Snowflake `attributes`)
 with keywords — those taxonomies differ in breadth and silently inflated whichever side had the
 broader tag, in both directions. The cap neutralises Databricks' ~1.45× longer abstracts (median
 991 vs 680 chars), which otherwise over-credit it on raw keyword counts. Net effect: margins are
-~3× smaller than the taxonomy draft and four rows are ties; the directional thesis survives.
+~3× smaller than the taxonomy draft; the 680-char directional thesis is useful, but cap-sensitive.
 
 This is reproducible: `python3 classify.py` regenerates `chart_data.json` and the CSV;
 `python3 gen_chart.py` regenerates `chart.svg`.
@@ -125,8 +127,8 @@ This is reproducible: `python3 classify.py` regenerates `chart_data.json` and th
    and 2 (Semantic Views) reflect how dominant a *named brand* is in the agenda, not the
    presence/absence of the underlying capability.
 2. *Open table formats (row 4) count Delta and Iceberg equally* — both are open-source — and
-   the row is kept separate from the governance control plane (row 5). Databricks leads open
-   formats overall (Delta); Snowflake leads the neutral Iceberg format. Not open-vs-closed.
+   the row is kept separate from the governance control plane (row 5). Open-format airtime is
+   effectively tied overall; Databricks skews Delta, Snowflake skews neutral Iceberg. Not open-vs-closed.
 3. *"Missing" means absent from current catalog signals* — not absent as a customer,
    partner, or user. Company overlap is speaker affiliation only.
 4. *Evals (row 8) is strict* — eval/benchmark/red-team/guardrail only, deliberately

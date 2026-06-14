@@ -55,13 +55,15 @@ The eight differences, each grounded in the data below. Spicy, not mean: every o
    Nubank, PepsiCo); Snowflake-only skew regulated and industrial (Toyota, Roche, BlackRock,
    Sanofi). Different rooms attract different rosters.
 
-9. **Snowflake's marquee AI guest changed from NVIDIA to Anthropic.** NVIDIA has never had a
-   breakout session in Snowflake's catalog — **0 in 2024, 2025, and 2026.** Its one Snowflake
-   moment was the **2024 keynote fireside** (Jensen Huang + Ramaswamy, "data flywheel"). In 2026
-   that marquee AI-fireside slot went to **Anthropic's Daniela Amodei** instead — while NVIDIA does
-   present working sessions at **Databricks** (2 in 2026). The partnership lives on in both products
-   (NeMo/NIM in Cortex; H100/TensorRT at Databricks) — but Snowflake's headline AI guest shifted
-   from the chip vendor to the model lab, from compute to agents.
+9. **Snowflake's marquee AI guest changed from NVIDIA to Anthropic.** The normalized Snowflake
+   speaker-company field shows 0 NVIDIA breakout affiliations in 2024–2026, but the 2024 catalog
+   still contains NVIDIA evidence (Bryan Catanzaro in `AI241`, Jensen Huang in keynote `K1`, plus
+   BioNeMo / NeMo Retriever / accelerated-infrastructure mentions). So the safe read is narrower:
+   in 2026, NVIDIA disappears from Snowflake breakout speaker/company signals while **Anthropic's
+   Daniela Amodei** gets the marquee AI slot — and NVIDIA presents working sessions at
+   **Databricks** (2 in 2026). The partnership lives on in both products (NeMo/NIM in Cortex;
+   H100/TensorRT at Databricks), but Snowflake's headline AI guest shifted from chip vendor to
+   model lab, from compute to agents.
 
 *Full evidence, fairness caveats, and citations in the sections below.*
 
@@ -110,8 +112,9 @@ You can see it in the topics, in how the same companies are framed, and in who's
 ## Part 1 — what each conference puts in the spotlight
 
 Reading the topic mix (share of each catalog, length-controlled symmetric keywords — see
-`AUDITS.md §0`; rows overlap, so they don't sum to 100). **The tilts are modest** — only one gap
-clears 10pp — but they're consistent:
+`AUDITS.md §0`; rows overlap, so they don't sum to 100). **The 680-char chart tilts are modest** —
+zero gaps clear 10pp — and some topic leaders change when the cap is relaxed, so treat these as
+length-controlled agenda-emphasis reads:
 
 - **Snowflake leans into the AI app surface and "meaning."** It edges Databricks on the GenAI /
   agent layer (**46% vs 42%**) and leads the **semantic layer** more clearly — Semantic Views /
@@ -124,7 +127,7 @@ clears 10pp — but they're consistent:
 - **Governance is a dead tie — but the branding isn't.** Governance *coverage* is even (~27%
   each). What looks lopsided is the **product name**: "Unity Catalog" appears in ~20% of Databricks
   sessions vs "Horizon" in ~5% of Snowflake's. Unity Catalog is the connective tissue wiring
-  Lakebase, Genie, Agent Bricks and Lakeflow together, so it gets repeated on nearly every slide;
+  Lakebase, Genie, Agent Bricks and Lakeflow together, so it is named in ~20% of Databricks sessions;
   Snowflake's governance rides on Horizon, named far more sparingly. Brand prominence, not a
   governance gap.
 - **Smaller Databricks leans:** first-party AI/BI dashboards (**10.8% vs 7.1%** — a lean, not the
@@ -327,7 +330,7 @@ speaker list may shift.)
 
 Databricks spends its stage time on the *system* — its operational-DB substrate (Lakebase, the
 board's biggest gap), its own analytics surface, evaluation on the main stage, the Unity Catalog
-spine it names on nearly every slide, and the engineers and architects who wire it together. Snowflake spends its stage
+spine it names much more often than Snowflake names Horizon, and the engineers and architects who wire it together. Snowflake spends its stage
 time on the *result* — the AI app surface, the semantic layer that makes data legible to agents, a
 partner bench that handles BI and data movement, and the VPs and customers who report business
 outcomes. Same destination, opposite half of the stack. Neither picture is the *whole* company —
@@ -349,6 +352,6 @@ The platform war is loud; the layer above it is already being standardized in pu
   or that Databricks "isn't open." Each is contradicted by the vendor's own product
   (`VENDOR_POSITIONING_SOURCES.md`).
 - A company's absence = no speaker this year, not a non-customer. Don't infer churn or rejection.
-- Near-ties stay ties: pipelines (1.3pp) and sharing (4.3pp).
+- Near-ties stay ties/leans: pipelines (1.4pp), sharing (2.7pp), and open formats (0.4pp).
 - Use the 802/537 (2026-06-13) basis; `DIFF_OLD_NEW.md` shows no leader flipped vs the older
   759/550 data, so the contrasts are stable.

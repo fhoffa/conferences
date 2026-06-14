@@ -2,7 +2,7 @@
 """
 Topic classifier for the Snowflake vs Databricks 2026 strategy map.
 
-Reads the fresh normalized/current catalogs (2026-06-13 snapshot):
+Reads the pinned 2026-06-13 normalized snapshots:
   - Databricks Data + AI Summit 2026: 802 sessions
   - Snowflake Summit 2026: 537 sessions
 
@@ -30,8 +30,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
 CONF = os.path.join(ROOT, "conferences")
 
-DBX_PATH = os.path.join(CONF, "databricks-data-ai-summit", "2026", "normalized", "current", "sessions.json")
-SNOW_PATH = os.path.join(CONF, "snowflake-summit", "2026", "normalized", "current", "sessions.json")
+SNAPSHOT = "2026-06-13.sessions.json"
+DBX_PATH = os.path.join(CONF, "databricks-data-ai-summit", "2026", "normalized", "snapshots", SNAPSHOT)
+SNOW_PATH = os.path.join(CONF, "snowflake-summit", "2026", "normalized", "snapshots", SNAPSHOT)
 
 
 def load(path):
@@ -259,6 +260,36 @@ def speaker_companies(sessions):
     return c
 
 
+def compute_rows(dbx, snow, cap):
+    """Compute row shares at a specific title+abstract cap."""
+    global CAP
+    old_cap = CAP
+    CAP = cap
+    try:
+        nd, ns = len(dbx), len(snow)
+        rows_out = []
+        for r in ROWS:
+            dc = sum(1 for s in dbx if r["dbx"](s))
+            sc = sum(1 for s in snow if r["snow"](s))
+            ds = 100.0 * dc / nd
+            ss = 100.0 * sc / ns
+            rows_out.append({
+                "key": r["key"],
+                "label": r["label"],
+                "dbx_label": r["dbx_label"],
+                "snow_label": r["snow_label"],
+                "dbx_sessions": dc,
+                "snow_sessions": sc,
+                "dbx_share_pct": round(ds, 1),
+                "snow_share_pct": round(ss, 1),
+                "leader": "Databricks" if ds > ss else ("Snowflake" if ss > ds else "Tie"),
+                "delta_pct_pts": round(abs(ds - ss), 1),
+            })
+        return rows_out
+    finally:
+        CAP = old_cap
+
+
 def main():
     dbx = load(DBX_PATH)
     snow = load(SNOW_PATH)
@@ -266,24 +297,12 @@ def main():
     assert nd == 802, f"expected 802 DBX, got {nd}"
     assert ns == 537, f"expected 537 SNOW, got {ns}"
 
-    rows_out = []
-    for r in ROWS:
-        dc = sum(1 for s in dbx if r["dbx"](s))
-        sc = sum(1 for s in snow if r["snow"](s))
-        ds = 100.0 * dc / nd
-        ss = 100.0 * sc / ns
-        rows_out.append({
-            "key": r["key"],
-            "label": r["label"],
-            "dbx_label": r["dbx_label"],
-            "snow_label": r["snow_label"],
-            "dbx_sessions": dc,
-            "snow_sessions": sc,
-            "dbx_share_pct": round(ds, 1),
-            "snow_share_pct": round(ss, 1),
-            "leader": "Databricks" if ds > ss else ("Snowflake" if ss > ds else "Tie"),
-            "delta_pct_pts": round(abs(ds - ss), 1),
-        })
+    rows_out = compute_rows(dbx, snow, CAP)
+    sensitivity = {
+        "cap_680_snowflake_median": rows_out,
+        "cap_991_databricks_median": compute_rows(dbx, snow, 991),
+        "full_text_uncapped": compute_rows(dbx, snow, 10**9),
+    }
 
     # Side callouts -- NVIDIA / GPU / accelerated compute
     dbx_nv = [s["title"] for s in dbx if nvidia(s)]
@@ -306,7 +325,16 @@ def main():
     out = {
         "denominators": {"databricks": nd, "snowflake": ns},
         "captured": "2026-06-13",
+        "source_snapshots": {
+            "databricks": "normalized/snapshots/2026-06-13.sessions.json",
+            "snowflake": "normalized/snapshots/2026-06-13.sessions.json",
+        },
+        "method": {
+            "primary_cap_chars": 680,
+            "note": "Primary rows use symmetric keywords capped at Snowflake's median title+abstract length; sensitivity includes Databricks median cap and uncapped full text.",
+        },
         "rows": rows_out,
+        "sensitivity": sensitivity,
         "side_callouts": {
             "nvidia_gpu": {
                 "databricks_sessions": len(dbx_nv), "snowflake_sessions": len(snow_nv),

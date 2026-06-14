@@ -16,7 +16,7 @@ the catalog actually shows a counter-story.
 
 The mirrored chart uses **length-controlled symmetric keywords**: the same keyword set
 (concept terms + every vendor's product names) is applied to **both** vendors, over each
-session's title+abstract **capped at 680 characters**.
+session's title+abstract **capped at 680 characters** for the primary chart. Because that cap is a methodological choice, §0a below shows the sensitivity at Databricks' median length (991 chars) and at full text.
 
 This corrects two biases in the earlier taxonomy-based draft:
 1. **Taxonomy breadth.** Mixing each vendor's native tags (Databricks `topic_tags`/`track`,
@@ -31,13 +31,41 @@ This corrects two biases in the earlier taxonomy-based draft:
    Snowflake-only one — Delta vs Iceberg (§2) and Unity Catalog vs Horizon (§1). Counting only the
    brands made each look lopsided; measured as *concepts* (open formats; governance) both are ties.
 
-**Net effect:** margins shrink ~3× and the two agendas are strikingly close — **no topic gap
-exceeds ~8pp** (the largest is operational DB, +8.3). **The directional thesis survives** —
-Snowflake leads the GenAI app layer and the semantic layer; Databricks leads the operational-DB
-substrate — but as modest tilts, not dominance. Governance and open formats are ties.
+**Net effect at the 680-char cap:** margins shrink ~3× and the two agendas are strikingly close — **no topic gap
+exceeds ~8pp** (the largest is operational DB, +8.3). These are cap-sensitive agenda-emphasis
+findings, not absolute topic-volume facts: Snowflake leads the GenAI app layer only under the
+680-char length-control, while governance/pipelines/BI/evals swing more Databricks-heavy as the
+cap is relaxed. The robust read is modest tilts, not dominance. Governance and open formats are
+ties under the primary fair chart.
 
 *(Speaker/company findings — VP-vs-practitioner, who-heads-talks, twin talks, guest split,
 roster overlap — are unaffected: they key on titles and affiliations, not abstract keywords.)*
+
+### 0a. Cap sensitivity — which claims are stable?
+
+The primary chart caps both catalogs at **680 characters** (Snowflake median title+abstract length).
+That is a fair length-control choice, but some claims are sensitive to it. Re-running the same
+symmetric keyword matcher at **991 characters** (Databricks median) and with **full text** gives:
+
+| Row | 680-char primary | 991-char sensitivity | Full-text sensitivity |
+|---|---|---|---|
+| GenAI app layer | SNOW +4.7 | DBX +0.5 | DBX +1.8 |
+| Semantic context | SNOW +6.4 | SNOW +5.3 | SNOW +5.3 |
+| Sharing / marketplace | SNOW +2.7 | SNOW +1.5 | SNOW +1.4 |
+| Open formats | DBX +0.4 | DBX +3.4 | DBX +4.2 |
+| Governance / control plane | SNOW +0.9 | DBX +7.5 | DBX +8.7 |
+| BI / AI-BI | DBX +3.8 | DBX +6.5 | DBX +6.8 |
+| Operational DB substrate | DBX +8.3 | DBX +10.7 | DBX +10.9 |
+| Evals / red teaming | DBX +2.9 | DBX +6.3 | DBX +6.9 |
+| Pipelines / streaming | DBX +1.4 | DBX +6.8 | DBX +7.8 |
+| SQL modernization | DBX +0.1 | DBX +1.9 | DBX +2.5 |
+
+**What survives:** semantic context stays Snowflake's clearest topic lead; operational DB stays
+Databricks' clearest lead; sharing stays a small Snowflake lean; BI/evals/pipelines stay
+Databricks leans. **What must be qualified:** GenAI flips from Snowflake +4.7 at the 680-char cap
+to Databricks +0.5/+1.8 when more Databricks abstract text is admitted; governance shifts from a
+680-char near-tie to a Databricks lead under longer text. So write "under the 680-char
+length-controlled method" for cap-dependent claims, not universal truths.
 
 ---
 
@@ -54,12 +82,13 @@ covers governance. That's the same brand-vs-brand trap as the Iceberg row (§2).
 | Bare "governance" | 21.2% | 21.4% |
 | **Brand: "Unity Catalog" vs "Horizon"** | **19.6%** | **4.7%** |
 
-**Verdict:** governance *coverage* is even — both conferences put it on ~27% of the agenda. What
-looks like a 4-to-1 Databricks blowout is purely **brand repetition**: Unity Catalog is the
-Databricks platform *spine* (it wires Lakebase, Genie, Agent Bricks, Lakeflow together), so it's
-named on nearly every slide; Snowflake's governance rides on Horizon, named far more sparingly.
-Report the two things separately: **governance topic = tie**; **named-catalog brand prominence =
-Databricks by 4×.** Do not let the second masquerade as the first.
+**Verdict:** governance *coverage* is even under the 680-char chart — both conferences put it on
+~27% of the agenda. What looks like a 4-to-1 Databricks blowout is **brand repetition**:
+Unity Catalog is the Databricks platform *spine* (it wires Lakebase, Genie, Agent Bricks,
+Lakeflow together), so it is named in ~20% of sessions; Snowflake's Horizon is named far more
+sparingly. Report the two things separately: **governance topic = near-tie under the primary
+cap**; **named-catalog brand prominence = Databricks by 4×.** Do not let the second masquerade
+as the first.
 
 **Capability floor (cited):** **Horizon Catalog** is itself a full control plane —
 cross-cloud RBAC, Trust Center, differential privacy, clean rooms, AI Agent Identity, and
@@ -69,13 +98,6 @@ AI security posture management — re-announced and expanded on 2026-06-02
 Unity Catalog's naming prominence reflects its role as the Databricks platform spine, not a
 governance gap at Snowflake.
 
-**Capability floor (cited):** **Horizon Catalog** is itself a full control plane —
-cross-cloud RBAC, Trust Center, differential privacy, clean rooms, AI Agent Identity, and
-AI security posture management — re-announced and expanded on 2026-06-02
-([product page](https://www.snowflake.com/en/product/features/horizon/),
-[press release](https://www.snowflake.com/en/news/press-releases/snowflake-advances-trusted-ai-with-snowflake-horizon-catalog-centralizing-governance-context-and-security-across-the-enterprise/)).
-Unity Catalog's prominence reflects its role as the Databricks platform spine (it connects
-Lakebase, Genie, Agent Bricks, Lakeflow), not a governance gap at Snowflake.
 
 ---
 
@@ -98,7 +120,7 @@ parquet, polaris, "open table/lakehouse", interoperability):
 ones.** Under the fair method (count Delta, control for length) the row is **DBX 10.5% vs SNOW
 10.1%** — dead even. The composition differs: Databricks' open formats are **Delta Lake**
 (11.6% of its agenda), Snowflake's are **Iceberg** (8.4%). Snowflake bet on the
-**industry-neutral** format; Databricks leads with its own (open) Delta and bridges to Iceberg
+**industry-neutral** format; Databricks emphasizes its own (open) Delta and bridges to Iceberg
 via UniForm.
 
 **Fairness guard:** keep this row **separate from governance** (row 5). Do **not** say Snowflake
@@ -120,7 +142,7 @@ Iceberg and donated Polaris to Apache. **Both are genuinely open** at the table-
 
 | Signal | Databricks | Snowflake |
 |---|---|---|
-| Combined row | 206 (25.7%) | 92 (17.1%) |
+| Combined row | 105 (13.1%) | 26 (4.8%) |
 | Lakebase (tag) | 109 | — |
 | Databricks Apps (tag) | 108 | — |
 | Snowflake Postgres (feature) | — | 12 |
@@ -152,20 +174,20 @@ operational-DB / app story.
 | 2026 | **2** | **0** |
 | GPU/accelerated-compute keyword sessions (2026) | 12 (1.5%) | 3 (0.6%) |
 
-**The precise read — Snowflake's marquee AI guest changed from NVIDIA to Anthropic.** Verified
-against the catalogs: **NVIDIA has never had a breakout session at Snowflake — 0 in 2024, 2025,
-and 2026** (the SNOW catalogs hold no NVIDIA-affiliated speaker in any year). Its single Snowflake
-moment was the **2024 *keynote* fireside** — NVIDIA CEO **Jensen Huang** with Sridhar Ramaswamy,
-"create a data flywheel with AI" ([NVIDIA blog](https://blogs.nvidia.com/blog/snowflake-summit-2024/),
-[Fortune](https://fortune.com/2024/06/04/snowflake-ceo-sridhar-ramaswamy-interview-ai-nvidia-summit/)) —
-which is a keynote slot, not a catalog session, so it doesn't show in the counts. In **2026** that
-marquee AI-fireside slot went to **Anthropic's Daniela Amodei** instead, while NVIDIA *does* present
-two working sessions at **Databricks**. Read it as Snowflake's headline AI guest shifting *up the
-stack*, from the **chip vendor** (compute) to the **model lab** (agents) — the "abstract the GPU,
-sell the agent" posture the rest of this map shows. **Fairness guard:** this is about *keynote
-billing*, not the partnership — which is alive in both products (capability floor below). Don't
-write "NVIDIA dumped Snowflake" (it never had breakout sessions there); write "Snowflake's
-keynote AI guest moved from the chip vendor to the model lab."
+**The precise read — Snowflake's marquee AI guest changed from NVIDIA to Anthropic, while
+NVIDIA's breakout-session signal is absent from the normalized Snowflake speaker-company field.**
+The normalized `company` field shows 0 NVIDIA-affiliated Snowflake breakout speakers in 2024,
+2025, and 2026, but that field is incomplete in 2024: `AI241` names Bryan Catanzaro from Nvidia
+in the abstract, `K1` includes Jensen Huang / NVIDIA in the keynote, and several 2024 sessions
+mention BioNeMo, NVIDIA accelerated infrastructure, or NeMo Retriever. So do **not** write
+"NVIDIA was never in the Snowflake catalog." The safer claim is narrower: in 2026, NVIDIA is
+absent from Snowflake breakout speaker/company signals while Anthropic gets the marquee AI slot;
+Databricks, meanwhile, has two 2026 NVIDIA working sessions. Read it as Snowflake's headline AI
+guest shifting *up the stack*, from the **chip vendor** (compute) to the **model lab** (agents) —
+the "abstract the GPU, sell the agent" posture the rest of this map shows. **Fairness guard:**
+this is about catalog/keynote emphasis, not the partnership — which is alive in both products
+(capability floor below). Don't write "NVIDIA dumped Snowflake"; write "Snowflake's headline AI
+guest moved from the chip vendor to the model lab."
 
 **Databricks' 12 GPU/accelerator sessions** include genuinely accelerator-themed talks, at least
 one explicitly NVIDIA-partnered (and NVIDIA staff present two of them):
@@ -262,5 +284,6 @@ acquired **TruEra/TruLens** (May 2024) and offers **AI Observability in Snowflak
 with LLM-as-a-judge, relevance, groundedness, and harmfulness metrics
 ([TruEra acquisition](https://www.snowflake.com/en/blog/snowflake-acquires-truera-to-bring-llm-ml-observability-to-data-cloud/),
 [Cortex AI Observability docs](https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability)).
-Databricks builds automated evaluation into **Agent Bricks** plus MLflow. So the 11.2-vs-4.3
-gap is *how much each chose to put on the agenda*, **not** "Snowflake has no evals."
+Databricks builds automated evaluation into **Agent Bricks** plus MLflow. So the 6.9-vs-3.9
+gap is *how much each chose to put on the agenda under the 680-char chart*, **not** "Snowflake
+has no evals."
