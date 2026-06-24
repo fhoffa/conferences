@@ -1,0 +1,861 @@
+{
+  "2025": {
+    "session_count": 568,
+    "speaker_count": 1064,
+    "unique_external_companies": 418,
+    "top_words": [
+      {
+        "word": "insights",
+        "count": 222
+      },
+      {
+        "word": "analytics",
+        "count": 154
+      },
+      {
+        "word": "business",
+        "count": 140
+      },
+      {
+        "word": "best",
+        "count": 128
+      },
+      {
+        "word": "practices",
+        "count": 125
+      },
+      {
+        "word": "platform",
+        "count": 114
+      },
+      {
+        "word": "discover",
+        "count": 111
+      },
+      {
+        "word": "governance",
+        "count": 108
+      },
+      {
+        "word": "customer",
+        "count": 104
+      },
+      {
+        "word": "performance",
+        "count": 99
+      },
+      {
+        "word": "scale",
+        "count": 97
+      },
+      {
+        "word": "iceberg",
+        "count": 96
+      },
+      {
+        "word": "explore",
+        "count": 94
+      },
+      {
+        "word": "capabilities",
+        "count": 87
+      },
+      {
+        "word": "cloud",
+        "count": 84
+      },
+      {
+        "word": "pipelines",
+        "count": 84
+      },
+      {
+        "word": "while",
+        "count": 82
+      },
+      {
+        "word": "real-time",
+        "count": 82
+      },
+      {
+        "word": "enterprise",
+        "count": 82
+      },
+      {
+        "word": "challenges",
+        "count": 78
+      },
+      {
+        "word": "teams",
+        "count": 78
+      },
+      {
+        "word": "efficiency",
+        "count": 75
+      },
+      {
+        "word": "tables",
+        "count": 72
+      },
+      {
+        "word": "management",
+        "count": 72
+      },
+      {
+        "word": "scalable",
+        "count": 72
+      }
+    ],
+    "top_topics": [],
+    "top_speaker_titles": [
+      {
+        "title": "Senior Product Manager",
+        "count": 46
+      },
+      {
+        "title": "Principal Product Manager",
+        "count": 25
+      },
+      {
+        "title": "Senior Software Engineer",
+        "count": 22
+      },
+      {
+        "title": "CEO",
+        "count": 13
+      },
+      {
+        "title": "Product Manager",
+        "count": 12
+      },
+      {
+        "title": "Field CTO",
+        "count": 11
+      },
+      {
+        "title": "Data Scientist",
+        "count": 9
+      },
+      {
+        "title": "Chief Data Officer",
+        "count": 9
+      },
+      {
+        "title": "Managing Director",
+        "count": 8
+      },
+      {
+        "title": "Principal Architect",
+        "count": 7
+      },
+      {
+        "title": "CTO",
+        "count": 7
+      },
+      {
+        "title": "Principal Engineer",
+        "count": 7
+      },
+      {
+        "title": "Principal Software Engineer",
+        "count": 7
+      },
+      {
+        "title": "Data Engineer",
+        "count": 6
+      },
+      {
+        "title": "CEO & Co-founder",
+        "count": 6
+      },
+      {
+        "title": "Director, Product Management",
+        "count": 6
+      },
+      {
+        "title": "Chief Product Officer",
+        "count": 5
+      },
+      {
+        "title": "Director of Product, Snowflake Intelligence and Agents",
+        "count": 5
+      },
+      {
+        "title": "Senior Solutions Engineer",
+        "count": 5
+      },
+      {
+        "title": "Senior Manager, Product Management",
+        "count": 5
+      }
+    ],
+    "top_external_companies": [
+      {
+        "company": "Accenture",
+        "count": 6
+      },
+      {
+        "company": "Microsoft",
+        "count": 6
+      },
+      {
+        "company": "SqlDBM",
+        "count": 6
+      },
+      {
+        "company": "Immuta",
+        "count": 6
+      },
+      {
+        "company": "EY",
+        "count": 6
+      },
+      {
+        "company": "Hightouch",
+        "count": 5
+      },
+      {
+        "company": "Atlan",
+        "count": 5
+      },
+      {
+        "company": "PayPal",
+        "count": 5
+      },
+      {
+        "company": "Capital One Software",
+        "count": 5
+      },
+      {
+        "company": "Ericsson",
+        "count": 5
+      },
+      {
+        "company": "BlackRock",
+        "count": 5
+      },
+      {
+        "company": "Okta",
+        "count": 4
+      },
+      {
+        "company": "Monte Carlo",
+        "count": 4
+      },
+      {
+        "company": "T. Rowe Price",
+        "count": 4
+      },
+      {
+        "company": "Elementum",
+        "count": 4
+      },
+      {
+        "company": "Coalesce",
+        "count": 4
+      },
+      {
+        "company": "LTIMindtree",
+        "count": 4
+      },
+      {
+        "company": "evolv Consulting",
+        "count": 4
+      },
+      {
+        "company": "Fivetran",
+        "count": 4
+      },
+      {
+        "company": "Amazon Web Services",
+        "count": 4
+      }
+    ]
+  },
+  "2026": {
+    "session_count": 319,
+    "speaker_count": 502,
+    "unique_external_companies": 206,
+    "top_words": [
+      {
+        "word": "analytics",
+        "count": 124
+      },
+      {
+        "word": "business",
+        "count": 110
+      },
+      {
+        "word": "agents",
+        "count": 107
+      },
+      {
+        "word": "governance",
+        "count": 105
+      },
+      {
+        "word": "enterprise",
+        "count": 102
+      },
+      {
+        "word": "intelligence",
+        "count": 98
+      },
+      {
+        "word": "scale",
+        "count": 97
+      },
+      {
+        "word": "platform",
+        "count": 85
+      },
+      {
+        "word": "iceberg",
+        "count": 75
+      },
+      {
+        "word": "code",
+        "count": 72
+      },
+      {
+        "word": "semantic",
+        "count": 71
+      },
+      {
+        "word": "teams",
+        "count": 69
+      },
+      {
+        "word": "governed",
+        "count": 68
+      },
+      {
+        "word": "architecture",
+        "count": 65
+      },
+      {
+        "word": "agentic",
+        "count": 65
+      },
+      {
+        "word": "insights",
+        "count": 63
+      },
+      {
+        "word": "real-time",
+        "count": 61
+      },
+      {
+        "word": "pipelines",
+        "count": 60
+      },
+      {
+        "word": "customer",
+        "count": 59
+      },
+      {
+        "word": "tables",
+        "count": 56
+      },
+      {
+        "word": "access",
+        "count": 54
+      },
+      {
+        "word": "complex",
+        "count": 54
+      },
+      {
+        "word": "without",
+        "count": 53
+      },
+      {
+        "word": "built",
+        "count": 51
+      },
+      {
+        "word": "workflows",
+        "count": 51
+      }
+    ],
+    "top_topics": [],
+    "top_speaker_titles": [
+      {
+        "title": "Senior Product Manager",
+        "count": 21
+      },
+      {
+        "title": "Staff Product Manager",
+        "count": 13
+      },
+      {
+        "title": "Lead Developer Advocate",
+        "count": 9
+      },
+      {
+        "title": "Director, Product Management",
+        "count": 9
+      },
+      {
+        "title": "Principal Product Manager",
+        "count": 8
+      },
+      {
+        "title": "Solutions Architect",
+        "count": 7
+      },
+      {
+        "title": "Director of Product Management",
+        "count": 6
+      },
+      {
+        "title": "Principal Architect",
+        "count": 6
+      },
+      {
+        "title": "Product Manager",
+        "count": 6
+      },
+      {
+        "title": "Sr. Product Manager",
+        "count": 5
+      },
+      {
+        "title": "Senior Developer Advocate",
+        "count": 5
+      },
+      {
+        "title": "Principal Data Engineer",
+        "count": 5
+      },
+      {
+        "title": "Principal Software Engineer",
+        "count": 4
+      },
+      {
+        "title": "Data Engineer",
+        "count": 4
+      },
+      {
+        "title": "Director, Migrations & Modernizations",
+        "count": 4
+      },
+      {
+        "title": "Software Engineer",
+        "count": 4
+      },
+      {
+        "title": "Senior Analytics Engineer",
+        "count": 4
+      },
+      {
+        "title": "Senior Software Engineer",
+        "count": 4
+      },
+      {
+        "title": "CTO",
+        "count": 3
+      },
+      {
+        "title": "Principal Partner Solution Engineer",
+        "count": 3
+      }
+    ],
+    "top_external_companies": [
+      {
+        "company": "Salesforce",
+        "count": 7
+      },
+      {
+        "company": "Booking.com",
+        "count": 6
+      },
+      {
+        "company": "Canva",
+        "count": 6
+      },
+      {
+        "company": "dbt Labs",
+        "count": 4
+      },
+      {
+        "company": "Fivetran",
+        "count": 4
+      },
+      {
+        "company": "T-Mobile USA",
+        "count": 4
+      },
+      {
+        "company": "Capital One",
+        "count": 4
+      },
+      {
+        "company": "Sigma Computing",
+        "count": 4
+      },
+      {
+        "company": "Domo",
+        "count": 3
+      },
+      {
+        "company": "Ally Financial",
+        "count": 3
+      },
+      {
+        "company": "Siemens",
+        "count": 3
+      },
+      {
+        "company": "Morgan Stanley",
+        "count": 3
+      },
+      {
+        "company": "Toyota Motor Europe",
+        "count": 3
+      },
+      {
+        "company": "Global Payments",
+        "count": 3
+      },
+      {
+        "company": "Astronomer",
+        "count": 3
+      },
+      {
+        "company": "Cyera",
+        "count": 3
+      },
+      {
+        "company": "Truist",
+        "count": 3
+      },
+      {
+        "company": "The Trade Desk",
+        "count": 3
+      },
+      {
+        "company": "Chalk",
+        "count": 2
+      },
+      {
+        "company": "Matillion",
+        "count": 2
+      }
+    ]
+  },
+  "distinctive_words": {
+    "2025": [
+      {
+        "word": "exclusive",
+        "ratio_vs_2026": 14.0,
+        "count_2025": 13,
+        "count_2026": 0
+      },
+      {
+        "word": "connections",
+        "ratio_vs_2026": 13.0,
+        "count_2025": 12,
+        "count_2026": 0
+      },
+      {
+        "word": "good",
+        "ratio_vs_2026": 13.0,
+        "count_2025": 12,
+        "count_2026": 0
+      },
+      {
+        "word": "responses",
+        "ratio_vs_2026": 13.0,
+        "count_2025": 12,
+        "count_2026": 0
+      },
+      {
+        "word": "streamlining",
+        "ratio_vs_2026": 13.0,
+        "count_2025": 12,
+        "count_2026": 0
+      },
+      {
+        "word": "premier",
+        "ratio_vs_2026": 12.0,
+        "count_2025": 11,
+        "count_2026": 0
+      },
+      {
+        "word": "optimizing",
+        "ratio_vs_2026": 11.33,
+        "count_2025": 33,
+        "count_2026": 2
+      },
+      {
+        "word": "anything",
+        "ratio_vs_2026": 11.0,
+        "count_2025": 10,
+        "count_2026": 0
+      },
+      {
+        "word": "chance",
+        "ratio_vs_2026": 11.0,
+        "count_2025": 10,
+        "count_2026": 0
+      },
+      {
+        "word": "revolutionize",
+        "ratio_vs_2026": 11.0,
+        "count_2025": 10,
+        "count_2026": 0
+      },
+      {
+        "word": "snowpro",
+        "ratio_vs_2026": 11.0,
+        "count_2025": 10,
+        "count_2026": 0
+      },
+      {
+        "word": "topics",
+        "ratio_vs_2026": 11.0,
+        "count_2025": 10,
+        "count_2026": 0
+      },
+      {
+        "word": "transformative",
+        "ratio_vs_2026": 11.0,
+        "count_2025": 10,
+        "count_2026": 0
+      },
+      {
+        "word": "booth",
+        "ratio_vs_2026": 10.0,
+        "count_2025": 9,
+        "count_2026": 0
+      },
+      {
+        "word": "hour",
+        "ratio_vs_2026": 10.0,
+        "count_2025": 9,
+        "count_2026": 0
+      },
+      {
+        "word": "okta",
+        "ratio_vs_2026": 10.0,
+        "count_2025": 9,
+        "count_2026": 0
+      },
+      {
+        "word": "relevant",
+        "ratio_vs_2026": 10.0,
+        "count_2025": 9,
+        "count_2026": 0
+      },
+      {
+        "word": "visual",
+        "ratio_vs_2026": 10.0,
+        "count_2025": 9,
+        "count_2026": 0
+      },
+      {
+        "word": "enhances",
+        "ratio_vs_2026": 9.0,
+        "count_2025": 17,
+        "count_2026": 1
+      },
+      {
+        "word": "able",
+        "ratio_vs_2026": 9.0,
+        "count_2025": 8,
+        "count_2026": 0
+      },
+      {
+        "word": "affirm",
+        "ratio_vs_2026": 9.0,
+        "count_2025": 8,
+        "count_2026": 0
+      },
+      {
+        "word": "atlan",
+        "ratio_vs_2026": 9.0,
+        "count_2025": 8,
+        "count_2026": 0
+      },
+      {
+        "word": "block",
+        "ratio_vs_2026": 9.0,
+        "count_2025": 8,
+        "count_2026": 0
+      },
+      {
+        "word": "meetup",
+        "ratio_vs_2026": 9.0,
+        "count_2025": 8,
+        "count_2026": 0
+      },
+      {
+        "word": "networking",
+        "ratio_vs_2026": 9.0,
+        "count_2025": 8,
+        "count_2026": 0
+      }
+    ],
+    "2026": [
+      {
+        "word": "layers",
+        "ratio_vs_2025": 11.0,
+        "count_2026": 10,
+        "count_2025": 0
+      },
+      {
+        "word": "same",
+        "ratio_vs_2025": 11.0,
+        "count_2026": 10,
+        "count_2025": 0
+      },
+      {
+        "word": "context",
+        "ratio_vs_2025": 10.0,
+        "count_2026": 39,
+        "count_2025": 3
+      },
+      {
+        "word": "pattern",
+        "ratio_vs_2025": 9.0,
+        "count_2026": 8,
+        "count_2025": 0
+      },
+      {
+        "word": "siemens",
+        "ratio_vs_2025": 9.0,
+        "count_2026": 8,
+        "count_2025": 0
+      },
+      {
+        "word": "upstream",
+        "ratio_vs_2025": 9.0,
+        "count_2026": 8,
+        "count_2025": 0
+      },
+      {
+        "word": "shows",
+        "ratio_vs_2025": 8.0,
+        "count_2026": 23,
+        "count_2025": 2
+      },
+      {
+        "word": "interchange",
+        "ratio_vs_2025": 8.0,
+        "count_2026": 7,
+        "count_2025": 0
+      },
+      {
+        "word": "once",
+        "ratio_vs_2025": 8.0,
+        "count_2026": 7,
+        "count_2025": 0
+      },
+      {
+        "word": "procurement",
+        "ratio_vs_2025": 8.0,
+        "count_2026": 7,
+        "count_2025": 0
+      },
+      {
+        "word": "static",
+        "ratio_vs_2025": 7.0,
+        "count_2026": 13,
+        "count_2025": 1
+      },
+      {
+        "word": "bottleneck",
+        "ratio_vs_2025": 7.0,
+        "count_2026": 6,
+        "count_2025": 0
+      },
+      {
+        "word": "introduce",
+        "ratio_vs_2025": 7.0,
+        "count_2026": 6,
+        "count_2025": 0
+      },
+      {
+        "word": "low-latency",
+        "ratio_vs_2025": 7.0,
+        "count_2026": 6,
+        "count_2025": 0
+      },
+      {
+        "word": "meaning",
+        "ratio_vs_2025": 7.0,
+        "count_2026": 6,
+        "count_2025": 0
+      },
+      {
+        "word": "production-grade",
+        "ratio_vs_2025": 7.0,
+        "count_2026": 6,
+        "count_2025": 0
+      },
+      {
+        "word": "zendesk",
+        "ratio_vs_2025": 7.0,
+        "count_2026": 6,
+        "count_2025": 0
+      },
+      {
+        "word": "acquisition",
+        "ratio_vs_2025": 6.0,
+        "count_2026": 5,
+        "count_2025": 0
+      },
+      {
+        "word": "capacity",
+        "ratio_vs_2025": 6.0,
+        "count_2026": 5,
+        "count_2025": 0
+      },
+      {
+        "word": "catalog-linked",
+        "ratio_vs_2025": 6.0,
+        "count_2026": 5,
+        "count_2025": 0
+      },
+      {
+        "word": "cloudera",
+        "ratio_vs_2025": 6.0,
+        "count_2026": 5,
+        "count_2025": 0
+      },
+      {
+        "word": "concurrency",
+        "ratio_vs_2025": 6.0,
+        "count_2026": 5,
+        "count_2025": 0
+      },
+      {
+        "word": "fogo",
+        "ratio_vs_2025": 6.0,
+        "count_2026": 5,
+        "count_2025": 0
+      },
+      {
+        "word": "fusion",
+        "ratio_vs_2025": 6.0,
+        "count_2026": 5,
+        "count_2025": 0
+      },
+      {
+        "word": "glean",
+        "ratio_vs_2025": 6.0,
+        "count_2026": 5,
+        "count_2025": 0
+      }
+    ]
+  },
+  "boilerplate_removed": [
+    "Gain direct access to experts, see industry-leading technology in action, and leave with actionable inspiration to accelerate your data strategy.",
+    "Join us for new product and feature overviews, best practices and live demos.",
+    "Join us for new product and feature overviews, best practices, and live demos.",
+    "Please note that the Executive Booth Tours are reserved for customers only—we kindly ask our partners not to register.",
+    "Please note that this experience includes walking between stops; comfortable footwear is recommended.",
+    "Space is extremely limited—registration is first come, first served.",
+    "This immersive experience will take you through five curated stops that showcase the art of the possible—real-world solutions, cutting-edge AI use cases, and data-driven innovations transforming your industry today."
+  ]
+}
